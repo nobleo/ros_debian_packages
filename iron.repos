@@ -1,5 +1,5 @@
 repositories:
   rmw_zenoh:
     type: git
-    url: https://github.com/ros2/rmw_zenoh
-    version: rolling
+    url: https://github.com/nobleo/rmw_zenoh
+    version: fix/git-dep
