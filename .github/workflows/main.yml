@@ -12,3 +12,6 @@ jobs:
         with:
           ROS_DISTRO: iron
           DEB_DISTRO: jammy
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOS_FILE: iron.repos
+          GIT_LFS: true
