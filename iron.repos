@@ -3,10 +3,10 @@ repositories:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
     version: tier4/main
-  autoware_common:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_common
-    version: main
+  # autoware_common:
+  #   type: git
+  #   url: https://github.com/autowarefoundation/autoware_common
+  #   version: main
   # rmw_zenoh:
   #   type: git
   #   url: https://github.com/nobleo/rmw_zenoh
