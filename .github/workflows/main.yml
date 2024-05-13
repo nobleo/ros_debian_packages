@@ -16,3 +16,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOS_FILE: iron.repos
           GIT_LFS: true
+          ROSDEP_SOURCE: yaml https://raw.githubusercontent.com/nobleo/ros_debian_packages/jammy-iron/local.yaml iron
