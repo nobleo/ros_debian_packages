@@ -16,7 +16,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOS_FILE: iron.repos
           GIT_LFS: true
-          SKIP_PACKAGES: |
+          SKIP_PACKAGES: >
             accel_brake_map_calibrator
             ad_api_adaptors
             ad_api_visualizers
@@ -24,14 +24,10 @@ jobs:
             automatic_pose_initializer
             autonomous_emergency_braking
             autoware_ad_api_specs
-            autoware_auto_common
-            autoware_auto_geometry
             autoware_auto_msgs_adapter
             autoware_auto_perception_rviz_plugin
-            autoware_auto_tf2
             autoware_mission_details_overlay_rviz_plugin
             autoware_overlay_rviz_plugin
-            autoware_point_types
             autoware_pose_covariance_modifier
             autoware_remaining_distance_time_calculator
             autoware_testing
@@ -172,7 +168,6 @@ jobs:
             planning_test_utils
             planning_topic_converter
             planning_validator
-            pointcloud_preprocessor
             polar_grid
             pose2twist
             pose_estimator_arbiter
@@ -219,7 +214,6 @@ jobs:
             tier4_api_utils
             tier4_automatic_goal_rviz_plugin
             tier4_autoware_api_launch
-            tier4_autoware_utils
             tier4_calibration_rviz_plugin
             tier4_camera_view_rviz_plugin
             tier4_control_launch
@@ -231,7 +225,6 @@ jobs:
             tier4_logging_level_configure_rviz_plugin
             tier4_map_launch
             tier4_metrics_rviz_plugin
-            tier4_pcl_extensions
             tier4_perception_launch
             tier4_perception_rviz_plugin
             tier4_planning_launch
