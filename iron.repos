@@ -8,7 +8,7 @@ repositories:
       - autoware_cmake
       - autoware_lint_common
       - autoware_utils
-  # rmw_zenoh:
-  #   type: git
-  #   url: https://github.com/nobleo/rmw_zenoh
-  #   version: fix/git-dep
+  rmw_zenoh:
+    type: git
+    url: https://github.com/nobleo/rmw_zenoh
+    version: fix/bloom
