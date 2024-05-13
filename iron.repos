@@ -1,5 +1,9 @@
 repositories:
-  rmw_zenoh:
+  autoware_common:
     type: git
-    url: https://github.com/nobleo/rmw_zenoh
-    version: fix/git-dep
+    url: https://github.com/autowarefoundation/autoware_common
+    version: main
+  # rmw_zenoh:
+  #   type: git
+  #   url: https://github.com/nobleo/rmw_zenoh
+  #   version: fix/git-dep
