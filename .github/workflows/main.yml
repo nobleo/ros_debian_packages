@@ -16,4 +16,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOS_FILE: iron.repos
           GIT_LFS: true
-          SKIP_PACKAGES: "lanelet2_extension lanelet2_extension_python"
