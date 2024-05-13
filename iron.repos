@@ -3,11 +3,6 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_common
     version: main
-    release:
-      packages:
-      - autoware_cmake
-      - autoware_lint_common
-      - autoware_utils
   rmw_zenoh:
     type: git
     url: https://github.com/nobleo/rmw_zenoh
