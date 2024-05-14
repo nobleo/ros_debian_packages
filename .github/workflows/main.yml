@@ -16,7 +16,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOS_FILE: iron.repos
           GIT_LFS: true
-          SKIP_PACKAGES: >
+          SKIP_PACKAGES: >-
             accel_brake_map_calibrator
             ad_api_adaptors
             ad_api_visualizers
