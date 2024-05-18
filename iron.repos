@@ -20,10 +20,11 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
     version: main
-  novatel_oem7_driver:
-    type: git
-    url: https://github.com/novatel/novatel_oem7_driver.git
-    version: humble
+  # Broken because of missing git dependency
+  # novatel_oem7_driver:
+  #   type: git
+  #   url: https://github.com/novatel/novatel_oem7_driver.git
+  #   version: humble
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
