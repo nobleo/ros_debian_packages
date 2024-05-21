@@ -5,7 +5,7 @@ on:
   push:
 
 jobs:
-  build_testing:
+  iron:
     runs-on: ubuntu-22.04
     steps:
       # - uses: jspricke/ros-deb-builder-action@main until: https://github.com/jspricke/ros-deb-builder-action/issues/38
@@ -300,3 +300,15 @@ jobs:
             yabloc_monitor
             yabloc_particle_filter
             yabloc_pose_initializer
+
+  jazzy:
+    runs-on: ubuntu-22.04
+    steps:
+      # - uses: jspricke/ros-deb-builder-action@main until: https://github.com/jspricke/ros-deb-builder-action/issues/38
+      - uses: christianrauch/ros-deb-builder-action@5befeabf68aad37cd1e3c594bbb13fe3f4b83de3
+        with:
+          ROS_DISTRO: jazzy
+          DEB_DISTRO: noble
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOS_FILE: jazzy.repos
+          GIT_LFS: true
