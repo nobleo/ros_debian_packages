@@ -315,3 +315,4 @@ jobs:
           # Broken packages:
           SKIP_PACKAGES: >-
             off_highway_general_purpose_radar
+            off_highway_premium_radar
