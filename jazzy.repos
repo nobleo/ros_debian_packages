@@ -5,8 +5,3 @@ repositories:
     # Until: https://github.com/novatel/novatel_oem7_driver/pull/89
     url: https://github.com/nobleo/novatel_oem7_driver.git
     version: fix/missing-git-dep
-  off_highway_sensor_drivers:
-    type: git
-    # Until: https://github.com/nobleo/off_highway_sensor_drivers
-    url: https://github.com/nobleo/off_highway_sensor_drivers.git
-    version: fix/dep
