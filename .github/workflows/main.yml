@@ -33,13 +33,13 @@ jobs:
             autoware_auto_common
             autoware_auto_control_msgs
             autoware_auto_msgs
-            autoware_auto_msgs_adapter
             autoware_auto_system_msgs
             autoware_auto_tf2
             autoware_behavior_path_dynamic_obstacle_avoidance_module
             autoware_behavior_path_external_request_lane_change_module
             autoware_behavior_path_static_obstacle_avoidance_module
             autoware_behavior_velocity_planner
+            autoware_behavior_velocity_template_module
             autoware_common_msgs
             autoware_control_msgs
             autoware_localization_msgs
@@ -81,7 +81,6 @@ jobs:
             behavior_velocity_run_out_module
             behavior_velocity_speed_bump_module
             behavior_velocity_stop_line_module
-            behavior_velocity_template_module
             behavior_velocity_traffic_light_module
             behavior_velocity_virtual_traffic_light_module
             behavior_velocity_walkway_module
