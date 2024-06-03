@@ -1,7 +1,23 @@
 ---
 repositories:
+  autoware_auto_msgs:
+    type: git
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: tier4/main
+  autoware_internal_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+    version: main
+  autoware_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: main
   novatel_oem7_driver:
     type: git
     # Until: https://github.com/novatel/novatel_oem7_driver/pull/89
     url: https://github.com/nobleo/novatel_oem7_driver.git
     version: fix/missing-git-dep
+  tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: tier4/universe
