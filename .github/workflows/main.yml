@@ -304,3 +304,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOS_FILE: jazzy.repos
           GIT_LFS: true
+          SBUILD_CONF: |
+            $extra_repositories = ["deb [arch=amd64 signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2-testing/ubuntu jammy main"];
