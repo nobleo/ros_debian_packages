@@ -17,6 +17,10 @@ repositories:
     # Until: https://github.com/novatel/novatel_oem7_driver/pull/89
     url: https://github.com/nobleo/novatel_oem7_driver.git
     version: fix/missing-git-dep
+  rmw_zenoh:
+    type: git
+    url: https://github.com/ros2/rmw_zenoh
+    version: rolling
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
