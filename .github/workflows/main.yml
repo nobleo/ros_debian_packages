@@ -26,65 +26,88 @@ jobs:
             ad_api_visualizers
             ar_tag_based_localizer
             automatic_pose_initializer
-            autonomous_emergency_braking
             autoware_ad_api_specs
             autoware_adapi_v1_msgs
             autoware_adapi_version_msgs
             autoware_auto_common
             autoware_auto_control_msgs
+            autoware_auto_geometry_msgs
+            autoware_auto_mapping_msgs
             autoware_auto_msgs
+            autoware_auto_perception_msgs
+            autoware_auto_planning_msgs
             autoware_auto_system_msgs
-            autoware_auto_tf2
+            autoware_auto_vehicle_msgs
+            autoware_autonomous_emergency_braking
+            autoware_behavior_path_avoidance_by_lane_change_module
             autoware_behavior_path_dynamic_obstacle_avoidance_module
             autoware_behavior_path_external_request_lane_change_module
+            autoware_behavior_path_planner_common
+            autoware_behavior_path_side_shift_module
+            autoware_behavior_path_start_planner_module
             autoware_behavior_path_static_obstacle_avoidance_module
+            autoware_behavior_velocity_intersection_module
+            autoware_behavior_velocity_occlusion_spot_module
             autoware_behavior_velocity_planner
+            autoware_behavior_velocity_planner_common
+            autoware_behavior_velocity_run_out_module
+            autoware_behavior_velocity_stop_line_module
             autoware_behavior_velocity_template_module
-            autoware_common_msgs
+            autoware_behavior_velocity_virtual_traffic_light_module
+            autoware_behavior_velocity_walkway_module
+            autoware_bezier_sampler
             autoware_control_msgs
+            autoware_costmap_generator
+            autoware_external_cmd_selector
+            autoware_external_velocity_limit_selector
+            autoware_freespace_planner
+            autoware_freespace_planning_algorithms
+            autoware_frenet_planner
+            autoware_joy_controller
+            autoware_lane_departure_checker
             autoware_localization_msgs
-            autoware_map_msgs
+            autoware_map_based_prediction
             autoware_mission_details_overlay_rviz_plugin
             autoware_motion_velocity_out_of_lane_module
             autoware_motion_velocity_planner_common
             autoware_motion_velocity_planner_node
+            autoware_mpc_lateral_controller
             autoware_overlay_rviz_plugin
-            autoware_perception_msgs
+            autoware_path_optimizer
+            autoware_path_sampler
+            autoware_path_smoother
             autoware_perception_rviz_plugin
+            autoware_pid_longitudinal_controller
             autoware_planning_test_manager
+            autoware_planning_topic_converter
+            autoware_planning_validator
             autoware_pose_covariance_modifier
             autoware_remaining_distance_time_calculator
+            autoware_rtc_interface
+            autoware_sampler_common
+            autoware_scenario_selector
             autoware_sensing_msgs
+            autoware_smart_mpc_trajectory_follower
             autoware_static_centerline_generator
+            autoware_steer_offset_estimator
+            autoware_surround_obstacle_checker
             autoware_system_msgs
             autoware_testing
-            autoware_vehicle_msgs
+            autoware_vehicle_cmd_gate
+            autoware_velocity_smoother
             bag_time_manager_rviz_plugin
-            behavior_path_avoidance_by_lane_change_module
             behavior_path_goal_planner_module
             behavior_path_lane_change_module
             behavior_path_planner
-            behavior_path_planner_common
             behavior_path_sampling_planner_module
-            behavior_path_side_shift_module
-            behavior_path_start_planner_module
             behavior_velocity_blind_spot_module
             behavior_velocity_crosswalk_module
             behavior_velocity_detection_area_module
             behavior_velocity_dynamic_obstacle_stop_module
-            behavior_velocity_intersection_module
             behavior_velocity_no_drivable_lane_module
             behavior_velocity_no_stopping_area_module
-            behavior_velocity_occlusion_spot_module
-            behavior_velocity_out_of_lane_module
-            behavior_velocity_planner_common
-            behavior_velocity_run_out_module
             behavior_velocity_speed_bump_module
-            behavior_velocity_stop_line_module
             behavior_velocity_traffic_light_module
-            behavior_velocity_virtual_traffic_light_module
-            behavior_velocity_walkway_module
-            bezier_sampler
             bluetooth_monitor
             bytetrack
             cluster_merger
@@ -96,7 +119,6 @@ jobs:
             control_evaluator
             control_performance_analysis
             control_validator
-            costmap_generator
             crosswalk_traffic_light_estimator
             cuda_utils
             default_ad_api
@@ -115,13 +137,8 @@ jobs:
             emergency_handler
             euclidean_cluster
             external_cmd_converter
-            external_cmd_selector
-            external_velocity_limit_selector
             fake_test_node
             fault_injection
-            freespace_planner
-            freespace_planning_algorithms
-            frenet_planner
             geo_pose_projector
             geography_utils
             global_parameter_loader
@@ -136,11 +153,9 @@ jobs:
             image_transport_decompressor
             imu_corrector
             interpolation
-            joy_controller
             kalman_filter
             kinematic_evaluator
             landmark_manager
-            lane_departure_checker
             lanelet2_extension_python
             lanelet2_map_preprocessor
             learning_based_vehicle_model
@@ -149,19 +164,17 @@ jobs:
             lidar_apollo_segmentation_tvm_nodes
             lidar_centerpoint
             lidar_centerpoint_tvm
+            lidar_transfusion
             livox_tag_filter
             localization_error_monitor
             localization_evaluator
             localization_util
-            map_based_prediction
             map_height_fitter
             map_loader
             map_projection_loader
             map_tf_generator
             mission_planner
             motion_utils
-            motion_velocity_smoother
-            mpc_lateral_controller
             mrm_comfortable_stop_operator
             mrm_emergency_stop_operator
             mrm_handler
@@ -172,7 +185,6 @@ jobs:
             object_recognition_utils
             object_velocity_splitter
             objects_of_interest_marker_interface
-            obstacle_avoidance_planner
             obstacle_collision_checker
             obstacle_cruise_planner
             obstacle_stop_planner
@@ -181,15 +193,10 @@ jobs:
             operation_mode_transition_manager
             osqp_interface
             path_distance_calculator
-            path_sampler
-            path_smoother
             perception_online_evaluator
             perception_utils
-            pid_longitudinal_controller
             planning_evaluator
             planning_test_utils
-            planning_topic_converter
-            planning_validator
             polar_grid
             pose2twist
             pose_estimator_arbiter
@@ -212,19 +219,13 @@ jobs:
             raw_vehicle_cmd_converter
             reaction_analyzer
             route_handler
-            rtc_interface
             rtc_replayer
-            sampler_common
-            scenario_selector
             shape_estimation
             shift_decider
             signal_processing
             simple_object_merger
             simple_planning_simulator
-            smart_mpc_trajectory_follower
-            steer_offset_estimator
             stop_filter
-            surround_obstacle_checker
             system_diagnostic_monitor
             system_error_monitor
             system_monitor
@@ -251,7 +252,6 @@ jobs:
             tier4_perception_msgs
             tier4_perception_rviz_plugin
             tier4_planning_launch
-            tier4_planning_msgs
             tier4_planning_rviz_plugin
             tier4_rtc_msgs
             tier4_sensing_launch
@@ -283,7 +283,6 @@ jobs:
             tree_structured_parzen_estimator
             tvm_utility
             twist2accel
-            vehicle_cmd_gate
             vehicle_door_simulator
             vehicle_velocity_converter
             velodyne_monitor
