@@ -42,10 +42,12 @@ jobs:
             autoware_behavior_path_avoidance_by_lane_change_module
             autoware_behavior_path_dynamic_obstacle_avoidance_module
             autoware_behavior_path_external_request_lane_change_module
+            autoware_behavior_path_lane_change_module
             autoware_behavior_path_planner_common
             autoware_behavior_path_side_shift_module
             autoware_behavior_path_start_planner_module
             autoware_behavior_path_static_obstacle_avoidance_module
+            autoware_behavior_velocity_blind_spot_module
             autoware_behavior_velocity_intersection_module
             autoware_behavior_velocity_occlusion_spot_module
             autoware_behavior_velocity_planner
@@ -57,6 +59,7 @@ jobs:
             autoware_behavior_velocity_walkway_module
             autoware_bezier_sampler
             autoware_control_msgs
+            autoware_control_validator
             autoware_costmap_generator
             autoware_external_cmd_selector
             autoware_external_velocity_limit_selector
@@ -97,10 +100,8 @@ jobs:
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
             behavior_path_goal_planner_module
-            behavior_path_lane_change_module
             behavior_path_planner
             behavior_path_sampling_planner_module
-            behavior_velocity_blind_spot_module
             behavior_velocity_crosswalk_module
             behavior_velocity_detection_area_module
             behavior_velocity_dynamic_obstacle_stop_module
@@ -118,7 +119,6 @@ jobs:
             component_state_monitor
             control_evaluator
             control_performance_analysis
-            control_validator
             crosswalk_traffic_light_estimator
             cuda_utils
             default_ad_api
