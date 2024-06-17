@@ -21,14 +21,14 @@ jobs:
           # vcs import --input iron.repos
           # echo -e "$(colcon list --names-only)\n$(colcon list --names-only --packages-up-to ground_segmentation)" | sort | uniq -u
           SKIP_PACKAGES: >-
-            accel_brake_map_calibrator
             ad_api_adaptors
             ad_api_visualizers
-            ar_tag_based_localizer
             automatic_pose_initializer
+            autoware_accel_brake_map_calibrator
             autoware_ad_api_specs
             autoware_adapi_v1_msgs
             autoware_adapi_version_msgs
+            autoware_ar_tag_based_localizer
             autoware_auto_common
             autoware_auto_control_msgs
             autoware_auto_geometry_msgs
@@ -42,39 +42,56 @@ jobs:
             autoware_behavior_path_avoidance_by_lane_change_module
             autoware_behavior_path_dynamic_obstacle_avoidance_module
             autoware_behavior_path_external_request_lane_change_module
+            autoware_behavior_path_goal_planner_module
             autoware_behavior_path_lane_change_module
+            autoware_behavior_path_planner
             autoware_behavior_path_planner_common
+            autoware_behavior_path_sampling_planner_module
             autoware_behavior_path_side_shift_module
             autoware_behavior_path_start_planner_module
             autoware_behavior_path_static_obstacle_avoidance_module
             autoware_behavior_velocity_blind_spot_module
+            autoware_behavior_velocity_crosswalk_module
+            autoware_behavior_velocity_detection_area_module
             autoware_behavior_velocity_intersection_module
+            autoware_behavior_velocity_no_stopping_area_module
             autoware_behavior_velocity_occlusion_spot_module
             autoware_behavior_velocity_planner
             autoware_behavior_velocity_planner_common
             autoware_behavior_velocity_run_out_module
             autoware_behavior_velocity_stop_line_module
             autoware_behavior_velocity_template_module
+            autoware_behavior_velocity_traffic_light_module
             autoware_behavior_velocity_virtual_traffic_light_module
             autoware_behavior_velocity_walkway_module
             autoware_bezier_sampler
             autoware_control_msgs
             autoware_control_validator
             autoware_costmap_generator
+            autoware_crosswalk_traffic_light_estimator
+            autoware_external_cmd_converter
             autoware_external_cmd_selector
             autoware_external_velocity_limit_selector
             autoware_freespace_planner
             autoware_freespace_planning_algorithms
             autoware_frenet_planner
+            autoware_grid_map_utils
             autoware_joy_controller
+            autoware_landmark_manager
             autoware_lane_departure_checker
             autoware_localization_msgs
             autoware_map_based_prediction
             autoware_mission_details_overlay_rviz_plugin
+            autoware_mission_planner
+            autoware_motion_velocity_dynamic_obstacle_stop_module
+            autoware_motion_velocity_obstacle_velocity_limiter_module
             autoware_motion_velocity_out_of_lane_module
             autoware_motion_velocity_planner_common
             autoware_motion_velocity_planner_node
             autoware_mpc_lateral_controller
+            autoware_objects_of_interest_marker_interface
+            autoware_obstacle_cruise_planner
+            autoware_operation_mode_transition_manager
             autoware_overlay_rviz_plugin
             autoware_path_optimizer
             autoware_path_sampler
@@ -85,30 +102,29 @@ jobs:
             autoware_planning_topic_converter
             autoware_planning_validator
             autoware_pose_covariance_modifier
+            autoware_pure_pursuit
+            autoware_raw_vehicle_cmd_converter
             autoware_remaining_distance_time_calculator
+            autoware_route_handler
             autoware_rtc_interface
             autoware_sampler_common
             autoware_scenario_selector
             autoware_sensing_msgs
+            autoware_shift_decider
             autoware_smart_mpc_trajectory_follower
             autoware_static_centerline_generator
             autoware_steer_offset_estimator
             autoware_surround_obstacle_checker
             autoware_system_msgs
+            autoware_test_utils
             autoware_testing
+            autoware_trajectory_follower_base
+            autoware_trajectory_follower_node
             autoware_vehicle_cmd_gate
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
-            behavior_path_goal_planner_module
-            behavior_path_planner
-            behavior_path_sampling_planner_module
-            behavior_velocity_crosswalk_module
-            behavior_velocity_detection_area_module
-            behavior_velocity_dynamic_obstacle_stop_module
             behavior_velocity_no_drivable_lane_module
-            behavior_velocity_no_stopping_area_module
             behavior_velocity_speed_bump_module
-            behavior_velocity_traffic_light_module
             bluetooth_monitor
             bytetrack
             cluster_merger
@@ -119,7 +135,6 @@ jobs:
             component_state_monitor
             control_evaluator
             control_performance_analysis
-            crosswalk_traffic_light_estimator
             cuda_utils
             default_ad_api
             detected_object_feature_remover
@@ -136,7 +151,6 @@ jobs:
             elevation_map_loader
             emergency_handler
             euclidean_cluster
-            external_cmd_converter
             fake_test_node
             fault_injection
             geo_pose_projector
@@ -145,7 +159,6 @@ jobs:
             glog_component
             gnss_poser
             goal_distance_calculator
-            grid_map_utils
             gyro_odometer
             hazard_status_converter
             image_diagnostics
@@ -155,7 +168,6 @@ jobs:
             interpolation
             kalman_filter
             kinematic_evaluator
-            landmark_manager
             lanelet2_extension_python
             lanelet2_map_preprocessor
             learning_based_vehicle_model
@@ -173,7 +185,6 @@ jobs:
             map_loader
             map_projection_loader
             map_tf_generator
-            mission_planner
             motion_utils
             mrm_comfortable_stop_operator
             mrm_emergency_stop_operator
@@ -184,19 +195,14 @@ jobs:
             object_range_splitter
             object_recognition_utils
             object_velocity_splitter
-            objects_of_interest_marker_interface
             obstacle_collision_checker
-            obstacle_cruise_planner
             obstacle_stop_planner
-            obstacle_velocity_limiter
             occupancy_grid_map_outlier_filter
-            operation_mode_transition_manager
             osqp_interface
             path_distance_calculator
             perception_online_evaluator
             perception_utils
             planning_evaluator
-            planning_test_utils
             polar_grid
             pose2twist
             pose_estimator_arbiter
@@ -204,7 +210,6 @@ jobs:
             pose_instability_detector
             predicted_path_checker
             probabilistic_occupancy_grid_map
-            pure_pursuit
             qp_interface
             radar_crossing_objects_noise_filter
             radar_fusion_to_detected_object
@@ -216,12 +221,8 @@ jobs:
             radar_tracks_msgs_converter
             radar_tracks_noise_filter
             raindrop_cluster_filter
-            raw_vehicle_cmd_converter
             reaction_analyzer
-            route_handler
-            rtc_replayer
             shape_estimation
-            shift_decider
             signal_processing
             simple_object_merger
             simple_planning_simulator
@@ -278,9 +279,6 @@ jobs:
             traffic_light_recognition_marker_publisher
             traffic_light_utils
             traffic_light_visualization
-            trajectory_follower_base
-            trajectory_follower_node
-            tree_structured_parzen_estimator
             tvm_utility
             twist2accel
             vehicle_door_simulator
