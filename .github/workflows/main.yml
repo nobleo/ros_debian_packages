@@ -54,6 +54,7 @@ jobs:
             autoware_behavior_velocity_crosswalk_module
             autoware_behavior_velocity_detection_area_module
             autoware_behavior_velocity_intersection_module
+            autoware_behavior_velocity_no_drivable_lane_module
             autoware_behavior_velocity_no_stopping_area_module
             autoware_behavior_velocity_occlusion_spot_module
             autoware_behavior_velocity_planner
@@ -65,6 +66,7 @@ jobs:
             autoware_behavior_velocity_virtual_traffic_light_module
             autoware_behavior_velocity_walkway_module
             autoware_bezier_sampler
+            autoware_control_evaluator
             autoware_control_msgs
             autoware_control_validator
             autoware_costmap_generator
@@ -83,6 +85,7 @@ jobs:
             autoware_map_based_prediction
             autoware_mission_details_overlay_rviz_plugin
             autoware_mission_planner
+            autoware_motion_utils
             autoware_motion_velocity_dynamic_obstacle_stop_module
             autoware_motion_velocity_obstacle_velocity_limiter_module
             autoware_motion_velocity_out_of_lane_module
@@ -98,6 +101,7 @@ jobs:
             autoware_path_smoother
             autoware_perception_rviz_plugin
             autoware_pid_longitudinal_controller
+            autoware_planning_evaluator
             autoware_planning_test_manager
             autoware_planning_topic_converter
             autoware_planning_validator
@@ -123,7 +127,6 @@ jobs:
             autoware_vehicle_cmd_gate
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
-            behavior_velocity_no_drivable_lane_module
             behavior_velocity_speed_bump_module
             bluetooth_monitor
             bytetrack
@@ -133,7 +136,6 @@ jobs:
             component_interface_tools
             component_interface_utils
             component_state_monitor
-            control_evaluator
             control_performance_analysis
             cuda_utils
             default_ad_api
@@ -185,7 +187,6 @@ jobs:
             map_loader
             map_projection_loader
             map_tf_generator
-            motion_utils
             mrm_comfortable_stop_operator
             mrm_emergency_stop_operator
             mrm_handler
@@ -202,7 +203,6 @@ jobs:
             path_distance_calculator
             perception_online_evaluator
             perception_utils
-            planning_evaluator
             polar_grid
             pose2twist
             pose_estimator_arbiter
