@@ -19,9 +19,9 @@ repositories:
     version: fix/missing-git-dep
   off_highway_sensor_drivers:
     type: git
-    # Until: https://github.com/nobleo/off_highway_sensor_drivers
+    # Until: https://github.com/bosch-engineering/off_highway_sensor_drivers/pull/9
     url: https://github.com/nobleo/off_highway_sensor_drivers.git
-    version: fix/dep
+    version: fix/missing-dependencies
   rmw_zenoh:
     type: git
     url: https://github.com/ros2/rmw_zenoh
