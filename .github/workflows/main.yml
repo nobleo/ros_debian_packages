@@ -60,6 +60,7 @@ jobs:
             autoware_behavior_velocity_planner
             autoware_behavior_velocity_planner_common
             autoware_behavior_velocity_run_out_module
+            autoware_behavior_velocity_speed_bump_module
             autoware_behavior_velocity_stop_line_module
             autoware_behavior_velocity_template_module
             autoware_behavior_velocity_traffic_light_module
@@ -127,7 +128,6 @@ jobs:
             autoware_vehicle_cmd_gate
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
-            behavior_velocity_speed_bump_module
             bluetooth_monitor
             bytetrack
             cluster_merger
