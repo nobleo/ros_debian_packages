@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-common-msgs
+Binary: ros-jazzy-autoware-common-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.00
+Distribution: noble
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-jazzy-autoware-common-msgs - Autoware common messages package.
+Changes:
+ ros-jazzy-autoware-common-msgs (1.1.0-2024.06.27.06.00) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * build: package.xml dependencies  (#60 <https://github.com/youtalk/autoware_msgs/issues/60>)
+     * mark rosidl_default_generators as <build_depend>
+     * add missing rosidl_default_runtime <exec_depend>
+     ---------
+   * feat(autoware_common_msgs): add autoware common messages (#37 <https://github.com/youtalk/autoware_msgs/issues/37>)
+     * feat(autoware_common_msgs): add autoware common messages
+     * fix: fix dependency
+   * Contributors: Takagi, Isamu, Vincent Richard, Yutaka Kondo
+Checksums-Sha1:
+ a0b0ff82f7dae9e1f977bb687f1c67da2c58b5b4 183832 ros-jazzy-autoware-common-msgs-dbgsym_1.1.0-2024.06.27.06.00_amd64.ddeb
+ b4ae62ddce5588808454a1a500831c55033f99b9 14923 ros-jazzy-autoware-common-msgs_1.1.0-2024.06.27.06.00_amd64.buildinfo
+ 49def65ef75c1eaa4bbe98232d05da15baed971f 40840 ros-jazzy-autoware-common-msgs_1.1.0-2024.06.27.06.00_amd64.deb
+Checksums-Sha256:
+ 84f64d7e5edaa07fe5fad484ffbc8394636609d45c8fa77cb8bba9b84b7851ea 183832 ros-jazzy-autoware-common-msgs-dbgsym_1.1.0-2024.06.27.06.00_amd64.ddeb
+ dbdca86aea3aac954320a2360f625135b2ac875c0f930dd08a87aced773f8952 14923 ros-jazzy-autoware-common-msgs_1.1.0-2024.06.27.06.00_amd64.buildinfo
+ fa7eff87045aa0313fdc77a66132e37801c1f7712df1797310bef7ce1f45fa89 40840 ros-jazzy-autoware-common-msgs_1.1.0-2024.06.27.06.00_amd64.deb
+Files:
+ ec932874f82d5e081bc5fa9891219039 183832 debug optional ros-jazzy-autoware-common-msgs-dbgsym_1.1.0-2024.06.27.06.00_amd64.ddeb
+ d1d2c3b941614d1b5219a0cf693cd3a0 14923 misc optional ros-jazzy-autoware-common-msgs_1.1.0-2024.06.27.06.00_amd64.buildinfo
+ 74e5710f1713a8ff056ef2c667a79a69 40840 misc optional ros-jazzy-autoware-common-msgs_1.1.0-2024.06.27.06.00_amd64.deb

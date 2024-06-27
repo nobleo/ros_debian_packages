@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-vehicle-msgs
+Binary: ros-jazzy-autoware-vehicle-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.10
+Distribution: noble
+Urgency: high
+Maintainer: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Changed-By: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Description:
+ ros-jazzy-autoware-vehicle-msgs - Interfaces between core Autoware vehicle components
+Changes:
+ ros-jazzy-autoware-vehicle-msgs (1.1.0-2024.06.27.06.10) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat: update msg definitions (#87 <https://github.com/youtalk/autoware_msgs/issues/87>)
+     * feat(autoware_perception_msgs): Add DetectedObjects messages and TrackedObjects messages
+     * feat!(autoware_planning_msgs): remove PathWithLaneId msgs
+     * feat!(autoware_perception_msgs): rename traffic signals to traffic lights
+     * remove control mode command msg
+     * fix(autoware_vehicle_msgs): remove ControlModeCommands.msg in CMakeLists.txt (#90 <https://github.com/youtalk/autoware_msgs/issues/90>)
+     * feat(autoware_vehicle_msgs)!: remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages (#88 <https://github.com/youtalk/autoware_msgs/issues/88>)
+     feat!(autoware_vehicle_msgs): remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages
+     * Revert "feat!(autoware_perception_msgs): rename traffic signals to traffic lights"
+     This reverts commit 768bb854036fc94db4364168e68d48b21401c17b.
+     * add TrafficLight msgs
+     * add todo
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix(autoware_vehicle_msgs): add missed vehicle msgs (#80 <https://github.com/youtalk/autoware_msgs/issues/80>)
+     * fix(autoware_vehicle_msgs): add missed vehicle msgs
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_vehicle_msgs): add autoware_vehicle_msgs (#78 <https://github.com/youtalk/autoware_msgs/issues/78>)
+     * feat(autoware_vehicle_msgs): add autoware_vehicle_msgs
+     * feat(autoware_vehicle_msgs): add ControlModeCommand.srv
+     * style(pre-commit): autofix
+     * fix(autoware_vehicle_msgs): remove msgs unused
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Yukihiro Saito, Yutaka Kondo, beginningfan
+Checksums-Sha1:
+ 6210c8cce47ea1b7f251c639d42025794804c95a 1052578 ros-jazzy-autoware-vehicle-msgs-dbgsym_1.1.0-2024.06.27.06.10_amd64.ddeb
+ 63f14ea40072a043b3ab71602afff237b37355a8 15235 ros-jazzy-autoware-vehicle-msgs_1.1.0-2024.06.27.06.10_amd64.buildinfo
+ 37a2fc40a19bd46c745258843dad21774b98e75a 134580 ros-jazzy-autoware-vehicle-msgs_1.1.0-2024.06.27.06.10_amd64.deb
+Checksums-Sha256:
+ de5a01925ac34a0744e2b2a853fdc8e9deeb48553dea220336c2228f338072a8 1052578 ros-jazzy-autoware-vehicle-msgs-dbgsym_1.1.0-2024.06.27.06.10_amd64.ddeb
+ 23b46218afce7a30cf44848829a49d3033eef5ca116cdbf878772288ef9c688f 15235 ros-jazzy-autoware-vehicle-msgs_1.1.0-2024.06.27.06.10_amd64.buildinfo
+ 52178b88eb060407783e7888e425bf903478355871c042715eacf3adcf5cbb27 134580 ros-jazzy-autoware-vehicle-msgs_1.1.0-2024.06.27.06.10_amd64.deb
+Files:
+ a7333fd09952e1c9ae81a0f1b8df10e1 1052578 debug optional ros-jazzy-autoware-vehicle-msgs-dbgsym_1.1.0-2024.06.27.06.10_amd64.ddeb
+ 736177a48bfbb7c52d63147875021ef3 15235 misc optional ros-jazzy-autoware-vehicle-msgs_1.1.0-2024.06.27.06.10_amd64.buildinfo
+ 89b766fc3e535edc96276d1d763243eb 134580 misc optional ros-jazzy-autoware-vehicle-msgs_1.1.0-2024.06.27.06.10_amd64.deb

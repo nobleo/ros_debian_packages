@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-sensing-msgs
+Binary: ros-jazzy-autoware-sensing-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.08
+Distribution: noble
+Urgency: high
+Maintainer: Yutaka Kondo <yutaka.kondo@tier4.jp>
+Changed-By: Yutaka Kondo <yutaka.kondo@tier4.jp>
+Description:
+ ros-jazzy-autoware-sensing-msgs - Autoware sensing messages package.
+Changes:
+ ros-jazzy-autoware-sensing-msgs (1.1.0-2024.06.27.06.08) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat(sensing-messages): add sensing messages (#24 <https://github.com/youtalk/autoware_msgs/issues/24>)
+     * feat(sensing-messages): add sensing messages
+   * Contributors: M. Fatih Cırıt, Yutaka Kondo
+Checksums-Sha1:
+ 034399a589e84654382112e2f52e0357f98c1afb 269204 ros-jazzy-autoware-sensing-msgs-dbgsym_1.1.0-2024.06.27.06.08_amd64.ddeb
+ c9f55bc5031be832ad2b53dcf7e57f9a0f62c496 15113 ros-jazzy-autoware-sensing-msgs_1.1.0-2024.06.27.06.08_amd64.buildinfo
+ b87fb25803f496d56a4d09b23613a49a1645728e 50968 ros-jazzy-autoware-sensing-msgs_1.1.0-2024.06.27.06.08_amd64.deb
+Checksums-Sha256:
+ 37965685f07bf71a445d65f09889699a8a2eac8df6e1e5f5542b0bd7013c2c9f 269204 ros-jazzy-autoware-sensing-msgs-dbgsym_1.1.0-2024.06.27.06.08_amd64.ddeb
+ 6734e4c81a6a3df3b988704fdf481e06c6c2aef7fd8fd2eb976bd2ab4630ae5b 15113 ros-jazzy-autoware-sensing-msgs_1.1.0-2024.06.27.06.08_amd64.buildinfo
+ 5eddb26cf04b26f499b727fb58fe07fd9d362e288e99a73925d39c7cc1b0416b 50968 ros-jazzy-autoware-sensing-msgs_1.1.0-2024.06.27.06.08_amd64.deb
+Files:
+ 753dff1082faa24d1491dd323357a1b7 269204 debug optional ros-jazzy-autoware-sensing-msgs-dbgsym_1.1.0-2024.06.27.06.08_amd64.ddeb
+ 669d477e837484ff7ac202ad50fda7e8 15113 misc optional ros-jazzy-autoware-sensing-msgs_1.1.0-2024.06.27.06.08_amd64.buildinfo
+ 72b9054cd023d5695ad72f27158337d2 50968 misc optional ros-jazzy-autoware-sensing-msgs_1.1.0-2024.06.27.06.08_amd64.deb

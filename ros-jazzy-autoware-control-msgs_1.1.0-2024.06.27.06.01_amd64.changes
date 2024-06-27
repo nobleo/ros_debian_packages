@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-control-msgs
+Binary: ros-jazzy-autoware-control-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.01
+Distribution: noble
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@leodrive.ai>
+Changed-By: M. Fatih Cırıt <mfc@leodrive.ai>
+Description:
+ ros-jazzy-autoware-control-msgs - Autoware control messages package.
+Changes:
+ ros-jazzy-autoware-control-msgs (1.1.0-2024.06.27.06.01) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat(control-messages): add control messages (#11 <https://github.com/youtalk/autoware_msgs/issues/11>)
+   * Contributors: M. Fatih Cırıt, Yutaka Kondo
+Checksums-Sha1:
+ bdef831d00b16f81f0ee8a847682d0a6d77a9b57 455664 ros-jazzy-autoware-control-msgs-dbgsym_1.1.0-2024.06.27.06.01_amd64.ddeb
+ 24d508ab247759ba2fc6c722639608f2a50d56e3 14932 ros-jazzy-autoware-control-msgs_1.1.0-2024.06.27.06.01_amd64.buildinfo
+ 039b9443388bda4feebf06d5ca5bdf9c5783bada 72246 ros-jazzy-autoware-control-msgs_1.1.0-2024.06.27.06.01_amd64.deb
+Checksums-Sha256:
+ d32807608d28863181e18733aebd79d1554d6ffde8a73cc62306f353b795c5c0 455664 ros-jazzy-autoware-control-msgs-dbgsym_1.1.0-2024.06.27.06.01_amd64.ddeb
+ 98bdfc2bbb87d1fef4cb4aae76ceb3169b78bf157b8e50e47c9d386359a77b55 14932 ros-jazzy-autoware-control-msgs_1.1.0-2024.06.27.06.01_amd64.buildinfo
+ 1df03b3967a6e948473e89fb3e7a7db1fb44bcf23cd80634d67a688e1a82a5e0 72246 ros-jazzy-autoware-control-msgs_1.1.0-2024.06.27.06.01_amd64.deb
+Files:
+ 0fca73d6b25408bb44f893ee39f4c1a3 455664 debug optional ros-jazzy-autoware-control-msgs-dbgsym_1.1.0-2024.06.27.06.01_amd64.ddeb
+ 233270b64e6e9716d7ff0dd5320e3cd0 14932 misc optional ros-jazzy-autoware-control-msgs_1.1.0-2024.06.27.06.01_amd64.buildinfo
+ eda5bff602e7c01145cf5de2a3852a1c 72246 misc optional ros-jazzy-autoware-control-msgs_1.1.0-2024.06.27.06.01_amd64.deb

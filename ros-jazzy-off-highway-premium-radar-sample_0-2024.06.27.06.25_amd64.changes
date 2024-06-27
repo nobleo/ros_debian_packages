@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample
+Binary: ros-jazzy-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2024.06.27.06.25
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample (0-2024.06.27.06.25) noble; urgency=high
+ .
+   * Fix azimuth and elevation angle variances of premium radar (#8)
+   * Contributors: Maximilian Hilger
+Checksums-Sha1:
+ 23772c8f4ab5815307248df962a759b7e44f8439 6354748 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0-2024.06.27.06.25_amd64.ddeb
+ 7e89d4c2aeed0088c6cc148cc5d08038554cbff3 44487 ros-jazzy-off-highway-premium-radar-sample_0-2024.06.27.06.25_amd64.buildinfo
+ cfeb3f70290070abc7fbb2252ab96a7810165589 307650 ros-jazzy-off-highway-premium-radar-sample_0-2024.06.27.06.25_amd64.deb
+Checksums-Sha256:
+ cb7304e8c2d3eb05b6824729c520b017c25b1c09ce0b39fde3e7302d99d0e490 6354748 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0-2024.06.27.06.25_amd64.ddeb
+ cd90cd589ac18ebcff624bde11b168bcd2ae5afd67d003f0b004ec31be52059f 44487 ros-jazzy-off-highway-premium-radar-sample_0-2024.06.27.06.25_amd64.buildinfo
+ 58ea288ac81371b8fbf475a4a1c938446e6cdd7fec2950e926143143a9e26dbe 307650 ros-jazzy-off-highway-premium-radar-sample_0-2024.06.27.06.25_amd64.deb
+Files:
+ 46bdf250b96d1ee23c014c960954faae 6354748 debug optional ros-jazzy-off-highway-premium-radar-sample-dbgsym_0-2024.06.27.06.25_amd64.ddeb
+ 2b37f71bbeb4a8517ecc2186bfd6057a 44487 misc optional ros-jazzy-off-highway-premium-radar-sample_0-2024.06.27.06.25_amd64.buildinfo
+ ac6c98f3c60b3baa6ee004a0d03541a9 307650 misc optional ros-jazzy-off-highway-premium-radar-sample_0-2024.06.27.06.25_amd64.deb

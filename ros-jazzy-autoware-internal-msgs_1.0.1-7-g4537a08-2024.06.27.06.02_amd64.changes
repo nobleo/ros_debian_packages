@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-internal-msgs
+Binary: ros-jazzy-autoware-internal-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.1-7-g4537a08-2024.06.27.06.02
+Distribution: noble
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-jazzy-autoware-internal-msgs - Autoware internal messages package.
+Changes:
+ ros-jazzy-autoware-internal-msgs (1.0.1-7-g4537a08-2024.06.27.06.02) noble; urgency=high
+ .
+   * add maintainer (#11 <https://github.com/youtalk/autoware_internal_msgs/issues/11>)
+   * feat(remaining_dist_eta): add msg definition for mission remaining distance and time (#10 <https://github.com/youtalk/autoware_internal_msgs/issues/10>)
+     * feat(remaining_dist_eta): add msg definition for mission remaining distance and time
+     feat(remaining_dist_eta): add msg definition for mission remaining distance and time"
+     * feat(remaining_dist_eta): fix review comment - remove remaining hours, remaining minutes, and remaining seconds
+     ---------
+   * feat(autoware_internal_msgs): add PublishedTime debug info message (#1 <https://github.com/youtalk/autoware_internal_msgs/issues/1>)
+   * chore: sync files (#7 <https://github.com/youtalk/autoware_internal_msgs/issues/7>)
+     * chore: sync files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * ci(sync-files): add .pre-commit-config.yaml (#6 <https://github.com/youtalk/autoware_internal_msgs/issues/6>)
+   * chore: sync files (#4 <https://github.com/youtalk/autoware_internal_msgs/issues/4>)
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+   * ci(sync-files): add workflow (#3 <https://github.com/youtalk/autoware_internal_msgs/issues/3>)
+   * ci: initialize (#2 <https://github.com/youtalk/autoware_internal_msgs/issues/2>)
+   * Initial commit
+   * Contributors: Ahmed Ebrahim, Berkay Karaman, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, awf-autoware-bot[bot]
+Checksums-Sha1:
+ 4410e5195fd9ee6f2d6e6a1fe00d6d770c3590b6 361478 ros-jazzy-autoware-internal-msgs-dbgsym_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.ddeb
+ 83855a87d7e3378a1c83a0226aecd4f46ace74d9 15140 ros-jazzy-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.buildinfo
+ 38bafea07540eab51f6d96803204dd111e22e98c 59352 ros-jazzy-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.deb
+Checksums-Sha256:
+ c7d6da79b19997244404fcda144ddffa460db178f1bdc6997cafb24ff9fe9069 361478 ros-jazzy-autoware-internal-msgs-dbgsym_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.ddeb
+ f5de14ce4114b678249bdb51c1bd4fd69ea3531cac4ed87e8d706cacca202d09 15140 ros-jazzy-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.buildinfo
+ cd19ca0110fe087f1628f3fb58e8f7cb829b7b2a903436b420fe3215c02a403b 59352 ros-jazzy-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.deb
+Files:
+ 9bdd5ace3c11b1c166778bceb032c10d 361478 debug optional ros-jazzy-autoware-internal-msgs-dbgsym_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.ddeb
+ b80aca3cd5f29f07a41492ff1f2c410a 15140 misc optional ros-jazzy-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.buildinfo
+ 9d57681813079a22962615baee2dd0cc 59352 misc optional ros-jazzy-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.06.02_amd64.deb

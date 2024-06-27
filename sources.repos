@@ -1,0 +1,29 @@
+repositories:
+  autoware_auto_msgs:
+    type: git
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: 1e8b6d234e2690c9da386f006bb60835cdccddfd
+  autoware_internal_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+    version: 4537a08fdb679bc5f0f1b7fd0f5e54ca5bd3f029
+  autoware_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: 1.1.0
+  novatel_oem7_driver:
+    type: git
+    url: https://github.com/nobleo/novatel_oem7_driver.git
+    version: ee3cd8b761e1697616dac74477a0b076711f52dc
+  off_highway_sensor_drivers:
+    type: git
+    url: https://github.com/nobleo/off_highway_sensor_drivers.git
+    version: f0415de3d6416c187388825331fca21ac2193498
+  rmw_zenoh:
+    type: git
+    url: https://github.com/ros2/rmw_zenoh
+    version: e73df29cf80723f0e49e09d1f72cff5f1d342744
+  tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: 5cf56e7c1f1156c0067108a83806a22e42120d1b

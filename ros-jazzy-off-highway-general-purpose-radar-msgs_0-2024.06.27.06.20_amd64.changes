@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-general-purpose-radar-msgs
+Binary: ros-jazzy-off-highway-general-purpose-radar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2024.06.27.06.20
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-general-purpose-radar-msgs - The off_highway_general_purpose_radar_msgs package
+Changes:
+ ros-jazzy-off-highway-general-purpose-radar-msgs (0-2024.06.27.06.20) noble; urgency=high
+Checksums-Sha1:
+ 20e99c42c54400b06e1fcb8b954f3fc81cabed06 597320 ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0-2024.06.27.06.20_amd64.ddeb
+ 104c6170c5805ed291d59a1b7d8d8beeeba0f647 15117 ros-jazzy-off-highway-general-purpose-radar-msgs_0-2024.06.27.06.20_amd64.buildinfo
+ 6ee13dba3585232b84b4be8f5931f8178736f00d 84476 ros-jazzy-off-highway-general-purpose-radar-msgs_0-2024.06.27.06.20_amd64.deb
+Checksums-Sha256:
+ 034bc3030fb597204ef3ad294ffce1c5dece67c310b8eecfbfe1001f12fdb481 597320 ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0-2024.06.27.06.20_amd64.ddeb
+ 52ce737805c3f634da53a78a02a18b8340f4e4ad421dcbb64ea6b2b9babfd9ec 15117 ros-jazzy-off-highway-general-purpose-radar-msgs_0-2024.06.27.06.20_amd64.buildinfo
+ 9825244500b30cf48fffb568d18aa4194e4da184af8ed5cd621a18568b7a4e86 84476 ros-jazzy-off-highway-general-purpose-radar-msgs_0-2024.06.27.06.20_amd64.deb
+Files:
+ 8b0bf71b3566c71065a224b8f4ef7537 597320 debug optional ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0-2024.06.27.06.20_amd64.ddeb
+ c829fbf898cd9626d76f545391d87b30 15117 misc optional ros-jazzy-off-highway-general-purpose-radar-msgs_0-2024.06.27.06.20_amd64.buildinfo
+ a860d5de8e0b3936fd5771adc15dc5d5 84476 misc optional ros-jazzy-off-highway-general-purpose-radar-msgs_0-2024.06.27.06.20_amd64.deb

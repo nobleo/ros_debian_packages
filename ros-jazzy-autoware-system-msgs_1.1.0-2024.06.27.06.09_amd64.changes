@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-system-msgs
+Binary: ros-jazzy-autoware-system-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.09
+Distribution: noble
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-jazzy-autoware-system-msgs - Autoware system messages package.
+Changes:
+ ros-jazzy-autoware-system-msgs (1.1.0-2024.06.27.06.09) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * fix: add system msg (#79 <https://github.com/youtalk/autoware_msgs/issues/79>)
+     * fix:add system msg
+     * fix:add system msgs
+     * fix:add system msgs
+     * fix:add system msgs
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Yutaka Kondo, shulanbushangshu
+Checksums-Sha1:
+ c5eb307b0f071e6c8c42d404238f940175964125 468360 ros-jazzy-autoware-system-msgs-dbgsym_1.1.0-2024.06.27.06.09_amd64.ddeb
+ 8d960422d76e5f36a11e579e5cde29c099dec637 15219 ros-jazzy-autoware-system-msgs_1.1.0-2024.06.27.06.09_amd64.buildinfo
+ 8a600269d350bff51bc375b8b5c7dcbcd75d3e16 70646 ros-jazzy-autoware-system-msgs_1.1.0-2024.06.27.06.09_amd64.deb
+Checksums-Sha256:
+ 2e63035201e070288c5018417ccc6e61d64431415e3670c07efa48ea0363c1ff 468360 ros-jazzy-autoware-system-msgs-dbgsym_1.1.0-2024.06.27.06.09_amd64.ddeb
+ 8e52285d60425a814c38a6af81c17edcf548c69ccfbfd70970e37ee64369146a 15219 ros-jazzy-autoware-system-msgs_1.1.0-2024.06.27.06.09_amd64.buildinfo
+ 495c195287f623f02db26ebcd7b1c44956fe2dbd154f5d989cc0fa459af00fa7 70646 ros-jazzy-autoware-system-msgs_1.1.0-2024.06.27.06.09_amd64.deb
+Files:
+ 46ad6f5ebdd4d27bf7a3d640eb1d4505 468360 debug optional ros-jazzy-autoware-system-msgs-dbgsym_1.1.0-2024.06.27.06.09_amd64.ddeb
+ 7d57b06f5339e04f6b3e8247ceedd874 15219 misc optional ros-jazzy-autoware-system-msgs_1.1.0-2024.06.27.06.09_amd64.buildinfo
+ 88fdf75d30f747646bb748ce4d292dee 70646 misc optional ros-jazzy-autoware-system-msgs_1.1.0-2024.06.27.06.09_amd64.deb

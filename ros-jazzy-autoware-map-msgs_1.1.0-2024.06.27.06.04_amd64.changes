@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-map-msgs
+Binary: ros-jazzy-autoware-map-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.04
+Distribution: noble
+Urgency: high
+Maintainer: kminoda <koji.minoda@tier4.jp>
+Changed-By: kminoda <koji.minoda@tier4.jp>
+Description:
+ ros-jazzy-autoware-map-msgs - Autoware map messages package.
+Changes:
+ ros-jazzy-autoware-map-msgs (1.1.0-2024.06.27.06.04) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat(autoware_map_msgs): support cylindrical AreaInfo (#64 <https://github.com/youtalk/autoware_msgs/issues/64>)
+     * feat(autoware_map_msgs): support cylindrical AreaInfo
+     * update attribute
+     ---------
+   * feat(autoware_map_msgs): add selected map loading (#57 <https://github.com/youtalk/autoware_msgs/issues/57>)
+     * feat(map_loader): add support for sequential_map_loading
+     * feat(autoware_map_msgs): add PointCloudMetaData.msg
+     * docs(autoware_map_msgs): add description of selected_map_loading
+     * docs(autoware_map_msgs): remove gif for selected_map_loading
+     * docs(autoware_map_msgs): fix typo
+     * feat(autoware_map_msgs): make member of msg plural
+     * docs(autoware_map_msgs): clarify the client needs to receive msg beforehand
+     * docs(autoware_map_msgs): clarify IDs included in msgs are used as query for service
+     ---------
+   * feat(autoware_map_msgs): add grid coordinates in PointCloudMapCellWithID.msg (#52 <https://github.com/youtalk/autoware_msgs/issues/52>)
+     * feat(autoware_map_msgs): add grid coordinates in PointCloudMapCellWithID.msg
+     * style(pre-commit): autofix
+     * debug
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(map-messages): add LaneletMapBin.msg (#30 <https://github.com/youtalk/autoware_msgs/issues/30>)
+   * feat: add autoware_map_msgs for dynamic map loading (#39 <https://github.com/youtalk/autoware_msgs/issues/39>)
+     Co-authored-by: M. Fatih Cırıt <mailto:xmfcx@users.noreply.github.com>
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:43976882+isamu-takagi@users.noreply.github.com>
+   * Contributors: M. Fatih Cırıt, Shintaro Tomie, Yutaka Kondo, kminoda
+Checksums-Sha1:
+ e1f8fb362ee20da896bea970039f789b517ee70f 1888378 ros-jazzy-autoware-map-msgs-dbgsym_1.1.0-2024.06.27.06.04_amd64.ddeb
+ 5e7fe784fb34b032bc745d82f42c04530bdf6b97 15140 ros-jazzy-autoware-map-msgs_1.1.0-2024.06.27.06.04_amd64.buildinfo
+ 93a6eaec86ca6dac7c9fa6334c69e703c3397e0d 196900 ros-jazzy-autoware-map-msgs_1.1.0-2024.06.27.06.04_amd64.deb
+Checksums-Sha256:
+ 5e05f73587738b5e70e2bc02702b5212b3eb2f3b74413f85649f5b9a882277b7 1888378 ros-jazzy-autoware-map-msgs-dbgsym_1.1.0-2024.06.27.06.04_amd64.ddeb
+ 569b45e0869a4c4a7f6c4c532369c11c0f4a5f8fcc9e8d821c0bb305a1a2b79f 15140 ros-jazzy-autoware-map-msgs_1.1.0-2024.06.27.06.04_amd64.buildinfo
+ 38fa7c32922b1c04ed9b21d158699109feee44d2627e34b238d49f64aa9ba522 196900 ros-jazzy-autoware-map-msgs_1.1.0-2024.06.27.06.04_amd64.deb
+Files:
+ d947bfd6e61ff998fc7b41b7b9200a1e 1888378 debug optional ros-jazzy-autoware-map-msgs-dbgsym_1.1.0-2024.06.27.06.04_amd64.ddeb
+ 53623675582a0c324389d9b4bf04265f 15140 misc optional ros-jazzy-autoware-map-msgs_1.1.0-2024.06.27.06.04_amd64.buildinfo
+ e72cc8e14c43c3b95802142f03fc1fad 196900 misc optional ros-jazzy-autoware-map-msgs_1.1.0-2024.06.27.06.04_amd64.deb

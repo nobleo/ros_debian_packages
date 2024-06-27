@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-localization-msgs
+Binary: ros-jazzy-autoware-localization-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.06.27.06.03
+Distribution: noble
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@leodrive.ai>
+Changed-By: M. Fatih Cırıt <mfc@leodrive.ai>
+Description:
+ ros-jazzy-autoware-localization-msgs - Autoware localization messages package.
+Changes:
+ ros-jazzy-autoware-localization-msgs (1.1.0-2024.06.27.06.03) noble; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat(localization-messages): add autoware_localization_msgs (#16 <https://github.com/youtalk/autoware_msgs/issues/16>)
+   * Contributors: M. Fatih Cırıt, Yutaka Kondo
+Checksums-Sha1:
+ 070479ec6c9bfcea4171f18cf7767c6404f6369a 207274 ros-jazzy-autoware-localization-msgs-dbgsym_1.1.0-2024.06.27.06.03_amd64.ddeb
+ a5d5cfa944f73a99548607f9e8f3a9ac7e3f2db6 15158 ros-jazzy-autoware-localization-msgs_1.1.0-2024.06.27.06.03_amd64.buildinfo
+ 789cdeae2bf67e3ffcb0bdb7623b6b73d7696e59 48618 ros-jazzy-autoware-localization-msgs_1.1.0-2024.06.27.06.03_amd64.deb
+Checksums-Sha256:
+ 09286bb34a261d6aa5744dd07344d610633f2cdefce018300279f2227f0b7530 207274 ros-jazzy-autoware-localization-msgs-dbgsym_1.1.0-2024.06.27.06.03_amd64.ddeb
+ 44f47e6afb672057854ea1675da2638908fde94bf0094328ffe79cfda24ff6a0 15158 ros-jazzy-autoware-localization-msgs_1.1.0-2024.06.27.06.03_amd64.buildinfo
+ 90d6e6f6e38d10b92f08e55ad60258431018f87e7ed01ab14db8f681d52c8481 48618 ros-jazzy-autoware-localization-msgs_1.1.0-2024.06.27.06.03_amd64.deb
+Files:
+ dd3a3201110fae6b46e66eea62878bd1 207274 debug optional ros-jazzy-autoware-localization-msgs-dbgsym_1.1.0-2024.06.27.06.03_amd64.ddeb
+ 3c2e35e461068fe8c4ef965cdddac432 15158 misc optional ros-jazzy-autoware-localization-msgs_1.1.0-2024.06.27.06.03_amd64.buildinfo
+ 1b313f875963818c9d6a2e602644ba8a 48618 misc optional ros-jazzy-autoware-localization-msgs_1.1.0-2024.06.27.06.03_amd64.deb
