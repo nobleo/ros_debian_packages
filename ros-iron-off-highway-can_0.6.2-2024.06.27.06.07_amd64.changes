@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-iron-off-highway-can
+Binary: ros-iron-off-highway-can
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2024.06.27.06.07
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-can - The off_highway_can package
+Changes:
+ ros-iron-off-highway-can (0.6.2-2024.06.27.06.07) jammy; urgency=high
+Checksums-Sha1:
+ 2b2c2ee2c36abbc17af1c697d5cd3e070ebb11aa 2463364 ros-iron-off-highway-can-dbgsym_0.6.2-2024.06.27.06.07_amd64.ddeb
+ c50668a825a882dcf960cd0dff6960c184b3f194 17290 ros-iron-off-highway-can_0.6.2-2024.06.27.06.07_amd64.buildinfo
+ e3683f0bc8f8dbeb1c1cde5f8ba2902a41289bac 125540 ros-iron-off-highway-can_0.6.2-2024.06.27.06.07_amd64.deb
+Checksums-Sha256:
+ b51a8232047db24fb44c4492f2b9e64a35565ce4031139999328b4a5f9666aa0 2463364 ros-iron-off-highway-can-dbgsym_0.6.2-2024.06.27.06.07_amd64.ddeb
+ 99936ac62a2847b1351d61b98ae509609a511d417173d14206ef6e4cba29d734 17290 ros-iron-off-highway-can_0.6.2-2024.06.27.06.07_amd64.buildinfo
+ 9ce9fde6b3c03e20b02400033abebd3f9e0054e9115c2a61eecfb8347f347e1a 125540 ros-iron-off-highway-can_0.6.2-2024.06.27.06.07_amd64.deb
+Files:
+ d26fd506c1a97a5700ed6daba2d7434e 2463364 debug optional ros-iron-off-highway-can-dbgsym_0.6.2-2024.06.27.06.07_amd64.ddeb
+ 9c22f9836b2e304548aea479ad2b39ac 17290 misc optional ros-iron-off-highway-can_0.6.2-2024.06.27.06.07_amd64.buildinfo
+ 70efda5fe941ae3b6deeed6f2c8022a6 125540 misc optional ros-iron-off-highway-can_0.6.2-2024.06.27.06.07_amd64.deb

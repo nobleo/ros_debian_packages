@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-iron-off-highway-radar
+Binary: ros-iron-off-highway-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2024.06.27.06.15
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-radar - The off_highway_radar package
+Changes:
+ ros-iron-off-highway-radar (0.6.2-2024.06.27.06.15) jammy; urgency=high
+Checksums-Sha1:
+ 8fa0875d016bc1b68cde88718de25f39d3e45c3a 3833808 ros-iron-off-highway-radar-dbgsym_0.6.2-2024.06.27.06.15_amd64.ddeb
+ 2f2c0045a6a98ee180f2bf142d0fb3cbe73ea91f 40818 ros-iron-off-highway-radar_0.6.2-2024.06.27.06.15_amd64.buildinfo
+ 9a8cacebc4ad764153f7bd1d7e9a9fb0dd5616e8 188170 ros-iron-off-highway-radar_0.6.2-2024.06.27.06.15_amd64.deb
+Checksums-Sha256:
+ 456a34e8b5d19dd89fb5ba4d5689aeadeaa42b930da9af9eeb4428856df0c7c6 3833808 ros-iron-off-highway-radar-dbgsym_0.6.2-2024.06.27.06.15_amd64.ddeb
+ 70e074476e398f1838e600f5c53cfead9f87d8b504d66fde0bff71b4df6a6cc4 40818 ros-iron-off-highway-radar_0.6.2-2024.06.27.06.15_amd64.buildinfo
+ a5140deb25975e1384baac2ae470d62649a0139c9a36f969aed5328b0f476207 188170 ros-iron-off-highway-radar_0.6.2-2024.06.27.06.15_amd64.deb
+Files:
+ 38bf34a2a8a880b2371d8ed77c5969ac 3833808 debug optional ros-iron-off-highway-radar-dbgsym_0.6.2-2024.06.27.06.15_amd64.ddeb
+ cf8648b20c5c710838ffdce6699adb33 40818 misc optional ros-iron-off-highway-radar_0.6.2-2024.06.27.06.15_amd64.buildinfo
+ 962114864eaed765a1aa025243cdfdc3 188170 misc optional ros-iron-off-highway-radar_0.6.2-2024.06.27.06.15_amd64.deb

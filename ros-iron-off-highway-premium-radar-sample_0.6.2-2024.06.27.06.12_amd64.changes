@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-iron-off-highway-premium-radar-sample
+Binary: ros-iron-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2024.06.27.06.12
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-iron-off-highway-premium-radar-sample (0.6.2-2024.06.27.06.12) jammy; urgency=high
+ .
+   * Fix azimuth and elevation angle variances of premium radar (#8)
+   * Contributors: Maximilian Hilger
+Checksums-Sha1:
+ 476c77056d977724de4bdff97d52b4f52b5c8db9 5139394 ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.2-2024.06.27.06.12_amd64.ddeb
+ fff89d79a8288d523d17516631aae69e23ceb455 41008 ros-iron-off-highway-premium-radar-sample_0.6.2-2024.06.27.06.12_amd64.buildinfo
+ b20d1ea9e5c85cbe02aefeb674c86514907313fc 269186 ros-iron-off-highway-premium-radar-sample_0.6.2-2024.06.27.06.12_amd64.deb
+Checksums-Sha256:
+ b927fad3d10b604fb665e8582210bb06e8259e4c28b9245f8a1d2d44be821455 5139394 ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.2-2024.06.27.06.12_amd64.ddeb
+ 6250cfe97d3a644d54598884fd15fab6d9b498608fe21bbdbb880a6a620b8cad 41008 ros-iron-off-highway-premium-radar-sample_0.6.2-2024.06.27.06.12_amd64.buildinfo
+ 38fa34c9ced0981ebef49289d565c461632b7930f04aa2f4c09b1410f70ade3f 269186 ros-iron-off-highway-premium-radar-sample_0.6.2-2024.06.27.06.12_amd64.deb
+Files:
+ f0f7e15f00714bf43728b95273b9365a 5139394 debug optional ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.2-2024.06.27.06.12_amd64.ddeb
+ 1b9534288ffea7d6086353ad1d3b19e3 41008 misc optional ros-iron-off-highway-premium-radar-sample_0.6.2-2024.06.27.06.12_amd64.buildinfo
+ 11965769ec55cd761637bade695263bb 269186 misc optional ros-iron-off-highway-premium-radar-sample_0.6.2-2024.06.27.06.12_amd64.deb

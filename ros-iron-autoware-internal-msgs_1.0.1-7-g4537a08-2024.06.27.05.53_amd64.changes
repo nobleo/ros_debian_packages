@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-internal-msgs
+Binary: ros-iron-autoware-internal-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.1-7-g4537a08-2024.06.27.05.53
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-iron-autoware-internal-msgs - Autoware internal messages package.
+Changes:
+ ros-iron-autoware-internal-msgs (1.0.1-7-g4537a08-2024.06.27.05.53) jammy; urgency=high
+ .
+   * add maintainer (#11 <https://github.com/youtalk/autoware_internal_msgs/issues/11>)
+   * feat(remaining_dist_eta): add msg definition for mission remaining distance and time (#10 <https://github.com/youtalk/autoware_internal_msgs/issues/10>)
+     * feat(remaining_dist_eta): add msg definition for mission remaining distance and time
+     feat(remaining_dist_eta): add msg definition for mission remaining distance and time"
+     * feat(remaining_dist_eta): fix review comment - remove remaining hours, remaining minutes, and remaining seconds
+     ---------
+   * feat(autoware_internal_msgs): add PublishedTime debug info message (#1 <https://github.com/youtalk/autoware_internal_msgs/issues/1>)
+   * chore: sync files (#7 <https://github.com/youtalk/autoware_internal_msgs/issues/7>)
+     * chore: sync files
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * ci(sync-files): add .pre-commit-config.yaml (#6 <https://github.com/youtalk/autoware_internal_msgs/issues/6>)
+   * chore: sync files (#4 <https://github.com/youtalk/autoware_internal_msgs/issues/4>)
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+   * ci(sync-files): add workflow (#3 <https://github.com/youtalk/autoware_internal_msgs/issues/3>)
+   * ci: initialize (#2 <https://github.com/youtalk/autoware_internal_msgs/issues/2>)
+   * Initial commit
+   * Contributors: Ahmed Ebrahim, Berkay Karaman, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, awf-autoware-bot[bot]
+Checksums-Sha1:
+ a090c0bbe6d2b5b9eadbd3b21e1e8aa27388a4f3 293750 ros-iron-autoware-internal-msgs-dbgsym_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.ddeb
+ 2d194e5b35f82f0caf35ce2701c5724f2539d1a0 15063 ros-iron-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.buildinfo
+ 11247128b021e9f7389bf5f75d3050cf660f3f3b 57740 ros-iron-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.deb
+Checksums-Sha256:
+ cd060b871a2c9f2fd88647fb3147e880262bde63170669db9438f7883ac8ecbf 293750 ros-iron-autoware-internal-msgs-dbgsym_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.ddeb
+ e1829a8ae2ebb65f51dc0a9935b744779df4c010c852d2bfe855fe37b93eaf6f 15063 ros-iron-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.buildinfo
+ 76900be50461b042a684fe8133a6d0887ca6307e1a64ef71c45069b8e9fb2b42 57740 ros-iron-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.deb
+Files:
+ 34a1343d37d142e1d4d01604f5b4807a 293750 debug optional ros-iron-autoware-internal-msgs-dbgsym_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.ddeb
+ 02ebc1a0719ad1cd5ee069172172b708 15063 misc optional ros-iron-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.buildinfo
+ 93a5259a81d3a969279282600831eb88 57740 misc optional ros-iron-autoware-internal-msgs_1.0.1-7-g4537a08-2024.06.27.05.53_amd64.deb

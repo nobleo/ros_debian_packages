@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-iron-off-highway-premium-radar-sample-msgs
+Binary: ros-iron-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2024.06.27.06.11
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-iron-off-highway-premium-radar-sample-msgs (0.6.2-2024.06.27.06.11) jammy; urgency=high
+Checksums-Sha1:
+ 8f750c850c9e4b50454dfa78206d52d8294fba1d 2048624 ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.2-2024.06.27.06.11_amd64.ddeb
+ 590ba69433d9ad78559b05078225f31850be1c91 15124 ros-iron-off-highway-premium-radar-sample-msgs_0.6.2-2024.06.27.06.11_amd64.buildinfo
+ 9a9a882adb626cca19fa125a50b3fedcebbb2795 273738 ros-iron-off-highway-premium-radar-sample-msgs_0.6.2-2024.06.27.06.11_amd64.deb
+Checksums-Sha256:
+ c5adeca3a2e50196cb14d4d2114d6441e5708a2f2c6a0cb17e573a704887d397 2048624 ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.2-2024.06.27.06.11_amd64.ddeb
+ 8521ca89d4e24c3c3288b37eb4fc88539ac5b19dbb3f2d1afa1b65bb6f4803dc 15124 ros-iron-off-highway-premium-radar-sample-msgs_0.6.2-2024.06.27.06.11_amd64.buildinfo
+ 277b4abd8cc2973a0b3d43a8aaec187b01d4e1db79900782a6195ad11db2111d 273738 ros-iron-off-highway-premium-radar-sample-msgs_0.6.2-2024.06.27.06.11_amd64.deb
+Files:
+ 8ff5ee73d27b63c633c490be25da28f4 2048624 debug optional ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.2-2024.06.27.06.11_amd64.ddeb
+ d758c91966bf9cfeb51db58edd2270c3 15124 misc optional ros-iron-off-highway-premium-radar-sample-msgs_0.6.2-2024.06.27.06.11_amd64.buildinfo
+ 23b10afadf87390cb4a4d45147c1cdc2 273738 misc optional ros-iron-off-highway-premium-radar-sample-msgs_0.6.2-2024.06.27.06.11_amd64.deb

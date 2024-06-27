@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 13 Jun 2024 00:00:00 -0000
+Source: ros-iron-off-highway-uss-msgs
+Binary: ros-iron-off-highway-uss-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.2-2024.06.27.06.19
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-uss-msgs - The off_highway_uss_msgs package
+Changes:
+ ros-iron-off-highway-uss-msgs (0.6.2-2024.06.27.06.19) jammy; urgency=high
+Checksums-Sha1:
+ 1fa0f94b4be98ea897a97d6ef06a9a162a99c820 658782 ros-iron-off-highway-uss-msgs-dbgsym_0.6.2-2024.06.27.06.19_amd64.ddeb
+ d30d1e4c05b7385b8d64f1b6de49b615f7e12bf2 14965 ros-iron-off-highway-uss-msgs_0.6.2-2024.06.27.06.19_amd64.buildinfo
+ da1095bce448284c0fd0f1f5d6b237e1a3e8d87b 98532 ros-iron-off-highway-uss-msgs_0.6.2-2024.06.27.06.19_amd64.deb
+Checksums-Sha256:
+ e7d1204038c9b8e3231aa3c33ea19e63b7d729963c1e1f2a09802287019968f4 658782 ros-iron-off-highway-uss-msgs-dbgsym_0.6.2-2024.06.27.06.19_amd64.ddeb
+ 3ed18728a647919f53b24ac03aae5696b873890f3b0c0a4c618f5994b0e11601 14965 ros-iron-off-highway-uss-msgs_0.6.2-2024.06.27.06.19_amd64.buildinfo
+ bbb2485c338f9d765bdc5f2b0800525eaaf8cb7449c30b4ba123c2b8ba08ee97 98532 ros-iron-off-highway-uss-msgs_0.6.2-2024.06.27.06.19_amd64.deb
+Files:
+ ca0222d61d24995ef6c848ffd9d6de54 658782 debug optional ros-iron-off-highway-uss-msgs-dbgsym_0.6.2-2024.06.27.06.19_amd64.ddeb
+ 4d987a03b41cad8f0cdb89c13d0b827f 14965 misc optional ros-iron-off-highway-uss-msgs_0.6.2-2024.06.27.06.19_amd64.buildinfo
+ 49f8dbe96c5938bc950e8a7023e60bfe 98532 misc optional ros-iron-off-highway-uss-msgs_0.6.2-2024.06.27.06.19_amd64.deb
