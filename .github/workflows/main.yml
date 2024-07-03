@@ -30,14 +30,6 @@ jobs:
             autoware_adapi_version_msgs
             autoware_ar_tag_based_localizer
             autoware_auto_common
-            autoware_auto_control_msgs
-            autoware_auto_geometry_msgs
-            autoware_auto_mapping_msgs
-            autoware_auto_msgs
-            autoware_auto_perception_msgs
-            autoware_auto_planning_msgs
-            autoware_auto_system_msgs
-            autoware_auto_vehicle_msgs
             autoware_autonomous_emergency_braking
             autoware_behavior_path_avoidance_by_lane_change_module
             autoware_behavior_path_dynamic_obstacle_avoidance_module
@@ -82,6 +74,8 @@ jobs:
             autoware_joy_controller
             autoware_landmark_manager
             autoware_lane_departure_checker
+            autoware_lanelet2_extension_python
+            autoware_livox_tag_filter
             autoware_localization_msgs
             autoware_map_based_prediction
             autoware_mission_details_overlay_rviz_plugin
@@ -95,6 +89,7 @@ jobs:
             autoware_mpc_lateral_controller
             autoware_objects_of_interest_marker_interface
             autoware_obstacle_cruise_planner
+            autoware_obstacle_stop_planner
             autoware_operation_mode_transition_manager
             autoware_overlay_rviz_plugin
             autoware_path_optimizer
@@ -170,16 +165,13 @@ jobs:
             interpolation
             kalman_filter
             kinematic_evaluator
-            lanelet2_extension_python
             lanelet2_map_preprocessor
             learning_based_vehicle_model
             lidar_apollo_instance_segmentation
             lidar_apollo_segmentation_tvm
             lidar_apollo_segmentation_tvm_nodes
             lidar_centerpoint
-            lidar_centerpoint_tvm
             lidar_transfusion
-            livox_tag_filter
             localization_error_monitor
             localization_evaluator
             localization_util
@@ -197,7 +189,6 @@ jobs:
             object_recognition_utils
             object_velocity_splitter
             obstacle_collision_checker
-            obstacle_stop_planner
             occupancy_grid_map_outlier_filter
             osqp_interface
             path_distance_calculator
