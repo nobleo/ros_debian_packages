@@ -28,6 +28,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
     version: main
+  mussp:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: tier4/main
   novatel_oem7_driver:
     type: git
     # Until: https://github.com/novatel/novatel_oem7_driver/pull/89
