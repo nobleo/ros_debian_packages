@@ -26,8 +26,6 @@ jobs:
             automatic_pose_initializer
             autoware_accel_brake_map_calibrator
             autoware_ad_api_specs
-            autoware_adapi_v1_msgs
-            autoware_adapi_version_msgs
             autoware_ar_tag_based_localizer
             autoware_auto_common
             autoware_autonomous_emergency_braking
@@ -60,7 +58,6 @@ jobs:
             autoware_behavior_velocity_walkway_module
             autoware_bezier_sampler
             autoware_control_evaluator
-            autoware_control_msgs
             autoware_control_validator
             autoware_costmap_generator
             autoware_crosswalk_traffic_light_estimator
@@ -74,9 +71,7 @@ jobs:
             autoware_joy_controller
             autoware_landmark_manager
             autoware_lane_departure_checker
-            autoware_lanelet2_extension_python
             autoware_livox_tag_filter
-            autoware_localization_msgs
             autoware_map_based_prediction
             autoware_mission_details_overlay_rviz_plugin
             autoware_mission_planner
@@ -109,19 +104,16 @@ jobs:
             autoware_rtc_interface
             autoware_sampler_common
             autoware_scenario_selector
-            autoware_sensing_msgs
             autoware_shift_decider
             autoware_smart_mpc_trajectory_follower
             autoware_static_centerline_generator
             autoware_steer_offset_estimator
             autoware_stop_filter
             autoware_surround_obstacle_checker
-            autoware_system_msgs
             autoware_test_utils
             autoware_testing
             autoware_trajectory_follower_base
             autoware_trajectory_follower_node
-            autoware_v2x_msgs
             autoware_vehicle_cmd_gate
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
@@ -226,38 +218,25 @@ jobs:
             tensorrt_common
             tensorrt_yolox
             tier4_adapi_rviz_plugin
-            tier4_api_msgs
             tier4_api_utils
-            tier4_auto_msgs_converter
             tier4_autoware_api_launch
             tier4_camera_view_rviz_plugin
             tier4_control_launch
-            tier4_control_msgs
             tier4_datetime_rviz_plugin
-            tier4_external_api_msgs
-            tier4_hmi_msgs
             tier4_localization_launch
-            tier4_localization_msgs
             tier4_localization_rviz_plugin
             tier4_map_launch
-            tier4_map_msgs
             tier4_perception_launch
-            tier4_perception_msgs
             tier4_perception_rviz_plugin
             tier4_planning_launch
             tier4_planning_rviz_plugin
-            tier4_rtc_msgs
             tier4_sensing_launch
-            tier4_simulation_msgs
             tier4_simulator_launch
             tier4_state_rviz_plugin
             tier4_system_launch
-            tier4_system_msgs
             tier4_system_rviz_plugin
             tier4_traffic_light_rviz_plugin
-            tier4_v2x_msgs
             tier4_vehicle_launch
-            tier4_vehicle_msgs
             tier4_vehicle_rviz_plugin
             time_utils
             topic_state_monitor
