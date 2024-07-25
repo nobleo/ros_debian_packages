@@ -59,8 +59,10 @@ jobs:
             autoware_behavior_velocity_virtual_traffic_light_module
             autoware_behavior_velocity_walkway_module
             autoware_bezier_sampler
+            autoware_bytetrack
             autoware_carla_interface
             autoware_cluster_merger
+            autoware_compare_map_segmentation
             autoware_component_monitor
             autoware_control_evaluator
             autoware_control_msgs
@@ -80,10 +82,12 @@ jobs:
             autoware_frenet_planner
             autoware_grid_map_utils
             autoware_image_diagnostics
+            autoware_image_projection_based_fusion
             autoware_joy_controller
             autoware_landmark_manager
             autoware_lane_departure_checker
             autoware_lanelet2_extension_python
+            autoware_lidar_apollo_instance_segmentation
             autoware_lidar_centerpoint
             autoware_lidar_transfusion
             autoware_livox_tag_filter
@@ -126,6 +130,8 @@ jobs:
             autoware_radar_scan_to_pointcloud2
             autoware_radar_static_pointcloud_filter
             autoware_radar_threshold_filter
+            autoware_radar_tracks_msgs_converter
+            autoware_radar_tracks_noise_filter
             autoware_raindrop_cluster_filter
             autoware_raw_vehicle_cmd_converter
             autoware_remaining_distance_time_calculator
@@ -134,7 +140,9 @@ jobs:
             autoware_sampler_common
             autoware_scenario_selector
             autoware_sensing_msgs
+            autoware_shape_estimation
             autoware_shift_decider
+            autoware_simple_object_merger
             autoware_smart_mpc_trajectory_follower
             autoware_static_centerline_generator
             autoware_steer_offset_estimator
@@ -142,9 +150,16 @@ jobs:
             autoware_surround_obstacle_checker
             autoware_system_msgs
             autoware_tensorrt_classifier
+            autoware_tensorrt_yolox
             autoware_test_utils
             autoware_testing
             autoware_tracking_object_merger
+            autoware_traffic_light_classifier
+            autoware_traffic_light_fine_detector
+            autoware_traffic_light_map_based_detector
+            autoware_traffic_light_multi_camera_fusion
+            autoware_traffic_light_occlusion_predictor
+            autoware_traffic_light_visualization
             autoware_trajectory_follower_base
             autoware_trajectory_follower_node
             autoware_v2x_msgs
@@ -152,8 +167,6 @@ jobs:
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
             bluetooth_monitor
-            bytetrack
-            compare_map_segmentation
             component_interface_specs
             component_interface_tools
             component_interface_utils
@@ -181,7 +194,6 @@ jobs:
             goal_distance_calculator
             gyro_odometer
             hazard_status_converter
-            image_projection_based_fusion
             image_transport_decompressor
             imu_corrector
             interpolation
@@ -189,9 +201,6 @@ jobs:
             kinematic_evaluator
             lanelet2_map_preprocessor
             learning_based_vehicle_model
-            lidar_apollo_instance_segmentation
-            lidar_apollo_segmentation_tvm
-            lidar_apollo_segmentation_tvm_nodes
             localization_error_monitor
             localization_evaluator
             localization_util
@@ -218,18 +227,13 @@ jobs:
             predicted_path_checker
             probabilistic_occupancy_grid_map
             qp_interface
-            radar_tracks_msgs_converter
-            radar_tracks_noise_filter
             reaction_analyzer
-            shape_estimation
             signal_processing
-            simple_object_merger
             simple_planning_simulator
             system_diagnostic_monitor
             system_error_monitor
             system_monitor
             tensorrt_common
-            tensorrt_yolox
             tier4_adapi_rviz_plugin
             tier4_api_msgs
             tier4_api_utils
@@ -267,14 +271,8 @@ jobs:
             time_utils
             topic_state_monitor
             traffic_light_arbiter
-            traffic_light_classifier
-            traffic_light_fine_detector
-            traffic_light_map_based_detector
-            traffic_light_multi_camera_fusion
-            traffic_light_occlusion_predictor
             traffic_light_recognition_marker_publisher
             traffic_light_utils
-            traffic_light_visualization
             tvm_utility
             twist2accel
             vehicle_door_simulator
