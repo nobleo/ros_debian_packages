@@ -59,13 +59,11 @@ jobs:
             autoware_behavior_velocity_virtual_traffic_light_module
             autoware_behavior_velocity_walkway_module
             autoware_bezier_sampler
-            autoware_component_monitor
             autoware_control_evaluator
             autoware_control_msgs
             autoware_control_validator
             autoware_costmap_generator
             autoware_crosswalk_traffic_light_estimator
-            autoware_evaluator_utils
             autoware_external_cmd_converter
             autoware_external_cmd_selector
             autoware_external_velocity_limit_selector
@@ -89,8 +87,6 @@ jobs:
             autoware_motion_velocity_planner_common
             autoware_motion_velocity_planner_node
             autoware_mpc_lateral_controller
-            autoware_object_range_splitter
-            autoware_object_velocity_splitter
             autoware_objects_of_interest_marker_interface
             autoware_obstacle_cruise_planner
             autoware_obstacle_stop_planner
@@ -106,12 +102,7 @@ jobs:
             autoware_planning_topic_converter
             autoware_planning_validator
             autoware_pose_covariance_modifier
-            autoware_processing_time_checker
             autoware_pure_pursuit
-            autoware_radar_crossing_objects_noise_filter
-            autoware_radar_fusion_to_detected_object
-            autoware_radar_object_clustering
-            autoware_radar_object_tracker
             autoware_raw_vehicle_cmd_converter
             autoware_remaining_distance_time_calculator
             autoware_route_handler
@@ -196,7 +187,9 @@ jobs:
             multi_object_tracker
             ndt_scan_matcher
             object_merger
+            object_range_splitter
             object_recognition_utils
+            object_velocity_splitter
             obstacle_collision_checker
             occupancy_grid_map_outlier_filter
             osqp_interface
@@ -211,6 +204,10 @@ jobs:
             predicted_path_checker
             probabilistic_occupancy_grid_map
             qp_interface
+            radar_crossing_objects_noise_filter
+            radar_fusion_to_detected_object
+            radar_object_clustering
+            radar_object_tracker
             radar_scan_to_pointcloud2
             radar_static_pointcloud_filter
             radar_threshold_filter
