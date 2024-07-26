@@ -3,7 +3,7 @@ repositories:
   autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 54a0c57ed29db912b8edc5d64d38f92d776fe5ac
+    version: 9b20ced4b6d976bc30e28e997269a0e0dea4bbfa
   autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs
