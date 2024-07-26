@@ -110,9 +110,7 @@ jobs:
             autoware_sampler_common
             autoware_scenario_selector
             autoware_sensing_msgs
-            autoware_shape_estimation
             autoware_shift_decider
-            autoware_simple_object_merger
             autoware_smart_mpc_trajectory_follower
             autoware_static_centerline_generator
             autoware_steer_offset_estimator
@@ -217,13 +215,16 @@ jobs:
             radar_tracks_noise_filter
             raindrop_cluster_filter
             reaction_analyzer
+            shape_estimation
             signal_processing
+            simple_object_merger
             simple_planning_simulator
             system_diagnostic_monitor
             system_error_monitor
             system_monitor
             tensorrt_classifier
             tensorrt_common
+            tensorrt_yolox
             tier4_adapi_rviz_plugin
             tier4_api_msgs
             tier4_api_utils
@@ -262,8 +263,14 @@ jobs:
             topic_state_monitor
             tracking_object_merger
             traffic_light_arbiter
+            traffic_light_classifier
+            traffic_light_fine_detector
+            traffic_light_map_based_detector
+            traffic_light_multi_camera_fusion
+            traffic_light_occlusion_predictor
             traffic_light_recognition_marker_publisher
             traffic_light_utils
+            traffic_light_visualization
             tvm_utility
             twist2accel
             vehicle_door_simulator
