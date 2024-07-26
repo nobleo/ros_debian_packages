@@ -1,17 +1,17 @@
 ---
 repositories:
-  autoware_auto_msgs:
+  autoware.universe:
     type: git
-    url: https://github.com/tier4/autoware_auto_msgs.git
-    version: tier4/main
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: 1654a578acec1d033746200d5e052ba0d0da7355
   autoware_internal_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_internal_msgs.git
-    version: main
+    version: 1.1.0
   autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: main
+    version: 1.1.0
   novatel_oem7_driver:
     type: git
     # Until: https://github.com/novatel/novatel_oem7_driver/pull/89
