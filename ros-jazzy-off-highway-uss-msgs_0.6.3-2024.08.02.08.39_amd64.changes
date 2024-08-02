@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-uss-msgs
+Binary: ros-jazzy-off-highway-uss-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.08.02.08.39
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-uss-msgs - The off_highway_uss_msgs package
+Changes:
+ ros-jazzy-off-highway-uss-msgs (0.6.3-2024.08.02.08.39) noble; urgency=high
+Checksums-Sha1:
+ 66104d1804ae47f3489da916a99bb7d27a12bfbc 808566 ros-jazzy-off-highway-uss-msgs-dbgsym_0.6.3-2024.08.02.08.39_amd64.ddeb
+ 4a722215d3a7431312c84c440d5c98b3f7b6bb90 15117 ros-jazzy-off-highway-uss-msgs_0.6.3-2024.08.02.08.39_amd64.buildinfo
+ 52dd0a54ab37bbe2c96e43da0a9fcc91fef1c53a 102510 ros-jazzy-off-highway-uss-msgs_0.6.3-2024.08.02.08.39_amd64.deb
+Checksums-Sha256:
+ 90fd051ba64cab70dba05ad88e84b4edc5bdf0ef3479c71c147df8b5c306db8a 808566 ros-jazzy-off-highway-uss-msgs-dbgsym_0.6.3-2024.08.02.08.39_amd64.ddeb
+ f8769ac836b225b4809becec0ab2f5726e25b7c2d24a4e31b7a66846135c88d5 15117 ros-jazzy-off-highway-uss-msgs_0.6.3-2024.08.02.08.39_amd64.buildinfo
+ 67707a32b615688a842a08a3dfa5524e48f4545a290508d4ee8f7c2e4f5e12a6 102510 ros-jazzy-off-highway-uss-msgs_0.6.3-2024.08.02.08.39_amd64.deb
+Files:
+ ef79ccf2829f654f823c5d12e2a5f14b 808566 debug optional ros-jazzy-off-highway-uss-msgs-dbgsym_0.6.3-2024.08.02.08.39_amd64.ddeb
+ bf9f7f571878a9fea466a8191c469aad 15117 misc optional ros-jazzy-off-highway-uss-msgs_0.6.3-2024.08.02.08.39_amd64.buildinfo
+ 2e8532ce885118f8e527c0ee5d39ca16 102510 misc optional ros-jazzy-off-highway-uss-msgs_0.6.3-2024.08.02.08.39_amd64.deb

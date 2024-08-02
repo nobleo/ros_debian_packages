@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-novatel-oem7-driver
+Binary: ros-jazzy-novatel-oem7-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-9-gc803ed2-2024.08.02.08.19
+Distribution: noble
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-jazzy-novatel-oem7-driver - NovAtel Oem7 ROS Driver
+Changes:
+ ros-jazzy-novatel-oem7-driver (20.1.0-9-gc803ed2-2024.08.02.08.19) noble; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ 3240117f9de0f2ea59bc2a16186377322d82d4b0 15352900 ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.ddeb
+ 21b6b98174b40f138cae858c3bd0dbcb19127108 27978 ros-jazzy-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.buildinfo
+ a7514f4b7d4930eaf8a5115069809c8fbaf9098d 658322 ros-jazzy-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.deb
+Checksums-Sha256:
+ ed00950aa1c784d74f5cc8d6ce7806da4cc81fbb8b805676e2d524b917dd3570 15352900 ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.ddeb
+ 8ac5c31923171318c4f86e1a6471e19788e822d478c9a1823b8bfed4cd793d08 27978 ros-jazzy-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.buildinfo
+ d7ec0567a2e338e2e952d9fe2204862ed35f718e6a74a12b4923f9e7c2ec39b1 658322 ros-jazzy-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.deb
+Files:
+ afe8ac4419b851c91c7e79373b36ea03 15352900 debug optional ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.ddeb
+ 5e64c568556d77b8f7c3c93b1fc8f708 27978 misc optional ros-jazzy-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.buildinfo
+ 0da6f0b0eab5d3ababe13c5a83617f9c 658322 misc optional ros-jazzy-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.08.02.08.19_amd64.deb

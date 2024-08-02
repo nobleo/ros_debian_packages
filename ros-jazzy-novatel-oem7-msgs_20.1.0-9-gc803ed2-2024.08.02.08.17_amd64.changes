@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-novatel-oem7-msgs
+Binary: ros-jazzy-novatel-oem7-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-9-gc803ed2-2024.08.02.08.17
+Distribution: noble
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-jazzy-novatel-oem7-msgs - Messages for NovAtel Oem7 family of receivers.
+Changes:
+ ros-jazzy-novatel-oem7-msgs (20.1.0-9-gc803ed2-2024.08.02.08.17) noble; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ b4cd0c5ace5f4249623d6d0b401a7d525d7d756e 4109782 ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.ddeb
+ 2723f1924660a20bc78abfd613da13455f294334 14561 ros-jazzy-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.buildinfo
+ e18634fef7f39015bdffea0e0a13a8bd91a73881 464768 ros-jazzy-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.deb
+Checksums-Sha256:
+ e3c8c7228a71e7a6e40a67fc2bf0afb5a2e8b7187fdbce8144bfb9cc1b78e2b1 4109782 ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.ddeb
+ 518072ae140c9e4a0d09c9626c8d6e4932418817616a9f5a70ac79c6ecceb1ca 14561 ros-jazzy-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.buildinfo
+ aa4ec8f511e5ef852b92fcfe500653e3d8b90fd1ef11be4bf3b42eb7ca603a1b 464768 ros-jazzy-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.deb
+Files:
+ e601ea2c465e6581a1be372e6551c2f5 4109782 debug optional ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.ddeb
+ 960b79d9141315a6369dc8620159adb2 14561 misc optional ros-jazzy-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.buildinfo
+ d394fbf83362956ff9f796495c6741a1 464768 misc optional ros-jazzy-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.17_amd64.deb
