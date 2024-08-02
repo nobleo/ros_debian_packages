@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-iron-novatel-oem7-msgs
+Binary: ros-iron-novatel-oem7-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-9-gc803ed2-2024.08.02.08.31
+Distribution: jammy
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-iron-novatel-oem7-msgs - Messages for NovAtel Oem7 family of receivers.
+Changes:
+ ros-iron-novatel-oem7-msgs (20.1.0-9-gc803ed2-2024.08.02.08.31) jammy; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ c37d177cc8ea0c718ce1c4c51bba2281d7e11793 3272646 ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.ddeb
+ 61acf59587e7868e6bcdb66acb961cab14b4decb 13319 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.buildinfo
+ 44d9c54ac4878198a71ec8549fad7375b95d4f9e 446456 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.deb
+Checksums-Sha256:
+ f5b0582b016beb70470ff3baf3a4a9107ea691548c6c6d59cd767c7ce6577b66 3272646 ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.ddeb
+ e0f53a96185a5e3420846ec87ee0882ee9bbce69937b0499706170b6ff6bd3e9 13319 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.buildinfo
+ 50cc457fe3968fe3c36df45ea79c6d9a86547ee36df8cf21c644a73b21b0c11a 446456 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.deb
+Files:
+ 0cdff72bb45cc807495683bb7278caad 3272646 debug optional ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.ddeb
+ 5324526259b658efe4aea5ddb5fd4bf2 13319 misc optional ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.buildinfo
+ ca920de816f5f800b8fd9cf9ad0bc6ff 446456 misc optional ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.08.02.08.31_amd64.deb

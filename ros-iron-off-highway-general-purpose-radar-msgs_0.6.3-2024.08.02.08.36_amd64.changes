@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-general-purpose-radar-msgs
+Binary: ros-iron-off-highway-general-purpose-radar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.08.02.08.36
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-general-purpose-radar-msgs - The off_highway_general_purpose_radar_msgs package
+Changes:
+ ros-iron-off-highway-general-purpose-radar-msgs (0.6.3-2024.08.02.08.36) jammy; urgency=high
+Checksums-Sha1:
+ 9a543d46c3f65a0ab798f254e25c36018c7712ba 472760 ros-iron-off-highway-general-purpose-radar-msgs-dbgsym_0.6.3-2024.08.02.08.36_amd64.ddeb
+ 55d53d2ba617132ba57a19720af85da205fd34e6 15080 ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.08.02.08.36_amd64.buildinfo
+ c7b2d0f5d4af0bbab39a7052c1451bf06ab29d0f 80894 ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.08.02.08.36_amd64.deb
+Checksums-Sha256:
+ dba220c060a0e1e3d657859d26ca10b6eaf5949ee2611ae0e52ae708c4762f64 472760 ros-iron-off-highway-general-purpose-radar-msgs-dbgsym_0.6.3-2024.08.02.08.36_amd64.ddeb
+ c140ae56a39e8e81f195d3a37fac0408133a70d7082db0b9d5c8c866c9840c3b 15080 ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.08.02.08.36_amd64.buildinfo
+ 250c2a27678f01cb39f39dc5ebc0d6c5fbbd8ea83394c5cd9004eb751832f8e6 80894 ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.08.02.08.36_amd64.deb
+Files:
+ d590231bc80a1933696b754eb08b5fe7 472760 debug optional ros-iron-off-highway-general-purpose-radar-msgs-dbgsym_0.6.3-2024.08.02.08.36_amd64.ddeb
+ 9861a9a48a2db4d7a3c0d918eab95df8 15080 misc optional ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.08.02.08.36_amd64.buildinfo
+ f5c61cf988acaeccbeb33ee4ac43d27c 80894 misc optional ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.08.02.08.36_amd64.deb
