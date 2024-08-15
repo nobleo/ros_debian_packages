@@ -285,6 +285,8 @@ jobs:
   jazzy:
     runs-on: ubuntu-22.04
     steps:
+      - name: Maximize build space
+        uses: easimon/maximize-build-space@master
       # - uses: jspricke/ros-deb-builder-action@main until: https://github.com/jspricke/ros-deb-builder-action/issues/38
       - uses: christianrauch/ros-deb-builder-action@5befeabf68aad37cd1e3c594bbb13fe3f4b83de3
         with:
