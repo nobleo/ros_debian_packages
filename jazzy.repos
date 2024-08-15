@@ -1,23 +1,7 @@
 ---
 repositories:
-  novatel_oem7_driver:
-    type: git
-    url: https://github.com/novatel/novatel_oem7_driver.git
-    version: humble
-  off_highway_sensor_drivers:
-    type: git
-    url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
-    version: humble-devel
-  rmw_zenoh:
-    type: git
-    url: https://github.com/ros2/rmw_zenoh
-    version: rolling
   spatio_temporal_voxel_layer:
     # Until: https://discourse.ros.org/t/openvdb-compile-size/38790
     type: git
     url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
     version: ros2
-  tier4_autoware_msgs:
-    type: git
-    url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: tier4/universe
