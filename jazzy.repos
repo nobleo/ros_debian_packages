@@ -12,6 +12,11 @@ repositories:
     type: git
     url: https://github.com/ros2/rmw_zenoh
     version: rolling
+  spatio_temporal_voxel_layer:
+    # Until: https://discourse.ros.org/t/openvdb-compile-size/38790
+    type: git
+    url: https://github.com/SteveMacenski/spatio_temporal_voxel_layer.git
+    version: ros2
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
