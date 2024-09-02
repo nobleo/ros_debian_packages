@@ -6,7 +6,7 @@ on:
 
 jobs:
   iron:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       # - uses: jspricke/ros-deb-builder-action@main until: https://github.com/jspricke/ros-deb-builder-action/issues/38
       - uses: christianrauch/ros-deb-builder-action@5befeabf68aad37cd1e3c594bbb13fe3f4b83de3
@@ -283,7 +283,7 @@ jobs:
             yabloc_pose_initializer
 
   jazzy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       # - uses: jspricke/ros-deb-builder-action@main until: https://github.com/jspricke/ros-deb-builder-action/issues/38
       - uses: christianrauch/ros-deb-builder-action@5befeabf68aad37cd1e3c594bbb13fe3f4b83de3
