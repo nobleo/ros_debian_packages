@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-iron-novatel-oem7-msgs
+Binary: ros-iron-novatel-oem7-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-9-gc803ed2-2024.09.12.13.14
+Distribution: jammy
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-iron-novatel-oem7-msgs - Messages for NovAtel Oem7 family of receivers.
+Changes:
+ ros-iron-novatel-oem7-msgs (20.1.0-9-gc803ed2-2024.09.12.13.14) jammy; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ cea8a5748e9de02b25bed85230ec259373b098e2 3272632 ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.ddeb
+ ec1fe69ec356573b7accec236a7d8428a0599e50 13329 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.buildinfo
+ 0cb5a6e8e4a5968c15a3f273421c586525e2e3bf 446508 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.deb
+Checksums-Sha256:
+ f4b579d7e6c6510576ad7b3b41f2e86ef59dc910eb788a12ab9e406244ea92d7 3272632 ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.ddeb
+ 68422c4cf134c1d7390513aaa4dde03725494b1b02f1d93a08a2603f828fcc0a 13329 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.buildinfo
+ 9c5614d8b9764348d387f490decd58f48a224bc88748207d472c1f3f79e6284b 446508 ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.deb
+Files:
+ a78c507358c2efda823d0ff4881f1365 3272632 debug optional ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.ddeb
+ 5ba69e457a613aa7e2736ca567a8732d 13329 misc optional ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.buildinfo
+ cd31fd0fad0da758ecb045755593c3b8 446508 misc optional ros-iron-novatel-oem7-msgs_20.1.0-9-gc803ed2-2024.09.12.13.14_amd64.deb

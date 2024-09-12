@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-iron-novatel-oem7-driver
+Binary: ros-iron-novatel-oem7-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-9-gc803ed2-2024.09.12.13.16
+Distribution: jammy
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-iron-novatel-oem7-driver - NovAtel Oem7 ROS Driver
+Changes:
+ ros-iron-novatel-oem7-driver (20.1.0-9-gc803ed2-2024.09.12.13.16) jammy; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ 32d5d794c4d79a0203bca4c558e915f4fe26cf96 13363026 ros-iron-novatel-oem7-driver-dbgsym_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.ddeb
+ 9aa84ad56f758521305890a36b16cb029a953cdd 25591 ros-iron-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.buildinfo
+ 2787c1148c0821fbd04942c6d486f6ff6a62bca3 585832 ros-iron-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.deb
+Checksums-Sha256:
+ 12d1d844ee513b306d62501b393e439e72882d0431939420b7bc8b8a2cbb3fd5 13363026 ros-iron-novatel-oem7-driver-dbgsym_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.ddeb
+ 65b9403bec64ba0aca758edbc0ab9c5dfcfe7fa558d84d987c01c8d012c8d1f1 25591 ros-iron-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.buildinfo
+ 5015fa3e0bab2945478e559bb646f89589277f1197caa1aabdf3b24d430aaaa5 585832 ros-iron-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.deb
+Files:
+ a2feffed1f2135a872e9644a605b16f6 13363026 debug optional ros-iron-novatel-oem7-driver-dbgsym_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.ddeb
+ a4a2b60db5bde68c52e61327eafb9db2 25591 misc optional ros-iron-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.buildinfo
+ 8bac46a44f4b425ca31d3c770f36025c 585832 misc optional ros-iron-novatel-oem7-driver_20.1.0-9-gc803ed2-2024.09.12.13.16_amd64.deb
