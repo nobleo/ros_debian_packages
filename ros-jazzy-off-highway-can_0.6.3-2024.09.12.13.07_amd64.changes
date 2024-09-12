@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-can
+Binary: ros-jazzy-off-highway-can
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.09.12.13.07
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-can - The off_highway_can package
+Changes:
+ ros-jazzy-off-highway-can (0.6.3-2024.09.12.13.07) noble; urgency=high
+Checksums-Sha1:
+ a01be92c5debe7a4a468eeb7afc083dad62104c3 2376852 ros-jazzy-off-highway-can-dbgsym_0.6.3-2024.09.12.13.07_amd64.ddeb
+ 660c06fde52e6febe61af29861c744e7b541947d 17800 ros-jazzy-off-highway-can_0.6.3-2024.09.12.13.07_amd64.buildinfo
+ b5fcb65686acca7c8f21ffaa36c4f03954656392 123528 ros-jazzy-off-highway-can_0.6.3-2024.09.12.13.07_amd64.deb
+Checksums-Sha256:
+ b74000c645c29964fca8c9bafef237a9c25c57916a2adced3b81f6a1016a5d72 2376852 ros-jazzy-off-highway-can-dbgsym_0.6.3-2024.09.12.13.07_amd64.ddeb
+ a1c52b8663b8337cf4fb69a90ea6e8b7e70c78fb92ba30b753a7dea7b78e55f8 17800 ros-jazzy-off-highway-can_0.6.3-2024.09.12.13.07_amd64.buildinfo
+ 6e3bde7b8edbf7066a036fe775d9f4786c50c400a3a51dcc290b1ef60a72032a 123528 ros-jazzy-off-highway-can_0.6.3-2024.09.12.13.07_amd64.deb
+Files:
+ ef54111a063b6d9447a35b2ba7966cbd 2376852 debug optional ros-jazzy-off-highway-can-dbgsym_0.6.3-2024.09.12.13.07_amd64.ddeb
+ 3f78d9c545e4a1c6f1400508e5080a62 17800 misc optional ros-jazzy-off-highway-can_0.6.3-2024.09.12.13.07_amd64.buildinfo
+ 28a37e0ce8b91d3500404540d0c712b2 123528 misc optional ros-jazzy-off-highway-can_0.6.3-2024.09.12.13.07_amd64.deb

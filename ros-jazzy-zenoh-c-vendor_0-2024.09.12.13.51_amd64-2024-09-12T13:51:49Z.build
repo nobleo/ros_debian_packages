@@ -1,0 +1,2250 @@
+sbuild (Debian sbuild) 0.84.2~ubuntu2204+3 (28 December 2022) on fv-az1429-543
+
++=====================================================================================+
+| ros-jazzy-zenoh-c-vendor 0-2024.09.12.13.51 (amd64) Thu, 12 Sep 2024 13:51:49 +0000 |
++=====================================================================================+
+
+Package: ros-jazzy-zenoh-c-vendor
+Version: 0-2024.09.12.13.51
+Source Version: 0-2024.09.12.13.51
+Distribution: noble
+Machine Architecture: amd64
+Host Architecture: amd64
+Build Architecture: amd64
+Build Type: binary
+
+Unpacking /home/runner/.cache/sbuild/noble-amd64.tar to /tmp/tmp.sbuild.gEszhNbBmF...
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+configuration error - unknown item 'NONEXISTENT' (notify administrator)
+I: NOTICE: Log filtering will replace 'sbuild-unshare-dummy-location' with '<<CHROOT>>'
+I: NOTICE: Log filtering will replace 'build/package//resolver-xJymA1' with '<<RESOLVERDIR>>'
+
++------------------------------------------------------------------------------+
+| Update chroot                                                                |
++------------------------------------------------------------------------------+
+
+Get:1 file:/build/package//resolver-Qd29ES/apt_archive ./ InRelease
+Ign:1 file:/build/package//resolver-Qd29ES/apt_archive ./ InRelease
+Get:2 file:/build/package//resolver-Qd29ES/apt_archive ./ Release [580 B]
+Get:2 file:/build/package//resolver-Qd29ES/apt_archive ./ Release [580 B]
+Get:3 file:/build/package//resolver-Qd29ES/apt_archive ./ Release.gpg
+Ign:3 file:/build/package//resolver-Qd29ES/apt_archive ./ Release.gpg
+Get:4 file:/build/package//resolver-Qd29ES/apt_archive ./ Packages [21.3 kB]
+Get:5 http://packages.ros.org/ros2/ubuntu noble InRelease [4670 B]
+Get:6 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu noble/main amd64 Packages [959 kB]
+Get:8 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+Get:9 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [351 kB]
+Get:10 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:11 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1401 kB]
+Get:12 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [267 kB]
+Get:13 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [353 kB]
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [501 kB]
+Fetched 19.4 MB in 4s (4928 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
++------------------------------------------------------------------------------+
+| Fetch source files                                                           |
++------------------------------------------------------------------------------+
+
+
+Local sources
+-------------
+
+/home/runner/work/ros_debian_packages/ros_debian_packages/src/rmw_zenoh/ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.dsc exists in /home/runner/work/ros_debian_packages/ros_debian_packages/src/rmw_zenoh; copying to chroot
+I: NOTICE: Log filtering will replace 'build/package//package' with '<<PKGBUILDDIR>>'
+I: NOTICE: Log filtering will replace 'build/package/' with '<<BUILDDIR>>'
+
++------------------------------------------------------------------------------+
+| Install package build dependencies                                           |
++------------------------------------------------------------------------------+
+
+
+Setup apt archive
+-----------------
+
+Merged Build-Depends: debhelper (>= 9.0.0), cargo, clang, git, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-vendor-package, build-essential, fakeroot
+Filtered Build-Depends: debhelper (>= 9.0.0), cargo, clang, git, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-vendor-package, build-essential, fakeroot
+dpkg-deb: building package 'sbuild-build-depends-main-dummy' in '/<<RESOLVERDIR>>/apt_archive/sbuild-build-depends-main-dummy.deb'.
+Ign:1 copy:/<<RESOLVERDIR>>/apt_archive ./ InRelease
+Get:2 copy:/<<RESOLVERDIR>>/apt_archive ./ Release [580 B]
+Ign:3 copy:/<<RESOLVERDIR>>/apt_archive ./ Release.gpg
+Get:4 copy:/<<RESOLVERDIR>>/apt_archive ./ Sources [694 B]
+Get:5 copy:/<<RESOLVERDIR>>/apt_archive ./ Packages [726 B]
+Fetched 2000 B in 0s (0 B/s)
+Reading package lists...
+Get:1 file:/<<BUILDDIR>>/resolver-Qd29ES/apt_archive ./ InRelease
+Ign:1 file:/<<BUILDDIR>>/resolver-Qd29ES/apt_archive ./ InRelease
+Get:2 file:/<<BUILDDIR>>/resolver-Qd29ES/apt_archive ./ Release [580 B]
+Get:2 file:/<<BUILDDIR>>/resolver-Qd29ES/apt_archive ./ Release [580 B]
+Get:3 file:/<<BUILDDIR>>/resolver-Qd29ES/apt_archive ./ Release.gpg
+Ign:3 file:/<<BUILDDIR>>/resolver-Qd29ES/apt_archive ./ Release.gpg
+Reading package lists...
+Hit:1 http://packages.ros.org/ros2/ubuntu noble InRelease
+Reading package lists...
+Reading package lists...
+
+Install main build dependencies (apt-based resolver)
+----------------------------------------------------
+
+Installing build dependencies
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils cargo clang clang-18
+  cmake cmake-data debhelper debugedit dh-autoreconf dh-strip-nondeterminism
+  docutils-common dwz fakeroot file gettext gettext-base git git-man
+  groff-base intltool-debian libarchive-zip-perl libarchive13t64 libbrotli1
+  libbsd0 libclang-common-18-dev libclang-cpp18 libclang1-18
+  libcurl3t64-gnutls libcurl4t64 libdebhelper-perl libdw1t64 libedit2
+  libelf1t64 liberror-perl libexpat1 libfakeroot
+  libfile-stripnondeterminism-perl libgc1 libgit2-1.7 libgssapi-krb5-2
+  libhttp-parser2.9 libicu74 libjsoncpp25 libk5crypto3 libkeyutils1 libkrb5-3
+  libkrb5support0 libldap2 libllvm17t64 libllvm18 libmagic-mgc libmagic1t64
+  libnghttp2-14 libobjc-13-dev libobjc4 libpipeline1 libpsl5t64
+  libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib libreadline8t64
+  librhash0 librtmp1 libsasl2-2 libsasl2-modules-db libsqlite3-0 libssh-4
+  libssh2-1t64 libstd-rust-1.75 libstd-rust-dev libsub-override-perl libtool
+  libuchardet0 libuv1t64 libxml2 libyaml-0-2 llvm-18-linker-tools m4 man-db
+  media-types netbase po-debconf python3 python3-catkin-pkg-modules
+  python3-dateutil python3-docutils python3-importlib-metadata python3-minimal
+  python3-more-itertools python3-pkg-resources python3-pyparsing python3-roman
+  python3-setuptools python3-six python3-vcstool python3-yaml python3-zipp
+  python3.12 python3.12-minimal readline-common ros-jazzy-ament-cmake
+  ros-jazzy-ament-cmake-core ros-jazzy-ament-cmake-export-definitions
+  ros-jazzy-ament-cmake-export-dependencies
+  ros-jazzy-ament-cmake-export-include-directories
+  ros-jazzy-ament-cmake-export-interfaces
+  ros-jazzy-ament-cmake-export-libraries
+  ros-jazzy-ament-cmake-export-link-flags ros-jazzy-ament-cmake-export-targets
+  ros-jazzy-ament-cmake-gen-version-h
+  ros-jazzy-ament-cmake-include-directories ros-jazzy-ament-cmake-libraries
+  ros-jazzy-ament-cmake-python ros-jazzy-ament-cmake-target-dependencies
+  ros-jazzy-ament-cmake-test ros-jazzy-ament-cmake-vendor-package
+  ros-jazzy-ament-cmake-version ros-jazzy-ament-package
+  ros-jazzy-ros-workspace rustc sgml-base tzdata xml-core
+Suggested packages:
+  autoconf-archive gnu-standards autoconf-doc cargo-doc clang-18-doc wasi-libc
+  cmake-doc cmake-format elpa-cmake-mode ninja-build dh-make gettext-doc
+  libasprintf-dev libgettextpo-dev git-daemon-run | git-daemon-sysvinit
+  git-doc git-email git-gui gitk gitweb git-cvs git-mediawiki git-svn groff
+  lrzip krb5-doc krb5-user libtool-doc gfortran | fortran95-compiler gcj-jdk
+  m4-doc apparmor less www-browser libmail-box-perl python3-doc python3-tk
+  python3-venv docutils-doc fonts-linuxlibertine | ttf-linux-libertine
+  texlive-lang-french texlive-latex-base texlive-latex-recommended
+  python-pyparsing-doc python-setuptools-doc python3.12-venv python3.12-doc
+  binfmt-support readline-doc llvm-17 lld-17 clang-17 sgml-base-doc
+Recommended packages:
+  llvm-18-dev curl | wget | lynx less ssh-client libclang-rt-18-dev
+  libarchive-cpio-perl krb5-locales libldap-common publicsuffix
+  libsasl2-modules libltdl-dev libmail-sendmail-perl libpaper-utils
+  python3-pil python3-pygments
+The following NEW packages will be installed:
+  autoconf automake autopoint autotools-dev bsdextrautils cargo clang clang-18
+  cmake cmake-data debhelper debugedit dh-autoreconf dh-strip-nondeterminism
+  docutils-common dwz fakeroot file gettext gettext-base git git-man
+  groff-base intltool-debian libarchive-zip-perl libarchive13t64 libbrotli1
+  libbsd0 libclang-common-18-dev libclang-cpp18 libclang1-18
+  libcurl3t64-gnutls libcurl4t64 libdebhelper-perl libdw1t64 libedit2
+  libelf1t64 liberror-perl libexpat1 libfakeroot
+  libfile-stripnondeterminism-perl libgc1 libgit2-1.7 libgssapi-krb5-2
+  libhttp-parser2.9 libicu74 libjsoncpp25 libk5crypto3 libkeyutils1 libkrb5-3
+  libkrb5support0 libldap2 libllvm17t64 libllvm18 libmagic-mgc libmagic1t64
+  libnghttp2-14 libobjc-13-dev libobjc4 libpipeline1 libpsl5t64
+  libpython3-stdlib libpython3.12-minimal libpython3.12-stdlib libreadline8t64
+  librhash0 librtmp1 libsasl2-2 libsasl2-modules-db libsqlite3-0 libssh-4
+  libssh2-1t64 libstd-rust-1.75 libstd-rust-dev libsub-override-perl libtool
+  libuchardet0 libuv1t64 libxml2 libyaml-0-2 llvm-18-linker-tools m4 man-db
+  media-types netbase po-debconf python3 python3-catkin-pkg-modules
+  python3-dateutil python3-docutils python3-importlib-metadata python3-minimal
+  python3-more-itertools python3-pkg-resources python3-pyparsing python3-roman
+  python3-setuptools python3-six python3-vcstool python3-yaml python3-zipp
+  python3.12 python3.12-minimal readline-common ros-jazzy-ament-cmake
+  ros-jazzy-ament-cmake-core ros-jazzy-ament-cmake-export-definitions
+  ros-jazzy-ament-cmake-export-dependencies
+  ros-jazzy-ament-cmake-export-include-directories
+  ros-jazzy-ament-cmake-export-interfaces
+  ros-jazzy-ament-cmake-export-libraries
+  ros-jazzy-ament-cmake-export-link-flags ros-jazzy-ament-cmake-export-targets
+  ros-jazzy-ament-cmake-gen-version-h
+  ros-jazzy-ament-cmake-include-directories ros-jazzy-ament-cmake-libraries
+  ros-jazzy-ament-cmake-python ros-jazzy-ament-cmake-target-dependencies
+  ros-jazzy-ament-cmake-test ros-jazzy-ament-cmake-vendor-package
+  ros-jazzy-ament-cmake-version ros-jazzy-ament-package
+  ros-jazzy-ros-workspace rustc sbuild-build-depends-main-dummy sgml-base
+  tzdata xml-core
+0 upgraded, 128 newly installed, 0 to remove and 0 not upgraded.
+Need to get 197 MB of archives.
+After this operation, 852 MB of additional disk space will be used.
+Get:1 copy:/<<RESOLVERDIR>>/apt_archive ./ sbuild-build-depends-main-dummy 0.invalid.0 [704 B]
+Get:2 http://packages.ros.org/ros2/ubuntu noble/main amd64 python3-catkin-pkg-modules all 1.0.0-1 [43.2 kB]
+Get:3 http://packages.ros.org/ros2/ubuntu noble/main amd64 python3-vcstool all 0.3.0-1 [23.1 kB]
+Get:4 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-package amd64 0.16.3-3noble.20240423.202428 [25.2 kB]
+Get:5 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-core amd64 2.5.2-1noble.20240702.033554 [26.9 kB]
+Get:6 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ros-workspace amd64 1.0.3-6noble.20240702.033716 [15.0 kB]
+Get:7 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-definitions amd64 2.5.2-1noble.20240702.035640 [7178 B]
+Get:8 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-libraries amd64 2.5.2-1noble.20240702.035512 [7064 B]
+Get:9 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-dependencies amd64 2.5.2-1noble.20240702.035553 [8568 B]
+Get:10 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-include-directories amd64 2.5.2-1noble.20240702.035512 [7502 B]
+Get:11 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-libraries amd64 2.5.2-1noble.20240702.035646 [9534 B]
+Get:12 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-interfaces amd64 2.5.2-1noble.20240702.035720 [7920 B]
+Get:13 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-link-flags amd64 2.5.2-1noble.20240702.035645 [7112 B]
+Get:14 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-export-targets amd64 2.5.2-1noble.20240702.035741 [8138 B]
+Get:15 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-gen-version-h amd64 2.5.2-1noble.20240702.035512 [9646 B]
+Get:16 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-python amd64 2.5.2-1noble.20240702.035659 [10.2 kB]
+Get:17 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-include-directories amd64 2.5.2-1noble.20240702.035646 [7274 B]
+Get:18 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-target-dependencies amd64 2.5.2-1noble.20240702.035714 [9426 B]
+Get:19 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-test amd64 2.5.2-1noble.20240702.035727 [15.4 kB]
+Get:20 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-version amd64 2.5.2-1noble.20240702.035721 [7464 B]
+Get:21 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake amd64 2.5.2-1noble.20240702.035843 [7406 B]
+Get:22 http://packages.ros.org/ros2/ubuntu noble/main amd64 ros-jazzy-ament-cmake-vendor-package amd64 2.5.2-1noble.20240702.035625 [11.1 kB]
+Get:23 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-minimal amd64 3.12.3-1ubuntu0.1 [832 kB]
+Get:24 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libexpat1 amd64 2.6.1-2ubuntu0.1 [87.1 kB]
+Get:25 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12-minimal amd64 3.12.3-1ubuntu0.1 [2334 kB]
+Get:26 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-minimal amd64 3.12.3-0ubuntu2 [27.4 kB]
+Get:27 http://archive.ubuntu.com/ubuntu noble/main amd64 media-types all 10.1.0 [27.5 kB]
+Get:28 http://archive.ubuntu.com/ubuntu noble/main amd64 netbase all 6.4 [13.1 kB]
+Get:29 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 tzdata all 2024a-3ubuntu1.1 [273 kB]
+Get:30 http://archive.ubuntu.com/ubuntu noble/main amd64 readline-common all 8.2-4build1 [56.5 kB]
+Get:31 http://archive.ubuntu.com/ubuntu noble/main amd64 libreadline8t64 amd64 8.2-4build1 [153 kB]
+Get:32 http://archive.ubuntu.com/ubuntu noble/main amd64 libsqlite3-0 amd64 3.45.1-1ubuntu2 [701 kB]
+Get:33 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3.12-stdlib amd64 3.12.3-1ubuntu0.1 [2069 kB]
+Get:34 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3.12 amd64 3.12.3-1ubuntu0.1 [651 kB]
+Get:35 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libpython3-stdlib amd64 3.12.3-0ubuntu2 [10.0 kB]
+Get:36 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3 amd64 3.12.3-0ubuntu2 [23.0 kB]
+Get:37 http://archive.ubuntu.com/ubuntu noble/main amd64 sgml-base all 1.31 [11.4 kB]
+Get:38 http://archive.ubuntu.com/ubuntu noble/main amd64 libbsd0 amd64 0.12.1-1build1 [41.2 kB]
+Get:39 http://archive.ubuntu.com/ubuntu noble/main amd64 libelf1t64 amd64 0.190-1.1build4 [57.6 kB]
+Get:40 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5support0 amd64 1.20.1-6ubuntu2.1 [33.6 kB]
+Get:41 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libk5crypto3 amd64 1.20.1-6ubuntu2.1 [81.7 kB]
+Get:42 http://archive.ubuntu.com/ubuntu noble/main amd64 libkeyutils1 amd64 1.6.3-3build1 [9490 B]
+Get:43 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libkrb5-3 amd64 1.20.1-6ubuntu2.1 [347 kB]
+Get:44 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libgssapi-krb5-2 amd64 1.20.1-6ubuntu2.1 [143 kB]
+Get:45 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libicu74 amd64 74.2-1ubuntu3.1 [10.9 MB]
+Get:46 http://archive.ubuntu.com/ubuntu noble/main amd64 libxml2 amd64 2.9.14+dfsg-1.3ubuntu3 [762 kB]
+Get:47 http://archive.ubuntu.com/ubuntu noble/main amd64 libyaml-0-2 amd64 0.2.5-1build1 [51.5 kB]
+Get:48 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-pkg-resources all 68.1.2-2ubuntu1.1 [168 kB]
+Get:49 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-yaml amd64 6.0.1-2build2 [123 kB]
+Get:50 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 bsdextrautils amd64 2.39.3-9ubuntu6.1 [73.6 kB]
+Get:51 http://archive.ubuntu.com/ubuntu noble/main amd64 libmagic-mgc amd64 1:5.45-3build1 [307 kB]
+Get:52 http://archive.ubuntu.com/ubuntu noble/main amd64 libmagic1t64 amd64 1:5.45-3build1 [87.2 kB]
+Get:53 http://archive.ubuntu.com/ubuntu noble/main amd64 file amd64 1:5.45-3build1 [22.0 kB]
+Get:54 http://archive.ubuntu.com/ubuntu noble/main amd64 gettext-base amd64 0.21-14ubuntu2 [38.4 kB]
+Get:55 http://archive.ubuntu.com/ubuntu noble/main amd64 libuchardet0 amd64 0.0.8-1build1 [75.3 kB]
+Get:56 http://archive.ubuntu.com/ubuntu noble/main amd64 groff-base amd64 1.23.0-3build2 [1020 kB]
+Get:57 http://archive.ubuntu.com/ubuntu noble/main amd64 libedit2 amd64 3.1-20230828-1build1 [97.6 kB]
+Get:58 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libnghttp2-14 amd64 1.59.0-1ubuntu0.1 [74.3 kB]
+Get:59 http://archive.ubuntu.com/ubuntu noble/main amd64 libpipeline1 amd64 1.5.7-2 [23.6 kB]
+Get:60 http://archive.ubuntu.com/ubuntu noble/main amd64 libpsl5t64 amd64 0.21.2-1.1build1 [57.1 kB]
+Get:61 http://archive.ubuntu.com/ubuntu noble/main amd64 libuv1t64 amd64 1.48.0-1.1build1 [97.3 kB]
+Get:62 http://archive.ubuntu.com/ubuntu noble/main amd64 man-db amd64 2.12.0-4build2 [1237 kB]
+Get:63 http://archive.ubuntu.com/ubuntu noble/main amd64 m4 amd64 1.4.19-4build1 [244 kB]
+Get:64 http://archive.ubuntu.com/ubuntu noble/main amd64 autoconf all 2.71-3 [339 kB]
+Get:65 http://archive.ubuntu.com/ubuntu noble/main amd64 autotools-dev all 20220109.1 [44.9 kB]
+Get:66 http://archive.ubuntu.com/ubuntu noble/main amd64 automake all 1:1.16.5-1.3ubuntu1 [558 kB]
+Get:67 http://archive.ubuntu.com/ubuntu noble/main amd64 autopoint all 0.21-14ubuntu2 [422 kB]
+Get:68 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libllvm18 amd64 1:18.1.3-1ubuntu1 [27.5 MB]
+Get:69 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libclang-cpp18 amd64 1:18.1.3-1ubuntu1 [13.5 MB]
+Get:70 http://archive.ubuntu.com/ubuntu noble/main amd64 libgc1 amd64 1:8.2.6-1build1 [90.3 kB]
+Get:71 http://archive.ubuntu.com/ubuntu noble/universe amd64 libobjc4 amd64 14-20240412-0ubuntu1 [46.4 kB]
+Get:72 http://archive.ubuntu.com/ubuntu noble/universe amd64 libobjc-13-dev amd64 13.2.0-23ubuntu4 [194 kB]
+Get:73 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 libclang-common-18-dev amd64 1:18.1.3-1ubuntu1 [736 kB]
+Get:74 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 llvm-18-linker-tools amd64 1:18.1.3-1ubuntu1 [1314 kB]
+Get:75 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libclang1-18 amd64 1:18.1.3-1ubuntu1 [7803 kB]
+Get:76 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 clang-18 amd64 1:18.1.3-1ubuntu1 [80.0 kB]
+Get:77 http://archive.ubuntu.com/ubuntu noble/universe amd64 clang amd64 1:18.0-59~exp2 [5846 B]
+Get:78 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libarchive13t64 amd64 3.7.2-2ubuntu0.1 [381 kB]
+Get:79 http://archive.ubuntu.com/ubuntu noble/main amd64 libbrotli1 amd64 1.1.0-2build2 [331 kB]
+Get:80 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-modules-db amd64 2.1.28+dfsg1-5ubuntu3.1 [20.4 kB]
+Get:81 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libsasl2-2 amd64 2.1.28+dfsg1-5ubuntu3.1 [53.2 kB]
+Get:82 http://archive.ubuntu.com/ubuntu noble/main amd64 libldap2 amd64 2.6.7+dfsg-1~exp1ubuntu8 [195 kB]
+Get:83 http://archive.ubuntu.com/ubuntu noble/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-2build7 [56.3 kB]
+Get:84 http://archive.ubuntu.com/ubuntu noble/main amd64 libssh-4 amd64 0.10.6-2build2 [188 kB]
+Get:85 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl4t64 amd64 8.5.0-2ubuntu10.3 [341 kB]
+Get:86 http://archive.ubuntu.com/ubuntu noble/main amd64 libjsoncpp25 amd64 1.9.5-6build1 [82.8 kB]
+Get:87 http://archive.ubuntu.com/ubuntu noble/main amd64 librhash0 amd64 1.4.3-3build1 [129 kB]
+Get:88 http://archive.ubuntu.com/ubuntu noble/main amd64 cmake-data all 3.28.3-1build7 [2155 kB]
+Get:89 http://archive.ubuntu.com/ubuntu noble/main amd64 cmake amd64 3.28.3-1build7 [11.2 MB]
+Get:90 http://archive.ubuntu.com/ubuntu noble/main amd64 libdebhelper-perl all 13.14.1ubuntu5 [89.8 kB]
+Get:91 http://archive.ubuntu.com/ubuntu noble/main amd64 libtool all 2.4.7-7build1 [166 kB]
+Get:92 http://archive.ubuntu.com/ubuntu noble/main amd64 dh-autoreconf all 20 [16.1 kB]
+Get:93 http://archive.ubuntu.com/ubuntu noble/main amd64 libarchive-zip-perl all 1.68-1 [90.2 kB]
+Get:94 http://archive.ubuntu.com/ubuntu noble/main amd64 libsub-override-perl all 0.10-1 [10.0 kB]
+Get:95 http://archive.ubuntu.com/ubuntu noble/main amd64 libfile-stripnondeterminism-perl all 1.13.1-1 [18.1 kB]
+Get:96 http://archive.ubuntu.com/ubuntu noble/main amd64 dh-strip-nondeterminism all 1.13.1-1 [5362 B]
+Get:97 http://archive.ubuntu.com/ubuntu noble/main amd64 libdw1t64 amd64 0.190-1.1build4 [261 kB]
+Get:98 http://archive.ubuntu.com/ubuntu noble/main amd64 debugedit amd64 1:5.0-5build2 [46.1 kB]
+Get:99 http://archive.ubuntu.com/ubuntu noble/main amd64 dwz amd64 0.15-1build6 [115 kB]
+Get:100 http://archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
+Get:101 http://archive.ubuntu.com/ubuntu noble/main amd64 intltool-debian all 0.35.0+20060710.6 [23.2 kB]
+Get:102 http://archive.ubuntu.com/ubuntu noble/main amd64 po-debconf all 1.0.21+nmu1 [233 kB]
+Get:103 http://archive.ubuntu.com/ubuntu noble/main amd64 debhelper all 13.14.1ubuntu5 [869 kB]
+Get:104 http://archive.ubuntu.com/ubuntu noble/main amd64 xml-core all 0.19 [20.3 kB]
+Get:105 http://archive.ubuntu.com/ubuntu noble/main amd64 docutils-common all 0.20.1+dfsg-3 [132 kB]
+Get:106 http://archive.ubuntu.com/ubuntu noble/main amd64 libfakeroot amd64 1.33-1 [32.4 kB]
+Get:107 http://archive.ubuntu.com/ubuntu noble/main amd64 fakeroot amd64 1.33-1 [67.2 kB]
+Get:108 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libcurl3t64-gnutls amd64 8.5.0-2ubuntu10.3 [333 kB]
+Get:109 http://archive.ubuntu.com/ubuntu noble/main amd64 liberror-perl all 0.17029-2 [25.6 kB]
+Get:110 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 git-man all 1:2.43.0-1ubuntu7.1 [1100 kB]
+Get:111 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 git amd64 1:2.43.0-1ubuntu7.1 [3679 kB]
+Get:112 http://archive.ubuntu.com/ubuntu noble/main amd64 libhttp-parser2.9 amd64 2.9.4-6build1 [22.3 kB]
+Get:113 http://archive.ubuntu.com/ubuntu noble/main amd64 libssh2-1t64 amd64 1.11.0-4.1build2 [120 kB]
+Get:114 http://archive.ubuntu.com/ubuntu noble/main amd64 libgit2-1.7 amd64 1.7.2+ds-1ubuntu3 [529 kB]
+Get:115 http://archive.ubuntu.com/ubuntu noble/main amd64 libllvm17t64 amd64 1:17.0.6-9ubuntu1 [26.2 MB]
+Get:116 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libstd-rust-1.75 amd64 1.75.0+dfsg0ubuntu1-0ubuntu7.1 [20.0 MB]
+Get:117 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-six all 1.16.0-4 [12.4 kB]
+Get:118 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-dateutil all 2.8.2-3ubuntu1 [79.4 kB]
+Get:119 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-roman all 3.3-3 [9632 B]
+Get:120 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-docutils all 0.20.1+dfsg-3 [393 kB]
+Get:121 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-pyparsing all 3.1.1-1 [86.2 kB]
+Get:122 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-more-itertools all 10.2.0-1 [52.9 kB]
+Get:123 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-zipp all 1.0.0-6ubuntu0.1 [6774 B]
+Get:124 http://archive.ubuntu.com/ubuntu noble/main amd64 python3-importlib-metadata all 4.12.0-1 [17.8 kB]
+Get:125 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 python3-setuptools all 68.1.2-2ubuntu1.1 [396 kB]
+Get:126 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 libstd-rust-dev amd64 1.75.0+dfsg0ubuntu1-0ubuntu7.1 [40.6 MB]
+Get:127 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 rustc amd64 1.75.0+dfsg0ubuntu1-0ubuntu7.1 [3183 kB]
+Get:128 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 cargo amd64 1.75.0+dfsg0ubuntu1-0ubuntu7.1 [6053 kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 197 MB in 14s (14.1 MB/s)
+Selecting previously unselected package libpython3.12-minimal:amd64.
+(Reading database ... 10788 files and directories currently installed.)
+Preparing to unpack .../libpython3.12-minimal_3.12.3-1ubuntu0.1_amd64.deb ...
+Unpacking libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.1) ...
+Selecting previously unselected package libexpat1:amd64.
+Preparing to unpack .../libexpat1_2.6.1-2ubuntu0.1_amd64.deb ...
+Unpacking libexpat1:amd64 (2.6.1-2ubuntu0.1) ...
+Selecting previously unselected package python3.12-minimal.
+Preparing to unpack .../python3.12-minimal_3.12.3-1ubuntu0.1_amd64.deb ...
+Unpacking python3.12-minimal (3.12.3-1ubuntu0.1) ...
+Setting up libpython3.12-minimal:amd64 (3.12.3-1ubuntu0.1) ...
+Setting up libexpat1:amd64 (2.6.1-2ubuntu0.1) ...
+Setting up python3.12-minimal (3.12.3-1ubuntu0.1) ...
+Selecting previously unselected package python3-minimal.
+(Reading database ... 11107 files and directories currently installed.)
+Preparing to unpack .../0-python3-minimal_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3-minimal (3.12.3-0ubuntu2) ...
+Selecting previously unselected package media-types.
+Preparing to unpack .../1-media-types_10.1.0_all.deb ...
+Unpacking media-types (10.1.0) ...
+Selecting previously unselected package netbase.
+Preparing to unpack .../2-netbase_6.4_all.deb ...
+Unpacking netbase (6.4) ...
+Selecting previously unselected package tzdata.
+Preparing to unpack .../3-tzdata_2024a-3ubuntu1.1_all.deb ...
+Unpacking tzdata (2024a-3ubuntu1.1) ...
+Selecting previously unselected package readline-common.
+Preparing to unpack .../4-readline-common_8.2-4build1_all.deb ...
+Unpacking readline-common (8.2-4build1) ...
+Selecting previously unselected package libreadline8t64:amd64.
+Preparing to unpack .../5-libreadline8t64_8.2-4build1_amd64.deb ...
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8 to /lib/x86_64-linux-gnu/libhistory.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libhistory.so.8.2 to /lib/x86_64-linux-gnu/libhistory.so.8.2.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8 to /lib/x86_64-linux-gnu/libreadline.so.8.usr-is-merged by libreadline8t64'
+Adding 'diversion of /lib/x86_64-linux-gnu/libreadline.so.8.2 to /lib/x86_64-linux-gnu/libreadline.so.8.2.usr-is-merged by libreadline8t64'
+Unpacking libreadline8t64:amd64 (8.2-4build1) ...
+Selecting previously unselected package libsqlite3-0:amd64.
+Preparing to unpack .../6-libsqlite3-0_3.45.1-1ubuntu2_amd64.deb ...
+Unpacking libsqlite3-0:amd64 (3.45.1-1ubuntu2) ...
+Selecting previously unselected package libpython3.12-stdlib:amd64.
+Preparing to unpack .../7-libpython3.12-stdlib_3.12.3-1ubuntu0.1_amd64.deb ...
+Unpacking libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.1) ...
+Selecting previously unselected package python3.12.
+Preparing to unpack .../8-python3.12_3.12.3-1ubuntu0.1_amd64.deb ...
+Unpacking python3.12 (3.12.3-1ubuntu0.1) ...
+Selecting previously unselected package libpython3-stdlib:amd64.
+Preparing to unpack .../9-libpython3-stdlib_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up python3-minimal (3.12.3-0ubuntu2) ...
+Selecting previously unselected package python3.
+(Reading database ... 12112 files and directories currently installed.)
+Preparing to unpack .../000-python3_3.12.3-0ubuntu2_amd64.deb ...
+Unpacking python3 (3.12.3-0ubuntu2) ...
+Selecting previously unselected package sgml-base.
+Preparing to unpack .../001-sgml-base_1.31_all.deb ...
+Unpacking sgml-base (1.31) ...
+Selecting previously unselected package libbsd0:amd64.
+Preparing to unpack .../002-libbsd0_0.12.1-1build1_amd64.deb ...
+Unpacking libbsd0:amd64 (0.12.1-1build1) ...
+Selecting previously unselected package libelf1t64:amd64.
+Preparing to unpack .../003-libelf1t64_0.190-1.1build4_amd64.deb ...
+Unpacking libelf1t64:amd64 (0.190-1.1build4) ...
+Selecting previously unselected package libkrb5support0:amd64.
+Preparing to unpack .../004-libkrb5support0_1.20.1-6ubuntu2.1_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.20.1-6ubuntu2.1) ...
+Selecting previously unselected package libk5crypto3:amd64.
+Preparing to unpack .../005-libk5crypto3_1.20.1-6ubuntu2.1_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.20.1-6ubuntu2.1) ...
+Selecting previously unselected package libkeyutils1:amd64.
+Preparing to unpack .../006-libkeyutils1_1.6.3-3build1_amd64.deb ...
+Unpacking libkeyutils1:amd64 (1.6.3-3build1) ...
+Selecting previously unselected package libkrb5-3:amd64.
+Preparing to unpack .../007-libkrb5-3_1.20.1-6ubuntu2.1_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.20.1-6ubuntu2.1) ...
+Selecting previously unselected package libgssapi-krb5-2:amd64.
+Preparing to unpack .../008-libgssapi-krb5-2_1.20.1-6ubuntu2.1_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.1) ...
+Selecting previously unselected package libicu74:amd64.
+Preparing to unpack .../009-libicu74_74.2-1ubuntu3.1_amd64.deb ...
+Unpacking libicu74:amd64 (74.2-1ubuntu3.1) ...
+Selecting previously unselected package libxml2:amd64.
+Preparing to unpack .../010-libxml2_2.9.14+dfsg-1.3ubuntu3_amd64.deb ...
+Unpacking libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3) ...
+Selecting previously unselected package libyaml-0-2:amd64.
+Preparing to unpack .../011-libyaml-0-2_0.2.5-1build1_amd64.deb ...
+Unpacking libyaml-0-2:amd64 (0.2.5-1build1) ...
+Selecting previously unselected package python3-pkg-resources.
+Preparing to unpack .../012-python3-pkg-resources_68.1.2-2ubuntu1.1_all.deb ...
+Unpacking python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Selecting previously unselected package python3-yaml.
+Preparing to unpack .../013-python3-yaml_6.0.1-2build2_amd64.deb ...
+Unpacking python3-yaml (6.0.1-2build2) ...
+Selecting previously unselected package bsdextrautils.
+Preparing to unpack .../014-bsdextrautils_2.39.3-9ubuntu6.1_amd64.deb ...
+Unpacking bsdextrautils (2.39.3-9ubuntu6.1) ...
+Selecting previously unselected package libmagic-mgc.
+Preparing to unpack .../015-libmagic-mgc_1%3a5.45-3build1_amd64.deb ...
+Unpacking libmagic-mgc (1:5.45-3build1) ...
+Selecting previously unselected package libmagic1t64:amd64.
+Preparing to unpack .../016-libmagic1t64_1%3a5.45-3build1_amd64.deb ...
+Unpacking libmagic1t64:amd64 (1:5.45-3build1) ...
+Selecting previously unselected package file.
+Preparing to unpack .../017-file_1%3a5.45-3build1_amd64.deb ...
+Unpacking file (1:5.45-3build1) ...
+Selecting previously unselected package gettext-base.
+Preparing to unpack .../018-gettext-base_0.21-14ubuntu2_amd64.deb ...
+Unpacking gettext-base (0.21-14ubuntu2) ...
+Selecting previously unselected package libuchardet0:amd64.
+Preparing to unpack .../019-libuchardet0_0.0.8-1build1_amd64.deb ...
+Unpacking libuchardet0:amd64 (0.0.8-1build1) ...
+Selecting previously unselected package groff-base.
+Preparing to unpack .../020-groff-base_1.23.0-3build2_amd64.deb ...
+Unpacking groff-base (1.23.0-3build2) ...
+Selecting previously unselected package libedit2:amd64.
+Preparing to unpack .../021-libedit2_3.1-20230828-1build1_amd64.deb ...
+Unpacking libedit2:amd64 (3.1-20230828-1build1) ...
+Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../022-libnghttp2-14_1.59.0-1ubuntu0.1_amd64.deb ...
+Unpacking libnghttp2-14:amd64 (1.59.0-1ubuntu0.1) ...
+Selecting previously unselected package libpipeline1:amd64.
+Preparing to unpack .../023-libpipeline1_1.5.7-2_amd64.deb ...
+Unpacking libpipeline1:amd64 (1.5.7-2) ...
+Selecting previously unselected package libpsl5t64:amd64.
+Preparing to unpack .../024-libpsl5t64_0.21.2-1.1build1_amd64.deb ...
+Unpacking libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Selecting previously unselected package libuv1t64:amd64.
+Preparing to unpack .../025-libuv1t64_1.48.0-1.1build1_amd64.deb ...
+Unpacking libuv1t64:amd64 (1.48.0-1.1build1) ...
+Selecting previously unselected package man-db.
+Preparing to unpack .../026-man-db_2.12.0-4build2_amd64.deb ...
+Unpacking man-db (2.12.0-4build2) ...
+Selecting previously unselected package m4.
+Preparing to unpack .../027-m4_1.4.19-4build1_amd64.deb ...
+Unpacking m4 (1.4.19-4build1) ...
+Selecting previously unselected package autoconf.
+Preparing to unpack .../028-autoconf_2.71-3_all.deb ...
+Unpacking autoconf (2.71-3) ...
+Selecting previously unselected package autotools-dev.
+Preparing to unpack .../029-autotools-dev_20220109.1_all.deb ...
+Unpacking autotools-dev (20220109.1) ...
+Selecting previously unselected package automake.
+Preparing to unpack .../030-automake_1%3a1.16.5-1.3ubuntu1_all.deb ...
+Unpacking automake (1:1.16.5-1.3ubuntu1) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../031-autopoint_0.21-14ubuntu2_all.deb ...
+Unpacking autopoint (0.21-14ubuntu2) ...
+Selecting previously unselected package libllvm18:amd64.
+Preparing to unpack .../032-libllvm18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package libclang-cpp18.
+Preparing to unpack .../033-libclang-cpp18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package libgc1:amd64.
+Preparing to unpack .../034-libgc1_1%3a8.2.6-1build1_amd64.deb ...
+Unpacking libgc1:amd64 (1:8.2.6-1build1) ...
+Selecting previously unselected package libobjc4:amd64.
+Preparing to unpack .../035-libobjc4_14-20240412-0ubuntu1_amd64.deb ...
+Unpacking libobjc4:amd64 (14-20240412-0ubuntu1) ...
+Selecting previously unselected package libobjc-13-dev:amd64.
+Preparing to unpack .../036-libobjc-13-dev_13.2.0-23ubuntu4_amd64.deb ...
+Unpacking libobjc-13-dev:amd64 (13.2.0-23ubuntu4) ...
+Selecting previously unselected package libclang-common-18-dev:amd64.
+Preparing to unpack .../037-libclang-common-18-dev_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking libclang-common-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package llvm-18-linker-tools.
+Preparing to unpack .../038-llvm-18-linker-tools_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking llvm-18-linker-tools (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package libclang1-18.
+Preparing to unpack .../039-libclang1-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking libclang1-18 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package clang-18.
+Preparing to unpack .../040-clang-18_1%3a18.1.3-1ubuntu1_amd64.deb ...
+Unpacking clang-18 (1:18.1.3-1ubuntu1) ...
+Selecting previously unselected package clang.
+Preparing to unpack .../041-clang_1%3a18.0-59~exp2_amd64.deb ...
+Unpacking clang (1:18.0-59~exp2) ...
+Selecting previously unselected package libarchive13t64:amd64.
+Preparing to unpack .../042-libarchive13t64_3.7.2-2ubuntu0.1_amd64.deb ...
+Unpacking libarchive13t64:amd64 (3.7.2-2ubuntu0.1) ...
+Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../043-libbrotli1_1.1.0-2build2_amd64.deb ...
+Unpacking libbrotli1:amd64 (1.1.0-2build2) ...
+Selecting previously unselected package libsasl2-modules-db:amd64.
+Preparing to unpack .../044-libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1_amd64.deb ...
+Unpacking libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+Selecting previously unselected package libsasl2-2:amd64.
+Preparing to unpack .../045-libsasl2-2_2.1.28+dfsg1-5ubuntu3.1_amd64.deb ...
+Unpacking libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+Selecting previously unselected package libldap2:amd64.
+Preparing to unpack .../046-libldap2_2.6.7+dfsg-1~exp1ubuntu8_amd64.deb ...
+Unpacking libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8) ...
+Selecting previously unselected package librtmp1:amd64.
+Preparing to unpack .../047-librtmp1_2.4+20151223.gitfa8646d.1-2build7_amd64.deb ...
+Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+Selecting previously unselected package libssh-4:amd64.
+Preparing to unpack .../048-libssh-4_0.10.6-2build2_amd64.deb ...
+Unpacking libssh-4:amd64 (0.10.6-2build2) ...
+Selecting previously unselected package libcurl4t64:amd64.
+Preparing to unpack .../049-libcurl4t64_8.5.0-2ubuntu10.3_amd64.deb ...
+Unpacking libcurl4t64:amd64 (8.5.0-2ubuntu10.3) ...
+Selecting previously unselected package libjsoncpp25:amd64.
+Preparing to unpack .../050-libjsoncpp25_1.9.5-6build1_amd64.deb ...
+Unpacking libjsoncpp25:amd64 (1.9.5-6build1) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../051-librhash0_1.4.3-3build1_amd64.deb ...
+Unpacking librhash0:amd64 (1.4.3-3build1) ...
+Selecting previously unselected package cmake-data.
+Preparing to unpack .../052-cmake-data_3.28.3-1build7_all.deb ...
+Unpacking cmake-data (3.28.3-1build7) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../053-cmake_3.28.3-1build7_amd64.deb ...
+Unpacking cmake (3.28.3-1build7) ...
+Selecting previously unselected package libdebhelper-perl.
+Preparing to unpack .../054-libdebhelper-perl_13.14.1ubuntu5_all.deb ...
+Unpacking libdebhelper-perl (13.14.1ubuntu5) ...
+Selecting previously unselected package libtool.
+Preparing to unpack .../055-libtool_2.4.7-7build1_all.deb ...
+Unpacking libtool (2.4.7-7build1) ...
+Selecting previously unselected package dh-autoreconf.
+Preparing to unpack .../056-dh-autoreconf_20_all.deb ...
+Unpacking dh-autoreconf (20) ...
+Selecting previously unselected package libarchive-zip-perl.
+Preparing to unpack .../057-libarchive-zip-perl_1.68-1_all.deb ...
+Unpacking libarchive-zip-perl (1.68-1) ...
+Selecting previously unselected package libsub-override-perl.
+Preparing to unpack .../058-libsub-override-perl_0.10-1_all.deb ...
+Unpacking libsub-override-perl (0.10-1) ...
+Selecting previously unselected package libfile-stripnondeterminism-perl.
+Preparing to unpack .../059-libfile-stripnondeterminism-perl_1.13.1-1_all.deb ...
+Unpacking libfile-stripnondeterminism-perl (1.13.1-1) ...
+Selecting previously unselected package dh-strip-nondeterminism.
+Preparing to unpack .../060-dh-strip-nondeterminism_1.13.1-1_all.deb ...
+Unpacking dh-strip-nondeterminism (1.13.1-1) ...
+Selecting previously unselected package libdw1t64:amd64.
+Preparing to unpack .../061-libdw1t64_0.190-1.1build4_amd64.deb ...
+Unpacking libdw1t64:amd64 (0.190-1.1build4) ...
+Selecting previously unselected package debugedit.
+Preparing to unpack .../062-debugedit_1%3a5.0-5build2_amd64.deb ...
+Unpacking debugedit (1:5.0-5build2) ...
+Selecting previously unselected package dwz.
+Preparing to unpack .../063-dwz_0.15-1build6_amd64.deb ...
+Unpacking dwz (0.15-1build6) ...
+Selecting previously unselected package gettext.
+Preparing to unpack .../064-gettext_0.21-14ubuntu2_amd64.deb ...
+Unpacking gettext (0.21-14ubuntu2) ...
+Selecting previously unselected package intltool-debian.
+Preparing to unpack .../065-intltool-debian_0.35.0+20060710.6_all.deb ...
+Unpacking intltool-debian (0.35.0+20060710.6) ...
+Selecting previously unselected package po-debconf.
+Preparing to unpack .../066-po-debconf_1.0.21+nmu1_all.deb ...
+Unpacking po-debconf (1.0.21+nmu1) ...
+Selecting previously unselected package debhelper.
+Preparing to unpack .../067-debhelper_13.14.1ubuntu5_all.deb ...
+Unpacking debhelper (13.14.1ubuntu5) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../068-xml-core_0.19_all.deb ...
+Unpacking xml-core (0.19) ...
+Selecting previously unselected package docutils-common.
+Preparing to unpack .../069-docutils-common_0.20.1+dfsg-3_all.deb ...
+Unpacking docutils-common (0.20.1+dfsg-3) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../070-libfakeroot_1.33-1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.33-1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../071-fakeroot_1.33-1_amd64.deb ...
+Unpacking fakeroot (1.33-1) ...
+Selecting previously unselected package libcurl3t64-gnutls:amd64.
+Preparing to unpack .../072-libcurl3t64-gnutls_8.5.0-2ubuntu10.3_amd64.deb ...
+Unpacking libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.3) ...
+Selecting previously unselected package liberror-perl.
+Preparing to unpack .../073-liberror-perl_0.17029-2_all.deb ...
+Unpacking liberror-perl (0.17029-2) ...
+Selecting previously unselected package git-man.
+Preparing to unpack .../074-git-man_1%3a2.43.0-1ubuntu7.1_all.deb ...
+Unpacking git-man (1:2.43.0-1ubuntu7.1) ...
+Selecting previously unselected package git.
+Preparing to unpack .../075-git_1%3a2.43.0-1ubuntu7.1_amd64.deb ...
+Unpacking git (1:2.43.0-1ubuntu7.1) ...
+Selecting previously unselected package libhttp-parser2.9:amd64.
+Preparing to unpack .../076-libhttp-parser2.9_2.9.4-6build1_amd64.deb ...
+Unpacking libhttp-parser2.9:amd64 (2.9.4-6build1) ...
+Selecting previously unselected package libssh2-1t64:amd64.
+Preparing to unpack .../077-libssh2-1t64_1.11.0-4.1build2_amd64.deb ...
+Unpacking libssh2-1t64:amd64 (1.11.0-4.1build2) ...
+Selecting previously unselected package libgit2-1.7:amd64.
+Preparing to unpack .../078-libgit2-1.7_1.7.2+ds-1ubuntu3_amd64.deb ...
+Unpacking libgit2-1.7:amd64 (1.7.2+ds-1ubuntu3) ...
+Selecting previously unselected package libllvm17t64:amd64.
+Preparing to unpack .../079-libllvm17t64_1%3a17.0.6-9ubuntu1_amd64.deb ...
+Unpacking libllvm17t64:amd64 (1:17.0.6-9ubuntu1) ...
+Selecting previously unselected package libstd-rust-1.75:amd64.
+Preparing to unpack .../080-libstd-rust-1.75_1.75.0+dfsg0ubuntu1-0ubuntu7.1_amd64.deb ...
+Unpacking libstd-rust-1.75:amd64 (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Selecting previously unselected package python3-six.
+Preparing to unpack .../081-python3-six_1.16.0-4_all.deb ...
+Unpacking python3-six (1.16.0-4) ...
+Selecting previously unselected package python3-dateutil.
+Preparing to unpack .../082-python3-dateutil_2.8.2-3ubuntu1_all.deb ...
+Unpacking python3-dateutil (2.8.2-3ubuntu1) ...
+Selecting previously unselected package python3-roman.
+Preparing to unpack .../083-python3-roman_3.3-3_all.deb ...
+Unpacking python3-roman (3.3-3) ...
+Selecting previously unselected package python3-docutils.
+Preparing to unpack .../084-python3-docutils_0.20.1+dfsg-3_all.deb ...
+Unpacking python3-docutils (0.20.1+dfsg-3) ...
+Selecting previously unselected package python3-pyparsing.
+Preparing to unpack .../085-python3-pyparsing_3.1.1-1_all.deb ...
+Unpacking python3-pyparsing (3.1.1-1) ...
+Selecting previously unselected package python3-catkin-pkg-modules.
+Preparing to unpack .../086-python3-catkin-pkg-modules_1.0.0-1_all.deb ...
+Unpacking python3-catkin-pkg-modules (1.0.0-1) ...
+Selecting previously unselected package python3-more-itertools.
+Preparing to unpack .../087-python3-more-itertools_10.2.0-1_all.deb ...
+Unpacking python3-more-itertools (10.2.0-1) ...
+Selecting previously unselected package python3-zipp.
+Preparing to unpack .../088-python3-zipp_1.0.0-6ubuntu0.1_all.deb ...
+Unpacking python3-zipp (1.0.0-6ubuntu0.1) ...
+Selecting previously unselected package python3-importlib-metadata.
+Preparing to unpack .../089-python3-importlib-metadata_4.12.0-1_all.deb ...
+Unpacking python3-importlib-metadata (4.12.0-1) ...
+Selecting previously unselected package python3-setuptools.
+Preparing to unpack .../090-python3-setuptools_68.1.2-2ubuntu1.1_all.deb ...
+Unpacking python3-setuptools (68.1.2-2ubuntu1.1) ...
+Selecting previously unselected package python3-vcstool.
+Preparing to unpack .../091-python3-vcstool_0.3.0-1_all.deb ...
+Unpacking python3-vcstool (0.3.0-1) ...
+Selecting previously unselected package ros-jazzy-ament-package.
+Preparing to unpack .../092-ros-jazzy-ament-package_0.16.3-3noble.20240423.202428_amd64.deb ...
+Unpacking ros-jazzy-ament-package (0.16.3-3noble.20240423.202428) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-core.
+Preparing to unpack .../093-ros-jazzy-ament-cmake-core_2.5.2-1noble.20240702.033554_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-core (2.5.2-1noble.20240702.033554) ...
+Selecting previously unselected package ros-jazzy-ros-workspace.
+Preparing to unpack .../094-ros-jazzy-ros-workspace_1.0.3-6noble.20240702.033716_amd64.deb ...
+Unpacking ros-jazzy-ros-workspace (1.0.3-6noble.20240702.033716) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-definitions.
+Preparing to unpack .../095-ros-jazzy-ament-cmake-export-definitions_2.5.2-1noble.20240702.035640_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-definitions (2.5.2-1noble.20240702.035640) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-libraries.
+Preparing to unpack .../096-ros-jazzy-ament-cmake-libraries_2.5.2-1noble.20240702.035512_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-libraries (2.5.2-1noble.20240702.035512) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-dependencies.
+Preparing to unpack .../097-ros-jazzy-ament-cmake-export-dependencies_2.5.2-1noble.20240702.035553_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-dependencies (2.5.2-1noble.20240702.035553) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-include-directories.
+Preparing to unpack .../098-ros-jazzy-ament-cmake-export-include-directories_2.5.2-1noble.20240702.035512_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-include-directories (2.5.2-1noble.20240702.035512) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-libraries.
+Preparing to unpack .../099-ros-jazzy-ament-cmake-export-libraries_2.5.2-1noble.20240702.035646_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-libraries (2.5.2-1noble.20240702.035646) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-interfaces.
+Preparing to unpack .../100-ros-jazzy-ament-cmake-export-interfaces_2.5.2-1noble.20240702.035720_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-interfaces (2.5.2-1noble.20240702.035720) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-link-flags.
+Preparing to unpack .../101-ros-jazzy-ament-cmake-export-link-flags_2.5.2-1noble.20240702.035645_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-link-flags (2.5.2-1noble.20240702.035645) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-export-targets.
+Preparing to unpack .../102-ros-jazzy-ament-cmake-export-targets_2.5.2-1noble.20240702.035741_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-export-targets (2.5.2-1noble.20240702.035741) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-gen-version-h.
+Preparing to unpack .../103-ros-jazzy-ament-cmake-gen-version-h_2.5.2-1noble.20240702.035512_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-gen-version-h (2.5.2-1noble.20240702.035512) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-python.
+Preparing to unpack .../104-ros-jazzy-ament-cmake-python_2.5.2-1noble.20240702.035659_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-python (2.5.2-1noble.20240702.035659) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-include-directories.
+Preparing to unpack .../105-ros-jazzy-ament-cmake-include-directories_2.5.2-1noble.20240702.035646_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-include-directories (2.5.2-1noble.20240702.035646) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-target-dependencies.
+Preparing to unpack .../106-ros-jazzy-ament-cmake-target-dependencies_2.5.2-1noble.20240702.035714_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-target-dependencies (2.5.2-1noble.20240702.035714) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-test.
+Preparing to unpack .../107-ros-jazzy-ament-cmake-test_2.5.2-1noble.20240702.035727_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-test (2.5.2-1noble.20240702.035727) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-version.
+Preparing to unpack .../108-ros-jazzy-ament-cmake-version_2.5.2-1noble.20240702.035721_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-version (2.5.2-1noble.20240702.035721) ...
+Selecting previously unselected package ros-jazzy-ament-cmake.
+Preparing to unpack .../109-ros-jazzy-ament-cmake_2.5.2-1noble.20240702.035843_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake (2.5.2-1noble.20240702.035843) ...
+Selecting previously unselected package ros-jazzy-ament-cmake-vendor-package.
+Preparing to unpack .../110-ros-jazzy-ament-cmake-vendor-package_2.5.2-1noble.20240702.035625_amd64.deb ...
+Unpacking ros-jazzy-ament-cmake-vendor-package (2.5.2-1noble.20240702.035625) ...
+Selecting previously unselected package libstd-rust-dev:amd64.
+Preparing to unpack .../111-libstd-rust-dev_1.75.0+dfsg0ubuntu1-0ubuntu7.1_amd64.deb ...
+Unpacking libstd-rust-dev:amd64 (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Selecting previously unselected package rustc.
+Preparing to unpack .../112-rustc_1.75.0+dfsg0ubuntu1-0ubuntu7.1_amd64.deb ...
+Unpacking rustc (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Selecting previously unselected package cargo.
+Preparing to unpack .../113-cargo_1.75.0+dfsg0ubuntu1-0ubuntu7.1_amd64.deb ...
+Unpacking cargo (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Selecting previously unselected package sbuild-build-depends-main-dummy.
+Preparing to unpack .../114-sbuild-build-depends-main-dummy_0.invalid.0_amd64.deb ...
+Unpacking sbuild-build-depends-main-dummy (0.invalid.0) ...
+Setting up media-types (10.1.0) ...
+Setting up libpipeline1:amd64 (1.5.7-2) ...
+Setting up libkeyutils1:amd64 (1.6.3-3build1) ...
+Setting up ros-jazzy-ros-workspace (1.0.3-6noble.20240702.033716) ...
+Setting up bsdextrautils (2.39.3-9ubuntu6.1) ...
+Setting up libmagic-mgc (1:5.45-3build1) ...
+Setting up libarchive-zip-perl (1.68-1) ...
+Setting up libyaml-0-2:amd64 (0.2.5-1build1) ...
+Setting up libdebhelper-perl (13.14.1ubuntu5) ...
+Setting up libbrotli1:amd64 (1.1.0-2build2) ...
+Setting up libsqlite3-0:amd64 (3.45.1-1ubuntu2) ...
+Setting up libuv1t64:amd64 (1.48.0-1.1build1) ...
+Setting up libmagic1t64:amd64 (1:5.45-3build1) ...
+Setting up libpsl5t64:amd64 (0.21.2-1.1build1) ...
+Setting up libnghttp2-14:amd64 (1.59.0-1ubuntu0.1) ...
+Setting up gettext-base (0.21-14ubuntu2) ...
+Setting up m4 (1.4.19-4build1) ...
+Setting up file (1:5.45-3build1) ...
+Setting up libfakeroot:amd64 (1.33-1) ...
+Setting up libelf1t64:amd64 (0.190-1.1build4) ...
+Setting up libkrb5support0:amd64 (1.20.1-6ubuntu2.1) ...
+Setting up libdw1t64:amd64 (0.190-1.1build4) ...
+Setting up libsasl2-modules-db:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+Setting up tzdata (2024a-3ubuntu1.1) ...
+
+Current default time zone: 'Etc/UTC'
+Local time is now:      Thu Sep 12 13:52:33 UTC 2024.
+Universal Time is now:  Thu Sep 12 13:52:33 UTC 2024.
+Run 'dpkg-reconfigure tzdata' if you wish to change it.
+
+Setting up fakeroot (1.33-1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up liberror-perl (0.17029-2) ...
+Setting up autotools-dev (20220109.1) ...
+Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-2build7) ...
+Setting up autopoint (0.21-14ubuntu2) ...
+Setting up libjsoncpp25:amd64 (1.9.5-6build1) ...
+Setting up libclang-common-18-dev:amd64 (1:18.1.3-1ubuntu1) ...
+Setting up libk5crypto3:amd64 (1.20.1-6ubuntu2.1) ...
+Setting up libgc1:amd64 (1:8.2.6-1build1) ...
+Setting up libsasl2-2:amd64 (2.1.28+dfsg1-5ubuntu3.1) ...
+Setting up autoconf (2.71-3) ...
+Setting up libicu74:amd64 (74.2-1ubuntu3.1) ...
+Setting up dwz (0.15-1build6) ...
+Setting up librhash0:amd64 (1.4.3-3build1) ...
+Setting up libuchardet0:amd64 (0.0.8-1build1) ...
+Setting up debugedit (1:5.0-5build2) ...
+Setting up libsub-override-perl (0.10-1) ...
+Setting up git-man (1:2.43.0-1ubuntu7.1) ...
+Setting up netbase (6.4) ...
+Setting up sgml-base (1.31) ...
+Setting up cmake-data (3.28.3-1build7) ...
+Setting up libkrb5-3:amd64 (1.20.1-6ubuntu2.1) ...
+Setting up libssh2-1t64:amd64 (1.11.0-4.1build2) ...
+Setting up libbsd0:amd64 (0.12.1-1build1) ...
+Setting up readline-common (8.2-4build1) ...
+Setting up libxml2:amd64 (2.9.14+dfsg-1.3ubuntu3) ...
+Setting up libldap2:amd64 (2.6.7+dfsg-1~exp1ubuntu8) ...
+Setting up libhttp-parser2.9:amd64 (2.9.4-6build1) ...
+Setting up automake (1:1.16.5-1.3ubuntu1) ...
+update-alternatives: using /usr/bin/automake-1.16 to provide /usr/bin/automake (automake) in auto mode
+Setting up libfile-stripnondeterminism-perl (1.13.1-1) ...
+Setting up gettext (0.21-14ubuntu2) ...
+Setting up libtool (2.4.7-7build1) ...
+Setting up libedit2:amd64 (3.1-20230828-1build1) ...
+Setting up libobjc4:amd64 (14-20240412-0ubuntu1) ...
+Setting up intltool-debian (0.35.0+20060710.6) ...
+Setting up dh-autoreconf (20) ...
+Setting up libllvm17t64:amd64 (1:17.0.6-9ubuntu1) ...
+Setting up libgssapi-krb5-2:amd64 (1.20.1-6ubuntu2.1) ...
+Setting up libssh-4:amd64 (0.10.6-2build2) ...
+Setting up libreadline8t64:amd64 (8.2-4build1) ...
+Setting up dh-strip-nondeterminism (1.13.1-1) ...
+Setting up groff-base (1.23.0-3build2) ...
+Setting up xml-core (0.19) ...
+Setting up libgit2-1.7:amd64 (1.7.2+ds-1ubuntu3) ...
+Setting up libarchive13t64:amd64 (3.7.2-2ubuntu0.1) ...
+Setting up libobjc-13-dev:amd64 (13.2.0-23ubuntu4) ...
+Setting up libllvm18:amd64 (1:18.1.3-1ubuntu1) ...
+Setting up libclang1-18 (1:18.1.3-1ubuntu1) ...
+Setting up libpython3.12-stdlib:amd64 (3.12.3-1ubuntu0.1) ...
+Setting up libcurl4t64:amd64 (8.5.0-2ubuntu10.3) ...
+Setting up po-debconf (1.0.21+nmu1) ...
+Setting up python3.12 (3.12.3-1ubuntu0.1) ...
+Setting up libstd-rust-1.75:amd64 (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Setting up libcurl3t64-gnutls:amd64 (8.5.0-2ubuntu10.3) ...
+Setting up man-db (2.12.0-4build2) ...
+Not building database; man-db/auto-update is not 'true'.
+Setting up libstd-rust-dev:amd64 (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Setting up git (1:2.43.0-1ubuntu7.1) ...
+Setting up llvm-18-linker-tools (1:18.1.3-1ubuntu1) ...
+Setting up rustc (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Setting up cmake (3.28.3-1build7) ...
+Setting up libclang-cpp18 (1:18.1.3-1ubuntu1) ...
+Setting up libpython3-stdlib:amd64 (3.12.3-0ubuntu2) ...
+Setting up debhelper (13.14.1ubuntu5) ...
+Setting up clang-18 (1:18.1.3-1ubuntu1) ...
+Setting up python3 (3.12.3-0ubuntu2) ...
+Setting up python3-six (1.16.0-4) ...
+Setting up cargo (1.75.0+dfsg0ubuntu1-0ubuntu7.1) ...
+Setting up python3-roman (3.3-3) ...
+Setting up python3-pyparsing (3.1.1-1) ...
+Setting up clang (1:18.0-59~exp2) ...
+Setting up python3-dateutil (2.8.2-3ubuntu1) ...
+Setting up python3-pkg-resources (68.1.2-2ubuntu1.1) ...
+Setting up python3-more-itertools (10.2.0-1) ...
+Setting up python3-setuptools (68.1.2-2ubuntu1.1) ...
+Setting up python3-yaml (6.0.1-2build2) ...
+Setting up python3-zipp (1.0.0-6ubuntu0.1) ...
+Setting up python3-vcstool (0.3.0-1) ...
+Setting up python3-importlib-metadata (4.12.0-1) ...
+Setting up ros-jazzy-ament-package (0.16.3-3noble.20240423.202428) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+Processing triggers for ccache (4.9.1-1) ...
+Updating symlinks in /usr/lib/ccache ...
+Processing triggers for sgml-base (1.31) ...
+Setting up docutils-common (0.20.1+dfsg-3) ...
+Processing triggers for sgml-base (1.31) ...
+Setting up python3-docutils (0.20.1+dfsg-3) ...
+Setting up python3-catkin-pkg-modules (1.0.0-1) ...
+/usr/lib/python3/dist-packages/catkin_pkg/cli/prepare_release.py:234: SyntaxWarning: invalid escape sequence '\.'
+  if args.version and not re.match('^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)$', args.version):
+Setting up ros-jazzy-ament-cmake-core (2.5.2-1noble.20240702.033554) ...
+Setting up ros-jazzy-ament-cmake-export-definitions (2.5.2-1noble.20240702.035640) ...
+Setting up ros-jazzy-ament-cmake-include-directories (2.5.2-1noble.20240702.035646) ...
+Setting up ros-jazzy-ament-cmake-libraries (2.5.2-1noble.20240702.035512) ...
+Setting up ros-jazzy-ament-cmake-export-libraries (2.5.2-1noble.20240702.035646) ...
+Setting up ros-jazzy-ament-cmake-export-interfaces (2.5.2-1noble.20240702.035720) ...
+Setting up ros-jazzy-ament-cmake-export-targets (2.5.2-1noble.20240702.035741) ...
+Setting up ros-jazzy-ament-cmake-export-link-flags (2.5.2-1noble.20240702.035645) ...
+Setting up ros-jazzy-ament-cmake-version (2.5.2-1noble.20240702.035721) ...
+Setting up ros-jazzy-ament-cmake-export-include-directories (2.5.2-1noble.20240702.035512) ...
+Setting up ros-jazzy-ament-cmake-python (2.5.2-1noble.20240702.035659) ...
+Setting up ros-jazzy-ament-cmake-test (2.5.2-1noble.20240702.035727) ...
+Setting up ros-jazzy-ament-cmake-export-dependencies (2.5.2-1noble.20240702.035553) ...
+Setting up ros-jazzy-ament-cmake-gen-version-h (2.5.2-1noble.20240702.035512) ...
+Setting up ros-jazzy-ament-cmake-target-dependencies (2.5.2-1noble.20240702.035714) ...
+Setting up ros-jazzy-ament-cmake-vendor-package (2.5.2-1noble.20240702.035625) ...
+Setting up ros-jazzy-ament-cmake (2.5.2-1noble.20240702.035843) ...
+Setting up sbuild-build-depends-main-dummy (0.invalid.0) ...
+
++------------------------------------------------------------------------------+
+| Check architectures                                                          |
++------------------------------------------------------------------------------+
+
+Arch check ok (amd64 included in any)
+
++------------------------------------------------------------------------------+
+| Build environment                                                            |
++------------------------------------------------------------------------------+
+
+Kernel: Linux 6.5.0-1025-azure #26~22.04.1-Ubuntu SMP Thu Jul 11 22:33:04 UTC 2024 amd64 (x86_64)
+Toolchain package versions: binutils_2.42-4ubuntu2 dpkg-dev_1.22.6ubuntu6.1 g++-13_13.2.0-23ubuntu4 gcc-13_13.2.0-23ubuntu4 libc6-dev_2.39-0ubuntu8.3 libstdc++-13-dev_13.2.0-23ubuntu4 libstdc++6_14-20240412-0ubuntu1 linux-libc-dev_6.8.0-44.44
+Package versions: apt_2.7.14build2 autoconf_2.71-3 automake_1:1.16.5-1.3ubuntu1 autopoint_0.21-14ubuntu2 autotools-dev_20220109.1 base-files_13ubuntu10.1 base-passwd_3.6.3build1 bash_5.2.21-2ubuntu4 binutils_2.42-4ubuntu2 binutils-common_2.42-4ubuntu2 binutils-x86-64-linux-gnu_2.42-4ubuntu2 bsdextrautils_2.39.3-9ubuntu6.1 bsdutils_1:2.39.3-9ubuntu6.1 build-essential_12.10ubuntu1 bzip2_1.0.8-5.1build0.1 ca-certificates_20240203 cargo_1.75.0+dfsg0ubuntu1-0ubuntu7.1 ccache_4.9.1-1 clang_1:18.0-59~exp2 clang-18_1:18.1.3-1ubuntu1 cmake_3.28.3-1build7 cmake-data_3.28.3-1build7 coreutils_9.4-3ubuntu6 cpp_4:13.2.0-7ubuntu1 cpp-13_13.2.0-23ubuntu4 cpp-13-x86-64-linux-gnu_13.2.0-23ubuntu4 cpp-x86-64-linux-gnu_4:13.2.0-7ubuntu1 dash_0.5.12-6ubuntu5 debconf_1.5.86ubuntu1 debhelper_13.14.1ubuntu5 debianutils_5.17build1 debugedit_1:5.0-5build2 dh-autoreconf_20 dh-strip-nondeterminism_1.13.1-1 diffutils_1:3.10-1build1 docutils-common_0.20.1+dfsg-3 dpkg_1.22.6ubuntu6.1 dpkg-dev_1.22.6ubuntu6.1 dwz_0.15-1build6 e2fsprogs_1.47.0-2.4~exp1ubuntu4.1 fakeroot_1.33-1 file_1:5.45-3build1 findutils_4.9.0-5build1 g++_4:13.2.0-7ubuntu1 g++-13_13.2.0-23ubuntu4 g++-13-x86-64-linux-gnu_13.2.0-23ubuntu4 g++-x86-64-linux-gnu_4:13.2.0-7ubuntu1 gcc_4:13.2.0-7ubuntu1 gcc-13_13.2.0-23ubuntu4 gcc-13-base_13.2.0-23ubuntu4 gcc-13-x86-64-linux-gnu_13.2.0-23ubuntu4 gcc-14-base_14-20240412-0ubuntu1 gcc-x86-64-linux-gnu_4:13.2.0-7ubuntu1 gettext_0.21-14ubuntu2 gettext-base_0.21-14ubuntu2 git_1:2.43.0-1ubuntu7.1 git-man_1:2.43.0-1ubuntu7.1 gpgv_2.4.4-2ubuntu17 grep_3.11-4build1 groff-base_1.23.0-3build2 gzip_1.12-1ubuntu3 hostname_3.23+nmu2ubuntu2 init-system-helpers_1.66ubuntu1 intltool-debian_0.35.0+20060710.6 libacl1_2.3.2-1build1 libapt-pkg6.0t64_2.7.14build2 libarchive-zip-perl_1.68-1 libarchive13t64_3.7.2-2ubuntu0.1 libasan8_14-20240412-0ubuntu1 libassuan0_2.5.6-1build1 libatomic1_14-20240412-0ubuntu1 libattr1_1:2.5.2-1build1 libaudit-common_1:3.1.2-2.1build1 libaudit1_1:3.1.2-2.1build1 libbinutils_2.42-4ubuntu2 libblkid1_2.39.3-9ubuntu6.1 libbrotli1_1.1.0-2build2 libbsd0_0.12.1-1build1 libbz2-1.0_1.0.8-5.1build0.1 libc-bin_2.39-0ubuntu8.3 libc-dev-bin_2.39-0ubuntu8.3 libc6_2.39-0ubuntu8.3 libc6-dev_2.39-0ubuntu8.3 libcap-ng0_0.8.4-2build2 libcap2_1:2.66-5ubuntu2 libcc1-0_14-20240412-0ubuntu1 libclang-common-18-dev_1:18.1.3-1ubuntu1 libclang-cpp18_1:18.1.3-1ubuntu1 libclang1-18_1:18.1.3-1ubuntu1 libcom-err2_1.47.0-2.4~exp1ubuntu4.1 libcrypt-dev_1:4.4.36-4build1 libcrypt1_1:4.4.36-4build1 libctf-nobfd0_2.42-4ubuntu2 libctf0_2.42-4ubuntu2 libcurl3t64-gnutls_8.5.0-2ubuntu10.3 libcurl4t64_8.5.0-2ubuntu10.3 libdb5.3t64_5.3.28+dfsg2-7 libdebconfclient0_0.271ubuntu3 libdebhelper-perl_13.14.1ubuntu5 libdpkg-perl_1.22.6ubuntu6.1 libdw1t64_0.190-1.1build4 libedit2_3.1-20230828-1build1 libelf1t64_0.190-1.1build4 liberror-perl_0.17029-2 libexpat1_2.6.1-2ubuntu0.1 libext2fs2t64_1.47.0-2.4~exp1ubuntu4.1 libfakeroot_1.33-1 libffi8_3.4.6-1build1 libfile-stripnondeterminism-perl_1.13.1-1 libgc1_1:8.2.6-1build1 libgcc-13-dev_13.2.0-23ubuntu4 libgcc-s1_14-20240412-0ubuntu1 libgcrypt20_1.10.3-2build1 libgdbm-compat4t64_1.23-5.1build1 libgdbm6t64_1.23-5.1build1 libgit2-1.7_1.7.2+ds-1ubuntu3 libgmp10_2:6.3.0+dfsg-2ubuntu6 libgnutls30t64_3.8.3-1.1ubuntu3.2 libgomp1_14-20240412-0ubuntu1 libgpg-error0_1.47-3build2 libgprofng0_2.42-4ubuntu2 libgssapi-krb5-2_1.20.1-6ubuntu2.1 libhiredis1.1.0_1.2.0-6ubuntu3 libhogweed6t64_3.9.1-2.2build1.1 libhttp-parser2.9_2.9.4-6build1 libhwasan0_14-20240412-0ubuntu1 libicu74_74.2-1ubuntu3.1 libidn2-0_2.3.7-2build1 libisl23_0.26-3build1 libitm1_14-20240412-0ubuntu1 libjansson4_2.14-2build2 libjsoncpp25_1.9.5-6build1 libk5crypto3_1.20.1-6ubuntu2.1 libkeyutils1_1.6.3-3build1 libkrb5-3_1.20.1-6ubuntu2.1 libkrb5support0_1.20.1-6ubuntu2.1 libldap2_2.6.7+dfsg-1~exp1ubuntu8 libllvm17t64_1:17.0.6-9ubuntu1 libllvm18_1:18.1.3-1ubuntu1 liblsan0_14-20240412-0ubuntu1 liblz4-1_1.9.4-1build1.1 liblzma5_5.6.1+really5.4.5-1build0.1 libmagic-mgc_1:5.45-3build1 libmagic1t64_1:5.45-3build1 libmd0_1.1.0-2build1 libmount1_2.39.3-9ubuntu6.1 libmpc3_1.3.1-1build1 libmpfr6_4.2.1-1build1 libncursesw6_6.4+20240113-1ubuntu2 libnettle8t64_3.9.1-2.2build1.1 libnghttp2-14_1.59.0-1ubuntu0.1 libnpth0t64_1.6-3.1build1 libobjc-13-dev_13.2.0-23ubuntu4 libobjc4_14-20240412-0ubuntu1 libp11-kit0_0.25.3-4ubuntu2.1 libpam-modules_1.5.3-5ubuntu5.1 libpam-modules-bin_1.5.3-5ubuntu5.1 libpam-runtime_1.5.3-5ubuntu5.1 libpam0g_1.5.3-5ubuntu5.1 libpcre2-8-0_10.42-4ubuntu2 libperl5.38t64_5.38.2-3.2build2 libpipeline1_1.5.7-2 libproc2-0_2:4.0.4-4ubuntu3 libpsl5t64_0.21.2-1.1build1 libpython3-stdlib_3.12.3-0ubuntu2 libpython3.12-minimal_3.12.3-1ubuntu0.1 libpython3.12-stdlib_3.12.3-1ubuntu0.1 libquadmath0_14-20240412-0ubuntu1 libreadline8t64_8.2-4build1 librhash0_1.4.3-3build1 librtmp1_2.4+20151223.gitfa8646d.1-2build7 libsasl2-2_2.1.28+dfsg1-5ubuntu3.1 libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1 libseccomp2_2.5.5-1ubuntu3.1 libselinux1_3.5-2ubuntu2 libsemanage-common_3.5-1build5 libsemanage2_3.5-1build5 libsepol2_3.5-2build1 libsframe1_2.42-4ubuntu2 libsmartcols1_2.39.3-9ubuntu6.1 libsqlite3-0_3.45.1-1ubuntu2 libss2_1.47.0-2.4~exp1ubuntu4.1 libssh-4_0.10.6-2build2 libssh2-1t64_1.11.0-4.1build2 libssl3t64_3.0.13-0ubuntu3.4 libstd-rust-1.75_1.75.0+dfsg0ubuntu1-0ubuntu7.1 libstd-rust-dev_1.75.0+dfsg0ubuntu1-0ubuntu7.1 libstdc++-13-dev_13.2.0-23ubuntu4 libstdc++6_14-20240412-0ubuntu1 libsub-override-perl_0.10-1 libsystemd0_255.4-1ubuntu8.4 libtasn1-6_4.19.0-3build1 libtinfo6_6.4+20240113-1ubuntu2 libtool_2.4.7-7build1 libtsan2_14-20240412-0ubuntu1 libubsan1_14-20240412-0ubuntu1 libuchardet0_0.0.8-1build1 libudev1_255.4-1ubuntu8.4 libunistring5_1.1-2build1 libuuid1_2.39.3-9ubuntu6.1 libuv1t64_1.48.0-1.1build1 libxml2_2.9.14+dfsg-1.3ubuntu3 libxxhash0_0.8.2-2build1 libyaml-0-2_0.2.5-1build1 libzstd1_1.5.5+dfsg2-2build1.1 linux-libc-dev_6.8.0-44.44 llvm-18-linker-tools_1:18.1.3-1ubuntu1 login_1:4.13+dfsg1-4ubuntu3 logsave_1.47.0-2.4~exp1ubuntu4.1 lto-disabled-list_47 m4_1.4.19-4build1 make_4.3-4.1build2 man-db_2.12.0-4build2 mawk_1.3.4.20240123-1build1 media-types_10.1.0 mount_2.39.3-9ubuntu6.1 ncurses-base_6.4+20240113-1ubuntu2 ncurses-bin_6.4+20240113-1ubuntu2 netbase_6.4 openssl_3.0.13-0ubuntu3.4 passwd_1:4.13+dfsg1-4ubuntu3 patch_2.7.6-7build3 perl_5.38.2-3.2build2 perl-base_5.38.2-3.2build2 perl-modules-5.38_5.38.2-3.2build2 po-debconf_1.0.21+nmu1 procps_2:4.0.4-4ubuntu3 python3_3.12.3-0ubuntu2 python3-catkin-pkg-modules_1.0.0-1 python3-dateutil_2.8.2-3ubuntu1 python3-docutils_0.20.1+dfsg-3 python3-importlib-metadata_4.12.0-1 python3-minimal_3.12.3-0ubuntu2 python3-more-itertools_10.2.0-1 python3-pkg-resources_68.1.2-2ubuntu1.1 python3-pyparsing_3.1.1-1 python3-roman_3.3-3 python3-setuptools_68.1.2-2ubuntu1.1 python3-six_1.16.0-4 python3-vcstool_0.3.0-1 python3-yaml_6.0.1-2build2 python3-zipp_1.0.0-6ubuntu0.1 python3.12_3.12.3-1ubuntu0.1 python3.12-minimal_3.12.3-1ubuntu0.1 readline-common_8.2-4build1 ros-jazzy-ament-cmake_2.5.2-1noble.20240702.035843 ros-jazzy-ament-cmake-core_2.5.2-1noble.20240702.033554 ros-jazzy-ament-cmake-export-definitions_2.5.2-1noble.20240702.035640 ros-jazzy-ament-cmake-export-dependencies_2.5.2-1noble.20240702.035553 ros-jazzy-ament-cmake-export-include-directories_2.5.2-1noble.20240702.035512 ros-jazzy-ament-cmake-export-interfaces_2.5.2-1noble.20240702.035720 ros-jazzy-ament-cmake-export-libraries_2.5.2-1noble.20240702.035646 ros-jazzy-ament-cmake-export-link-flags_2.5.2-1noble.20240702.035645 ros-jazzy-ament-cmake-export-targets_2.5.2-1noble.20240702.035741 ros-jazzy-ament-cmake-gen-version-h_2.5.2-1noble.20240702.035512 ros-jazzy-ament-cmake-include-directories_2.5.2-1noble.20240702.035646 ros-jazzy-ament-cmake-libraries_2.5.2-1noble.20240702.035512 ros-jazzy-ament-cmake-python_2.5.2-1noble.20240702.035659 ros-jazzy-ament-cmake-target-dependencies_2.5.2-1noble.20240702.035714 ros-jazzy-ament-cmake-test_2.5.2-1noble.20240702.035727 ros-jazzy-ament-cmake-vendor-package_2.5.2-1noble.20240702.035625 ros-jazzy-ament-cmake-version_2.5.2-1noble.20240702.035721 ros-jazzy-ament-package_0.16.3-3noble.20240423.202428 ros-jazzy-ros-workspace_1.0.3-6noble.20240702.033716 rpcsvc-proto_1.4.2-0ubuntu7 rustc_1.75.0+dfsg0ubuntu1-0ubuntu7.1 sbuild-build-depends-main-dummy_0.invalid.0 sed_4.9-2build1 sensible-utils_0.0.22 sgml-base_1.31 sysvinit-utils_3.08-6ubuntu3 tar_1.35+dfsg-3build1 tzdata_2024a-3ubuntu1.1 ubuntu-keyring_2023.11.28.1 util-linux_2.39.3-9ubuntu6.1 xml-core_0.19 xz-utils_5.6.1+really5.4.5-1build0.1 zlib1g_1:1.3.dfsg-3.1ubuntu2.1
+
++------------------------------------------------------------------------------+
+| Build                                                                        |
++------------------------------------------------------------------------------+
+
+
+Unpack source
+-------------
+
+Format: 1.0
+Source: ros-jazzy-zenoh-c-vendor
+Binary: ros-jazzy-zenoh-c-vendor
+Architecture: any
+Version: 0-2024.09.12.13.51
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9.0.0), cargo, clang, git, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-vendor-package
+Package-List:
+ ros-jazzy-zenoh-c-vendor deb misc optional arch=any
+Checksums-Sha1:
+ c1b99306a536edd6e6a1dbad034274a107b02747 3082 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.tar.gz
+Checksums-Sha256:
+ 8b69444fa01a560b785b54a0f93e4a8c6c3088afbb09a1ef7d39e8e8ab75aed9 3082 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.tar.gz
+Files:
+ 00998d40088ae741782f72f4a28a4772 3082 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.tar.gz
+
+dpkg-source: warning: extracting unsigned source package (ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.dsc)
+dpkg-source: info: extracting ros-jazzy-zenoh-c-vendor in /<<BUILDDIR>>package
+dpkg-source: info: unpacking ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.tar.gz
+
+Check disk space
+----------------
+
+Sufficient free space for build
+
+User Environment
+----------------
+
+APT_CONFIG=/var/lib/sbuild/apt.conf
+CCACHE_DIR=/build/ccache
+DEB_BUILD_OPTIONS=nocheck
+HOME=/var/lib/sbuild
+LANG=C.UTF-8
+LC_ALL=C.UTF-8
+LOGNAME=runner
+OLDPWD=/
+PATH=/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+PWD=/<<BUILDDIR>>package
+SHELL=/bin/sh
+USER=runner
+
+dpkg-buildpackage
+-----------------
+
+Command: dpkg-buildpackage --sanitize-env -us -uc -b -rfakeroot
+dpkg-buildpackage: info: source package ros-jazzy-zenoh-c-vendor
+dpkg-buildpackage: info: source version 0-2024.09.12.13.51
+dpkg-buildpackage: info: source distribution noble
+dpkg-buildpackage: info: source changed by Yadunund <yadunund@openrobotics.org>
+ dpkg-source --before-build .
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: info: using options from package/debian/source/options: --auto-commit
+ fakeroot debian/rules clean
+dh clean -v --buildsystem=cmake
+   dh_auto_clean -O-v -O--buildsystem=cmake
+   dh_autoreconf_clean -O-v -O--buildsystem=cmake
+   dh_clean -O-v -O--buildsystem=cmake
+	rm -f debian/debhelper-build-stamp
+	rm -rf debian/.debhelper/
+	rm -f -- debian/ros-jazzy-zenoh-c-vendor.substvars debian/files
+	rm -fr -- debian/ros-jazzy-zenoh-c-vendor/ debian/tmp/
+	find .  \( \( \
+		\( -path .\*/.git -o -path .\*/.svn -o -path .\*/.bzr -o -path .\*/.hg -o -path .\*/CVS -o -path .\*/.pc -o -path .\*/_darcs \) -prune -o -type f -a \
+	        \( -name '#*#' -o -name '.*~' -o -name '*~' -o -name DEADJOE \
+		 -o -name '*.orig' -o -name '*.rej' -o -name '*.bak' \
+		 -o -name '.*.orig' -o -name .*.rej -o -name '.SUMS' \
+		 -o -name TAGS -o \( -path '*/.deps/*' -a -name '*.P' \) \
+		\) -exec rm -f {} + \) -o \
+		\( -type d -a \( -name autom4te.cache -o -name __pycache__ \) -prune -exec rm -rf {} + \) \)
+ debian/rules build
+dh build -v --buildsystem=cmake
+   dh_update_autotools_config -O-v -O--buildsystem=cmake
+   dh_autoreconf -O-v -O--buildsystem=cmake
+   debian/rules override_dh_auto_configure
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/opt/ros/jazzy/setup.sh" ]; then . "/opt/ros/jazzy/setup.sh"; fi && \
+dh_auto_configure -- \
+	-DCMAKE_INSTALL_PREFIX="/opt/ros/jazzy" \
+	-DAMENT_PREFIX_PATH="/opt/ros/jazzy" \
+	-DCMAKE_PREFIX_PATH="/opt/ros/jazzy"
+	cd obj-x86_64-linux-gnu && DEB_PYTHON_INSTALL_LAYOUT=deb cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=None -DCMAKE_INSTALL_SYSCONFDIR=/etc -DCMAKE_INSTALL_LOCALSTATEDIR=/var -DCMAKE_EXPORT_NO_PACKAGE_REGISTRY=ON -DCMAKE_FIND_USE_PACKAGE_REGISTRY=OFF -DCMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY=ON -DFETCHCONTENT_FULLY_DISCONNECTED=ON -DCMAKE_INSTALL_RUNSTATEDIR=/run "-GUnix Makefiles" -DCMAKE_VERBOSE_MAKEFILE=ON -DCMAKE_INSTALL_LIBDIR=lib/x86_64-linux-gnu -DBUILD_TESTING:BOOL=OFF -DCMAKE_INSTALL_PREFIX=/opt/ros/jazzy -DAMENT_PREFIX_PATH=/opt/ros/jazzy -DCMAKE_PREFIX_PATH=/opt/ros/jazzy ..
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_cmake_vendor_package: 2.5.2 (/opt/ros/jazzy/share/ament_cmake_vendor_package/cmake)
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    AMENT_PREFIX_PATH
+    CMAKE_EXPORT_NO_PACKAGE_REGISTRY
+    CMAKE_FIND_PACKAGE_NO_PACKAGE_REGISTRY
+    CMAKE_INSTALL_LIBDIR
+    CMAKE_INSTALL_LOCALSTATEDIR
+    CMAKE_INSTALL_RUNSTATEDIR
+    CMAKE_INSTALL_SYSCONFDIR
+    FETCHCONTENT_FULLY_DISCONNECTED
+
+
+-- Build files have been written to: /<<BUILDDIR>>package/obj-x86_64-linux-gnu
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+	rm -f debian/ros-jazzy-zenoh-c-vendor.debhelper.log
+   debian/rules override_dh_auto_build
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/opt/ros/jazzy/setup.sh" ]; then . "/opt/ros/jazzy/setup.sh"; fi && \
+dh_auto_build
+	cd obj-x86_64-linux-gnu && make -j4 "INSTALL=install --strip-program=true" VERBOSE=1
+make[2]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -S/<<BUILDDIR>>package -B/<<BUILDDIR>>package/obj-x86_64-linux-gnu --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles /<<BUILDDIR>>package/obj-x86_64-linux-gnu//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[3]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f CMakeFiles/zenoh_c_vendor.dir/build.make CMakeFiles/zenoh_c_vendor.dir/depend
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles/zenoh_c_vendor.dir/DependInfo.cmake "--color="
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f CMakeFiles/zenoh_c_vendor.dir/build.make CMakeFiles/zenoh_c_vendor.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[ 12%] Creating directories for 'zenoh_c_vendor'
+/usr/bin/cmake -Dcfgdir= -P /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/tmp/zenoh_c_vendor-mkdirs.cmake
+/usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-mkdir
+[ 25%] Performing download step for 'zenoh_c_vendor'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src && /usr/bin/cmake -E rm -rf /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor && /usr/bin/cmake -E make_directory /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor && /usr/bin/vcs import . --input /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor.repos --shallow --recursive --force
+/usr/bin/vcs:6: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import load_entry_point
+=== ./zenoh_c_vendor (git) ===
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor/.git/
+
+From https://github.com/eclipse-zenoh/zenoh-c
+ * branch            134dbfa06ca212def5fb51dd8e816734dfd8dff6 -> FETCH_HEAD
+Note: switching to '134dbfa06ca212def5fb51dd8e816734dfd8dff6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 134dbfa fix: add `accept_replies` to `z_get_options_t` and use it in `ze_querying_subscriber_get` (#620)
+
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src && /usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-download
+[ 37%] No update_disconnected step for 'zenoh_c_vendor'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-update_disconnected
+[ 50%] No patch_disconnected step for 'zenoh_c_vendor'
+/usr/bin/cmake -E echo_append
+/usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-patch_disconnected
+[ 62%] Performing configure step for 'zenoh_c_vendor'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && /usr/bin/cmake -C/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-config.cmake -G "Unix Makefiles" -DCMAKE_STAGING_PREFIX=/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install -DCMAKE_INSTALL_PREFIX=/opt/ros/jazzy/opt/zenoh_c_vendor -Wno-dev "-DZENOHC_CARGO_FLAGS=--no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls" -DZENOHC_CUSTOM_TARGET= "-GUnix Makefiles" -S /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor -B /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+loading initial cache file /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-config.cmake
+Re-run cmake no build system arguments
+-- The C compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- CMAKE_BUILD_TYPE = None
+-- ZENOHC_BUILD_IN_SOURCE_TREE = FALSE
+-- ZENOHC_BUILD_WITH_LOGGER_AUTOINIT = TRUE
+-- ZENOHC_BUILD_WITH_SHARED_MEMORY = TRUE
+-- ZENOHC_CUSTOM_TARGET = 
+-- ZENOHC_CARGO_CHANNEL = 
+-- ZENOHC_CARGO_FLAGS = --no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls
+-- ZENOHC_LIB_STATIC = FALSE
+-- project_version = 0.11.0-dev
+-- Mode: Non-IDE
+-- Configuring Cargo.toml in /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/debug for zenohcd
+-- Configuring Cargo.toml in /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release for zenohc
+-- cargo_flags = --release;--manifest-path=/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml;--no-default-features;--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls;--features=logger-autoinit;--features=shared-memory
+-- libs = /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.so;/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/target/release/libzenohc.a
+-- NATIVE_STATIC_LIBS = rt;pthread;m;dl
+-- source_include_dir = /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor/include
+-- cargo_generated_include_dir = /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/include
+-- zenoh-c install
+-- ZENOHC_INSTALL_STATIC_LIBRARY = FALSE
+-- CMAKE_INSTALL_PREFIX = /opt/ros/jazzy/opt/zenoh_c_vendor
+-- zenoh-c tests
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- zenoh-c examples
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && /usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-configure
+[ 75%] Performing build step for 'zenoh_c_vendor'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && make
+make[5]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+/usr/bin/cmake -S/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor -B/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/CMakeFiles /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[6]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+make  -f CMakeFiles/cargo.dir/build.make CMakeFiles/cargo.dir/depend
+make[7]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/CMakeFiles/cargo.dir/DependInfo.cmake "--color="
+make[7]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+make  -f CMakeFiles/cargo.dir/build.make CMakeFiles/cargo.dir/build
+make[7]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+[100%] Generating release/target/release/libzenohc.so, release/target/release/libzenohc.a
+/usr/bin/cmake -E echo \"RUSTFLAGS = "\$\$RUSTFLAGS\""
+"RUSTFLAGS = $$RUSTFLAGS"
+/usr/bin/cmake -E echo \"cargo build --release --manifest-path=/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features "--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls" --features=logger-autoinit --features=shared-memory\"
+"cargo build --release --manifest-path=/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features --features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls --features=logger-autoinit --features=shared-memory"
+cargo build --release --manifest-path=/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release/Cargo.toml --no-default-features "--features=zenoh/shared-memory zenoh/transport_compression zenoh/transport_tcp zenoh/transport_tls" --features=logger-autoinit --features=shared-memory
+    Updating crates.io index
+    Updating git repository `https://github.com/eclipse-zenoh/zenoh.git`
+ Downloading crates ...
+  Downloaded atty v0.2.14
+  Downloaded git-version v0.3.5
+  Downloaded matchers v0.1.0
+  Downloaded keyed-set v0.4.5
+  Downloaded git-version-macro v0.3.5
+  Downloaded waker-fn v1.1.0
+  Downloaded fastrand v2.0.2
+  Downloaded futures-sink v0.3.28
+  Downloaded option-ext v0.2.0
+  Downloaded nanorand v0.7.0
+  Downloaded validated_struct v2.1.0
+  Downloaded parking v2.1.0
+  Downloaded log v0.4.20
+  Downloaded unzip-n v0.1.2
+  Downloaded unicode-xid v0.2.4
+  Downloaded typenum v1.16.0
+  Downloaded uuid v1.4.1
+  Downloaded unsafe-libyaml v0.2.10
+  Downloaded textwrap v0.16.1
+  Downloaded unicode-ident v1.0.12
+  Downloaded tracing-core v0.1.31
+  Downloaded tracing v0.1.37
+  Downloaded sharded-slab v0.1.7
+  Downloaded tokio-util v0.7.10
+  Downloaded serde_json v1.0.107
+  Downloaded rustls-webpki v0.102.4
+  Downloaded tracing-subscriber v0.3.18
+  Downloaded syn v2.0.33
+  Downloaded rustix v0.37.25
+  Downloaded rustls v0.23.9
+  Downloaded regex-automata v0.3.8
+  Downloaded tokio v1.36.0
+  Downloaded sha3 v0.10.8
+  Downloaded rustix v0.38.32
+  Downloaded regex-syntax v0.7.5
+  Downloaded syn v1.0.109
+  Downloaded ring v0.17.6
+  Downloaded regex-syntax v0.6.29
+  Downloaded regex v1.9.5
+  Downloaded webpki-roots v0.26.0
+  Downloaded linux-raw-sys v0.4.13
+  Downloaded petgraph v0.6.4
+  Downloaded linux-raw-sys v0.3.8
+  Downloaded libc v0.2.153
+  Downloaded pest v2.7.3
+  Downloaded zerocopy v0.7.32
+  Downloaded regex-automata v0.1.10
+  Downloaded rand v0.8.5
+  Downloaded socket2 v0.5.6
+  Downloaded serde v1.0.188
+  Downloaded nix v0.23.2
+  Downloaded clap v3.2.25
+  Downloaded chrono v0.4.38
+  Downloaded async-std v1.12.0
+  Downloaded smallvec v1.11.0
+  Downloaded serde_yaml v0.9.25
+  Downloaded futures-util v0.3.28
+  Downloaded cbindgen v0.24.5
+  Downloaded socket2 v0.4.9
+  Downloaded serde_derive v1.0.188
+  Downloaded schemars v0.8.13
+  Downloaded polling v2.8.0
+  Downloaded num-traits v0.2.16
+  Downloaded hashbrown v0.14.0
+  Downloaded aho-corasick v1.0.5
+  Downloaded toml v0.5.11
+  Downloaded static_assertions v1.1.0
+  Downloaded signal-hook v0.3.17
+  Downloaded ryu v1.0.15
+  Downloaded ron v0.8.1
+  Downloaded proc-macro2 v1.0.67
+  Downloaded os_str_bytes v6.6.1
+  Downloaded once_cell v1.19.0
+  Downloaded mio v0.8.11
+  Downloaded memchr v2.6.3
+  Downloaded hashbrown v0.13.2
+  Downloaded aes v0.8.3
+  Downloaded tempfile v3.10.1
+  Downloaded shellexpand v3.1.0
+  Downloaded sha2 v0.10.7
+  Downloaded serde_derive_internals v0.26.0
+  Downloaded semver v1.0.18
+  Downloaded rustls-pemfile v2.0.0
+  Downloaded pnet_datalink v0.34.0
+  Downloaded overload v0.1.1
+  Downloaded hashbrown v0.12.3
+  Downloaded const_format v0.2.31
+  Downloaded cc v1.0.83
+  Downloaded base64 v0.21.4
+  Downloaded ucd-trie v0.1.6
+  Downloaded tracing-attributes v0.1.26
+  Downloaded tokio-rustls v0.26.0
+  Downloaded thiserror-impl v1.0.48
+  Downloaded strsim v0.10.0
+  Downloaded spin v0.9.8
+  Downloaded secrecy v0.8.0
+  Downloaded rustls-pki-types v1.7.0
+  Downloaded pest_meta v2.7.3
+  Downloaded pest_derive v2.7.3
+  Downloaded nu-ansi-term v0.46.0
+  Downloaded indexmap v2.0.0
+  Downloaded futures v0.3.28
+  Downloaded flume v0.11.0
+  Downloaded crossbeam-utils v0.8.16
+  Downloaded bytes v1.5.0
+  Downloaded bitflags v2.5.0
+  Downloaded allocator-api2 v0.2.16
+  Downloaded uhlc v0.7.0
+  Downloaded twox-hash v1.6.3
+  Downloaded tracing-serde v0.1.3
+  Downloaded tokio-macros v2.2.0
+  Downloaded thread_local v1.1.8
+  Downloaded slab v0.4.9
+  Downloaded signal-hook-registry v1.4.1
+  Downloaded scopeguard v1.2.0
+  Downloaded rustc_version v0.4.0
+  Downloaded rand_chacha v0.3.1
+  Downloaded quote v1.0.33
+  Downloaded proc-macro-hack v0.5.20+deprecated
+  Downloaded pin-utils v0.1.0
+  Downloaded pin-project-lite v0.2.13
+  Downloaded pest_generator v2.7.3
+  Downloaded paste v1.0.14
+  Downloaded ordered-float v4.1.1
+  Downloaded value-bag v1.4.1
+  Downloaded no-std-net v0.6.0
+  Downloaded lz4_flex v0.11.1
+  Downloaded lock_api v0.4.10
+  Downloaded indexmap v1.9.3
+  Downloaded hmac v0.12.1
+  Downloaded futures-lite v1.13.0
+  Downloaded futures-channel v0.3.28
+  Downloaded fs_extra v1.3.0
+  Downloaded event-listener v4.0.0
+  Downloaded dirs v5.0.1
+  Downloaded const_format_proc_macros v0.2.31
+  Downloaded untrusted v0.9.0
+  Downloaded tracing-log v0.2.0
+  Downloaded token-cell v1.5.0
+  Downloaded thiserror v1.0.48
+  Downloaded termcolor v1.4.1
+  Downloaded subtle v2.5.0
+  Downloaded shared_memory v0.12.4
+  Downloaded schemars_derive v0.8.13
+  Downloaded ringbuffer-spsc v0.1.9
+  Downloaded ppv-lite86 v0.2.17
+  Downloaded pnet_sys v0.34.0
+  Downloaded pnet_base v0.34.0
+  Downloaded percent-encoding v2.3.0
+  Downloaded zeroize v1.7.0
+  Downloaded io-lifetimes v1.0.11
+  Downloaded home v0.5.5
+  Downloaded anyhow v1.0.75
+  Downloaded ahash v0.8.7
+  Downloaded libloading v0.8.0
+  Downloaded humantime v2.1.0
+  Downloaded getrandom v0.2.10
+  Downloaded async-task v4.4.0
+  Downloaded version_check v0.9.4
+  Downloaded vec_map v0.8.2
+  Downloaded kv-log-macro v1.0.7
+  Downloaded keccak v0.1.4
+  Downloaded heck v0.4.1
+  Downloaded futures-macro v0.3.28
+  Downloaded futures-executor v0.3.28
+  Downloaded form_urlencoded v1.2.0
+  Downloaded digest v0.10.7
+  Downloaded bincode v1.3.3
+  Downloaded async-io v1.13.0
+  Downloaded stop-token v0.7.0
+  Downloaded rand_core v0.6.4
+  Downloaded num_cpus v1.16.0
+  Downloaded itoa v1.0.9
+  Downloaded iana-time-zone v0.1.57
+  Downloaded futures-task v0.3.28
+  Downloaded fixedbitset v0.4.2
+  Downloaded fastrand v1.9.0
+  Downloaded event-listener v2.5.3
+  Downloaded dirs-sys v0.4.1
+  Downloaded cpufeatures v0.2.9
+  Downloaded concurrent-queue v2.2.0
+  Downloaded cache-padded v1.3.0
+  Downloaded blocking v1.3.1
+  Downloaded bitflags v1.3.2
+  Downloaded atomic-waker v1.1.1
+  Downloaded async-trait v0.1.73
+  Downloaded async-lock v2.8.0
+  Downloaded memoffset v0.6.5
+  Downloaded lazy_static v1.4.0
+  Downloaded json5 v0.4.1
+  Downloaded ipnetwork v0.20.0
+  Downloaded inout v0.1.3
+  Downloaded generic-array v0.14.7
+  Downloaded futures-io v0.3.28
+  Downloaded futures-core v0.3.28
+  Downloaded fs2 v0.4.3
+  Downloaded errno v0.3.8
+  Downloaded dyn-clone v1.0.13
+  Downloaded crypto-common v0.1.6
+  Downloaded clap_lex v0.2.4
+  Downloaded cipher v0.4.4
+  Downloaded cfg-if v1.0.0
+  Downloaded block-buffer v0.10.4
+  Downloaded async-process v1.7.0
+  Downloaded async-executor v1.5.1
+  Downloaded validated_struct_macros v2.1.0
+  Downloaded autocfg v1.1.0
+  Downloaded async-channel v1.9.0
+  Downloaded array-init v2.1.0
+  Downloaded async-global-executor v2.3.1
+  Downloaded equivalent v1.0.1
+   Compiling proc-macro2 v1.0.67
+   Compiling unicode-ident v1.0.12
+   Compiling autocfg v1.1.0
+   Compiling libc v0.2.153
+   Compiling cfg-if v1.0.0
+   Compiling version_check v0.9.4
+   Compiling serde v1.0.188
+   Compiling quote v1.0.33
+   Compiling syn v2.0.33
+   Compiling once_cell v1.19.0
+   Compiling syn v1.0.109
+   Compiling pin-project-lite v0.2.13
+   Compiling memchr v2.6.3
+   Compiling getrandom v0.2.10
+   Compiling futures-core v0.3.28
+   Compiling serde_json v1.0.107
+   Compiling value-bag v1.4.1
+   Compiling anyhow v1.0.75
+   Compiling log v0.4.20
+   Compiling ahash v0.8.7
+   Compiling slab v0.4.9
+   Compiling crossbeam-utils v0.8.16
+   Compiling futures-io v0.3.28
+   Compiling zerocopy v0.7.32
+   Compiling schemars v0.8.13
+   Compiling paste v1.0.14
+   Compiling concurrent-queue v2.2.0
+   Compiling event-listener v2.5.3
+   Compiling ryu v1.0.15
+   Compiling serde_derive_internals v0.26.0
+   Compiling itoa v1.0.9
+   Compiling bitflags v1.3.2
+   Compiling lock_api v0.4.10
+   Compiling allocator-api2 v0.2.16
+   Compiling parking v2.1.0
+   Compiling hashbrown v0.14.0
+   Compiling fastrand v1.9.0
+   Compiling waker-fn v1.1.0
+   Compiling futures-sink v0.3.28
+   Compiling scopeguard v1.2.0
+   Compiling futures-task v0.3.28
+   Compiling io-lifetimes v1.0.11
+   Compiling futures-channel v0.3.28
+   Compiling serde_derive v1.0.188
+   Compiling tokio-macros v2.2.0
+   Compiling futures-lite v1.13.0
+   Compiling schemars_derive v0.8.13
+   Compiling zenoh-result v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling async-lock v2.8.0
+   Compiling mio v0.8.11
+   Compiling socket2 v0.5.6
+   Compiling num_cpus v1.16.0
+   Compiling polling v2.8.0
+   Compiling thiserror v1.0.48
+   Compiling lazy_static v1.4.0
+   Compiling bytes v1.5.0
+   Compiling futures-util v0.3.28
+   Compiling pin-utils v0.1.0
+   Compiling rustix v0.37.25
+   Compiling tokio v1.36.0
+   Compiling spin v0.9.8
+   Compiling futures-macro v0.3.28
+   Compiling rand_core v0.6.4
+   Compiling async-io v1.13.0
+   Compiling zenoh-collections v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling linux-raw-sys v0.3.8
+   Compiling ppv-lite86 v0.2.17
+   Compiling rand_chacha v0.3.1
+   Compiling thiserror-impl v1.0.48
+   Compiling async-channel v1.9.0
+   Compiling hashbrown v0.13.2
+   Compiling socket2 v0.4.9
+   Compiling tracing-core v0.1.31
+   Compiling dyn-clone v1.0.13
+   Compiling async-task v4.4.0
+   Compiling keyed-set v0.4.5
+   Compiling rand v0.8.5
+   Compiling token-cell v1.5.0
+   Compiling atomic-waker v1.1.1
+   Compiling base64 v0.21.4
+   Compiling zenoh-macros v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling zenoh-keyexpr v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling blocking v1.3.1
+   Compiling async-executor v1.5.1
+   Compiling futures-executor v0.3.28
+   Compiling bitflags v2.5.0
+   Compiling tracing-attributes v0.1.26
+   Compiling typenum v1.16.0
+   Compiling ron v0.8.1
+   Compiling async-global-executor v2.3.1
+   Compiling futures v0.3.28
+   Compiling cc v1.0.83
+   Compiling tracing v0.1.37
+   Compiling generic-array v0.14.7
+   Compiling signal-hook v0.3.17
+   Compiling ucd-trie v0.1.6
+   Compiling zenoh-runtime v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling ring v0.17.6
+   Compiling pest v2.7.3
+   Compiling aho-corasick v1.0.5
+   Compiling signal-hook-registry v1.4.1
+   Compiling async-process v1.7.0
+   Compiling memoffset v0.6.5
+   Compiling humantime v2.1.0
+   Compiling option-ext v0.2.0
+   Compiling regex-syntax v0.7.5
+   Compiling subtle v2.5.0
+   Compiling unicode-xid v0.2.4
+   Compiling regex-syntax v0.6.29
+   Compiling const_format_proc_macros v0.2.31
+   Compiling regex-automata v0.1.10
+   Compiling regex-automata v0.3.8
+   Compiling dirs-sys v0.4.1
+   Compiling pest_meta v2.7.3
+   Compiling zenoh-core v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling zenoh-buffers v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling no-std-net v0.6.0
+   Compiling async-trait v0.1.73
+   Compiling rustls-pki-types v1.7.0
+   Compiling overload v0.1.1
+   Compiling nu-ansi-term v0.46.0
+   Compiling pnet_base v0.34.0
+   Compiling regex v1.9.5
+   Compiling pest_generator v2.7.3
+   Compiling dirs v5.0.1
+   Compiling matchers v0.1.0
+   Compiling const_format v0.2.31
+   Compiling tracing-serde v0.1.3
+   Compiling tracing-log v0.2.0
+   Compiling ipnetwork v0.20.0
+   Compiling sharded-slab v0.1.7
+   Compiling kv-log-macro v1.0.7
+   Compiling nanorand v0.7.0
+   Compiling pnet_sys v0.34.0
+   Compiling thread_local v1.1.8
+   Compiling equivalent v1.0.1
+   Compiling zeroize v1.7.0
+   Compiling untrusted v0.9.0
+   Compiling smallvec v1.11.0
+   Compiling tracing-subscriber v0.3.18
+   Compiling indexmap v2.0.0
+   Compiling flume v0.11.0
+   Compiling pnet_datalink v0.34.0
+   Compiling async-std v1.12.0
+   Compiling shellexpand v3.1.0
+   Compiling nix v0.23.2
+   Compiling pest_derive v2.7.3
+   Compiling uhlc v0.7.0
+   Compiling unzip-n v0.1.2
+   Compiling libloading v0.8.0
+   Compiling rustls v0.23.9
+   Compiling home v0.5.5
+   Compiling zenoh-util v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling shared_memory v0.12.4
+   Compiling validated_struct_macros v2.1.0
+   Compiling zenoh-protocol v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling json5 v0.4.1
+   Compiling rustls-webpki v0.102.4
+   Compiling crypto-common v0.1.6
+   Compiling unsafe-libyaml v0.2.10
+   Compiling serde_yaml v0.9.25
+   Compiling validated_struct v2.1.0
+   Compiling zenoh-shm v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling secrecy v0.8.0
+   Compiling tokio-util v0.7.10
+   Compiling zenoh-config v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling zenoh-codec v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling block-buffer v0.10.4
+   Compiling event-listener v4.0.0
+   Compiling semver v1.0.18
+   Compiling zenoh-sync v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling digest v0.10.7
+   Compiling inout v0.1.3
+   Compiling num-traits v0.2.16
+   Compiling indexmap v1.9.3
+   Compiling rustix v0.38.32
+   Compiling proc-macro-hack v0.5.20+deprecated
+   Compiling cipher v0.4.4
+   Compiling tokio-rustls v0.26.0
+   Compiling zenoh-link-commons v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling rustls-pemfile v2.0.0
+   Compiling webpki-roots v0.26.0
+   Compiling hashbrown v0.12.3
+   Compiling cpufeatures v0.2.9
+   Compiling keccak v0.1.4
+   Compiling os_str_bytes v6.6.1
+   Compiling static_assertions v1.1.0
+   Compiling linux-raw-sys v0.4.13
+   Compiling twox-hash v1.6.3
+   Compiling clap_lex v0.2.4
+   Compiling sha3 v0.10.8
+   Compiling aes v0.8.3
+   Compiling zenoh-link-tls v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling zenoh-link-tcp v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling rustc_version v0.4.0
+   Compiling hmac v0.12.1
+   Compiling atty v0.2.14
+   Compiling termcolor v1.4.1
+   Compiling cache-padded v1.3.0
+   Compiling array-init v2.1.0
+   Compiling cbindgen v0.24.5
+   Compiling fastrand v2.0.2
+   Compiling textwrap v0.16.1
+   Compiling strsim v0.10.0
+   Compiling clap v3.2.25
+   Compiling tempfile v3.10.1
+   Compiling git-version-macro v0.3.5
+   Compiling ringbuffer-spsc v0.1.9
+   Compiling zenoh-crypto v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling zenoh v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling zenoh-link v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling lz4_flex v0.11.1
+   Compiling zenoh-task v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling toml v0.5.11
+   Compiling fixedbitset v0.4.2
+   Compiling percent-encoding v2.3.0
+   Compiling heck v0.4.1
+   Compiling form_urlencoded v1.2.0
+   Compiling petgraph v0.6.4
+   Compiling zenoh-transport v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling git-version v0.3.5
+   Compiling ordered-float v4.1.1
+   Compiling zenoh-plugin-trait v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+   Compiling stop-token v0.7.0
+   Compiling uuid v1.4.1
+   Compiling fs2 v0.4.3
+   Compiling vec_map v0.8.2
+   Compiling fs_extra v1.3.0
+   Compiling zenoh-c v0.11.0-dev (/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/release)
+   Compiling bincode v1.3.3
+   Compiling iana-time-zone v0.1.57
+   Compiling chrono v0.4.38
+   Compiling zenoh-ext v0.11.0-dev (https://github.com/eclipse-zenoh/zenoh.git?branch=main#e66745eb)
+    Finished release [optimized] target(s) in 5m 05s
+make[7]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+[100%] Built target cargo
+make[6]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/CMakeFiles 0
+make[5]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && /usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-build
+[ 87%] Performing install step for 'zenoh_c_vendor'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && make install
+make[5]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+/usr/bin/cmake -S/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor -B/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/CMakeFiles /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[6]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+make  -f CMakeFiles/cargo.dir/build.make CMakeFiles/cargo.dir/depend
+make[7]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/CMakeFiles/cargo.dir/DependInfo.cmake "--color="
+make[7]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+make  -f CMakeFiles/cargo.dir/build.make CMakeFiles/cargo.dir/build
+make[7]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+make[7]: Nothing to be done for 'CMakeFiles/cargo.dir/build'.
+make[7]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+[100%] Built target cargo
+make[6]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build/CMakeFiles 0
+make  -f CMakeFiles/Makefile2 preinstall
+make[6]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+make[6]: Nothing to be done for 'preinstall'.
+make[6]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "None"
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_macros.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_memory.h
+-- Up-to-date: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_commons.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_configure.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/include/zenoh_concrete.h
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/lib/libzenohc.so
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-- Installing: /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/install/lib/pkgconfig/zenohc.pc
+make[5]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-build && /usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-install
+[100%] Completed 'zenoh_c_vendor'
+/usr/bin/cmake -E make_directory /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles
+/usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles/zenoh_c_vendor-complete
+/usr/bin/cmake -E touch /<<BUILDDIR>>package/obj-x86_64-linux-gnu/zenoh_c_vendor-prefix/src/zenoh_c_vendor-stamp/zenoh_c_vendor-done
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[100%] Built target zenoh_c_vendor
+make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles 0
+make[2]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+	rm -f debian/ros-jazzy-zenoh-c-vendor.debhelper.log
+   debian/rules override_dh_auto_test
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+echo -- Running tests. Even if one of them fails the build is not canceled.
+-- Running tests. Even if one of them fails the build is not canceled.
+if [ -f "/opt/ros/jazzy/setup.sh" ]; then . "/opt/ros/jazzy/setup.sh"; fi && \
+dh_auto_test || true
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary -v --buildsystem=cmake
+   dh_testroot -O-v -O--buildsystem=cmake
+   dh_prep -O-v -O--buildsystem=cmake
+	rm -f -- debian/ros-jazzy-zenoh-c-vendor.substvars
+	rm -fr -- debian/.debhelper/generated/ros-jazzy-zenoh-c-vendor/ debian/ros-jazzy-zenoh-c-vendor/ debian/tmp/
+   debian/rules override_dh_auto_install
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/opt/ros/jazzy/setup.sh" ]; then . "/opt/ros/jazzy/setup.sh"; fi && \
+dh_auto_install
+	install -m0755 -d /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor
+	cd obj-x86_64-linux-gnu && make -j4 install DESTDIR=/<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor AM_UPDATE_INFO_DIR=no "INSTALL=install --strip-program=true"
+make[2]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -S/<<BUILDDIR>>package -B/<<BUILDDIR>>package/obj-x86_64-linux-gnu --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles /<<BUILDDIR>>package/obj-x86_64-linux-gnu//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[3]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f CMakeFiles/zenoh_c_vendor.dir/build.make CMakeFiles/zenoh_c_vendor.dir/depend
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+cd /<<BUILDDIR>>package/obj-x86_64-linux-gnu && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /<<BUILDDIR>>package /<<BUILDDIR>>package /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles/zenoh_c_vendor.dir/DependInfo.cmake "--color="
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make  -f CMakeFiles/zenoh_c_vendor.dir/build.make CMakeFiles/zenoh_c_vendor.dir/build
+make[4]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[4]: Nothing to be done for 'CMakeFiles/zenoh_c_vendor.dir/build'.
+make[4]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+[100%] Built target zenoh_c_vendor
+make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+/usr/bin/cmake -E cmake_progress_start /<<BUILDDIR>>package/obj-x86_64-linux-gnu/CMakeFiles 0
+make  -f CMakeFiles/Makefile2 preinstall
+make[3]: Entering directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[3]: Nothing to be done for 'preinstall'.
+make[3]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+Install the project...
+/usr/bin/cmake -P cmake_install.cmake
+-- Install configuration: "None"
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_commons.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_configure.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_macros.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_concrete.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_memory.h
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/zenohc
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/pkgconfig
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/pkgconfig/zenohc.pc
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/vendor_package.bat
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/vendor_package.dsv
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/vendor_package.sh
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/ament_index/resource_index/vendor_packages/zenoh_c_vendor
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/zenoh_c_vendor
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/zenoh_c_vendor
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/ament_prefix_path.sh
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/ament_prefix_path.dsv
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/path.sh
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/environment/path.dsv
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/local_setup.bash
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/local_setup.sh
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/local_setup.zsh
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/local_setup.dsv
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/package.dsv
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/ament_index/resource_index/packages/zenoh_c_vendor
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/cmake/vendor_package_cmake_prefix.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig-version.cmake
+-- Installing: /<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/share/zenoh_c_vendor/package.xml
+make[2]: Leaving directory '/<<BUILDDIR>>package/obj-x86_64-linux-gnu'
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   dh_installdocs -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-jazzy-zenoh-c-vendor/usr/share/doc/ros-jazzy-zenoh-c-vendor
+   dh_installchangelogs -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-jazzy-zenoh-c-vendor/usr/share/doc/ros-jazzy-zenoh-c-vendor
+	install -p -m0644 debian/.debhelper/generated/ros-jazzy-zenoh-c-vendor/dh_installchangelogs.dch.trimmed debian/ros-jazzy-zenoh-c-vendor/usr/share/doc/ros-jazzy-zenoh-c-vendor/changelog.Debian
+   dh_installinit -O-v -O--buildsystem=cmake
+   dh_perl -O-v -O--buildsystem=cmake
+   dh_link -O-v -O--buildsystem=cmake
+   dh_strip_nondeterminism -O-v -O--buildsystem=cmake
+   dh_compress -O-v -O--buildsystem=cmake
+	cd debian/ros-jazzy-zenoh-c-vendor
+	chmod a-x usr/share/doc/ros-jazzy-zenoh-c-vendor/changelog.Debian
+	gzip -9nf usr/share/doc/ros-jazzy-zenoh-c-vendor/changelog.Debian
+	cd '/<<BUILDDIR>>package'
+   dh_fixperms -O-v -O--buildsystem=cmake
+	find debian/ros-jazzy-zenoh-c-vendor -true -print0 2>/dev/null | xargs -0r chown --no-dereference 0:0
+	find debian/ros-jazzy-zenoh-c-vendor ! -type l -a -true -a -true -print0 2>/dev/null | xargs -0r chmod go=rX,u+rw,a-s
+	find debian/ros-jazzy-zenoh-c-vendor/usr/share/doc -type f -a -true -a ! -regex 'debian/ros-jazzy-zenoh-c-vendor/usr/share/doc/[^/]*/examples/.*' -print0 2>/dev/null | xargs -0r chmod 0644
+	find debian/ros-jazzy-zenoh-c-vendor/usr/share/doc -type d -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0755
+	find debian/ros-jazzy-zenoh-c-vendor -type f \( -name '*.so.*' -o -name '*.so' -o -name '*.la' -o -name '*.a' -o -name '*.js' -o -name '*.css' -o -name '*.scss' -o -name '*.sass' -o -name '*.jpeg' -o -name '*.jpg' -o -name '*.png' -o -name '*.gif' -o -name '*.cmxs' -o -name '*.node' \) -a -true -a -true -print0 2>/dev/null | xargs -0r chmod 0644
+   dh_missing -O-v -O--buildsystem=cmake
+   dh_strip -O-v -O--buildsystem=cmake
+	debugedit --build-id --build-id-seed=ros-jazzy-zenoh-c-vendor/0-2024.09.12.13.51 debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+6103697efc06901a3bd3cee1192ead396b213107
+	install -m0755 -d debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/lib/debug/.build-id/61
+	objcopy --only-keep-debug --compress-debug-sections debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/lib/debug/.build-id/61/03697efc06901a3bd3cee1192ead396b213107.debug
+	chmod 0644 -- debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/lib/debug/.build-id/61/03697efc06901a3bd3cee1192ead396b213107.debug
+	chown 0:0 -- debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/lib/debug/.build-id/61/03697efc06901a3bd3cee1192ead396b213107.debug
+	strip --remove-section=.comment --remove-section=.note --strip-unneeded -o /tmp/psNt9eBoq9/strip1QdR_t debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+	chmod --reference debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so /tmp/psNt9eBoq9/strip1QdR_t
+	cat '/tmp/psNt9eBoq9/strip1QdR_t' > 'debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so'
+	chmod --reference /tmp/psNt9eBoq9/strip1QdR_t debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+	objcopy --add-gnu-debuglink debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/lib/debug/.build-id/61/03697efc06901a3bd3cee1192ead396b213107.debug debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so /tmp/psNt9eBoq9/objcopyWLbGBd
+	chmod --reference debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so /tmp/psNt9eBoq9/objcopyWLbGBd
+	cat '/tmp/psNt9eBoq9/objcopyWLbGBd' > 'debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so'
+	chmod --reference /tmp/psNt9eBoq9/objcopyWLbGBd debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+	install -m0755 -d debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/share/doc
+	ln -s ros-jazzy-zenoh-c-vendor debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/usr/share/doc/ros-jazzy-zenoh-c-vendor-dbgsym
+	install -m0755 -d debian/.debhelper/ros-jazzy-zenoh-c-vendor
+   dh_makeshlibs -O-v -O--buildsystem=cmake
+	rm -f debian/ros-jazzy-zenoh-c-vendor/DEBIAN/shlibs
+	rm -f debian/ros-jazzy-zenoh-c-vendor.debhelper.log
+   debian/rules override_dh_shlibdeps
+make[1]: Entering directory '/<<BUILDDIR>>package'
+# In case we're installing to a non-standard location, look for a setup.sh
+# in the install tree and source it.  It will set things like
+# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+if [ -f "/opt/ros/jazzy/setup.sh" ]; then . "/opt/ros/jazzy/setup.sh"; fi && \
+dh_shlibdeps -l/<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor//opt/ros/jazzy/lib/
+	install -m0755 -d debian/ros-jazzy-zenoh-c-vendor/DEBIAN
+	dpkg-shlibdeps -Tdebian/ros-jazzy-zenoh-c-vendor.substvars -l/<<BUILDDIR>>package/debian/ros-jazzy-zenoh-c-vendor//opt/ros/jazzy/lib/ debian/ros-jazzy-zenoh-c-vendor/opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+dpkg-shlibdeps: warning: diversions involved - output may be incorrect
+ diversion by libc6 from: /lib64/ld-linux-x86-64.so.2
+dpkg-shlibdeps: warning: diversions involved - output may be incorrect
+ diversion by libc6 to: /lib64/ld-linux-x86-64.so.2.usr-is-merged
+make[1]: Leaving directory '/<<BUILDDIR>>package'
+   dh_installdeb -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-jazzy-zenoh-c-vendor/DEBIAN
+   dh_gencontrol -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-jazzy-zenoh-c-vendor/DEBIAN
+	echo misc:Depends= >> debian/ros-jazzy-zenoh-c-vendor.substvars
+	echo misc:Pre-Depends= >> debian/ros-jazzy-zenoh-c-vendor.substvars
+	install -m0755 -d debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/DEBIAN
+	dpkg-gencontrol -pros-jazzy-zenoh-c-vendor -ldebian/changelog -Tdebian/ros-jazzy-zenoh-c-vendor.substvars -Pdebian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root -UPre-Depends -URecommends -USuggests -UEnhances -UProvides -UEssential -UConflicts -DPriority=optional -UHomepage -UImportant -DAuto-Built-Package=debug-symbols -UProtected -UBuilt-Using -UStatic-Built-Using -DPackage=ros-jazzy-zenoh-c-vendor-dbgsym "-DDepends=ros-jazzy-zenoh-c-vendor (= \${binary:Version})" "-DDescription=debug symbols for ros-jazzy-zenoh-c-vendor" -DBuild-Ids=6103697efc06901a3bd3cee1192ead396b213107 -DSection=debug -DPackage-Type=ddeb -UMulti-Arch -UReplaces -UBreaks
+	chmod 0644 -- debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/DEBIAN/control
+	chown 0:0 -- debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/DEBIAN/control
+	dpkg-gencontrol -pros-jazzy-zenoh-c-vendor -ldebian/changelog -Tdebian/ros-jazzy-zenoh-c-vendor.substvars -Pdebian/ros-jazzy-zenoh-c-vendor
+	chmod 0644 -- debian/ros-jazzy-zenoh-c-vendor/DEBIAN/control
+	chown 0:0 -- debian/ros-jazzy-zenoh-c-vendor/DEBIAN/control
+   dh_md5sums -O-v -O--buildsystem=cmake
+	install -m0755 -d debian/ros-jazzy-zenoh-c-vendor/DEBIAN
+	cd debian/ros-jazzy-zenoh-c-vendor >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
+	chmod 0644 -- debian/ros-jazzy-zenoh-c-vendor/DEBIAN/md5sums
+	chown 0:0 -- debian/ros-jazzy-zenoh-c-vendor/DEBIAN/md5sums
+	install -m0755 -d debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/DEBIAN
+	cd debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root >/dev/null && xargs -r0 md5sum | perl -pe 'if (s@^\\@@) { s/\\\\/\\/g; }' > DEBIAN/md5sums
+	chmod 0644 -- debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/DEBIAN/md5sums
+	chown 0:0 -- debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root/DEBIAN/md5sums
+   dh_builddeb -O-v -O--buildsystem=cmake
+	dpkg-deb --build debian/ros-jazzy-zenoh-c-vendor ..
+dpkg-deb: building package 'ros-jazzy-zenoh-c-vendor' in '../ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb'.
+	dpkg-deb --root-owner-group --build debian/.debhelper/ros-jazzy-zenoh-c-vendor/dbgsym-root debian/.debhelper/scratch-space/build-ros-jazzy-zenoh-c-vendor
+dpkg-deb: building package 'ros-jazzy-zenoh-c-vendor-dbgsym' in 'debian/.debhelper/scratch-space/build-ros-jazzy-zenoh-c-vendor/ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.deb'.
+	Renaming ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.deb to ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+	mv debian/.debhelper/scratch-space/build-ros-jazzy-zenoh-c-vendor/ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.deb ../ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ dpkg-genbuildinfo --build=binary -O../ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.buildinfo
+ dpkg-genchanges --build=binary -O../ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.changes
+dpkg-genchanges: info: binary-only upload (no source code included)
+ dpkg-source --after-build .
+dpkg-source: info: using options from package/debian/source/options: --auto-commit
+dpkg-buildpackage: info: binary-only upload (no source included)
+--------------------------------------------------------------------------------
+Build finished at 2024-09-12T13:57:54Z
+
+Finished
+--------
+
+I: Built successfully
+
++------------------------------------------------------------------------------+
+| Changes                                                                      |
++------------------------------------------------------------------------------+
+
+
+ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.changes:
+----------------------------------------------------------
+
+Format: 1.8
+Date: Thu, 12 Sep 2024 13:51:48 -0000
+Source: ros-jazzy-zenoh-c-vendor
+Binary: ros-jazzy-zenoh-c-vendor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2024.09.12.13.51
+Distribution: noble
+Urgency: high
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Changed-By: Yadunund <yadunund@openrobotics.org>
+Description:
+ ros-jazzy-zenoh-c-vendor - Vendor pkg to install zenoh-c
+Changes:
+ ros-jazzy-zenoh-c-vendor (0-2024.09.12.13.51) noble; urgency=high
+ .
+   * Autogenerated, no changelog for this version found in CHANGELOG.rst.
+Checksums-Sha1:
+ c9381af165a25bedcf86c8d78a1b6f071cb7430c 2042008 ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ 01a7374e777d7843d69ac3a6a2c355e52c42437f 10690 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.buildinfo
+ 1a04afaad413c645b182092b98c2934982555a82 2916196 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+Checksums-Sha256:
+ 412953d57bd9300385af86ff771eb17915390e28d8e2f2671cb4ed05fd32917d 2042008 ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ 8a6458116319ec9c27ea52fc171d35e82a0aabaf365927ed1fd5979a2396acc6 10690 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.buildinfo
+ 291cf45704c8ac394ec88ac09f37e2a3bc98da69344d5decdc32201184aa4a3f 2916196 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+Files:
+ a2a4e3a6b538a8dea15f96e6f554b693 2042008 debug optional ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ ce00af91044240b723ce78d0a09d9f70 10690 misc optional ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.buildinfo
+ 5e796dbd82e26f09c1bc35ba4f750893 2916196 misc optional ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+
++------------------------------------------------------------------------------+
+| Buildinfo                                                                    |
++------------------------------------------------------------------------------+
+
+Format: 1.0
+Source: ros-jazzy-zenoh-c-vendor
+Binary: ros-jazzy-zenoh-c-vendor ros-jazzy-zenoh-c-vendor-dbgsym
+Architecture: amd64
+Version: 0-2024.09.12.13.51
+Checksums-Md5:
+ a2a4e3a6b538a8dea15f96e6f554b693 2042008 ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ 5e796dbd82e26f09c1bc35ba4f750893 2916196 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+Checksums-Sha1:
+ c9381af165a25bedcf86c8d78a1b6f071cb7430c 2042008 ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ 1a04afaad413c645b182092b98c2934982555a82 2916196 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+Checksums-Sha256:
+ 412953d57bd9300385af86ff771eb17915390e28d8e2f2671cb4ed05fd32917d 2042008 ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.09.12.13.51_amd64.ddeb
+ 291cf45704c8ac394ec88ac09f37e2a3bc98da69344d5decdc32201184aa4a3f 2916196 ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+Build-Origin: Ubuntu
+Build-Architecture: amd64
+Build-Date: Thu, 12 Sep 2024 13:57:54 +0000
+Build-Path: /<<BUILDDIR>>package
+Build-Tainted-By:
+ merged-usr-via-aliased-dirs
+Installed-Build-Depends:
+ autoconf (= 2.71-3),
+ automake (= 1:1.16.5-1.3ubuntu1),
+ autopoint (= 0.21-14ubuntu2),
+ autotools-dev (= 20220109.1),
+ base-files (= 13ubuntu10.1),
+ base-passwd (= 3.6.3build1),
+ bash (= 5.2.21-2ubuntu4),
+ binutils (= 2.42-4ubuntu2),
+ binutils-common (= 2.42-4ubuntu2),
+ binutils-x86-64-linux-gnu (= 2.42-4ubuntu2),
+ bsdextrautils (= 2.39.3-9ubuntu6.1),
+ bsdutils (= 1:2.39.3-9ubuntu6.1),
+ build-essential (= 12.10ubuntu1),
+ bzip2 (= 1.0.8-5.1build0.1),
+ cargo (= 1.75.0+dfsg0ubuntu1-0ubuntu7.1),
+ clang (= 1:18.0-59~exp2),
+ clang-18 (= 1:18.1.3-1ubuntu1),
+ cmake (= 3.28.3-1build7),
+ cmake-data (= 3.28.3-1build7),
+ coreutils (= 9.4-3ubuntu6),
+ cpp (= 4:13.2.0-7ubuntu1),
+ cpp-13 (= 13.2.0-23ubuntu4),
+ cpp-13-x86-64-linux-gnu (= 13.2.0-23ubuntu4),
+ cpp-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1),
+ dash (= 0.5.12-6ubuntu5),
+ debconf (= 1.5.86ubuntu1),
+ debhelper (= 13.14.1ubuntu5),
+ debianutils (= 5.17build1),
+ debugedit (= 1:5.0-5build2),
+ dh-autoreconf (= 20),
+ dh-strip-nondeterminism (= 1.13.1-1),
+ diffutils (= 1:3.10-1build1),
+ docutils-common (= 0.20.1+dfsg-3),
+ dpkg (= 1.22.6ubuntu6.1),
+ dpkg-dev (= 1.22.6ubuntu6.1),
+ dwz (= 0.15-1build6),
+ file (= 1:5.45-3build1),
+ findutils (= 4.9.0-5build1),
+ g++ (= 4:13.2.0-7ubuntu1),
+ g++-13 (= 13.2.0-23ubuntu4),
+ g++-13-x86-64-linux-gnu (= 13.2.0-23ubuntu4),
+ g++-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1),
+ gcc (= 4:13.2.0-7ubuntu1),
+ gcc-13 (= 13.2.0-23ubuntu4),
+ gcc-13-base (= 13.2.0-23ubuntu4),
+ gcc-13-x86-64-linux-gnu (= 13.2.0-23ubuntu4),
+ gcc-14-base (= 14-20240412-0ubuntu1),
+ gcc-x86-64-linux-gnu (= 4:13.2.0-7ubuntu1),
+ gettext (= 0.21-14ubuntu2),
+ gettext-base (= 0.21-14ubuntu2),
+ git (= 1:2.43.0-1ubuntu7.1),
+ git-man (= 1:2.43.0-1ubuntu7.1),
+ grep (= 3.11-4build1),
+ groff-base (= 1.23.0-3build2),
+ gzip (= 1.12-1ubuntu3),
+ hostname (= 3.23+nmu2ubuntu2),
+ init-system-helpers (= 1.66ubuntu1),
+ intltool-debian (= 0.35.0+20060710.6),
+ libacl1 (= 2.3.2-1build1),
+ libarchive-zip-perl (= 1.68-1),
+ libarchive13t64 (= 3.7.2-2ubuntu0.1),
+ libasan8 (= 14-20240412-0ubuntu1),
+ libatomic1 (= 14-20240412-0ubuntu1),
+ libattr1 (= 1:2.5.2-1build1),
+ libaudit-common (= 1:3.1.2-2.1build1),
+ libaudit1 (= 1:3.1.2-2.1build1),
+ libbinutils (= 2.42-4ubuntu2),
+ libblkid1 (= 2.39.3-9ubuntu6.1),
+ libbrotli1 (= 1.1.0-2build2),
+ libbsd0 (= 0.12.1-1build1),
+ libbz2-1.0 (= 1.0.8-5.1build0.1),
+ libc-bin (= 2.39-0ubuntu8.3),
+ libc-dev-bin (= 2.39-0ubuntu8.3),
+ libc6 (= 2.39-0ubuntu8.3),
+ libc6-dev (= 2.39-0ubuntu8.3),
+ libcap-ng0 (= 0.8.4-2build2),
+ libcap2 (= 1:2.66-5ubuntu2),
+ libcc1-0 (= 14-20240412-0ubuntu1),
+ libclang-common-18-dev (= 1:18.1.3-1ubuntu1),
+ libclang-cpp18 (= 1:18.1.3-1ubuntu1),
+ libclang1-18 (= 1:18.1.3-1ubuntu1),
+ libcom-err2 (= 1.47.0-2.4~exp1ubuntu4.1),
+ libcrypt-dev (= 1:4.4.36-4build1),
+ libcrypt1 (= 1:4.4.36-4build1),
+ libctf-nobfd0 (= 2.42-4ubuntu2),
+ libctf0 (= 2.42-4ubuntu2),
+ libcurl3t64-gnutls (= 8.5.0-2ubuntu10.3),
+ libcurl4t64 (= 8.5.0-2ubuntu10.3),
+ libdb5.3t64 (= 5.3.28+dfsg2-7),
+ libdebconfclient0 (= 0.271ubuntu3),
+ libdebhelper-perl (= 13.14.1ubuntu5),
+ libdpkg-perl (= 1.22.6ubuntu6.1),
+ libdw1t64 (= 0.190-1.1build4),
+ libedit2 (= 3.1-20230828-1build1),
+ libelf1t64 (= 0.190-1.1build4),
+ liberror-perl (= 0.17029-2),
+ libexpat1 (= 2.6.1-2ubuntu0.1),
+ libffi8 (= 3.4.6-1build1),
+ libfile-stripnondeterminism-perl (= 1.13.1-1),
+ libgc1 (= 1:8.2.6-1build1),
+ libgcc-13-dev (= 13.2.0-23ubuntu4),
+ libgcc-s1 (= 14-20240412-0ubuntu1),
+ libgcrypt20 (= 1.10.3-2build1),
+ libgdbm-compat4t64 (= 1.23-5.1build1),
+ libgdbm6t64 (= 1.23-5.1build1),
+ libgit2-1.7 (= 1.7.2+ds-1ubuntu3),
+ libgmp10 (= 2:6.3.0+dfsg-2ubuntu6),
+ libgnutls30t64 (= 3.8.3-1.1ubuntu3.2),
+ libgomp1 (= 14-20240412-0ubuntu1),
+ libgpg-error0 (= 1.47-3build2),
+ libgprofng0 (= 2.42-4ubuntu2),
+ libgssapi-krb5-2 (= 1.20.1-6ubuntu2.1),
+ libhogweed6t64 (= 3.9.1-2.2build1.1),
+ libhttp-parser2.9 (= 2.9.4-6build1),
+ libhwasan0 (= 14-20240412-0ubuntu1),
+ libicu74 (= 74.2-1ubuntu3.1),
+ libidn2-0 (= 2.3.7-2build1),
+ libisl23 (= 0.26-3build1),
+ libitm1 (= 14-20240412-0ubuntu1),
+ libjansson4 (= 2.14-2build2),
+ libjsoncpp25 (= 1.9.5-6build1),
+ libk5crypto3 (= 1.20.1-6ubuntu2.1),
+ libkeyutils1 (= 1.6.3-3build1),
+ libkrb5-3 (= 1.20.1-6ubuntu2.1),
+ libkrb5support0 (= 1.20.1-6ubuntu2.1),
+ libldap2 (= 2.6.7+dfsg-1~exp1ubuntu8),
+ libllvm17t64 (= 1:17.0.6-9ubuntu1),
+ libllvm18 (= 1:18.1.3-1ubuntu1),
+ liblsan0 (= 14-20240412-0ubuntu1),
+ liblz4-1 (= 1.9.4-1build1.1),
+ liblzma5 (= 5.6.1+really5.4.5-1build0.1),
+ libmagic-mgc (= 1:5.45-3build1),
+ libmagic1t64 (= 1:5.45-3build1),
+ libmd0 (= 1.1.0-2build1),
+ libmount1 (= 2.39.3-9ubuntu6.1),
+ libmpc3 (= 1.3.1-1build1),
+ libmpfr6 (= 4.2.1-1build1),
+ libncursesw6 (= 6.4+20240113-1ubuntu2),
+ libnettle8t64 (= 3.9.1-2.2build1.1),
+ libnghttp2-14 (= 1.59.0-1ubuntu0.1),
+ libobjc-13-dev (= 13.2.0-23ubuntu4),
+ libobjc4 (= 14-20240412-0ubuntu1),
+ libp11-kit0 (= 0.25.3-4ubuntu2.1),
+ libpam-modules (= 1.5.3-5ubuntu5.1),
+ libpam-modules-bin (= 1.5.3-5ubuntu5.1),
+ libpam-runtime (= 1.5.3-5ubuntu5.1),
+ libpam0g (= 1.5.3-5ubuntu5.1),
+ libpcre2-8-0 (= 10.42-4ubuntu2),
+ libperl5.38t64 (= 5.38.2-3.2build2),
+ libpipeline1 (= 1.5.7-2),
+ libproc2-0 (= 2:4.0.4-4ubuntu3),
+ libpsl5t64 (= 0.21.2-1.1build1),
+ libpython3-stdlib (= 3.12.3-0ubuntu2),
+ libpython3.12-minimal (= 3.12.3-1ubuntu0.1),
+ libpython3.12-stdlib (= 3.12.3-1ubuntu0.1),
+ libquadmath0 (= 14-20240412-0ubuntu1),
+ libreadline8t64 (= 8.2-4build1),
+ librhash0 (= 1.4.3-3build1),
+ librtmp1 (= 2.4+20151223.gitfa8646d.1-2build7),
+ libsasl2-2 (= 2.1.28+dfsg1-5ubuntu3.1),
+ libsasl2-modules-db (= 2.1.28+dfsg1-5ubuntu3.1),
+ libseccomp2 (= 2.5.5-1ubuntu3.1),
+ libselinux1 (= 3.5-2ubuntu2),
+ libsframe1 (= 2.42-4ubuntu2),
+ libsmartcols1 (= 2.39.3-9ubuntu6.1),
+ libsqlite3-0 (= 3.45.1-1ubuntu2),
+ libssh-4 (= 0.10.6-2build2),
+ libssh2-1t64 (= 1.11.0-4.1build2),
+ libssl3t64 (= 3.0.13-0ubuntu3.4),
+ libstd-rust-1.75 (= 1.75.0+dfsg0ubuntu1-0ubuntu7.1),
+ libstd-rust-dev (= 1.75.0+dfsg0ubuntu1-0ubuntu7.1),
+ libstdc++-13-dev (= 13.2.0-23ubuntu4),
+ libstdc++6 (= 14-20240412-0ubuntu1),
+ libsub-override-perl (= 0.10-1),
+ libsystemd0 (= 255.4-1ubuntu8.4),
+ libtasn1-6 (= 4.19.0-3build1),
+ libtinfo6 (= 6.4+20240113-1ubuntu2),
+ libtool (= 2.4.7-7build1),
+ libtsan2 (= 14-20240412-0ubuntu1),
+ libubsan1 (= 14-20240412-0ubuntu1),
+ libuchardet0 (= 0.0.8-1build1),
+ libudev1 (= 255.4-1ubuntu8.4),
+ libunistring5 (= 1.1-2build1),
+ libuuid1 (= 2.39.3-9ubuntu6.1),
+ libuv1t64 (= 1.48.0-1.1build1),
+ libxml2 (= 2.9.14+dfsg-1.3ubuntu3),
+ libyaml-0-2 (= 0.2.5-1build1),
+ libzstd1 (= 1.5.5+dfsg2-2build1.1),
+ linux-libc-dev (= 6.8.0-44.44),
+ llvm-18-linker-tools (= 1:18.1.3-1ubuntu1),
+ login (= 1:4.13+dfsg1-4ubuntu3),
+ lto-disabled-list (= 47),
+ m4 (= 1.4.19-4build1),
+ make (= 4.3-4.1build2),
+ man-db (= 2.12.0-4build2),
+ mawk (= 1.3.4.20240123-1build1),
+ media-types (= 10.1.0),
+ ncurses-base (= 6.4+20240113-1ubuntu2),
+ ncurses-bin (= 6.4+20240113-1ubuntu2),
+ netbase (= 6.4),
+ patch (= 2.7.6-7build3),
+ perl (= 5.38.2-3.2build2),
+ perl-base (= 5.38.2-3.2build2),
+ perl-modules-5.38 (= 5.38.2-3.2build2),
+ po-debconf (= 1.0.21+nmu1),
+ procps (= 2:4.0.4-4ubuntu3),
+ python3 (= 3.12.3-0ubuntu2),
+ python3-catkin-pkg-modules (= 1.0.0-1),
+ python3-dateutil (= 2.8.2-3ubuntu1),
+ python3-docutils (= 0.20.1+dfsg-3),
+ python3-importlib-metadata (= 4.12.0-1),
+ python3-minimal (= 3.12.3-0ubuntu2),
+ python3-more-itertools (= 10.2.0-1),
+ python3-pkg-resources (= 68.1.2-2ubuntu1.1),
+ python3-pyparsing (= 3.1.1-1),
+ python3-roman (= 3.3-3),
+ python3-setuptools (= 68.1.2-2ubuntu1.1),
+ python3-six (= 1.16.0-4),
+ python3-vcstool (= 0.3.0-1),
+ python3-yaml (= 6.0.1-2build2),
+ python3-zipp (= 1.0.0-6ubuntu0.1),
+ python3.12 (= 3.12.3-1ubuntu0.1),
+ python3.12-minimal (= 3.12.3-1ubuntu0.1),
+ readline-common (= 8.2-4build1),
+ ros-jazzy-ament-cmake (= 2.5.2-1noble.20240702.035843),
+ ros-jazzy-ament-cmake-core (= 2.5.2-1noble.20240702.033554),
+ ros-jazzy-ament-cmake-export-definitions (= 2.5.2-1noble.20240702.035640),
+ ros-jazzy-ament-cmake-export-dependencies (= 2.5.2-1noble.20240702.035553),
+ ros-jazzy-ament-cmake-export-include-directories (= 2.5.2-1noble.20240702.035512),
+ ros-jazzy-ament-cmake-export-interfaces (= 2.5.2-1noble.20240702.035720),
+ ros-jazzy-ament-cmake-export-libraries (= 2.5.2-1noble.20240702.035646),
+ ros-jazzy-ament-cmake-export-link-flags (= 2.5.2-1noble.20240702.035645),
+ ros-jazzy-ament-cmake-export-targets (= 2.5.2-1noble.20240702.035741),
+ ros-jazzy-ament-cmake-gen-version-h (= 2.5.2-1noble.20240702.035512),
+ ros-jazzy-ament-cmake-include-directories (= 2.5.2-1noble.20240702.035646),
+ ros-jazzy-ament-cmake-libraries (= 2.5.2-1noble.20240702.035512),
+ ros-jazzy-ament-cmake-python (= 2.5.2-1noble.20240702.035659),
+ ros-jazzy-ament-cmake-target-dependencies (= 2.5.2-1noble.20240702.035714),
+ ros-jazzy-ament-cmake-test (= 2.5.2-1noble.20240702.035727),
+ ros-jazzy-ament-cmake-vendor-package (= 2.5.2-1noble.20240702.035625),
+ ros-jazzy-ament-cmake-version (= 2.5.2-1noble.20240702.035721),
+ ros-jazzy-ament-package (= 0.16.3-3noble.20240423.202428),
+ ros-jazzy-ros-workspace (= 1.0.3-6noble.20240702.033716),
+ rpcsvc-proto (= 1.4.2-0ubuntu7),
+ rustc (= 1.75.0+dfsg0ubuntu1-0ubuntu7.1),
+ sed (= 4.9-2build1),
+ sensible-utils (= 0.0.22),
+ sgml-base (= 1.31),
+ sysvinit-utils (= 3.08-6ubuntu3),
+ tar (= 1.35+dfsg-3build1),
+ tzdata (= 2024a-3ubuntu1.1),
+ util-linux (= 2.39.3-9ubuntu6.1),
+ xml-core (= 0.19),
+ xz-utils (= 5.6.1+really5.4.5-1build0.1),
+ zlib1g (= 1:1.3.dfsg-3.1ubuntu2.1)
+Environment:
+ DEB_BUILD_OPTIONS="nocheck parallel=4"
+ DEB_BUILD_PROFILES="noudeb"
+ LANG="C.UTF-8"
+ LC_ALL="C.UTF-8"
+ LC_COLLATE="C.UTF-8"
+ SOURCE_DATE_EPOCH="1726149108"
+
+
++------------------------------------------------------------------------------+
+| Package contents                                                             |
++------------------------------------------------------------------------------+
+
+
+ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51_amd64.deb
+-----------------------------------------------------
+
+ new Debian package, version 2.0.
+ size 2916196 bytes: control archive=1265 bytes.
+     273 bytes,     9 lines      control
+    2979 bytes,    31 lines      md5sums
+ Package: ros-jazzy-zenoh-c-vendor
+ Version: 0-2024.09.12.13.51
+ Architecture: amd64
+ Maintainer: Yadunund <yadunund@openrobotics.org>
+ Installed-Size: 9567
+ Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+ Section: misc
+ Priority: optional
+ Description: Vendor pkg to install zenoh-c
+
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/
+-rw-r--r-- root/root       745 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh.h
+-rw-r--r-- root/root    110975 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_commons.h
+-rw-r--r-- root/root      5739 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_concrete.h
+-rw-r--r-- root/root        40 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_configure.h
+-rw-r--r-- root/root     22595 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_macros.h
+-rw-r--r-- root/root       291 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/include/zenoh_memory.h
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/zenohc/
+-rw-r--r-- root/root      2826 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfig.cmake
+-rw-r--r-- root/root      2771 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/cmake/zenohc/zenohcConfigVersion.cmake
+-rw-r--r-- root/root   9590784 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/libzenohc.so
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/pkgconfig/
+-rw-r--r-- root/root       219 2024-09-12 13:51 ./opt/ros/jazzy/opt/zenoh_c_vendor/lib/pkgconfig/zenohc.pc
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/
+-rw-r--r-- root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/package_run_dependencies/zenoh_c_vendor
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/packages/
+-rw-r--r-- root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/packages/zenoh_c_vendor
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/
+-rw-r--r-- root/root         8 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/parent_prefix_path/zenoh_c_vendor
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/vendor_packages/
+-rw-r--r-- root/root        18 2024-09-12 13:51 ./opt/ros/jazzy/share/ament_index/resource_index/vendor_packages/zenoh_c_vendor
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/cmake/
+-rw-r--r-- root/root       278 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/cmake/vendor_package_cmake_prefix.cmake
+-rw-r--r-- root/root       432 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig-version.cmake
+-rw-r--r-- root/root      1337 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/cmake/zenoh_c_vendorConfig.cmake
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/
+-rw-r--r-- root/root        41 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/ament_prefix_path.dsv
+-rw-r--r-- root/root       160 2024-07-02 02:37 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/ament_prefix_path.sh
+-rw-r--r-- root/root        41 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/path.dsv
+-rw-r--r-- root/root       185 2024-07-02 02:37 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/path.sh
+-rw-r--r-- root/root      1327 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/vendor_package.bat
+-rw-r--r-- root/root       204 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/vendor_package.dsv
+-rw-r--r-- root/root       551 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/environment/vendor_package.sh
+-rw-r--r-- root/root      1594 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/local_setup.bash
+-rw-r--r-- root/root       226 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/local_setup.dsv
+-rw-r--r-- root/root      5110 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/local_setup.sh
+-rw-r--r-- root/root      1957 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/local_setup.zsh
+-rw-r--r-- root/root       176 2024-09-12 13:51 ./opt/ros/jazzy/share/zenoh_c_vendor/package.dsv
+-rw-r--r-- root/root       693 2024-09-12 13:00 ./opt/ros/jazzy/share/zenoh_c_vendor/package.xml
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./usr/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./usr/share/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./usr/share/doc/
+drwxr-xr-x root/root         0 2024-09-12 13:51 ./usr/share/doc/ros-jazzy-zenoh-c-vendor/
+-rw-r--r-- root/root       201 2024-09-12 13:51 ./usr/share/doc/ros-jazzy-zenoh-c-vendor/changelog.Debian.gz
+
+
++------------------------------------------------------------------------------+
+| Post Build                                                                   |
++------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------+
+| Cleanup                                                                      |
++------------------------------------------------------------------------------+
+
+Purging /<<BUILDDIR>>
+Not cleaning session: cloned chroot in use
+
++------------------------------------------------------------------------------+
+| Summary                                                                      |
++------------------------------------------------------------------------------+
+
+Build Architecture: amd64
+Build Type: binary
+Build-Space: 1472400
+Build-Time: 316
+Distribution: noble
+Host Architecture: amd64
+Install-Time: 30
+Job: /home/runner/work/ros_debian_packages/ros_debian_packages/src/rmw_zenoh/ros-jazzy-zenoh-c-vendor_0-2024.09.12.13.51.dsc
+Machine Architecture: amd64
+Package: ros-jazzy-zenoh-c-vendor
+Package-Time: 365
+Source-Version: 0-2024.09.12.13.51
+Space: 1472400
+Status: successful
+Version: 0-2024.09.12.13.51
+--------------------------------------------------------------------------------
+Finished at 2024-09-12T13:57:54Z
+Build needed 00:06:05, 1472400k disk space

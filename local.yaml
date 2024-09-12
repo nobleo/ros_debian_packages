@@ -1,0 +1,90 @@
+novatel_oem7_msgs:
+  ubuntu:
+  - ros-jazzy-novatel-oem7-msgs
+novatel_oem7_driver:
+  ubuntu:
+  - ros-jazzy-novatel-oem7-driver
+off_highway_can:
+  ubuntu:
+  - ros-jazzy-off-highway-can
+off_highway_general_purpose_radar_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-general-purpose-radar-msgs
+off_highway_general_purpose_radar:
+  ubuntu:
+  - ros-jazzy-off-highway-general-purpose-radar
+off_highway_premium_radar_sample_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-premium-radar-sample-msgs
+off_highway_premium_radar_sample:
+  ubuntu:
+  - ros-jazzy-off-highway-premium-radar-sample
+off_highway_radar_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-radar-msgs
+off_highway_radar:
+  ubuntu:
+  - ros-jazzy-off-highway-radar
+off_highway_sensor_drivers:
+  ubuntu:
+  - ros-jazzy-off-highway-sensor-drivers
+off_highway_sensor_drivers_examples:
+  ubuntu:
+  - ros-jazzy-off-highway-sensor-drivers-examples
+off_highway_uss_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-uss-msgs
+off_highway_uss:
+  ubuntu:
+  - ros-jazzy-off-highway-uss
+tier4_control_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-control-msgs
+tier4_debug_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-debug-msgs
+tier4_external_api_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-external-api-msgs
+tier4_hmi_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-hmi-msgs
+tier4_localization_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-localization-msgs
+tier4_map_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-map-msgs
+tier4_perception_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-perception-msgs
+tier4_planning_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-planning-msgs
+tier4_rtc_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-rtc-msgs
+tier4_simulation_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-simulation-msgs
+tier4_system_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-system-msgs
+tier4_api_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-api-msgs
+tier4_v2x_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-v2x-msgs
+tier4_vehicle_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-vehicle-msgs
+tier4_auto_msgs_converter:
+  ubuntu:
+  - ros-jazzy-tier4-auto-msgs-converter
+zenoh_c_vendor:
+  ubuntu:
+  - ros-jazzy-zenoh-c-vendor
+rmw_zenoh_cpp:
+  ubuntu:
+  - ros-jazzy-rmw-zenoh-cpp
