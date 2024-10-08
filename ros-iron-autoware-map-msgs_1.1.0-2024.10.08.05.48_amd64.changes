@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-map-msgs
+Binary: ros-iron-autoware-map-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.10.08.05.48
+Distribution: jammy
+Urgency: high
+Maintainer: kminoda <koji.minoda@tier4.jp>
+Changed-By: kminoda <koji.minoda@tier4.jp>
+Description:
+ ros-iron-autoware-map-msgs - Autoware map messages package.
+Changes:
+ ros-iron-autoware-map-msgs (1.1.0-2024.10.08.05.48) jammy; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat(autoware_map_msgs): support cylindrical AreaInfo (#64 <https://github.com/youtalk/autoware_msgs/issues/64>)
+     * feat(autoware_map_msgs): support cylindrical AreaInfo
+     * update attribute
+     ---------
+   * feat(autoware_map_msgs): add selected map loading (#57 <https://github.com/youtalk/autoware_msgs/issues/57>)
+     * feat(map_loader): add support for sequential_map_loading
+     * feat(autoware_map_msgs): add PointCloudMetaData.msg
+     * docs(autoware_map_msgs): add description of selected_map_loading
+     * docs(autoware_map_msgs): remove gif for selected_map_loading
+     * docs(autoware_map_msgs): fix typo
+     * feat(autoware_map_msgs): make member of msg plural
+     * docs(autoware_map_msgs): clarify the client needs to receive msg beforehand
+     * docs(autoware_map_msgs): clarify IDs included in msgs are used as query for service
+     ---------
+   * feat(autoware_map_msgs): add grid coordinates in PointCloudMapCellWithID.msg (#52 <https://github.com/youtalk/autoware_msgs/issues/52>)
+     * feat(autoware_map_msgs): add grid coordinates in PointCloudMapCellWithID.msg
+     * style(pre-commit): autofix
+     * debug
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(map-messages): add LaneletMapBin.msg (#30 <https://github.com/youtalk/autoware_msgs/issues/30>)
+   * feat: add autoware_map_msgs for dynamic map loading (#39 <https://github.com/youtalk/autoware_msgs/issues/39>)
+     Co-authored-by: M. Fatih Cırıt <mailto:xmfcx@users.noreply.github.com>
+     Co-authored-by: Kenji Miyake <mailto:31987104+kenji-miyake@users.noreply.github.com>
+     Co-authored-by: Takagi, Isamu <mailto:43976882+isamu-takagi@users.noreply.github.com>
+   * Contributors: M. Fatih Cırıt, Shintaro Tomie, Yutaka Kondo, kminoda
+Checksums-Sha1:
+ 852562053cd6193f12999fd5ab42d6bceeee31b5 1724030 ros-iron-autoware-map-msgs-dbgsym_1.1.0-2024.10.08.05.48_amd64.ddeb
+ cfbcb214d3aac4e44b0a1166fd4beb467f48a9bd 15035 ros-iron-autoware-map-msgs_1.1.0-2024.10.08.05.48_amd64.buildinfo
+ 8e1d8d6c27fa9586273896419e79734ed7622982 189268 ros-iron-autoware-map-msgs_1.1.0-2024.10.08.05.48_amd64.deb
+Checksums-Sha256:
+ ca14c719fed91097648f101c451ef2c609bd6fb3c05f5b016676c2c991e9d190 1724030 ros-iron-autoware-map-msgs-dbgsym_1.1.0-2024.10.08.05.48_amd64.ddeb
+ b5dc500a5bbb8aa868d0aecdcd66b656472b9ad7f0ee18c10d80648c05a8c788 15035 ros-iron-autoware-map-msgs_1.1.0-2024.10.08.05.48_amd64.buildinfo
+ 5bff23cd706a08b263e29767c89ddd04ee48773475e5eece19e86e301d225a8c 189268 ros-iron-autoware-map-msgs_1.1.0-2024.10.08.05.48_amd64.deb
+Files:
+ ce7c85a64c685fb6e359a4a727567518 1724030 debug optional ros-iron-autoware-map-msgs-dbgsym_1.1.0-2024.10.08.05.48_amd64.ddeb
+ c7c7f8a34ff6b928143297420752c1ca 15035 misc optional ros-iron-autoware-map-msgs_1.1.0-2024.10.08.05.48_amd64.buildinfo
+ 9af884bfdaa7380cbc49163c905d8d0e 189268 misc optional ros-iron-autoware-map-msgs_1.1.0-2024.10.08.05.48_amd64.deb

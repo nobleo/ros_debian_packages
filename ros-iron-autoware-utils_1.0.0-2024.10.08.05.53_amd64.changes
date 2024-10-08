@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Thu, 02 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-utils
+Binary: ros-iron-autoware-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-2024.10.08.05.53
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-iron-autoware-utils - The autoware_utils package
+Changes:
+ ros-iron-autoware-utils (1.0.0-2024.10.08.05.53) jammy; urgency=high
+ .
+   * Merge pull request #2 <https://github.com/youtalk/autoware_utils/issues/2> from youtalk/import-from-autoware-common
+     feat: import from autoware_common
+   * add maintainer
+   * move to autoware_utils
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 6c29573537a0482b7e68bc7f1d1b13ce4a8fd2bf 10814 ros-iron-autoware-utils-dbgsym_1.0.0-2024.10.08.05.53_amd64.ddeb
+ 608149e794788b83103441df8a3bf1f1c00e6aff 15517 ros-iron-autoware-utils_1.0.0-2024.10.08.05.53_amd64.buildinfo
+ 641cfbceb220a667990cd8803cd073c0a00ecf24 10620 ros-iron-autoware-utils_1.0.0-2024.10.08.05.53_amd64.deb
+Checksums-Sha256:
+ e33de3670ad7e1502a37641e4004027b8513950005c2c7a20d3ec7e6402f30bc 10814 ros-iron-autoware-utils-dbgsym_1.0.0-2024.10.08.05.53_amd64.ddeb
+ 397359000a6578b57e70f9ce7de3d2f1dd91a02df9e3b3b4e662d96c8053adf6 15517 ros-iron-autoware-utils_1.0.0-2024.10.08.05.53_amd64.buildinfo
+ 9efdd0bc203e7f959b90c040a42e95640990471364ce355adac89bfd185d6ec7 10620 ros-iron-autoware-utils_1.0.0-2024.10.08.05.53_amd64.deb
+Files:
+ 2f33f3d24ffa73a8c3f9c3c8582821a8 10814 debug optional ros-iron-autoware-utils-dbgsym_1.0.0-2024.10.08.05.53_amd64.ddeb
+ 4385bd2aad1be6997568b47ddb563774 15517 misc optional ros-iron-autoware-utils_1.0.0-2024.10.08.05.53_amd64.buildinfo
+ 1ee3b303bc6f9d05826852697406b2bb 10620 misc optional ros-iron-autoware-utils_1.0.0-2024.10.08.05.53_amd64.deb
