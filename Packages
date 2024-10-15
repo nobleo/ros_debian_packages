@@ -1,0 +1,1110 @@
+Package: ros-iron-autoware-cmake
+Architecture: amd64
+Version: 1.0.0-2024.10.15.07.06
+Priority: optional
+Section: misc
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 49
+Depends: ros-iron-ament-cmake-auto, ros-iron-ament-lint-auto, ros-iron-ros-environment
+Filename: ./ros-iron-autoware-cmake_1.0.0-2024.10.15.07.06_amd64.deb
+Size: 6938
+MD5sum: 269b2aff8ff489ad9a9e46486f672b6c
+SHA1: a0856fb147b636235931f7f112d1150da8ac0863
+SHA256: 6b77da42d5ae15b457858f1023b99507f3fcab9c15ac7baef8510c4deffadfaa
+SHA512: b2857c3f255b2a4dd1e65beb00d053cf26b24fe619b3a8f21583c0036ad03cfdd44d79b684a5c6a1330f765ce644a0cbcb83e95f96adf87ec36a824fa46c0955
+Description: CMake scripts for Autoware
+
+Package: ros-iron-autoware-common-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.04
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-common-msgs
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 270
+Depends: ros-iron-autoware-common-msgs (= 1.1.0-2024.10.15.07.04)
+Filename: ./ros-iron-autoware-common-msgs-dbgsym_1.1.0-2024.10.15.07.04_amd64.ddeb
+Size: 164950
+MD5sum: 6327868f2ab1ba7c272c8c28f4f94bb4
+SHA1: b4f50db577e9d7b84174d1b0e1dd6f3969a58f73
+SHA256: bc3ef6df672f5b1391d34e77fb8d2aac4eb4b7e9edc415a5519e6e8cf5071ec9
+SHA512: faaeb4f2f661a985f762cdee575df6134f3f4a6506f90490dcbe6c7ae5f0532b11c66ba2da1a0853e89160b73b6e0359ae0f486062eb2bb60e7632072e61d6c5
+Description: debug symbols for ros-iron-autoware-common-msgs
+Build-Ids: 20e9d247752960dfa21e61e7039d792568b6ffb1 2d283ecf70c05fb9ab56456b519c8489e4fbe19a 3965bc4fd31326e6802d9be30d0bc540b29730b5 6f807370ebf8975543378962df0ef9a7a7ce752b 7bcfbf3bcec6bc6138cfa44792e04cfbde883273 810e0bbda089c123b66de58c5b64fc5729559a3a 8a1b23b0ef032885b5d3f08998bc952b991268a3 9ebb9c4cb867faee406cc4f17d31183cbc8986df b118615d6e5c79f0bb71f7b3837d462c4696029e cc80eecf1267cb530baa158b8529039a4c4cbc7b e0f6f310db3fcea020c251de78e4a7e2de319281 eaaf922e17ec9873e13a00a937c1326fbc056997
+
+Package: ros-iron-autoware-common-msgs
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.04
+Priority: optional
+Section: misc
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 442
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-autoware-common-msgs_1.1.0-2024.10.15.07.04_amd64.deb
+Size: 41226
+MD5sum: 8c04e7c7fe4cda0caefd01e1a04647e6
+SHA1: 479dacfeb244793f0c56012c4cdf88c3a7cedae3
+SHA256: 11bc457451bd3dfc0ef9d32bca077140158a4dfac27391336c50705d6c0cc83f
+SHA512: ef8dd9543576cb4f111d09a6be524410b3d6b17798ef9a429b5f1639b176c9a62f68ba35d2d463d6640e673c7a32a73ebabc7ad446edf1b5e026e64ac3e4aea4
+Description: Autoware common messages package.
+
+Package: ros-iron-autoware-internal-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.05
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-internal-msgs
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Installed-Size: 449
+Depends: ros-iron-autoware-internal-msgs (= 1.1.0-2024.10.15.07.05)
+Filename: ./ros-iron-autoware-internal-msgs-dbgsym_1.1.0-2024.10.15.07.05_amd64.ddeb
+Size: 294162
+MD5sum: 317176bfd06c565ff3d3f99dc5e64e4e
+SHA1: 6431cce563fa7d6ed5f1fec49e26e72bf4c1b24d
+SHA256: 4e6a8d627bcf2f1c789c5cd06e387b7a9e0eb3e7048757fdd06452c92806a78c
+SHA512: 2c51f40a9740b407fc13926cbaa99848192a7915a35fdad6957a038a3425d8d55840bc18defcf62015784254d23a8b119a82c5a98a6ba8800edb5d7747b76e2f
+Description: debug symbols for ros-iron-autoware-internal-msgs
+Build-Ids: 0f6cad0dc812efb7d123e82c45122f90a5b1841d 649a510e73c421196a6cd805b3a7e17eb490adc3 6736fdbda01c543924f071f02864e742a71d7204 691817e9903a945fa767156f5d279a4332fd9feb 715285688c6c62c9873694a6c1a8fa428533c035 80b82cc65bc353778a15de8f0cb657c4e78c7654 828edaba1efe2e45987495f7e3137c74fe0f95fe b4dc66ff776d6b1582390b26966cbb575353c780 c1233e80ea55d6e80c9ee55c10f440f332f35431 d0d9f71a83ceb9b82faf767feb7b937dc3f88414 ed3178d4887cceee0f1b460a3d553eca4bb1fa51 f846f4c4135685006c73cb4a4cc74153cac3975e
+
+Package: ros-iron-autoware-internal-msgs
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.05
+Priority: optional
+Section: misc
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Installed-Size: 698
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-autoware-internal-msgs_1.1.0-2024.10.15.07.05_amd64.deb
+Size: 58752
+MD5sum: 154dcecd60ba0735a85f6ad841dc8bc1
+SHA1: 750cc15013992542d46515d03990becd4aa64ee9
+SHA256: d685368dd96d9a4570210c48af34d3bf529fc02aef99ce2f9fa40d3039d80a2e
+SHA512: 2ee2b8c9db8403e122823c8822fe2203dcb59d0d9972b3727f46751a679ace7a249700328f8e017530ee1929814be022ef58194f375e2df672820579581503cd
+Description: Autoware internal messages package.
+
+Package: ros-iron-autoware-lanelet2-extension-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.5.0-2024.10.15.07.13
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-lanelet2-extension
+Maintainer: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 15508
+Depends: ros-iron-autoware-lanelet2-extension (= 0.5.0-2024.10.15.07.13)
+Filename: ./ros-iron-autoware-lanelet2-extension-dbgsym_0.5.0-2024.10.15.07.13_amd64.ddeb
+Size: 14909296
+MD5sum: fcd3f666429f414b61f8d4ed328e169c
+SHA1: bb5104eea4e85ea81b81c0f88b9833ab4bfb5867
+SHA256: 3ee1eca08ca238a28c457dba7306bb01d7b14b0cb2e05aead86e84d56cb3f19a
+SHA512: 8d3b07203668abe738e32677305e69555f326eb4eca80046686ed95203dfff39f3af192ae1ea650db5a614f1ff06a5436c4bb21a30bd132ce3e49bc38faf20ad
+Description: debug symbols for ros-iron-autoware-lanelet2-extension
+Build-Ids: 2c6d1df9820542ce2c85a91bce6dc9227423b1b0 90f02055cb3f0dee14bafcbe46ed3dc352d3296e 9d85bd6b5f7f3311721adbedeb2f7e274bbf2b44 a32325f7a16619c977ac8adb13e5b1b7007d2a35
+
+Package: ros-iron-autoware-lanelet2-extension
+Architecture: amd64
+Version: 0.5.0-2024.10.15.07.13
+Priority: optional
+Section: misc
+Maintainer: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 1584
+Depends: libboost-serialization1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.43), libpugixml1v5 (>= 1.7), libstdc++6 (>= 11), ros-iron-lanelet2-core, ros-iron-lanelet2-io, ros-iron-lanelet2-projection, ros-iron-lanelet2-routing, ros-iron-lanelet2-traffic-rules, libgeographic-dev, libpugixml-dev, librange-v3-dev, ros-iron-autoware-map-msgs, ros-iron-autoware-planning-msgs, ros-iron-autoware-utils, ros-iron-geometry-msgs, ros-iron-lanelet2-maps, ros-iron-lanelet2-validation, ros-iron-rclcpp, ros-iron-tf2, ros-iron-tf2-geometry-msgs, ros-iron-visualization-msgs
+Filename: ./ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.deb
+Size: 407824
+MD5sum: a3481077f0dae26fb90f296418521758
+SHA1: 61389fd368d53f4c46450c2e1af9bf30a55f86f5
+SHA256: cda43bf58751eec1536e91deb5e9aeee6952aedc6fc55cf6887ecd6b7be3ea75
+SHA512: 31178666174762bad5ba5ac4ac34239ce3328975f6440bd16c79fc3d9e329cfbef5e3b6a64cd4ac9bf6c509dba0239e0a06293903152c514973acd59ed5f848e
+Description: The autoware_lanelet2_extension package contains libraries to handle Lanelet2 format data.
+
+Package: ros-iron-autoware-lint-common
+Architecture: amd64
+Version: 1.0.0-2024.10.15.07.06
+Priority: optional
+Section: misc
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 47
+Depends: ros-iron-ament-cmake-copyright, ros-iron-ament-cmake-core, ros-iron-ament-cmake-cppcheck, ros-iron-ament-cmake-lint-cmake, ros-iron-ament-cmake-test, ros-iron-ament-cmake-xmllint
+Filename: ./ros-iron-autoware-lint-common_1.0.0-2024.10.15.07.06_amd64.deb
+Size: 6062
+MD5sum: 3ed34b19cf9ece0175e7591d173b81d5
+SHA1: 0314ef0aa04616cb2be8b57568ef6d8eda82243e
+SHA256: 348ba26569923fdfd523221e2fb5586bb90aad303685be86f84ab9c732c38a67
+SHA512: c1667ba96cdc839d0d689b85be322be2313e9df0f1c590fab4463dea8f6e5ccc4807e40f7327d24ce8cfc7dbefdb232b4cb4ae9b31b031e7f3b1096370cbcd45
+Description: The list of commonly used linters in Autoware
+
+Package: ros-iron-autoware-map-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.07
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-map-msgs
+Maintainer: kminoda <koji.minoda@tier4.jp>
+Installed-Size: 2215
+Depends: ros-iron-autoware-map-msgs (= 1.1.0-2024.10.15.07.07)
+Filename: ./ros-iron-autoware-map-msgs-dbgsym_1.1.0-2024.10.15.07.07_amd64.ddeb
+Size: 1724048
+MD5sum: 571c7e9c39abb193d173dac988ab39f8
+SHA1: a7da01308ba80ba4f46ab5c1a5af7a55fc16ae66
+SHA256: e4bba13a404b8506a588393964aece5dc96dc276446f58505a4d7b1fcbe6f61a
+SHA512: 951e6566858d15acca4256ae36ac7c635d60f3500d084681cad96b21154e274d0a3a5c65b9dd252df0c7300f0e6cfe37d469fbb78a6b2308c92a1725a406670c
+Description: debug symbols for ros-iron-autoware-map-msgs
+Build-Ids: 00b076d328547916ee0696d73ed75800c44ecf87 243c528a5a13fbcd340e8bfe3e3737cb86c051ec 2e8876fa231018c699a46a8c75c0891ec0e6aebc 40eb776a16ee0327536b1bf5e7f9a5bee9ed47c5 4b8ea67086e90f7e2b9b1a63107e41831cd7d03d 74c6d57c9bba4d3e35154a66f8aebf9badf2d247 8307f1acaeb687e493e44ac838f12f98658f3efa 8883d2349076f67e62667bb70462263d3a96bc79 9eb0f19282f737467c2e37556decc6f3b88afbcf a1901897ed29058b80ab50f62ebac9c8837f7c89 d08c916a8918c4de24045625bd1bf035654e379d ec734756f0b3a4409974cc4e24187a93af9d0e79
+
+Package: ros-iron-autoware-map-msgs
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.07
+Priority: optional
+Section: misc
+Maintainer: kminoda <koji.minoda@tier4.jp>
+Installed-Size: 2609
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-std-msgs
+Filename: ./ros-iron-autoware-map-msgs_1.1.0-2024.10.15.07.07_amd64.deb
+Size: 189318
+MD5sum: b7efb6dd385f98103db04f3beee7d206
+SHA1: 3d6870a269d96a541f6b7d43734185ccb723c2c9
+SHA256: 60aff7c24544735736155745862dc36567118dd206d675877c2d2f7745170531
+SHA512: f1d6424a52c766e05806bf7f9c287977ebb57c324d50057ffb136063066d0ad92ae9fa9e41a4aff2111ce9290a07603eacb05a0903ecfd9aff2257a9b92c0ec3
+Description: Autoware map messages package.
+
+Package: ros-iron-autoware-perception-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.08
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-perception-msgs
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 2333
+Depends: ros-iron-autoware-perception-msgs (= 1.1.0-2024.10.15.07.08)
+Filename: ./ros-iron-autoware-perception-msgs-dbgsym_1.1.0-2024.10.15.07.08_amd64.ddeb
+Size: 1764182
+MD5sum: 26c091d3c3ebca5af481bc6ca6a59170
+SHA1: 01d9fd215fa59eaac0e239a652e92caf16c5dfc6
+SHA256: 6cfe8c94af0d2db685559f802245aefa934e45910d73b8fadc1d086fb929f372
+SHA512: 6ae3d8cbbb6e58195353935b4fa67fc2b1a2bc00557f9991224af8ae49c269d2ef4aa150b48f3acba1181d8334080cf7b7c334c615b0b0123c436cc6b2e39e75
+Description: debug symbols for ros-iron-autoware-perception-msgs
+Build-Ids: 03b2147f121f9fd1d1592113fbd6adc2563c656e 39ce7b99b52c0ec0c7ffc367bd580d216c9743b5 57f67ae45a1b3a8bf6dce73d79a29ece409d2226 5b92f66990e6af09053c7dff970b08cee5a2c0d2 6172778984039d077a28cc8390f15d5228a0df64 6417c945f1fd7e1406d8d764e89c7b4b358901ab 6f89e1dfcbb6ac9366ad73c34b461146a488d0d3 8e608adca79a8d7e74b6ce2af88d62e72946f215 951532f77e9100adce9fd06a2f9aa349ee45e910 a39ce97feedd391e6012f800b0a7e5113c492973 e5df4856c7b390c957c59ed7c1ee06f764ac1b03 fc7608bec445903f66acea903630dcce00e491d1
+
+Package: ros-iron-autoware-perception-msgs
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.08
+Priority: optional
+Section: misc
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 3148
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs, ros-iron-unique-identifier-msgs
+Filename: ./ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.deb
+Size: 205454
+MD5sum: dc80286548027121db67f20cbbdbceda
+SHA1: d89c7bad01cd70e3c5e8c1d214090b386e865327
+SHA256: 8dcf9805de09ec2ac0cc811a5aa76e825e2d2d9e2bb2c25ef06dc6fffe8fd591
+SHA512: 1336e4c8f5b159a11c647a02be707d82a9fb878c7b54f78bba7f41fa0ec1e9bd3eee4317150eddbe4395e7b743681cd2efa3ba7812aac8a21adfc125028da474
+Description: Autoware perception messages package.
+
+Package: ros-iron-autoware-planning-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.09
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-planning-msgs
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 1133
+Depends: ros-iron-autoware-planning-msgs (= 1.1.0-2024.10.15.07.09)
+Filename: ./ros-iron-autoware-planning-msgs-dbgsym_1.1.0-2024.10.15.07.09_amd64.ddeb
+Size: 841008
+MD5sum: 86d4aad81cb77e91367715d3d0e44c70
+SHA1: b9bc57db4dd029e95fceca3244bbd7a568264c7a
+SHA256: be5492ac86dcf2531a7ac87b30fd8be37f3bc44a1665accf94f06393a5b1adac
+SHA512: f4aaf7c4cbdc126d306248f36d6e049ebd069f4c925e3481e094ad8e94907a712f811e51c109f75375d477ddffbf79100d15c7dd5902f2acedfc41e533704c41
+Description: debug symbols for ros-iron-autoware-planning-msgs
+Build-Ids: 46f23c46c5fd9247ef7e176103b3633e660300ce 5a0de9966d0e450efbaf1779f4dc4e3fbabd8290 66e0b2f28567369fdf5b36a8801f124c24cace95 8075343c575c7bd90b70aea477e784ef33ef7318 9642087e8112e4ec5f14c9e19fb71ecc0d629514 9be27fcadd655b646683bd28aa8b671b47e3e307 9d5f345320578ae3239fac0d79deaa7027df2cc0 b4a7840cda151856b57d339472f36a9b5ae0721d b53f7d8f8e86a0dd4fe440a8fa2dfbbbb189b095 c6f76bb436c523046588e532d0d80ea2e15ba7c6 e583a0f9af3d22929adf3bcbe53f068e97c74ea8 eba1f8ab23ef305061b4a40e8de5408dc83dedfc
+
+Package: ros-iron-autoware-planning-msgs
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.09
+Priority: optional
+Section: misc
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 1503
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs, ros-iron-unique-identifier-msgs
+Filename: ./ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.deb
+Size: 119550
+MD5sum: 636d4cd79adad8094a6946bdb7e6b233
+SHA1: 186cb9c93126b0c034a05474ad2e46bc27f11575
+SHA256: 5b90a28d56d44c8a70312de8515594358ea58c4afa0ea27f902ce6ec42743a6f
+SHA512: db617b8a8dfc92ae87f1d0e229b916432f5deda7a04134c1e9f5a266890bc623cb65631372f1543766cbda52118c99c88a7dffc9711869c8bf6ec4c1dcf5330c
+Description: Autoware planning messages package.
+
+Package: ros-iron-autoware-point-types
+Architecture: amd64
+Version: 0-2024.10.15.07.10
+Priority: optional
+Section: misc
+Maintainer: David Wong <david.wong@tier4.jp>
+Installed-Size: 54
+Depends: ros-iron-ament-cmake-copyright, ros-iron-ament-cmake-core, ros-iron-ament-cmake-cppcheck, ros-iron-ament-cmake-lint-cmake, ros-iron-ament-cmake-test, ros-iron-ament-cmake-xmllint, ros-iron-pcl-ros, ros-iron-point-cloud-msg-wrapper
+Filename: ./ros-iron-autoware-point-types_0-2024.10.15.07.10_amd64.deb
+Size: 7440
+MD5sum: ca1c78f7b22640ee131209f67bafddac
+SHA1: 54ba445f09abc32a39f272449f5f5e9014f13652
+SHA256: 30e74253702032def3c63c61d6240a4beb9b99f49602398f9abb5fa7357830ea
+SHA512: 174bb14d54f54ebe3fc5c3cfebbcf834f26e9add9f344c4bcd1b403cfb7877744190bad931ed75a41c10b671386471e4d17e5e5d83ca71979ab1d8d3bdf6a3ab
+Description: The point types definition to use point_cloud_msg_wrapper
+
+Package: ros-iron-autoware-universe-utils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.39
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-universe-utils
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Installed-Size: 1961
+Depends: ros-iron-autoware-universe-utils (= 0-2024.10.15.07.39)
+Filename: ./ros-iron-autoware-universe-utils-dbgsym_0-2024.10.15.07.39_amd64.ddeb
+Size: 1900974
+MD5sum: 2a91ab797bf61ad39c8ef1544b26b4e6
+SHA1: 102a26925b9ee53e2603e32245d0db6633845270
+SHA256: a77edbfbaab2e9c706f2a873ede02bb1164c97531cc7b3d8b6abe22c180e6acf
+SHA512: 4dcd15429dca53fbce6620c30248c972aeb7904e250dcaba2dbc409f0317527f8d7b92e8c433559dc8d2fd003e83c88bb79df6f83336cb5a8513fb9e4e20683c
+Description: debug symbols for ros-iron-autoware-universe-utils
+Build-Ids: 8a4087a00df84361b8b9d576bf3cdd09f7ced59f
+
+Package: ros-iron-autoware-universe-utils
+Architecture: amd64
+Version: 0-2024.10.15.07.39
+Priority: optional
+Section: misc
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Installed-Size: 472
+Depends: libc6 (>= 2.35), libfmt8 (>= 8.1.1+ds1), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 11), ros-iron-autoware-internal-msgs, ros-iron-autoware-perception-msgs, ros-iron-autoware-planning-msgs, ros-iron-autoware-vehicle-msgs, ros-iron-builtin-interfaces, ros-iron-diagnostic-msgs, ros-iron-geometry-msgs, ros-iron-logging-demo, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-tf2, ros-iron-tf2-geometry-msgs, ros-iron-tier4-debug-msgs, ros-iron-tier4-planning-msgs, ros-iron-unique-identifier-msgs, ros-iron-visualization-msgs
+Filename: ./ros-iron-autoware-universe-utils_0-2024.10.15.07.39_amd64.deb
+Size: 186592
+MD5sum: 58d11ece149d2efa8dfd9b4f74d290ca
+SHA1: 9bc16173ea19ab0779bf6c725de5833f3d9166ae
+SHA256: 8198c4721a9666264de215ac15a71aebbbbd33f12f206cce3b80147e19275e1e
+SHA512: 53682620c21d6fb053272287484bcb120730015b6652c8a49e9421308d7407acdcac17fbeade58a1372deedead9a44a20e24887392dae0d5298d1c3e545e1f2a
+Description: The autoware_universe_utils package
+
+Package: ros-iron-autoware-utils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.0.0-2024.10.15.07.12
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-utils
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 23
+Depends: ros-iron-autoware-utils (= 1.0.0-2024.10.15.07.12)
+Filename: ./ros-iron-autoware-utils-dbgsym_1.0.0-2024.10.15.07.12_amd64.ddeb
+Size: 10812
+MD5sum: 3e462b4c238ad4bd44c498a395955007
+SHA1: 72f5c1216cf9aff5646d0a019c56fb7458063f4a
+SHA256: 4aed5c609ede286e936f49c8a364fdf6015acf00118af7b58ca45ff54d5d12ca
+SHA512: a71e0e2ba11130e512fdb87c432b17cec2b8d861f674d2ef620f25c1ff278c1dc4ec22528facb803a35d3f9b37dc6ac462e9be92cb0904b671b8d09776f19dc2
+Description: debug symbols for ros-iron-autoware-utils
+Build-Ids: 3578525e2f0817be8ef39e30edbc020ac1fb8327
+
+Package: ros-iron-autoware-utils
+Architecture: amd64
+Version: 1.0.0-2024.10.15.07.12
+Priority: optional
+Section: misc
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 84
+Depends: libboost-system-dev, ros-iron-builtin-interfaces, ros-iron-rclcpp, ros-iron-unique-identifier-msgs
+Filename: ./ros-iron-autoware-utils_1.0.0-2024.10.15.07.12_amd64.deb
+Size: 10614
+MD5sum: eee7e7cb7e4c4a6c7cbddbed94c3d7fe
+SHA1: 6c861831881c264e45d7f7c910f277d7db4cb79a
+SHA256: a0ea081d02be72134a2831a6685355d9b8dbbbe61257ccc77d526ee628274f75
+SHA512: 925c2be202d21271343d1e595739d2712d199f8ca6185482dfec57e72d687addd6f124ed9ecf5802bc9b1925551ca403ef74aef37da19e87f72b9d3c73bc0223
+Description: The autoware_utils package
+
+Package: ros-iron-autoware-vehicle-info-utils-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.41
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-vehicle-info-utils
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Installed-Size: 296
+Depends: ros-iron-autoware-vehicle-info-utils (= 0-2024.10.15.07.41)
+Filename: ./ros-iron-autoware-vehicle-info-utils-dbgsym_0-2024.10.15.07.41_amd64.ddeb
+Size: 280770
+MD5sum: 48bbe9adec0b66416c9d0096b68e05c1
+SHA1: b180d6f7b29a8b594c8f06fc52e7337d19e6c7cf
+SHA256: 045ba4fffa77a2abf0536bd7f77039b662097605d6248030c345ae53a58c9df2
+SHA512: 38dd764adf341ee3a95a1248d4b0a80d90446745103484c132ba9b780b97e8556c291fadc7e449b36cf5a3713a84653d1cfabc796a965dcbba8d0c3d522d3b7a
+Description: debug symbols for ros-iron-autoware-vehicle-info-utils
+Build-Ids: 7ed781085fb8f0c59ef42852ec9d65a3bd9bd87e
+
+Package: ros-iron-autoware-vehicle-info-utils
+Architecture: amd64
+Version: 0-2024.10.15.07.41
+Priority: optional
+Section: misc
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Installed-Size: 107
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2), ros-iron-autoware-universe-utils, ros-iron-rclcpp
+Filename: ./ros-iron-autoware-vehicle-info-utils_0-2024.10.15.07.41_amd64.deb
+Size: 19484
+MD5sum: 57368eb593f0b16787af4825a149441d
+SHA1: e94b6fb3147af6e8f63d7172b55fe5c8f307e421
+SHA256: fa6167cb8d6d6cc2a9ec32f02a8b141acd458fb93c83a6a1e977cc14daaf0e24
+SHA512: 9c522f103f3e3ea081abbdc89c5395533ecff866f76919dd51c76a2aff7cfa2def9b6249e631f4975d67bf7ef8cfd5bd1ed2bb18200ac61d13e6dd89a1deab99
+Description: The autoware_vehicle_info_utils package
+
+Package: ros-iron-autoware-vehicle-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.14
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-autoware-vehicle-msgs
+Maintainer: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Installed-Size: 1201
+Depends: ros-iron-autoware-vehicle-msgs (= 1.1.0-2024.10.15.07.14)
+Filename: ./ros-iron-autoware-vehicle-msgs-dbgsym_1.1.0-2024.10.15.07.14_amd64.ddeb
+Size: 830164
+MD5sum: db48e8239353831b38022a605aec42e9
+SHA1: 7ada55e4e7852afe14ffe2cd1b2e798a7983eb44
+SHA256: 4146d71908d0ee36bea46be831dc2f52a9c10918c891bdb385f29459ab9e7619
+SHA512: d65ffd23172f7136b5d51f12cf407ad57d46818f899d6292ed6b8bf1b6f0d3d3e515f593c5a0ba2af65ffab72c9cbd8585a5c9f78edbe9ac8ba8a8a7d5df45aa
+Description: debug symbols for ros-iron-autoware-vehicle-msgs
+Build-Ids: 283ba360b42c31daa51cc0fa1fbcd41b8149f25b 5e44ae73609e2233f7bfe6f0065c2ed4f75e2fc2 72cfd2c8d2c858fce27e2c37f19f57ee7004abd4 8e6e02c796e36a2ac9399a3f912c50e786a0ce75 8f2b8c36bff7c2e1e56d74c484b018a7f825741b 91ec32733f03ac87012f2c335dc701375179a31e a37afdfbb8182c14e66a0be99128e27b62cfb06e b7b8cd858ae9ffcc681761c918918020629e8fb9 c191a7aceac8d552a033293fd781b4997323179f e56fe8ffad0b507b4f409d89f32e712cdb0f3466 e73246daa2f905191a77ad9b4967e5c863af3cea fe2e9dd110345b78edb5b79ba82959e4cf708ba2
+
+Package: ros-iron-autoware-vehicle-msgs
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.14
+Priority: optional
+Section: misc
+Maintainer: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Installed-Size: 1920
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-autoware-planning-msgs, ros-iron-builtin-interfaces, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.15.07.14_amd64.deb
+Size: 129148
+MD5sum: 2b15c84b562ab833090260085e597d6b
+SHA1: 9a8ac515e2b702c97d8d13e87929cf2078783259
+SHA256: 5619c02dfd2790976cbda4b857c2ccbf26539f37bf3247b4bf7df79e7ae84905
+SHA512: 08e7796b765088fc5ea909c25aa1d8038f58ced764744b2e66b88ed97afaa3afb55c70ec31a6906ca40003bbecd82970698016586e08c90bcdbb485515f2cb7a
+Description: Interfaces between core Autoware vehicle components
+
+Package: ros-iron-ground-segmentation-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-ground-segmentation
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Installed-Size: 10386
+Depends: ros-iron-ground-segmentation (= 0-2024.10.15.07.47)
+Filename: ./ros-iron-ground-segmentation-dbgsym_0-2024.10.15.07.47_amd64.ddeb
+Size: 9465584
+MD5sum: e132eb8824c09987dff68988cae6c5cb
+SHA1: d68cac886e2056d7f9d5a73433eb472ef62c3168
+SHA256: f2ed093eda1bd0601113448e73288249e3aa9e6ac23ef2ff4158673285c1293a
+SHA512: 7356567348c9b27aece38c04dd910e5dbb10c578bfda0c0d946c5431eb86d2f731a2c37147f21a251fe50946b2133f285533ee1decd64284aa8fc80989a0b323
+Description: debug symbols for ros-iron-ground-segmentation
+Build-Ids: 01ee998c8a752dad671e5724845006a5fc984e8e 33341d15a8971f149d78621db7576298e151468b 4e8d297385a36021d47ad2bbe712d9acf61afd24 9c329906d35fa8cd698fc896a716df3d7f4fded5
+
+Package: ros-iron-ground-segmentation
+Architecture: amd64
+Version: 0-2024.10.15.07.47
+Priority: optional
+Section: misc
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Installed-Size: 3331
+Depends: libc6 (>= 2.35), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.2.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), libopencv-stitching4.5d (>= 4.5.4+dfsg), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-segmentation1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), libopencv-dev, libyaml-cpp-dev, ros-iron-autoware-vehicle-info-utils, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-pointcloud-preprocessor, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-ros, ros-iron-tf2-sensor-msgs
+Filename: ./ros-iron-ground-segmentation_0-2024.10.15.07.47_amd64.deb
+Size: 798890
+MD5sum: 06244d732fa73b47f450edf805bd068b
+SHA1: 46763ee6cd41dd250f0be5584315e8a8915b49de
+SHA256: 13f2a60a05a957454efcb0eefd70e5ca93849a266b92e9101d61df5335ce77a4
+SHA512: 6e0259cd1a43dd04e73a28683c31a6079e567af37c407b7065f7db0bc5e99b361f4c833a6d5a9d70a5a592d032fcb4f2a3e59cc0301bbf8ba63e813a3f4c08ca
+Description: The ROS 2 ground_segmentation package
+
+Package: ros-iron-novatel-oem7-driver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 20.1.0-14-g8586d57-2024.10.15.07.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-novatel-oem7-driver
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 15228
+Depends: ros-iron-novatel-oem7-driver (= 20.1.0-14-g8586d57-2024.10.15.07.17)
+Filename: ./ros-iron-novatel-oem7-driver-dbgsym_20.1.0-14-g8586d57-2024.10.15.07.17_amd64.ddeb
+Size: 13371096
+MD5sum: 2ceae867b330d15300bdc7d2fdccbe28
+SHA1: c96d7e5aab7e0b58d2c492a7837f19614affc163
+SHA256: a50c781187587892628d52f5b1fefe21b146cf8254959a44c6171f7bf295525b
+SHA512: d11339be1441254c90e0719ef2f2f521f424b673ae7808560ed4b328ad81223e9c088b8e31c8f2a3b3a8f48a6328a47a22d7c1be6b3257ca3876c6b4c3756b9c
+Description: debug symbols for ros-iron-novatel-oem7-driver
+Build-Ids: 06e4436cca18d4157ef892041fab429f7ffefaca ba88c56293e2fce7e0ae8a5fd32953f438e42a9a
+
+Package: ros-iron-novatel-oem7-driver
+Architecture: amd64
+Version: 20.1.0-14-g8586d57-2024.10.15.07.17
+Priority: optional
+Section: misc
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 2966
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographic19 (>= 1.40), libstdc++6 (>= 11), libtinyxml2-9 (>= 8.0.0), libboost-all-dev, libgeographic-dev, ros-iron-gps-msgs, ros-iron-nav-msgs, ros-iron-nmea-msgs, ros-iron-novatel-oem7-msgs, ros-iron-pluginlib, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-tf2-geometry-msgs
+Filename: ./ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.10.15.07.17_amd64.deb
+Size: 587574
+MD5sum: 57336205c38f2cddf09ba5a906540bfa
+SHA1: 7dae7486bbc4edc8c0298d3126f3ff06e7fe7592
+SHA256: 7e5f8d0f4d9a8d32b266b417edfaa9756c8d439d00881822c5f5158165c7b914
+SHA512: b81d0475efdfed3af9370167c72cd356d692ab1a3d25fd2fc564c0ad5858db50e27ee0bc1d3637cead1d795430c0058575b4b1245b27577e65d1cf18fc8ef3fd
+Homepage: http://www.novatel.com
+Description: NovAtel Oem7 ROS Driver
+
+Package: ros-iron-novatel-oem7-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 20.1.0-14-g8586d57-2024.10.15.07.15
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-novatel-oem7-msgs
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 4550
+Depends: ros-iron-novatel-oem7-msgs (= 20.1.0-14-g8586d57-2024.10.15.07.15)
+Filename: ./ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-14-g8586d57-2024.10.15.07.15_amd64.ddeb
+Size: 3274660
+MD5sum: e550e0dfa335692f789cf5ea653a46bd
+SHA1: 16f8d29c8fe7f58c58adc6d341f81d65eb62fe0a
+SHA256: 50ea242aa2110554583feacb14520d7fb8890327e903daf11686617850348ce7
+SHA512: f6ae2a78144b2f42a8a882aa9158eb3c92a083058f704b9e2b33243fc9c30ece5a25759c6b3a3347f0fb6d1b5cf644b310055dac98d611e51298e797fb4e4f26
+Description: debug symbols for ros-iron-novatel-oem7-msgs
+Build-Ids: 06cbc2f395a9721b2bb857397497ca39e24d4030 137ed1e389db2f2c4900b5e9e28e1b39f8cc0117 15632d8bbfbf62226cedf3284d729a68a4156d15 4b41539fb89be2ddb1b01e3c4fdf81d5d328fc38 57b918ffcdce5dc52253e61a173071b0d54e7c43 7c3ebe68f161e123d7d63a8374aa140a28202690 8056427ab5b8be55830315103c9e5a13bd536a5e 841fcb565c8f89bfed57c0166c8282ac532e3470 84554eba2dcd9ace6799015d2092754547e7bc0e 85efa72db8820c9705265a5fdcc73c39c5cdf09b 8b5d6fafb3482017feb31a7556d7f99fe42e9f06 a0d489bb5bbdf6855181f5cdeac00d95d500dd0a
+
+Package: ros-iron-novatel-oem7-msgs
+Architecture: amd64
+Version: 20.1.0-14-g8586d57-2024.10.15.07.15
+Priority: optional
+Section: misc
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 7504
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.10.15.07.15_amd64.deb
+Size: 446886
+MD5sum: 4f01ca57ae6227ac4c19592d66fc5579
+SHA1: 2ffa30a7dccf1ed2abc4619c8855e9f8c1ebbd5a
+SHA256: 2b9c83c7ff2cf24191fad819de7ddbc40fccebaf670c37a08821bf5dad2b8336
+SHA512: 33e0363598229ba7714c112c80140c816f62122dd53c429b5f93945b3e890ea5de15e505498de0455ff187fb4eada5320701516fea7f6a155c0294957e20250c
+Homepage: http://www.novatel.com
+Description: Messages for NovAtel Oem7 family of receivers.
+
+Package: ros-iron-off-highway-can-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.19
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-can
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 2786
+Depends: ros-iron-off-highway-can (= 0.6.3-2024.10.15.07.19)
+Filename: ./ros-iron-off-highway-can-dbgsym_0.6.3-2024.10.15.07.19_amd64.ddeb
+Size: 2465894
+MD5sum: 2c4f0e30e4c480316dd6dbc367cf8519
+SHA1: 58a5d24e924f8eeb73fc323ed0cc9df33817efb5
+SHA256: 75494ac790b2adcc4ef922ab7da231702e24af0e352263c8cf5593abba3463f4
+SHA512: 6297e50d08e68ecc16e61af544f637015d371cfc71259732aa12d974ee48a6cd757898e8cb187a228ee83ae4d679bee4c8797727449ba4978953810fbe2beb05
+Description: debug symbols for ros-iron-off-highway-can
+Build-Ids: 149b7d08c82ce2b5040aaacc6c9d48e58babba0d
+
+Package: ros-iron-off-highway-can
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.19
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 548
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-can-msgs, ros-iron-diagnostic-updater, ros-iron-rclcpp
+Filename: ./ros-iron-off-highway-can_0.6.3-2024.10.15.07.19_amd64.deb
+Size: 126308
+MD5sum: 79805419b2369fe0887b2fdebcee9335
+SHA1: 8bd3ffb66e02f91079aeb7ad9cff663177b8cb90
+SHA256: 4c31fe8de7cf3047fdc417aa33ad5b536ed489a9514113e617498180e4380ab3
+SHA512: 15c6599597605cec1a52e4e16d03f12959608a8dd846f9e698fb405abaae3fe3be4cffa17a6c613c58b74f2b266752281c8c9ce2774722289447fdbbbd64b1e1
+Description: The off_highway_can package
+
+Package: ros-iron-off-highway-general-purpose-radar-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.21
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-general-purpose-radar
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 2321
+Depends: ros-iron-off-highway-general-purpose-radar (= 0.6.3-2024.10.15.07.21)
+Filename: ./ros-iron-off-highway-general-purpose-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+Size: 2216376
+MD5sum: 152feb0b461a7c1f920cef2c2c2de278
+SHA1: 7929f42b7e094f7e0bc110e68f571470b02f3bbf
+SHA256: d25175d5476686cad9fe089d4d64717b64da8a1b9a1aac6ab342b8e856681211
+SHA512: bcd6f3a58475868e66b7b6856e2b6f1a7d6718ae9d4154fb0638986b8d6d47abd5c6590b59ae1bcbb64539a363cb9a54d78a8dd4ccf8630b809a0c7a4c7248f5
+Description: debug symbols for ros-iron-off-highway-general-purpose-radar
+Build-Ids: 498af29a37ef118fdd2fb5be2cfd847784ca5826 4fd94f97fa7f5e672c0a914d9ee60c3f56532e97
+
+Package: ros-iron-off-highway-general-purpose-radar-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.20
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-general-purpose-radar-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 680
+Depends: ros-iron-off-highway-general-purpose-radar-msgs (= 0.6.3-2024.10.15.07.20)
+Filename: ./ros-iron-off-highway-general-purpose-radar-msgs-dbgsym_0.6.3-2024.10.15.07.20_amd64.ddeb
+Size: 472304
+MD5sum: 1eaa12eba5d85853ee05d07f3216184f
+SHA1: 31bf0bbfbe31bc2b39c77365043b6d5982a8e272
+SHA256: 7728379d0b05cd3c26c751b3edf765bd1d5f9e22a9805383cddd2e395e066661
+SHA512: 56dd9aaf872e78b53a50b50b827f453feec762f1f1a5fc25cb389861c74debef6f2ec00672c74a31b2ce4a544421e64d510afa82eec92899b60198f16ee030f4
+Description: debug symbols for ros-iron-off-highway-general-purpose-radar-msgs
+Build-Ids: 10980f115ac2f85d1ec3a62a714f0a42a88de58a 298f3fc8d17fdd7decebd729fdcb236809b19e54 73420096f53cacf676aff295df45a99677675719 7ece38a2825ec226f4f613d2dca8791d8b01914a 95a858faa924222194c165403570ca7aba8dbdaa a57c5ff131ee5224cea70eebd67ab833981c14ef a7370229f7d89f0e79414168a63465a97dfc4883 b8ba43ccf1bf3d7cb060e2dd320875f839801d47 c122194f738976dff85c23fb1550bb60904d548e e03bc36dbba04f31d295a3deb6d74c1c12ebe4a8 eef4d9189eb5b0c24a962ea1aa1de3ab7752b8dd fca76001ead61495238828450271e4f6b5131260
+
+Package: ros-iron-off-highway-general-purpose-radar-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.20
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1094
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-off-highway-general-purpose-radar-msgs_0.6.3-2024.10.15.07.20_amd64.deb
+Size: 81072
+MD5sum: 8b6bc85c7b3348e276c911ea27498b66
+SHA1: a85f01a800b960ac57ca88323299534eb0c32919
+SHA256: f96f035f4353394a4b4588638a3027f1e541aa228ef725fee567b1b2ce42d982
+SHA512: c7dee7b4c0c3b350551d5840e339fcbc842a0f10bcc19adfe119f26a078332b7013352ec0ec3cdfe4a8992ff4a9f0dafde2c5ddd6ee4389c56ffb37826dd0800
+Description: The off_highway_general_purpose_radar_msgs package
+
+Package: ros-iron-off-highway-general-purpose-radar
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.21
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 443
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libpcl-common1.12, libpcl-dev, ros-iron-can-msgs, ros-iron-off-highway-can, ros-iron-off-highway-general-purpose-radar-msgs, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs
+Filename: ./ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.deb
+Size: 127774
+MD5sum: 083fffa07aa30f9a85d48fb911b2c160
+SHA1: 919a0cdf2bf84f3ff8f5fd4660cb00ce999e7a34
+SHA256: d38da8b15433548cb4a16b8db0613ed3412b7a0428b043b699587111acd75095
+SHA512: 50bf44e9fa25a9cfdfbdeaa7216828280ef7a34fa0c5f782c5c76b636deddc8b512be7905f4dd9f04447bad576a80559e4d4e387a523847636d8f11ecde99658
+Description: The off_highway_general_purpose_radar package
+
+Package: ros-iron-off-highway-premium-radar-sample-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-premium-radar-sample
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 5713
+Depends: ros-iron-off-highway-premium-radar-sample (= 0.6.3-2024.10.15.07.24)
+Filename: ./ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.15.07.24_amd64.ddeb
+Size: 5140812
+MD5sum: 58cb57c1e51499ddc04ab27ec4b2fed9
+SHA1: 92f443b6daf545160d1b6d496d0281b45bd7f4d8
+SHA256: 2c84db5979f08d93a3cf1b45ec63e4b66c67337580bf5a8fb286b40f61184eae
+SHA512: 7d8540d87179926c1b1506c8c0661f72b01b9820bd71cb1de3e0ca7deda0390c8ae459e7d12e1069e0687b65da4cc57138ebd6326095fd1762bc57c7f113b0ee
+Description: debug symbols for ros-iron-off-highway-premium-radar-sample
+Build-Ids: 717f5ccef515b7644bef80fb2d0639091e63c64b a635db08766237dfc1742b82647245f9883e8fde
+
+Package: ros-iron-off-highway-premium-radar-sample-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.23
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-premium-radar-sample-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 2875
+Depends: ros-iron-off-highway-premium-radar-sample-msgs (= 0.6.3-2024.10.15.07.23)
+Filename: ./ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-2024.10.15.07.23_amd64.ddeb
+Size: 2048506
+MD5sum: 6abf704ba2813a806be3074262ec831c
+SHA1: 010ad267cee02217a1b6ded139bc684340eed118
+SHA256: f05b103e352926b4858d9a49fafb15d460458489fb0ed25296f1dade8e98fcc9
+SHA512: 8d274179edc7c839e846215d24d79fc92d7fc5d96491c751a8e04aae78dab68cbd625544a9765d334bfbe095dd43308ab59949e25b0a405969da40c861636b70
+Description: debug symbols for ros-iron-off-highway-premium-radar-sample-msgs
+Build-Ids: 00acdc106e9f26fde620d324fa3030eba9233b7e 0230b39f33d15d4f0d858db07910b9b3cc1eec47 03d4419ce23670269ccf03a10b1e391e104dfa92 0b3f1ee8ba56bda6a96c3547fd01277f8db26c51 2023b87ccdb17acd15f1029e84af2b9edf00f12f 5e7c9b1ac83feabeda45b5426fda5e7943a0587d 71fabbdce53ad018f4f3ebec858e671c03012968 b45f02a74c26f1b8c9a0215509ba73939f86382a c00bfca363dc7a230eb2abe5724d278b32b39114 cd4edeea4c105acc8ed6b66ae37ebecf0774ae9f d912b8a26558885d6040c1133b52012d5f8a152c fa12ca3d9eb3ec0807a26d3ed165f9f41f1a31f8
+
+Package: ros-iron-off-highway-premium-radar-sample-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.23
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 4454
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-2024.10.15.07.23_amd64.deb
+Size: 273940
+MD5sum: b2945c0293cfa691758495de34fc5622
+SHA1: ff9a5d309fd4669968a1a85676f787eafdfedf77
+SHA256: 722c107ae50335198bd1e57176a6d323e2278e548fa264618b04c63d2523bc2c
+SHA512: 25eace5810866146e7f559c28213cab500a801c53bda4c31783a65bf41e9773a65771056c864eff8db86dc8416386f404331d56d991edac72d95f22d9851e218
+Description: The off_highway_premium_radar_sample_msgs package
+
+Package: ros-iron-off-highway-premium-radar-sample
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.24
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1159
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libasio-dev, libpcl-common1.12, libpcl-dev, ros-iron-diagnostic-updater, ros-iron-io-context, ros-iron-off-highway-premium-radar-sample-msgs, ros-iron-pcl-conversions, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-std-msgs, ros-iron-tf2, ros-iron-tf2-geometry-msgs
+Filename: ./ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.15.07.24_amd64.deb
+Size: 270112
+MD5sum: ebdb49b4f2c9502a1121d930b2c76daa
+SHA1: 717f2d97b2c3defa422549fb11c9722b73c0ff61
+SHA256: 64c98e5233e5fac4d00e18e6d15029e565d3f8f9aa993f1ba30ba6050fc923f5
+SHA512: b14f6228a4d9f68780dbd95957157ceb5931708acaf4f24c15372e000b6b76655c1c158f6761380559cc17aea06b3b465881b8487bf1f239696f2fe4289d6daa
+Description: The off_highway_premium_radar_sample package
+
+Package: ros-iron-off-highway-radar-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.27
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-radar
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 4334
+Depends: ros-iron-off-highway-radar (= 0.6.3-2024.10.15.07.27)
+Filename: ./ros-iron-off-highway-radar-dbgsym_0.6.3-2024.10.15.07.27_amd64.ddeb
+Size: 3846130
+MD5sum: b2a02bc66f2077b5187ce0c4d161ea65
+SHA1: 01605ca9c9aeaba4d7857a576f8ec081369ef389
+SHA256: e6079781286fcf41c533cc5a14f152150647da481952b46a0ec62634f479901d
+SHA512: c507c3d145c7f2578d1b445f2b6693e9122a393aa98f662bb0280037176272245f7ce096e9f8e9a4462ca1ceab946ae2ac027b4e016669a650c339294ff21bc8
+Description: debug symbols for ros-iron-off-highway-radar
+Build-Ids: 1ca6be1db2c56062a3d6d4572e20c1686d09c397 ae25e4924e6031b9295821c23cb1519db3836c23 cd8f2177f24bebb3b05fa5f54dfb59c02ef2bc5e
+
+Package: ros-iron-off-highway-radar-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-radar-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 697
+Depends: ros-iron-off-highway-radar-msgs (= 0.6.3-2024.10.15.07.26)
+Filename: ./ros-iron-off-highway-radar-msgs-dbgsym_0.6.3-2024.10.15.07.26_amd64.ddeb
+Size: 489392
+MD5sum: aaaa5ee17cd25980f8d91151e422cafd
+SHA1: c7b2215b785e95791a169e5bfc2548b41bab5958
+SHA256: 706f24cc1639bdbe419e987614ad46dcb4789a2d169748d89917d8c0a323ddf8
+SHA512: f0c9051cefd572d313d445868560526b995cbdef662a739d744db26b21c7707e4a31c937fee34afe1f9446e536c9c5a02a0fa054acdfb254f61a1a9ca8d00c72
+Description: debug symbols for ros-iron-off-highway-radar-msgs
+Build-Ids: 0c84aadc77f144fda16f82a16b7a7280e7b11eaf 1d165837bb34e65b4d92db67afc951616b7cde42 2b75d26300182f5f4d77ad659c359750885781f2 2f30a5dd3ddb15e9c78171f747cc2ae83d705b3e 3260b1023a6f6c8f5e89c6b5e2af48fe5e4871dd 387cd30f494d23f112b3642bd258fb8f04f92e0a 4c386c9d8d949a082d6a558cfb0ae1db8a3137ae 6bb3b4124bc6e8dd22a7b8d49df94d1c400121f3 780885a64ee8e9d0424167557cb380f377a66ef7 7e632433d78015f6d0435d5a8fb22752f3ae71e9 8ef24ed33e959fbdfa51b11862c37528c2460c36 a8032cbef9c9000debdc7d3f57f4717aad66b1f7
+
+Package: ros-iron-off-highway-radar-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.26
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1081
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-off-highway-radar-msgs_0.6.3-2024.10.15.07.26_amd64.deb
+Size: 85482
+MD5sum: e06949af8d0de199c7e7f31177511f08
+SHA1: 77eaf446b57daeabd45f4d90460f94672095c17a
+SHA256: 647d108e6a0e07a77554cbb2f458270c490ba5e0b37cfe5f89666f6ff85ec188
+SHA512: 61ba9235494243964984584a1145f7ac3bcacdfd80fc2e1e66f8f03ce4a9bd8aa9bd8f36f93edb6c2fe8f9ce07654f5689862b5a29163fbc58511d52dbb8acb4
+Description: The off_highway_radar_msgs package
+
+Package: ros-iron-off-highway-radar
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.27
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 809
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libpcl-common1.12, libpcl-dev, ros-iron-can-msgs, ros-iron-off-highway-can, ros-iron-off-highway-radar-msgs, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs
+Filename: ./ros-iron-off-highway-radar_0.6.3-2024.10.15.07.27_amd64.deb
+Size: 188342
+MD5sum: 59d41eaae96e756a9a7999eec86bd151
+SHA1: bc83aad015060de0fa513e46e2aaab0032a0e1b4
+SHA256: b9a44cc1aa7aeed78905f85158d753450b16cab53699893441c84df781799696
+SHA512: 453a99d5d8333be7e528f23ea122e647a423fa031a67cd859b2a8d5d709259c78ae2b9ea17817e798986971143238ce976eb39c142f095c44ee9f67ff1016132
+Description: The off_highway_radar package
+
+Package: ros-iron-off-highway-sensor-drivers-examples-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.30
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-sensor-drivers-examples
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Installed-Size: 2321
+Depends: ros-iron-off-highway-sensor-drivers-examples (= 0.6.3-2024.10.15.07.30)
+Filename: ./ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.15.07.30_amd64.ddeb
+Size: 2013138
+MD5sum: 6432a9c49b43abbec97ee098fede4eed
+SHA1: adc4ebc2dbf0b20885bfdf9c903417a11a802bd8
+SHA256: 5991eca4f614524c915f05aadcd39b0bd4e3bc25b4a7924e340c631c31f5e4bc
+SHA512: 6bc4d106e018030f402e27334ebd29a7e26af8ec864b9f2566bf8d97454f4015eb391c09891590b8a570e0719a51755ff70ca39c63083c8d731a05fe36084e1b
+Description: debug symbols for ros-iron-off-highway-sensor-drivers-examples
+Build-Ids: 9ebacae9e872ec10300e19e8437886ac88335f11 d3251bfa06af7b5b2385c2b9938775c3c7f153ad
+
+Package: ros-iron-off-highway-sensor-drivers-examples
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.30
+Priority: optional
+Section: misc
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Installed-Size: 517
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-off-highway-premium-radar-sample, ros-iron-off-highway-radar, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-rclcpp-components
+Filename: ./ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.15.07.30_amd64.deb
+Size: 110342
+MD5sum: 539684eb2df9afebe51468480657b411
+SHA1: 6225e61513f039661dc2b24b421f836e788308a5
+SHA256: ff8d9161bdb00d32dc2c7cc25f9559f37f96abeb1c7eb0709a9bcbdadb1c6de6
+SHA512: b917812758700aabf2490e3c9cbb044c556edbd69ff138656f5ae9dbbf8cdd8ed861d1729665aca207c98304cf7b0ddabc22fea3ddce883c53da8e7fa1f91fa6
+Description: The off_highway_sensor_drivers_examples package
+
+Package: ros-iron-off-highway-sensor-drivers
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.30
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 42
+Depends: ros-iron-off-highway-can, ros-iron-off-highway-general-purpose-radar, ros-iron-off-highway-general-purpose-radar-msgs, ros-iron-off-highway-premium-radar-sample, ros-iron-off-highway-premium-radar-sample-msgs, ros-iron-off-highway-radar, ros-iron-off-highway-radar-msgs, ros-iron-off-highway-uss, ros-iron-off-highway-uss-msgs
+Filename: ./ros-iron-off-highway-sensor-drivers_0.6.3-2024.10.15.07.30_amd64.deb
+Size: 5232
+MD5sum: 89e41f127663ec8990e1a8fa85eca595
+SHA1: bd90f697ba75967a97dfb07ca31e864de532a160
+SHA256: 211398486ca660df42be8deb83014aad037beed93ebb24744f9b27d58005799a
+SHA512: a6c8843e706399c235502de19d44e0dd5bcb4ddabc51b44e25610bf90a1279fb259b77dfcd96e083d1c79a04a5e6ac67e1e47ab670441aeddb2ca75f1965a14a
+Description: The off_highway_sensor_drivers package
+
+Package: ros-iron-off-highway-uss-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.32
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-uss
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 4568
+Depends: ros-iron-off-highway-uss (= 0.6.3-2024.10.15.07.32)
+Filename: ./ros-iron-off-highway-uss-dbgsym_0.6.3-2024.10.15.07.32_amd64.ddeb
+Size: 4038784
+MD5sum: 048e4a58b906990955a3c972729e6123
+SHA1: 4af23c04d086d3cc88276025836e41971b679c77
+SHA256: 66b5d12639471f8341974b76c49ea647788f1d162c59d7ff21a41d6ae5d3467d
+SHA512: dada8057b4494b651dc23e0da3d2eb995b60450c1b07d41a8ca1020e38acc185a3e1faf7c367b8153ee3aa4f9375c1b562da2e3a377450e290e055dbeb7a2bab
+Description: debug symbols for ros-iron-off-highway-uss
+Build-Ids: 01bbf7d9ea5557ca9bf259f413aaac3edb82496b 2bf2ff1193234e129446102db11c9720c02ae921 3d6dbfde88d228f58b46bd23dfaa0d2ce9a9387d
+
+Package: ros-iron-off-highway-uss-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-off-highway-uss-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 913
+Depends: ros-iron-off-highway-uss-msgs (= 0.6.3-2024.10.15.07.31)
+Filename: ./ros-iron-off-highway-uss-msgs-dbgsym_0.6.3-2024.10.15.07.31_amd64.ddeb
+Size: 658088
+MD5sum: 64b3554290f6f889e05394ab1ea5c0d0
+SHA1: 49bc563441dcde18ec8e37e26f8b77dc071b49be
+SHA256: 2e1840534b7882b47947342778b1777084975979f39f5e69a738f3535d409816
+SHA512: a58646950cbb1055ba91a49039db2c6a4597dac04c6a1d510f2173434ef30a2b0c19301f37b001df51972c038103b210882632d77d696f91e8153bd9c788b304
+Description: debug symbols for ros-iron-off-highway-uss-msgs
+Build-Ids: 1662cf2b6b455d13052e00fc534d2be34d7e5f1b 26c3630a7c36aeb8b5c5b605246c7366acd911d8 324b78f1ceb599041cf74bbd19eff6a2209ac610 3a6cd27301dff8c0074f48ea9218ffcb6592957b 5dd05083dae8ede1826a397d77fd966b85c6014a 656071032d16a6323509299e70bac76dc788ca22 9f57277c15a7ddaf243f0963a5a853a438e3eef8 ae153e3e2b367e1bb7a03e71b370e2aa2ef92c28 b0644feeac052c09b5510be7c604eba55f9ce791 b85eeecb46d1ef509d2e165a3a141c488ec7a2be c4e6e249f9c5bd094dc93a520ebeca7bbf7319e2 d458b79fe35f03d5f5355a871c065882ddd4d6a3
+
+Package: ros-iron-off-highway-uss-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.31
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1241
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-geometry-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs
+Filename: ./ros-iron-off-highway-uss-msgs_0.6.3-2024.10.15.07.31_amd64.deb
+Size: 98742
+MD5sum: ce32e2e070348303a4e8d9b3dcf8b8cf
+SHA1: 7421b0cd387a0299accda4b234af65e181e8e9db
+SHA256: 82baa5891633a3930f16d775da18d4f7584739472459f6a31931a8f97dbd283b
+SHA512: afc98aca3a6bb10e951388961e14adfeaf20a332121855f9176c400dd0009876384270b8676646e86168a85350cbc9117003a6bc9d9b2c50dccae2c27c42e7b7
+Description: The off_highway_uss_msgs package
+
+Package: ros-iron-off-highway-uss
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.32
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 854
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), libpcl-common1.12, libpcl-dev, ros-iron-can-msgs, ros-iron-off-highway-can, ros-iron-off-highway-uss-msgs, ros-iron-pcl-conversions, ros-iron-pcl-ros, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs
+Filename: ./ros-iron-off-highway-uss_0.6.3-2024.10.15.07.32_amd64.deb
+Size: 199968
+MD5sum: 29971653f10ec4c2e488bc8d6d89c579
+SHA1: b0569152179825eeaf7d440dae4aefe01020960b
+SHA256: 076474a58d8ae27a610b12953b2186db4a1a6c0109ea9dd0b85411a827c567a5
+SHA512: 44aeef36a9cab9da6553447370c671c2523268f8a1e6b7fb23702cae0555d2610a5de40a7d70a0dbfb81c7b55e6907a6b4e4719f4fe81ff82b47aed545082ee6
+Description: The off_highway_uss package
+
+Package: ros-iron-pointcloud-preprocessor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.43
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-pointcloud-preprocessor
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Installed-Size: 50211
+Depends: ros-iron-pointcloud-preprocessor (= 0-2024.10.15.07.43)
+Filename: ./ros-iron-pointcloud-preprocessor-dbgsym_0-2024.10.15.07.43_amd64.ddeb
+Size: 43820596
+MD5sum: a82304470ede1d37f173a5d20cec6b77
+SHA1: 2d1c166c02fd56c47c5f4ffaec6b80849d2a66bf
+SHA256: 2ee6d282b99f2f4f9359194e65f0a7695273829a66efc60408ca99fc0bd006e3
+SHA512: e7fd64fb4cb9fcd6d2757c61e45dc3c91714f01d4f3fe28bb9d01de4948fd1670151b1bd6c7d6f9ab9d9a8a0f80b8a5958de9d8519e8418fc8356978886b1382
+Description: debug symbols for ros-iron-pointcloud-preprocessor
+Build-Ids: 0186c8e092958a77836f5aebbff3c99a43f0085a 028eb1076b67f8d18723bab83c5bcf4d28d4a4da 0389309418f99a8e2b7fa3caba493b0d9830b5a9 2ee91ffe209f7da2e6cf83db7b1f0f39b214da56 2fc5ca57ff3f7e13f44944a6201f1b7436f75fb6 31cb848b8bca7f08787dde75cc12c9d5c1a89076 41f22073c735f7ef5c99a8690cd4fd67eab51dae 4c2ecf866715743eb9f7a416a2da60cc5a45537a 5aba38e4a1636f4a73257170efa1f829c7c51518 5f9ca10d0206bcedadb45aeba259f34efe349e0d 78e04de8d4901caab373d585cc4caef92ec7a56d 8c7a11cd36699d214bf4b18e06e45a0871386705 94bb7817dd811845148dbfd432194bb820199b4c 951e5b35b922ae78ced215d12e42038d896ea47e af02356e860fc198c5d66ee19a65b5ddd970ab94 bd014488f498b7050ecf07b97b6facef6b73cf81 cbc0cb116e1fc6ada18bef80c9566783cbe4b6c0 d774a77eda62aad4bfc8044546b2d3f4310ee358 da57c7cbcad1cdfb1569fb06654dbc8fe415594b e02bd938bc4529eb61de0ba9e79a878d833836ae f3acdc07d18186bb94c1f3e727b1227e00d714eb f64733efd874e8f14582d11c030cc00bae70da25 f7660d9cb848df87b12ecf9ebbd9b74142b0e873
+
+Package: ros-iron-pointcloud-preprocessor
+Architecture: amd64
+Version: 0-2024.10.15.07.43
+Priority: optional
+Section: misc
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Installed-Size: 5611
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libopencv-core4.5d (>= 4.5.4+dfsg), libopencv-imgproc4.5d (>= 4.5.4+dfsg), liborocos-kdl1.5 (>= 1.5.1), libpcl-common1.12 (>= 1.12.1+dfsg), libpcl-filters1.12 (>= 1.12.1+dfsg), libpcl-kdtree1.12 (>= 1.12.1+dfsg), libpcl-search1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 11), ros-iron-lanelet2-core, libcgal-dev, libopencv-dev, libpcl-dev, ros-iron-autoware-lanelet2-extension, ros-iron-autoware-point-types, ros-iron-autoware-universe-utils, ros-iron-cv-bridge, ros-iron-diagnostic-updater, ros-iron-image-transport, ros-iron-message-filters, ros-iron-nav-msgs, ros-iron-pcl-conversions, ros-iron-pcl-msgs, ros-iron-pcl-ros, ros-iron-point-cloud-msg-wrapper, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-sophus, ros-iron-std-msgs, ros-iron-tf2, ros-iron-tf2-eigen, ros-iron-tf2-geometry-msgs, ros-iron-tf2-ros, ros-iron-tier4-debug-msgs, ros-iron-tier4-pcl-extensions
+Filename: ./ros-iron-pointcloud-preprocessor_0-2024.10.15.07.43_amd64.deb
+Size: 839398
+MD5sum: c7b5718accfd8fa71a533792df0ec90e
+SHA1: 63d4e5cb83fbe0e9c9cb7247d572ced133bbb6cb
+SHA256: c130bb910121d55207d072302b37d309161a51335314affa838dd2373f2809fa
+SHA512: f2ed1e58773e24e3be9c171f19968dfeb590fd45be36a0b38769ee050ce31688fd450cbbbf8e33a6f05abd9e805cbc7a2efe06b562d89868ee484b6c472964ca
+Description: The ROS 2 pointcloud_preprocessor package
+
+Package: ros-iron-rmw-zenoh-cpp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.56
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-rmw-zenoh-cpp
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 4658
+Depends: ros-iron-rmw-zenoh-cpp (= 0-2024.10.15.07.56)
+Filename: ./ros-iron-rmw-zenoh-cpp-dbgsym_0-2024.10.15.07.56_amd64.ddeb
+Size: 4565728
+MD5sum: 3e82796688c9907c8a4a03c81781305c
+SHA1: 12d1a365df698e6d7e9d459251baac8a34455c21
+SHA256: 75c277c33c7098d4b98367061b02c30372ed408947bb2c14b995b360da9d595a
+SHA512: fc843977c2842e7cd9d8ea297c3670ef5021437e953d811be03d7b0f75d9f448cdd86365e27abc0b06a38dfe18688df0f7069f902c564bb4f075cdd4d16e6645
+Description: debug symbols for ros-iron-rmw-zenoh-cpp
+Build-Ids: a46cd0071bc1ff3c4645c72fe127d2fd5902a943 de6dd12b83e34aca328e46a9b17c4a922b2a9c99
+
+Package: ros-iron-rmw-zenoh-cpp
+Architecture: amd64
+Version: 0-2024.10.15.07.56
+Priority: optional
+Section: misc
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 524
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), ros-iron-fastcdr, ros-iron-ament-index-cpp, ros-iron-rcpputils, ros-iron-rcutils, ros-iron-rmw, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp, ros-iron-zenoh-c-vendor
+Filename: ./ros-iron-rmw-zenoh-cpp_0-2024.10.15.07.56_amd64.deb
+Size: 171594
+MD5sum: 0d120fdd6f761e0045bc5fd7aeb99c94
+SHA1: 370c22cb8673fe2ba9f7e6b8f5478f5d15e75d6d
+SHA256: b191c602a6c7bfd5af361271e3116077d20299225a6c3d22a605539e85528a1e
+SHA512: 7a9a5f1a82bb6c00ac484a527a3f069d3f9d072b68e686e487ac6b49a65070b6d5f86915a4970e451e0fca871d877f4a44f781f6e82836bf03c224c757d385bc
+Description: A ROS 2 middleware implementation using zenoh-c
+
+Package: ros-iron-tier4-debug-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-tier4-debug-msgs
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 1835
+Depends: ros-iron-tier4-debug-msgs (= 0-2024.10.15.07.34)
+Filename: ./ros-iron-tier4-debug-msgs-dbgsym_0-2024.10.15.07.34_amd64.ddeb
+Size: 1375004
+MD5sum: 6019e1ca045b2ecaf0bf0a694e76cb6e
+SHA1: 25701ff79087fb91a9cb1b542125720c27767a6e
+SHA256: ad745ba3d31b85eff6a36d3ab8a5c82dc785fe5aebcaa84a07992b487de24f2a
+SHA512: 1d637e8e00d1e7990a3abb0bc11f1b0c54786ca34bb61f57238e99fc28c1bee0dc20d9a4f00654054b00e999451e95e5790ec38902893cd5ccfb614776bc55d3
+Description: debug symbols for ros-iron-tier4-debug-msgs
+Build-Ids: 0a5c87921c7dc4416126f0a9212ab2bfd1797985 145c895c2df2df5acf5c653d239bec81551b0970 378dcff2e2cd81952fd1e416693c25797a4b7ce2 5fdd2c7beb16a3fbe43e71307819c5563f169470 88efc9ea5f69210e03391b4bf0edc4df3af516c0 b4b7ba9d9c490a919319053f967be074166b330e c2fdfa9f78d175d5a88dcc685cf1e3ae9caffd48 c66bf6bb53d6e21d4256610fd143a3867f5390e2 e3d39cfaaaf6c799b67b6e220b63b5806e0a1567 e77c8176e968648381e53fdd7ec280966537c098 ef86f9afd4be45f48b79239aa25e078b8ac6827c f796c1eb5db82831d3c4c4c45abc48de73418aa5
+
+Package: ros-iron-tier4-debug-msgs
+Architecture: amd64
+Version: 0-2024.10.15.07.34
+Priority: optional
+Section: misc
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 2349
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 5.2), ros-iron-fastcdr, ros-iron-builtin-interfaces, ros-iron-rosidl-default-runtime
+Filename: ./ros-iron-tier4-debug-msgs_0-2024.10.15.07.34_amd64.deb
+Size: 154904
+MD5sum: 0f23992346cb8c2819385638e337487b
+SHA1: abb2729ab02f7cd58d62c8c5548898d8d2c52995
+SHA256: 017c8d38ea413277920fc9c3b44f39c36b31c55331c6e808d7518f05cc1a2da3
+SHA512: 04c36a1343f99e17856cee9f1c3e5f7dcc70b2c80988e1378cd795e6321d7e674a4871f1cae9af3328787e75bef53cf502c2ab27a572bb2622b3f000e6fce8f1
+Description: The tier4_debug_msgs package
+
+Package: ros-iron-tier4-pcl-extensions-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-tier4-pcl-extensions
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Installed-Size: 5619
+Depends: ros-iron-tier4-pcl-extensions (= 0-2024.10.15.07.35)
+Filename: ./ros-iron-tier4-pcl-extensions-dbgsym_0-2024.10.15.07.35_amd64.ddeb
+Size: 5340512
+MD5sum: aa6b29739807774cb690af743183f36d
+SHA1: 01c7471010a26dee44e6fc8840b55361602e540a
+SHA256: 4e4bb8465ea9dd2bdb9b43935904bf1ccaf9f44c848192412d6f504e8443bf49
+SHA512: 467191cd3f67761fea7c85119ec75497799e985d1b0d73c7d02d4d02851dff51a46a2caa45a636c34025f9a7fe145160a0da7d845781de811e1781cda812d718
+Description: debug symbols for ros-iron-tier4-pcl-extensions
+Build-Ids: fb5378007b8bd0e3b3a896da91a2afff21357956
+
+Package: ros-iron-tier4-pcl-extensions
+Architecture: amd64
+Version: 0-2024.10.15.07.35
+Priority: optional
+Section: misc
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Installed-Size: 781
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libpcl-common1.12 (>= 1.12.1+dfsg), libstdc++6 (>= 9), libeigen3-dev, libpcl-dev, ros-iron-eigen3-cmake-module
+Filename: ./ros-iron-tier4-pcl-extensions_0-2024.10.15.07.35_amd64.deb
+Size: 120558
+MD5sum: 1c30c5704b8aced36f8b45e4002180e7
+SHA1: 60775776c7169504ab094652a7b40a444901ad64
+SHA256: cbd84aed440ae09c3000882b42c23cb5563cf2dabf3954670434a9c09f010476
+SHA512: 49470442066758ec1df38f420534567a888acdfd2aa72b5cea3ba8a2cf8e282f5af89cc81a24ee31bed5733abe84f79697fb67998ce220ab820f3a9683b6012b
+Description: The tier4_pcl_extensions package
+
+Package: ros-iron-tier4-planning-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.37
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-tier4-planning-msgs
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 4441
+Depends: ros-iron-tier4-planning-msgs (= 0-2024.10.15.07.37)
+Filename: ./ros-iron-tier4-planning-msgs-dbgsym_0-2024.10.15.07.37_amd64.ddeb
+Size: 3389198
+MD5sum: 3abc41fbeb36d0a7cfef57a8f5332abe
+SHA1: 25a6673f137bdd3253a942781bd1bf14118e60a0
+SHA256: 740f45009dca65ec317ce231c3d58b0ec5669a53de61b94e4fa2a78b15356aa5
+SHA512: d448f921dfca4b4ddceaacfddaa7a87af6c57b795221028965e3c9b2366e51456065a8699cbd7c52b45dca3858c8c8d537d75377570fc8dfadd9f31cd53803e1
+Description: debug symbols for ros-iron-tier4-planning-msgs
+Build-Ids: 0b1517d9c14e0e353414f20b8c68f15b56099c5f 2920f668f9d730951cb554bcb8da8d0df27845c4 3630d8e8ff3dad9d4e0d24609e868d3dacd2c3a1 4fa22c060fd4e3fd556a9332d61cf41d178ee012 5e0d477d0bdf98a499f2ea9dc65f983d8eae1c22 659916bcdca9ebfcc6822df7f628a8c1625229dd 7c187a0ccf52ddd3576fac1628485422861d9f7e 7c82174cf766a1efb3cb422983ceaf0b64efd762 a6f90b70ab141088f599beffc94dc9e34c1f305d a9e44b8ff1d80d399a01e430f3373c98e4494ebd c6a3a3b53d9d326c2d3045bd967b041f2a369d90 d19de82707fade3fb7fcc1b4df59a3673837099a
+
+Package: ros-iron-tier4-planning-msgs
+Architecture: amd64
+Version: 0-2024.10.15.07.37
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 5763
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 11), ros-iron-fastcdr, ros-iron-autoware-common-msgs, ros-iron-autoware-planning-msgs, ros-iron-builtin-interfaces, ros-iron-geometry-msgs, ros-iron-nav-msgs, ros-iron-rosidl-default-runtime, ros-iron-std-msgs, ros-iron-unique-identifier-msgs
+Filename: ./ros-iron-tier4-planning-msgs_0-2024.10.15.07.37_amd64.deb
+Size: 378808
+MD5sum: 1da8d3ca51e6937fe6aaef6fa15b5208
+SHA1: e330944bdad21a3e08c83400d1641cb498cd2cc2
+SHA256: efeef6201f6e5dd3b7b50f6ee892e8340bd2768fa3b920ce6b4a51321fd496f6
+SHA512: f920271809de51b8f117d8ec80c758bd085e56702fcaf47d0237125893fdcca8e1028e8bc3132b46f0b18851d237aa684d7a0d34e59ea1930ab5ac0da1e3e565
+Description: The tier4_planning_msgs package
+
+Package: ros-iron-zenoh-c-vendor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.15.07.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-iron-zenoh-c-vendor
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 2964
+Depends: ros-iron-zenoh-c-vendor (= 0-2024.10.15.07.50)
+Filename: ./ros-iron-zenoh-c-vendor-dbgsym_0-2024.10.15.07.50_amd64.ddeb
+Size: 2042780
+MD5sum: b852d66d9bc5a977c64e9eedcecec820
+SHA1: 66f0e5b77b104b68addcbfaf7104598f6d9af894
+SHA256: c280111f5a6507691cbf436079dd438f6fd8d7390ea231b536a2c0f8e3be29af
+SHA512: c0e72853c736e70124824632ab1f60c8b9c4f9002febaa9edd0d5843a5de82a253633e7b1f008640723a33195fc83236d0006f797b99a0394395188e46e5b031
+Description: debug symbols for ros-iron-zenoh-c-vendor
+Build-Ids: fedafd27c73cfe46094252493d06184c6a660806
+
+Package: ros-iron-zenoh-c-vendor
+Architecture: amd64
+Version: 0-2024.10.15.07.50
+Priority: optional
+Section: misc
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 9568
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: ./ros-iron-zenoh-c-vendor_0-2024.10.15.07.50_amd64.deb
+Size: 2936064
+MD5sum: 3a31c621472d07ba058abe8b688c6290
+SHA1: 929e1b9cce8804a59a02be5bdcad6633d78714f6
+SHA256: d1e6960f6ccd864f86bfab72ac3a587da52efb0ded4802fd16e60071d49a182e
+SHA512: 4404ec009e138e2aef42129019553bc84031ecd69a56f0f84d96041e5f53b897e2d3bf31f300eec5284b77c89d71d5ab3ee4dc247d0c1b05681c4a399b674f65
+Description: Vendor pkg to install zenoh-c
+

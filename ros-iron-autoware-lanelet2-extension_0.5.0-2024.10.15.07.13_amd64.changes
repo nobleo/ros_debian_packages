@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Wed, 10 Jul 2024 00:00:00 -0000
+Source: ros-iron-autoware-lanelet2-extension
+Binary: ros-iron-autoware-lanelet2-extension
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.5.0-2024.10.15.07.13
+Distribution: jammy
+Urgency: high
+Maintainer: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Changed-By: mitsudome-r <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-iron-autoware-lanelet2-extension - The autoware_lanelet2_extension package contains libraries to han
+Changes:
+ ros-iron-autoware-lanelet2-extension (0.5.0-2024.10.15.07.13) jammy; urgency=high
+ .
+   * feat(lanelet2_extension)!: introduce API versioning along with format_version (#18 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/18>)
+   * build: remove redundant move for build on noble (#12 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/12>)
+     remove redundant move
+   * refactor: remove redundant cmake definition (#13 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/13>)
+     * remove redundant cmake definition
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * chore: apply pre-commit (#14 <https://github.com/autowarefoundation/autoware_lanelet2_extension/issues/14>)
+     apply pre-commit
+   * Contributors: Daisuke Nishimatsu, Mamoru Sobue
+Checksums-Sha1:
+ bb5104eea4e85ea81b81c0f88b9833ab4bfb5867 14909296 ros-iron-autoware-lanelet2-extension-dbgsym_0.5.0-2024.10.15.07.13_amd64.ddeb
+ 44ab7d7ac709e8d3a2fa1d309ab37f6cf9a147e8 24464 ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.buildinfo
+ 61389fd368d53f4c46450c2e1af9bf30a55f86f5 407824 ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.deb
+Checksums-Sha256:
+ 3ee1eca08ca238a28c457dba7306bb01d7b14b0cb2e05aead86e84d56cb3f19a 14909296 ros-iron-autoware-lanelet2-extension-dbgsym_0.5.0-2024.10.15.07.13_amd64.ddeb
+ 70a5aec9e7f4dedfa2164b51527844c005a445a613d18b95d81f54263690a5cd 24464 ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.buildinfo
+ cda43bf58751eec1536e91deb5e9aeee6952aedc6fc55cf6887ecd6b7be3ea75 407824 ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.deb
+Files:
+ fcd3f666429f414b61f8d4ed328e169c 14909296 debug optional ros-iron-autoware-lanelet2-extension-dbgsym_0.5.0-2024.10.15.07.13_amd64.ddeb
+ 602fc7fe25c3f8e47bf3349bc4e0ab37 24464 misc optional ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.buildinfo
+ a3481077f0dae26fb90f296418521758 407824 misc optional ros-iron-autoware-lanelet2-extension_0.5.0-2024.10.15.07.13_amd64.deb

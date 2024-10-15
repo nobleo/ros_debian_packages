@@ -1,0 +1,83 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-planning-msgs
+Binary: ros-iron-autoware-planning-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.09
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-iron-autoware-planning-msgs - Autoware planning messages package.
+Changes:
+ ros-iron-autoware-planning-msgs (1.1.0-2024.10.15.07.09) jammy; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat: update msg definitions (#87 <https://github.com/youtalk/autoware_msgs/issues/87>)
+     * feat(autoware_perception_msgs): Add DetectedObjects messages and TrackedObjects messages
+     * feat!(autoware_planning_msgs): remove PathWithLaneId msgs
+     * feat!(autoware_perception_msgs): rename traffic signals to traffic lights
+     * remove control mode command msg
+     * fix(autoware_vehicle_msgs): remove ControlModeCommands.msg in CMakeLists.txt (#90 <https://github.com/youtalk/autoware_msgs/issues/90>)
+     * feat(autoware_vehicle_msgs)!: remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages (#88 <https://github.com/youtalk/autoware_msgs/issues/88>)
+     feat!(autoware_vehicle_msgs): remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages
+     * Revert "feat!(autoware_perception_msgs): rename traffic signals to traffic lights"
+     This reverts commit 768bb854036fc94db4364168e68d48b21401c17b.
+     * add TrafficLight msgs
+     * add todo
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: planning_msg (#76 <https://github.com/youtalk/autoware_msgs/issues/76>)
+     * fix:planning_msg
+     * fix:planning_msg
+     ---------
+   * feat(autoware_planning_msgs): migrate autoware_auto_planning_msg to autoware_planning_msg (#66 <https://github.com/youtalk/autoware_msgs/issues/66>)
+     * add-autoware-planning-msg
+     * add-autoware-planning-msg
+     * add-autoware-planning-msg
+     * add-autoware-planning-msg
+     * add-autoware-planning-msg
+     * delete old port
+     * delete old port
+     * delete old port
+     * delete old port
+     * add-autoware-planning-msg
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * feat(autoware_planning_msgs): remove SetPoseWithUuidStamped (#59 <https://github.com/youtalk/autoware_msgs/issues/59>)
+     * feat: rename route with uuid
+     * feat: remove route with uuid
+     ---------
+   * feat: remove set route service (#58 <https://github.com/youtalk/autoware_msgs/issues/58>)
+   * feat(autoware_planning_msgs): add allow_modification option (#55 <https://github.com/youtalk/autoware_msgs/issues/55>)
+     * feat(autoware_planning_msgs): add allow_modification option to PoseWithUuidStamped
+     * move allow_modification
+     ---------
+   * feat(autoware_planning_msgs): add the service to set uuid pose (#54 <https://github.com/youtalk/autoware_msgs/issues/54>)
+   * feat(autoware_planning_msgs): move header to the top in PoseWithUuidStamped (#50 <https://github.com/youtalk/autoware_msgs/issues/50>)
+   * feat(autoware_planning_msgs): change PoseWithUuid to PoseStampedWithUuid (#47 <https://github.com/youtalk/autoware_msgs/issues/47>)
+   * feat(autoware_planning_msgs): create PoseWithUuid and add uuid to VectorMapRoute  (#42 <https://github.com/youtalk/autoware_msgs/issues/42>)
+     feat(autoware_planning_msgs): add PoseWithUuid and add uuid to LaneletRoute
+   * refactor(planning-messages)!: rename VectorMap to Lanelet (#41 <https://github.com/youtalk/autoware_msgs/issues/41>)
+   * feat(autoware_planning_msgs): add autoware planning messages (#33 <https://github.com/youtalk/autoware_msgs/issues/33>)
+     Co-authored-by: kenji-miyake <mailto:kenji-miyake@users.noreply.github.com>
+   * Contributors: Kosuke Takeuchi, M. Fatih Cırıt, Takagi, Isamu, Yukihiro Saito, Yutaka Kondo, shulanbushangshu
+Checksums-Sha1:
+ b9bc57db4dd029e95fceca3244bbd7a568264c7a 841008 ros-iron-autoware-planning-msgs-dbgsym_1.1.0-2024.10.15.07.09_amd64.ddeb
+ 946566d40161a706790b1cbb271e9584168477da 15074 ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.buildinfo
+ 186cb9c93126b0c034a05474ad2e46bc27f11575 119550 ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.deb
+Checksums-Sha256:
+ be5492ac86dcf2531a7ac87b30fd8be37f3bc44a1665accf94f06393a5b1adac 841008 ros-iron-autoware-planning-msgs-dbgsym_1.1.0-2024.10.15.07.09_amd64.ddeb
+ 2fb41115dd19078025d79274cef5e7681d40e665271440887510cdb3c425e85f 15074 ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.buildinfo
+ 5b90a28d56d44c8a70312de8515594358ea58c4afa0ea27f902ce6ec42743a6f 119550 ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.deb
+Files:
+ 86d4aad81cb77e91367715d3d0e44c70 841008 debug optional ros-iron-autoware-planning-msgs-dbgsym_1.1.0-2024.10.15.07.09_amd64.ddeb
+ 45a14d2af1799db8a77d1e1705883041 15074 misc optional ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.buildinfo
+ 636d4cd79adad8094a6946bdb7e6b233 119550 misc optional ros-iron-autoware-planning-msgs_1.1.0-2024.10.15.07.09_amd64.deb

@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-general-purpose-radar
+Binary: ros-iron-off-highway-general-purpose-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.21
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-general-purpose-radar - The off_highway_general_purpose_radar package
+Changes:
+ ros-iron-off-highway-general-purpose-radar (0.6.3-2024.10.15.07.21) jammy; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ 7929f42b7e094f7e0bc110e68f571470b02f3bbf 2216376 ros-iron-off-highway-general-purpose-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+ 2ef4a70097584c6b69edd1ccf82a992d01de4229 40978 ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.buildinfo
+ 919a0cdf2bf84f3ff8f5fd4660cb00ce999e7a34 127774 ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.deb
+Checksums-Sha256:
+ d25175d5476686cad9fe089d4d64717b64da8a1b9a1aac6ab342b8e856681211 2216376 ros-iron-off-highway-general-purpose-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+ 86be4aebdf3e279e03d2ff99d8566714d1cad004b74b95edf6b0b6daa414a367 40978 ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.buildinfo
+ d38da8b15433548cb4a16b8db0613ed3412b7a0428b043b699587111acd75095 127774 ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.deb
+Files:
+ 152feb0b461a7c1f920cef2c2c2de278 2216376 debug optional ros-iron-off-highway-general-purpose-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+ 8a868fbad8311f8587bfd250f2dacf3f 40978 misc optional ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.buildinfo
+ 083fffa07aa30f9a85d48fb911b2c160 127774 misc optional ros-iron-off-highway-general-purpose-radar_0.6.3-2024.10.15.07.21_amd64.deb

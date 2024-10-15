@@ -1,0 +1,71 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-perception-msgs
+Binary: ros-iron-autoware-perception-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.10.15.07.08
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-iron-autoware-perception-msgs - Autoware perception messages package.
+Changes:
+ ros-iron-autoware-perception-msgs (1.1.0-2024.10.15.07.08) jammy; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat: update msg definitions (#87 <https://github.com/youtalk/autoware_msgs/issues/87>)
+     * feat(autoware_perception_msgs): Add DetectedObjects messages and TrackedObjects messages
+     * feat!(autoware_planning_msgs): remove PathWithLaneId msgs
+     * feat!(autoware_perception_msgs): rename traffic signals to traffic lights
+     * remove control mode command msg
+     * fix(autoware_vehicle_msgs): remove ControlModeCommands.msg in CMakeLists.txt (#90 <https://github.com/youtalk/autoware_msgs/issues/90>)
+     * feat(autoware_vehicle_msgs)!: remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages (#88 <https://github.com/youtalk/autoware_msgs/issues/88>)
+     feat!(autoware_vehicle_msgs): remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages
+     * Revert "feat!(autoware_perception_msgs): rename traffic signals to traffic lights"
+     This reverts commit 768bb854036fc94db4364168e68d48b21401c17b.
+     * add TrafficLight msgs
+     * add todo
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix(autoware_perception_msgs): fix sequence length to dynamic (#74 <https://github.com/youtalk/autoware_msgs/issues/74>)
+   * fix(autoware_perception_msgs): fix error in PredictedObject.msg (#72 <https://github.com/youtalk/autoware_msgs/issues/72>)
+   * feat(autoware_perception_msgs): add PredictedObjects msgs (#63 <https://github.com/youtalk/autoware_msgs/issues/63>)
+     * feat(autoware_perception_msgs): add PredictedObjects msgs
+     * style(pre-commit): autofix
+     * feat(autoware_perception_msgs): fix conflicting msgs
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * feat(autoware_perception_msgs): remove traffic light messages (#70 <https://github.com/youtalk/autoware_msgs/issues/70>)
+   * revert: "fix(autoware_perception_msgs): add Header to tlr messages and change TrafficLightElement.msg status" (#69 <https://github.com/youtalk/autoware_msgs/issues/69>)
+     Revert "fix(autoware_perception_msgs): add Header to tlr messages and change TrafficLightElement.msg status (#68 <https://github.com/youtalk/autoware_msgs/issues/68>)"
+     This reverts commit 18588df6eb7e7f694bd725bebd44f569f616964f.
+   * fix(autoware_perception_msgs): add Header to tlr messages and change TrafficLightElement.msg status (#68 <https://github.com/youtalk/autoware_msgs/issues/68>)
+     * add UP_LEFT_ARROW and UP_RIGHT_ARROW to traffic_light_element
+     * add header to tlr messages and change status values of TrafficLight.msg
+     ---------
+   * feat(autoware_perception_msgs): add UP_LEFT_ARROW and UP_RIGHT_ARROW to traffic_light_element (#67 <https://github.com/youtalk/autoware_msgs/issues/67>)
+     add UP_LEFT_ARROW and UP_RIGHT_ARROW to traffic_light_element
+   * build: package.xml dependencies  (#60 <https://github.com/youtalk/autoware_msgs/issues/60>)
+     * mark rosidl_default_generators as <build_depend>
+     * add missing rosidl_default_runtime <exec_depend>
+     ---------
+   * feat(autoware_perception_msgs): add traffic light messages (#48 <https://github.com/youtalk/autoware_msgs/issues/48>)
+   * Contributors: Mingyu1991, Takagi, Isamu, Vincent Richard, Yukihiro Saito, Yutaka Kondo, beginningfan
+Checksums-Sha1:
+ 01d9fd215fa59eaac0e239a652e92caf16c5dfc6 1764182 ros-iron-autoware-perception-msgs-dbgsym_1.1.0-2024.10.15.07.08_amd64.ddeb
+ 056160901811924548473cce61917dc0f228b8f1 15042 ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.buildinfo
+ d89c7bad01cd70e3c5e8c1d214090b386e865327 205454 ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.deb
+Checksums-Sha256:
+ 6cfe8c94af0d2db685559f802245aefa934e45910d73b8fadc1d086fb929f372 1764182 ros-iron-autoware-perception-msgs-dbgsym_1.1.0-2024.10.15.07.08_amd64.ddeb
+ bb15c01608fcfb9fb3c66f40c7c688d35cb490f707a3a08882743e952c922c04 15042 ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.buildinfo
+ 8dcf9805de09ec2ac0cc811a5aa76e825e2d2d9e2bb2c25ef06dc6fffe8fd591 205454 ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.deb
+Files:
+ 26c091d3c3ebca5af481bc6ca6a59170 1764182 debug optional ros-iron-autoware-perception-msgs-dbgsym_1.1.0-2024.10.15.07.08_amd64.ddeb
+ 6006d75eb1ca4668a93c1a25331660c0 15042 misc optional ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.buildinfo
+ dc80286548027121db67f20cbbdbceda 205454 misc optional ros-iron-autoware-perception-msgs_1.1.0-2024.10.15.07.08_amd64.deb
