@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-novatel-oem7-msgs
+Binary: ros-jazzy-novatel-oem7-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-13-g4990204-2024.10.15.07.03
+Distribution: noble
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-jazzy-novatel-oem7-msgs - Messages for NovAtel Oem7 family of receivers.
+Changes:
+ ros-jazzy-novatel-oem7-msgs (20.1.0-13-g4990204-2024.10.15.07.03) noble; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ 78a43f5e8cd8d9acbdf54800b09502a9a1a4048c 4109344 ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-13-g4990204-2024.10.15.07.03_amd64.ddeb
+ 1b7ff734df95324b0cd33e91e5a9075a901a80c2 14683 ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.15.07.03_amd64.buildinfo
+ 60085eb02ea8f76f96c6ebba4de6582953425db8 464922 ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.15.07.03_amd64.deb
+Checksums-Sha256:
+ 7238fc78cd142f3c574816c25421d11bb85e29cde1b97f5a21a6643cfab82fbe 4109344 ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-13-g4990204-2024.10.15.07.03_amd64.ddeb
+ 92e4e4319f2aa72b3adacdb6e89b39925328ec7136071deb4a7fe3207f94b589 14683 ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.15.07.03_amd64.buildinfo
+ 5a00a20db0749ba169931704ba60edc31f070d527e52472b3eec79ceef0a3dcf 464922 ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.15.07.03_amd64.deb
+Files:
+ 1b27dc2567884e0b1823b2c6fbbaca72 4109344 debug optional ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-13-g4990204-2024.10.15.07.03_amd64.ddeb
+ 8811a6977774f664c8a27a355780cab8 14683 misc optional ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.15.07.03_amd64.buildinfo
+ 14ecfb19c50a4c26b3924e4db2f9d453 464922 misc optional ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.15.07.03_amd64.deb

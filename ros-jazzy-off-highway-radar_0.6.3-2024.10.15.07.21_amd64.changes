@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-radar
+Binary: ros-jazzy-off-highway-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.15.07.21
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-radar - The off_highway_radar package
+Changes:
+ ros-jazzy-off-highway-radar (0.6.3-2024.10.15.07.21) noble; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ 06f4c4dc310eb1f0939d0d8a451762102264c86b 4270464 ros-jazzy-off-highway-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+ e37388ed1520a0af9c910894eab0cbbd293fb289 44650 ros-jazzy-off-highway-radar_0.6.3-2024.10.15.07.21_amd64.buildinfo
+ efc6ee9758a0c4962dacbcc4fa60dcd9c5318e38 209922 ros-jazzy-off-highway-radar_0.6.3-2024.10.15.07.21_amd64.deb
+Checksums-Sha256:
+ 84babe967b9ed8627dff0b7ac64b159f1fa5b773519e424080e2d8bdd9cd0bef 4270464 ros-jazzy-off-highway-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+ 1b90b643a015b028d6a8771773dea001e16a52f2efb9b1c22cbc05b86dc2eb61 44650 ros-jazzy-off-highway-radar_0.6.3-2024.10.15.07.21_amd64.buildinfo
+ f7cf7bd774d1034622dd6ced4a86b7b37d5b5834fd9c30825c6dfca3cf4f2ede 209922 ros-jazzy-off-highway-radar_0.6.3-2024.10.15.07.21_amd64.deb
+Files:
+ 6d4e0cde5f42a423863c30ab2370b2c2 4270464 debug optional ros-jazzy-off-highway-radar-dbgsym_0.6.3-2024.10.15.07.21_amd64.ddeb
+ 54e857bd152f386c1b46d653ea2b63f5 44650 misc optional ros-jazzy-off-highway-radar_0.6.3-2024.10.15.07.21_amd64.buildinfo
+ 241e593f620c79b6b31e1624a4690ff2 209922 misc optional ros-jazzy-off-highway-radar_0.6.3-2024.10.15.07.21_amd64.deb
