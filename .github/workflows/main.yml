@@ -294,3 +294,16 @@ jobs:
           REPOS_FILE: jazzy.repos
           GIT_LFS: true
           SBUILD_CONF: '$enable_network = 1;'  # For rmw_zenoh and novatel
+
+  rolling:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: jspricke/ros-deb-builder-action@main
+        with:
+          ROS_DISTRO: rolling
+          DEB_DISTRO: noble
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} only on main branch
+          GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
+          REPOS_FILE: rolling.repos
+          GIT_LFS: true
+          SBUILD_CONF: '$enable_network = 1;'  # For rmw_zenoh and novatel
