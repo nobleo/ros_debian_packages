@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-premium-radar-sample
+Binary: ros-iron-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.38
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-iron-off-highway-premium-radar-sample (0.6.3-2024.10.19.10.38) jammy; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ 69cdd12556f6b10e45470170dcbae11ce4e38cdd 5140844 ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.38_amd64.ddeb
+ f409dd18e52d9244dc109dc0a31143cd0ab1ced8 41068 ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.38_amd64.buildinfo
+ 06540cb0478bd770b331f592cb653d7aad82ecc6 270104 ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.38_amd64.deb
+Checksums-Sha256:
+ 1aae83291d65045c5fdd654e9c8c4d316416718fab963c0ff5d095c9141e6b14 5140844 ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.38_amd64.ddeb
+ c152fb889502c119d44d2cd13a5607daa14067df635a7bf91d5cf78d8c0b0425 41068 ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.38_amd64.buildinfo
+ 7d3c88a437f60ab24f9b78c7e6f90356fdd08c510ad15a6a4e8a9396b2168cf9 270104 ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.38_amd64.deb
+Files:
+ 930a0916b39e744e7aaf721b70fb3616 5140844 debug optional ros-iron-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.38_amd64.ddeb
+ 5d9ec29f4ccb1c9d0229c40d67035177 41068 misc optional ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.38_amd64.buildinfo
+ deb7d2763113a6f714ee3de3e95cd65c 270104 misc optional ros-iron-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.38_amd64.deb

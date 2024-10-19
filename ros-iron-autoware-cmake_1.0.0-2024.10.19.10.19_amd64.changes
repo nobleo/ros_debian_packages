@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-cmake
+Binary: ros-iron-autoware-cmake
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-2024.10.19.10.19
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-iron-autoware-cmake - CMake scripts for Autoware
+Changes:
+ ros-iron-autoware-cmake (1.0.0-2024.10.19.10.19) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/youtalk/autoware_cmake/issues/1> from youtalk/import-from-autoware-common
+     feat: import from autoware_common
+   * add maintainer
+   * move to autoware_cmake
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ 52caf21278d6ef4b3cc21230260479d922add122 10219 ros-iron-autoware-cmake_1.0.0-2024.10.19.10.19_amd64.buildinfo
+ 395adcef993d79c5b73d7bbd482a5f992005fbf3 6934 ros-iron-autoware-cmake_1.0.0-2024.10.19.10.19_amd64.deb
+Checksums-Sha256:
+ 143b0b713d56605fd5fed6b3e8b4f93f4d45149fdb4f9545b81fc972c49fd6bc 10219 ros-iron-autoware-cmake_1.0.0-2024.10.19.10.19_amd64.buildinfo
+ e1abecda64a90bcdcade25c2e6a36abdd48d6b9f04060146dccc359548daddce 6934 ros-iron-autoware-cmake_1.0.0-2024.10.19.10.19_amd64.deb
+Files:
+ 0e99228eb53ceb92199f54d42bf3d2d0 10219 misc optional ros-iron-autoware-cmake_1.0.0-2024.10.19.10.19_amd64.buildinfo
+ dc3affc6aff823374100a201e8fd9777 6934 misc optional ros-iron-autoware-cmake_1.0.0-2024.10.19.10.19_amd64.deb
