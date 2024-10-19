@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample
+Binary: ros-jazzy-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.31
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample (0.6.3-2024.10.19.10.31) noble; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ 48308c12ceca5964070a7fb3f2feb3b610c24947 5948018 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.31_amd64.ddeb
+ 1072788965fb4b8e4ee7e4223e3efc160fccacf1 44933 ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.buildinfo
+ 61e8d35abd9c2dc1a88ad26e3d168f18d099f5e3 288954 ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.deb
+Checksums-Sha256:
+ 600e950eb55e5abf17a41686db3c9f61424d541f473b307f32390a0935da42ab 5948018 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.31_amd64.ddeb
+ 247d256d32f2ffd081deefbaece9ea5e61aca81cbd22b0cea8e3554dbb10e402 44933 ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.buildinfo
+ d1b9c3e296438d969ec8745cb98b703b60050916e9d3c50509f8e0e7ba3389d8 288954 ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.deb
+Files:
+ 09e79a981e0fd8b8ead8e45a359a28e0 5948018 debug optional ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.31_amd64.ddeb
+ 8e9c59f76e71fd752f402df275a7bf21 44933 misc optional ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.buildinfo
+ b06fcd95163cb031051dd2970ccc0ea8 288954 misc optional ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.deb

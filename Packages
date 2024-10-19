@@ -1,0 +1,1080 @@
+Package: ros-jazzy-novatel-oem7-driver-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 20.1.0-13-g4990204-2024.10.19.10.18
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-novatel-oem7-driver
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 17557
+Depends: ros-jazzy-novatel-oem7-driver (= 20.1.0-13-g4990204-2024.10.19.10.18)
+Filename: ./ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-13-g4990204-2024.10.19.10.18_amd64.ddeb
+Size: 15348776
+MD5sum: 95cf44ebd56178037e7e13d0cd69e6ae
+SHA1: 1a46ccbc67623d9a7c390bde5cd8b821a3bdc82c
+SHA256: fbbfe8d2c544479fed6212657b5f987f4d3ce4fe1915397bcfea14c5b94c1fef
+SHA512: caa71a571754df31e7ad92def1d348818deca3aff39de3e3c32746aa3a279b0a4fc6574b83f2fcbefbefa35b07e70390d767e8ba3c2d11d6b7d9d76dc87bd8e5
+Description: debug symbols for ros-jazzy-novatel-oem7-driver
+Build-Ids: 62470d9f1674f23f027664fdc97e0f5ef47d1da6 696df823a767010f592e94cc1814208240d93b20
+
+Package: ros-jazzy-novatel-oem7-driver
+Architecture: amd64
+Version: 20.1.0-13-g4990204-2024.10.19.10.18
+Priority: optional
+Section: misc
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 3475
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.40), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libboost-all-dev, libgeographiclib-dev, ros-jazzy-gps-msgs, ros-jazzy-nav-msgs, ros-jazzy-nmea-msgs, ros-jazzy-novatel-oem7-msgs, ros-jazzy-pluginlib, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-tf2-geometry-msgs
+Filename: ./ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.19.10.18_amd64.deb
+Size: 658362
+MD5sum: 1640e4b30961b19bc905f58a67032eef
+SHA1: 5d7b93a9ee2f98cbcb0dd90d75664106c41acfc8
+SHA256: e06f4dd5dd566cc096986e9cbcaa226fdd1842b92e9e2eb223161faf034436dc
+SHA512: 5a47fa4a273171c90a417db413d2b566b6dbe993119f833aa915b907cd7ca8f2350fc8bd6a11b4fc6b305178a65dea05627c5608f9dcc0077d98508252ca699d
+Homepage: http://www.novatel.com
+Description: NovAtel Oem7 ROS Driver
+
+Package: ros-jazzy-novatel-oem7-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 20.1.0-13-g4990204-2024.10.19.10.16
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-novatel-oem7-msgs
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 5063
+Depends: ros-jazzy-novatel-oem7-msgs (= 20.1.0-13-g4990204-2024.10.19.10.16)
+Filename: ./ros-jazzy-novatel-oem7-msgs-dbgsym_20.1.0-13-g4990204-2024.10.19.10.16_amd64.ddeb
+Size: 4108416
+MD5sum: 3282c5b4fa7ee8a54ffae661f083631d
+SHA1: f98f9b015f081813f345dcc93c1dd594b0a6eef8
+SHA256: a3d55d6d5c268cc49667a08bf6c0a64a828eab1557e8f7b3e75b15d513a885c7
+SHA512: edefd50e9b8c70d87e67c6a532b455b2882233bffe3768e66922c7cd4e1d29b744e3f9b6684149d879dfe665bd284c53e209264fea960ba840c408a94f1eeb2e
+Description: debug symbols for ros-jazzy-novatel-oem7-msgs
+Build-Ids: 17a54d64c2844a192552594fdd6c5fd7eec12689 22d940dc605a50baadbded648d82a389224ab267 4e800a646c4f23200b2aa0ec1dd9e8afdd010e7f 62d8d39bde8531a43e183ce76a819a0b7f7a8127 7d142cefd8468401cc878fed9faebfaf88adaf96 825588456a4b4d2c04369c29c63e156a6cf24f08 8ba8fde47bd03977a3a03d65af1f4d63b9192d5f ab78b9e34a69a8075de4ef887f1b1f58558cae21 b121d636e40a652ab49d6c829c80c2d90949e4a9 cf8ac22649a542d42d1a749e927f174cfcdcfc23 efff77623e65be7829d2ed757ce4a8d87ae4cf21
+
+Package: ros-jazzy-novatel-oem7-msgs
+Architecture: amd64
+Version: 20.1.0-13-g4990204-2024.10.19.10.16
+Priority: optional
+Section: misc
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Installed-Size: 7645
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-novatel-oem7-msgs_20.1.0-13-g4990204-2024.10.19.10.16_amd64.deb
+Size: 465070
+MD5sum: 01d324dd9ef6cf8e077e809d327b4d84
+SHA1: 534366443e7689dee1235b63da21a2b64b040043
+SHA256: 476212e39c266d11fad5f4152b359c868f4920299115100f3850d769269bf846
+SHA512: b1b3221d8755ef8006ea8e3f6175a70d7c7b52bf2a2af9df4829976cd471f05e21d716efd5d69dafd219adefec3f0ce91e9c2a8d3d94152fd187e70308998c18
+Homepage: http://www.novatel.com
+Description: Messages for NovAtel Oem7 family of receivers.
+
+Package: ros-jazzy-off-highway-can-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.23
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-can
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 2707
+Depends: ros-jazzy-off-highway-can (= 0.6.3-2024.10.19.10.23)
+Filename: ./ros-jazzy-off-highway-can-dbgsym_0.6.3-2024.10.19.10.23_amd64.ddeb
+Size: 2376746
+MD5sum: 00a5a805b1f9111bcbfc84ea468a0f7d
+SHA1: d8e6e9d34b8b2f0fa48ce4cf3d6eb777bfefd863
+SHA256: ac0cceb1644d83858a8178a695b277a1b5dad90c8025c140c346325282694f54
+SHA512: c6d833bbe296994cd48ce09d652d0a5ed7b010d2ae4f82626e7711ebd2d943b456c590321acf998cab59953f6a42d5230c7ff862decc2fc9b3fed815cb25a94b
+Description: debug symbols for ros-jazzy-off-highway-can
+Build-Ids: 5987d03df8583cc7b2ba538ed8ea2a5b9051f861
+
+Package: ros-jazzy-off-highway-can
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.23
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 553
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-can-msgs, ros-jazzy-diagnostic-updater, ros-jazzy-rclcpp
+Filename: ./ros-jazzy-off-highway-can_0.6.3-2024.10.19.10.23_amd64.deb
+Size: 123724
+MD5sum: 496205ebe2ec0908ac19f69e1f0b2395
+SHA1: 2f70e5e7bc1395e22a23244c96f249c51c28c42a
+SHA256: 6e050b16ecb86f67da42199b3da9599ccd9d859401c394140a3bd19b517b3dbd
+SHA512: 1757688ca6767a6a9cbf74cae5a167bad07524443e0248f9078bbc7b90afe60e66fbcd85f7a886a5d7bdb534fe792f39824f6b1dd67e6335ddad5cfa983e2db1
+Description: The off_highway_can package
+
+Package: ros-jazzy-off-highway-general-purpose-radar-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.26
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-general-purpose-radar
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 2726
+Depends: ros-jazzy-off-highway-general-purpose-radar (= 0.6.3-2024.10.19.10.26)
+Filename: ./ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.6.3-2024.10.19.10.26_amd64.ddeb
+Size: 2554208
+MD5sum: 01e17164b3447b55a9553010ac94eacc
+SHA1: fc5076987e41d704375ff5216ff8f74a04e2a508
+SHA256: 4d46ab40f2edfef76dff65afc49ad76201e257a76dfda0c0c612a4bcaa397130
+SHA512: 02c7ddaac06d89e6de23f55b636de102737a39e0a40882ac5be7de7720134991eafd2f697ccc23d3277b9d0160463a9d37329dbca6458d1459f6a36464cdfb1c
+Description: debug symbols for ros-jazzy-off-highway-general-purpose-radar
+Build-Ids: a7c67364a0148e9fcd276427bfd122e6a60057d8 ba3b2eb6899d6962e04dae072c49edf2dd7d2293
+
+Package: ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.25
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-general-purpose-radar-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 769
+Depends: ros-jazzy-off-highway-general-purpose-radar-msgs (= 0.6.3-2024.10.19.10.25)
+Filename: ./ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0.6.3-2024.10.19.10.25_amd64.ddeb
+Size: 597588
+MD5sum: b20b4a206f545ff368d4e8abdf09b5c0
+SHA1: 5a16e1cfe89391f79e94de7e6b77a2fef968673e
+SHA256: 00732c472606b7f5d717106696d346d14aa37cba26e8f8804e32de2bdf5ddb0d
+SHA512: fdafe7dcc4c0a6bc8d0a44eae073f95c9bdc2073f3cebc34cd44979a003fb86a36ca0293193112e02cd6b838141ad80c87280e9d9da1b6cc31d0973fd409a505
+Description: debug symbols for ros-jazzy-off-highway-general-purpose-radar-msgs
+Build-Ids: 02252292a3e1ecfab615aed23935ba0b2c69f393 0f9fe5942a721c2c8e096077227d440885d81c29 1f61fbe70305e801b7fb647c992f7e4be6021e95 46bbed4faafb05d58e03d5b62edabc30a0e5dc75 7c418c4ef795f1f18ec48c40c4f87e4e6fc68611 7fa05263455d8f6be7a1d1c805cad21a5620bc5d b6da8869543a77d3baafceea36b0f6b833c5c160 d4a7b794687d44ea909dbb944c3cb64bc3ecad0a f58110d048f5eb6120bf0a7c300e8271e2d5d719 fe517c513089e07af7bd293a3d75f0125a0ff4f2 ff23aa12612cf7e67f9107caab9d26c6162bd098
+
+Package: ros-jazzy-off-highway-general-purpose-radar-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.25
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1117
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-off-highway-general-purpose-radar-msgs_0.6.3-2024.10.19.10.25_amd64.deb
+Size: 84688
+MD5sum: c342f91acdaeaa0d385f89771923a3cf
+SHA1: 44bea8ea6063aae5df565aa9956912bf74dfb0fa
+SHA256: aec90948f815f981c41ff6e5c08dc5de653eaf59219bdd943b368471d5d9a435
+SHA512: 15f9cbcf5f258a38ab434b65c68e23be5301390d15eb628d7a951eea30901cffbbae1f4c3ddfc8531c487bc7e46a4a3a38800aef6aecdf2b141369d5fd086383
+Description: The off_highway_general_purpose_radar_msgs package
+
+Package: ros-jazzy-off-highway-general-purpose-radar
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.26
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 521
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libpcl-common1.14, libpcl-dev, ros-jazzy-can-msgs, ros-jazzy-off-highway-can, ros-jazzy-off-highway-general-purpose-radar-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-off-highway-general-purpose-radar_0.6.3-2024.10.19.10.26_amd64.deb
+Size: 143788
+MD5sum: 0b6ef2bd913208880c813f04fdd88a77
+SHA1: 63aa842938b5d3d1729af0642e48b593859e14df
+SHA256: 44a7a5b6b4bc0054dad27753216f75c18767e5e8e3d24c46ee281abf6538477d
+SHA512: 9364580e4fa442367573ca6ba93c6c1eeec877823c46c3aab512d63040825cb10c84f0f476969c2d700a8023a0ffaa2c3cf823fb0061a6f4c943cac4a94e895f
+Description: The off_highway_general_purpose_radar package
+
+Package: ros-jazzy-off-highway-premium-radar-sample-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.31
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-premium-radar-sample
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 6653
+Depends: ros-jazzy-off-highway-premium-radar-sample (= 0.6.3-2024.10.19.10.31)
+Filename: ./ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.6.3-2024.10.19.10.31_amd64.ddeb
+Size: 5948018
+MD5sum: 09e79a981e0fd8b8ead8e45a359a28e0
+SHA1: 48308c12ceca5964070a7fb3f2feb3b610c24947
+SHA256: 600e950eb55e5abf17a41686db3c9f61424d541f473b307f32390a0935da42ab
+SHA512: 57a28213128cd36cc0246d5d31918ae40e43f05758b259c9ab975fda9626f9ad49e0b2ba2d2343a862cd428ee3c10bc75f71552893f6bfadd4411cac4773e519
+Description: debug symbols for ros-jazzy-off-highway-premium-radar-sample
+Build-Ids: 5379c5bc88af316153a0d7ff4f830a9fd5dc6ad7 dcf8f1c385d256691466b28abeff2e4676c0ae29
+
+Package: ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.29
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-premium-radar-sample-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 3188
+Depends: ros-jazzy-off-highway-premium-radar-sample-msgs (= 0.6.3-2024.10.19.10.29)
+Filename: ./ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-2024.10.19.10.29_amd64.ddeb
+Size: 2518804
+MD5sum: be85100dc51f1b4c36ed3ce1eaa821ab
+SHA1: b07ac1bf3814065cfe85202b3fef6c1fc6698577
+SHA256: e4dbeee291eccbde904a2d18107aa0ac5d67a3dd483ac07d32e02383849e2a99
+SHA512: 21d3d317b2e7e6978b2fe4e831145fc80be0bc58b962e2b8bbd7c1b16b6f8d774101e51fc546c0124891eff71ecb6297dc17daf931d1303c9c3ab724e37d37df
+Description: debug symbols for ros-jazzy-off-highway-premium-radar-sample-msgs
+Build-Ids: 1a21d3290f12b93ad020cdd81ea45a47d1eb5dce 1ce2e1fc03eff4d774652d5d946afea887dff592 32915ed71d414e0d502833997f1d459fcac51a7b 3933ae84307b571c39fdfc6bd5d505454fd334e6 4d18a9e62de4069a7f8dd2c9744380ce0778042a 8352e3f5e8f0fe0c687efb6527ec35d7026a5f9c a9ea4fb26dfa521a1b24479b72d86e279bea5028 ad4ade50d31ea72f771aaff8eb44bd809a055d06 bb510a49f20f2035ed6c8e0ba2674e3ce63f7853 bbb90b92d90d262eda220359594a2c8eff5ce8c9 e22f1a654ebc23b1e23be2fd744010bb31a6ee72
+
+Package: ros-jazzy-off-highway-premium-radar-sample-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.29
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 4594
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-2024.10.19.10.29_amd64.deb
+Size: 284640
+MD5sum: 35f2d35419bfd076e275175fa44a7b66
+SHA1: 8ab1a4da41fab1053aa104aa4ed93e5274cf0d08
+SHA256: 2bcd71647b618fed91277fdaabd0104c4598462ffffb126e717a2c33bee3112c
+SHA512: 3bd5c62b15c9ab467d7e898270d2e8066c678c2ce8f736a46375c48fc5a078e5fc71220d88bbc2cdebeb6428eb40504d77e447a4d395ca576eb59a10f43c35a9
+Description: The off_highway_premium_radar_sample_msgs package
+
+Package: ros-jazzy-off-highway-premium-radar-sample
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.31
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1329
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libasio-dev, libpcl-common1.14, libpcl-dev, ros-jazzy-diagnostic-updater, ros-jazzy-io-context, ros-jazzy-off-highway-premium-radar-sample-msgs, ros-jazzy-pcl-conversions, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-tf2, ros-jazzy-tf2-geometry-msgs
+Filename: ./ros-jazzy-off-highway-premium-radar-sample_0.6.3-2024.10.19.10.31_amd64.deb
+Size: 288954
+MD5sum: b06fcd95163cb031051dd2970ccc0ea8
+SHA1: 61e8d35abd9c2dc1a88ad26e3d168f18d099f5e3
+SHA256: d1b9c3e296438d969ec8745cb98b703b60050916e9d3c50509f8e0e7ba3389d8
+SHA512: 5d6e2081ff832b8e1e0050009a541abd100a644c730a9de7cb0dd72106fe1dbe9c1c02da3d40afe3e942ef39ebc69f71ab1cb1be5081ead3e1d629ebce868e34
+Description: The off_highway_premium_radar_sample package
+
+Package: ros-jazzy-off-highway-radar-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.35
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-radar
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 4856
+Depends: ros-jazzy-off-highway-radar (= 0.6.3-2024.10.19.10.35)
+Filename: ./ros-jazzy-off-highway-radar-dbgsym_0.6.3-2024.10.19.10.35_amd64.ddeb
+Size: 4272058
+MD5sum: d7c62a7f47795af1d5fe8dcaecb79a52
+SHA1: 60cdbd1886e2eba69e2e8d873ef8d5194212c19e
+SHA256: 50e61e87e54769fe7c378fd03ecfc0a4d7fdca54f145bddabc608c261d72b614
+SHA512: 887adf54159a0f5eb7bd0e8c7e73610224f6182d7060ae76de9cd1c2907893d28023cf0d7778ff4844c5e863f721a5cfdd4fb971334d04c2ba5c777291f5da70
+Description: debug symbols for ros-jazzy-off-highway-radar
+Build-Ids: 4a70fb0fd559c8506b577eab656c741353c518c5 59c4a5dfaa865b37dcc360477060ccbde5a06673 7df39fd2ef926b26199d8249cb6f04c5a68f724a
+
+Package: ros-jazzy-off-highway-radar-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.34
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-radar-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 780
+Depends: ros-jazzy-off-highway-radar-msgs (= 0.6.3-2024.10.19.10.34)
+Filename: ./ros-jazzy-off-highway-radar-msgs-dbgsym_0.6.3-2024.10.19.10.34_amd64.ddeb
+Size: 612958
+MD5sum: 15ab9ee8a3d122f32e0ff078dcb7ecef
+SHA1: 9b2a1b59fba9d845ce4ad562ae17edab264b0539
+SHA256: 0d6e85ae0c540f9e546e57532d12d0ba5e2c00230d7bc1ca0a9e4e24d3190bca
+SHA512: 31e3d4c5f6762eb91eecec286f69601c81305bd5d361a694127ceeb182582abcc3c3d4fdbc20e891dcfd5a484fedb50b3eca0839dbd401364f3090ebe7580d24
+Description: debug symbols for ros-jazzy-off-highway-radar-msgs
+Build-Ids: 23edd6ccfbf55e50d73cf7e5c267688afdee2f27 49e6d040199f23f9a66070063d0800455a36e4ea 5d67b42344de47b41129d4ae7c47ad24a7db1d09 744a24f55976e2831bf9e1c30e1a8e25d62a8b96 848d871a8501e274e5e7bf5f8d26d7ea9c05b2fc 8ea4cb3a72388152a3e25bf4624f536dac5e618c 926dfdbea47e1c2cde7c641ba94e40bc155a0344 98af4e12277fac7c93e0e136d471db99214b8111 ccc08c72f7ada60e2c32315ca2606fb8ec71fb6a eadfb5c56bd7aaea934c17500d5a323baa104fdc fa3fd6320f7e3e10c6f992ee0e95103e69fbfe14
+
+Package: ros-jazzy-off-highway-radar-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.34
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1098
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-off-highway-radar-msgs_0.6.3-2024.10.19.10.34_amd64.deb
+Size: 88844
+MD5sum: ae7be3f8ef94040518a4e490ff495856
+SHA1: 9b1bec0259e9e761255850f085ca772990316695
+SHA256: e0b2fec880d0493e8988b17a99a537a5d1a98fa8b2ce541fb8993533f177052f
+SHA512: 36b1281d4b2eb1af408d2b3479dae06ad94a32483df7f09e0ccab6f71883d99c4a3502fe15c3a13342f900c45b79dd9f770c16e1b806e4ff2e9ab3c53679c956
+Description: The off_highway_radar_msgs package
+
+Package: ros-jazzy-off-highway-radar
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.35
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 922
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libpcl-common1.14, libpcl-dev, ros-jazzy-can-msgs, ros-jazzy-off-highway-can, ros-jazzy-off-highway-radar-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-off-highway-radar_0.6.3-2024.10.19.10.35_amd64.deb
+Size: 209912
+MD5sum: 0a89a0fee119b25cfac91fac7b22aef1
+SHA1: 222757f551ee7928d801db8dc4d3dfb0e6688852
+SHA256: 246ea99c78892575db076dd2f3b81a70af305273320f67d8bbad97feba680d6a
+SHA512: b2af7266a7487d88cd7b658e9f783093221b19fdb1f1f3060b199f0a49a67b025707e189d0a248f0dce8e2ec379d5e7c1756e61777bcef2841f7f7412e713144
+Description: The off_highway_radar package
+
+Package: ros-jazzy-off-highway-sensor-drivers-examples-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.39
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-sensor-drivers-examples
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Installed-Size: 2619
+Depends: ros-jazzy-off-highway-sensor-drivers-examples (= 0.6.3-2024.10.19.10.39)
+Filename: ./ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.19.10.39_amd64.ddeb
+Size: 2269614
+MD5sum: 2e50907b2a1eb5292e4c52898e64f780
+SHA1: 50633513f5e95271d385cfb4e07c0ac75fd9274e
+SHA256: 2fc736c2c6c87990954597c5a9a6c6a51f3b89621deef9fe07674e6aa3feedd9
+SHA512: ec05bfd88acfb2b1251f3fc4d87e17784a2b1bd910688dfa0db129603e224b287ff63d24e439a77ced21997f35d887d4e4a041ece6a07162b48363dd9df54ae9
+Description: debug symbols for ros-jazzy-off-highway-sensor-drivers-examples
+Build-Ids: 38eb21abe6afea0cd24b50026219ba5ec1d6ddcf 8329c469067564c75c299469f26c879e2aad2d99
+
+Package: ros-jazzy-off-highway-sensor-drivers-examples
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.39
+Priority: optional
+Section: misc
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Installed-Size: 582
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-off-highway-premium-radar-sample, ros-jazzy-off-highway-radar, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components
+Filename: ./ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.19.10.39_amd64.deb
+Size: 124980
+MD5sum: 044e7079d1a6bf37b55f735e2789ff7b
+SHA1: 332e3dfe93e9cf5491d6e33de73bf0e4f555aee0
+SHA256: 05c117bc67ab42ed6e0e624219f3e73a182f257eff83c71fa0d94b042b4694dd
+SHA512: 451a04d6f6ce217eb8d0764bf3bd398b4c9a4a3a018119e86329d758a35c1b90d413585dd58e0e9f97fd1e3c0a0cd6e78f6ebc2fda240a31d85b8010351438ba
+Description: The off_highway_sensor_drivers_examples package
+
+Package: ros-jazzy-off-highway-sensor-drivers
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.38
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 42
+Depends: ros-jazzy-off-highway-can, ros-jazzy-off-highway-general-purpose-radar, ros-jazzy-off-highway-general-purpose-radar-msgs, ros-jazzy-off-highway-premium-radar-sample, ros-jazzy-off-highway-premium-radar-sample-msgs, ros-jazzy-off-highway-radar, ros-jazzy-off-highway-radar-msgs, ros-jazzy-off-highway-uss, ros-jazzy-off-highway-uss-msgs
+Filename: ./ros-jazzy-off-highway-sensor-drivers_0.6.3-2024.10.19.10.38_amd64.deb
+Size: 5290
+MD5sum: 4a4d72be4317dc355b3821b556595307
+SHA1: c6856852509d3eb0d45ad1b09d956f28a15b7df5
+SHA256: b2675b283e83f84bdeb826374e9a4f96eb84083cc7b9789db256d9b35f633e83
+SHA512: 13aeb65ce5bb5814fa1a376915d88c52ddf963da2854bb49704b28796a038bdac2bebfa1b73b3e3e18cb113a08bb07c0f99183819cbc288a62b4d468ad4aa916
+Description: The off_highway_sensor_drivers package
+
+Package: ros-jazzy-off-highway-uss-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.41
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-uss
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 5385
+Depends: ros-jazzy-off-highway-uss (= 0.6.3-2024.10.19.10.41)
+Filename: ./ros-jazzy-off-highway-uss-dbgsym_0.6.3-2024.10.19.10.41_amd64.ddeb
+Size: 4756144
+MD5sum: e8b1ee17ab6d082106db18b387ec093c
+SHA1: 7ad886471c62032c35e9862633c5ae690f0e31c2
+SHA256: efa1782dc9f5b44d8b69932b85e26ceebf1d949785e682abc1088e2af54fdfdc
+SHA512: 3331921b682828557c1d7bfd42f80ab95a346f1e1f56138e298239a0ab52d6ef15051ee17679730f0c3ac20c975dbdf88387aadcf189189a7c71c309a856d97f
+Description: debug symbols for ros-jazzy-off-highway-uss
+Build-Ids: 21513a89e0b1871d56f34ea6f0532c18afba61a9 2402a36e24f5f6eafc8a8e1b559b1d898e4489aa 733b2d12e3f9479d8245bf56217aef82c8a0ab19
+
+Package: ros-jazzy-off-highway-uss-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.40
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-off-highway-uss-msgs
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1006
+Depends: ros-jazzy-off-highway-uss-msgs (= 0.6.3-2024.10.19.10.40)
+Filename: ./ros-jazzy-off-highway-uss-msgs-dbgsym_0.6.3-2024.10.19.10.40_amd64.ddeb
+Size: 809038
+MD5sum: 51c2908a9960eed4cb25119d60ed61fb
+SHA1: 0e45a0ef7a13d54767718e653e24ec1bbbcddf41
+SHA256: 8ee184a771206b73a682fe54535b05618849b750b6dce91fbe36f728ef497578
+SHA512: 210a4454c9d096dfd63f0c670e1491352cbebe288f0c47274f36c10a050ebfff4f07f12e0d9bbd920ff7bbdf7212e6eebfa1ee16752e7b4726849a635ba36e13
+Description: debug symbols for ros-jazzy-off-highway-uss-msgs
+Build-Ids: 49b186fb330664296368cd52ac72c023cd63da3c 4d381667b3f2f73c9c7fc1e13888883b3c3c979a 51e1e5697cc40ef5eb16e0a402be17498644d4a3 6d622b8d16ced2b30026baf7765516b0ea3ed75f 82bc0699ae71071d601fba963d5acd8e554e7738 8ca5c894a5d701fe6c2fa6f3716078ca35b4c132 8ce509b0c92998116ff73390fe88861fa02b62ca c620f7aaecbfbaf6ba7edbb0f32468d54c4771b4 d375311dd99e866f199dfff09f4f38e2df41f4a4 dd89ad2442246667e327975a0d92990403b5ff0a ec12a958926ffb095a85a47db8b0762a76615f63
+
+Package: ros-jazzy-off-highway-uss-msgs
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.40
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1268
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-off-highway-uss-msgs_0.6.3-2024.10.19.10.40_amd64.deb
+Size: 102768
+MD5sum: d38c5964fa43c94eb997207fd54eb647
+SHA1: 914abae30dc3e29a2586d95deaca58dfe2a99dec
+SHA256: f598cfa8d1a8f6d275711b3102be5790f6b3e2240371e06e92f91d6b28bc8686
+SHA512: 40ba85d4bc8c1de58de51331b4332a72466cd4215c03ef670165cc8b355cacf30040b2553ef0bb7b0071ebed4d6f93b9594786a29c7c6ebbc9b040847cc7b94c
+Description: The off_highway_uss_msgs package
+
+Package: ros-jazzy-off-highway-uss
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.41
+Priority: optional
+Section: misc
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Installed-Size: 1023
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libpcl-common1.14, libpcl-dev, ros-jazzy-can-msgs, ros-jazzy-off-highway-can, ros-jazzy-off-highway-uss-msgs, ros-jazzy-pcl-conversions, ros-jazzy-pcl-ros, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs
+Filename: ./ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.deb
+Size: 226614
+MD5sum: 4821f2ae14a98a3cc5da1bf2c3ddf46d
+SHA1: 1c312b3451737ca52d399a8202bdcdada0c45a4d
+SHA256: 495d24f1d655260e25f796585e367378707be86b06e81179c9b8589047e8553c
+SHA512: 27569c8c9b5df7632b61ef594b887507eab1a97dec60debbe07fb2f08b9dd3a12fc637abf390b1a8858c5a9f37bbf0ea0cb4b55f42bd59fbb7752d87e6774791
+Description: The off_highway_uss package
+
+Package: ros-jazzy-rmw-zenoh-cpp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.11.24
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-rmw-zenoh-cpp
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 4093
+Depends: ros-jazzy-rmw-zenoh-cpp (= 0-2024.10.19.11.24)
+Filename: ./ros-jazzy-rmw-zenoh-cpp-dbgsym_0-2024.10.19.11.24_amd64.ddeb
+Size: 3989142
+MD5sum: 54d798c83d3b6e0104c09f39d6c2282c
+SHA1: c2f3adc7ae9ab5a03353c88c7165f7356d2d47f4
+SHA256: 3a7f487a5f43224f6a41a229a0f3c801b51e5329eb347019c94aa21c0190a89d
+SHA512: a8cbdfab7aa977f43d57731b35d64120f6817ee69c1ac433a4874faf6d97f2f5523fa74a97880626331b4bf4a4ba5134c83a4511502e22cd8c32ecdf4fd96f1c
+Description: debug symbols for ros-jazzy-rmw-zenoh-cpp
+Build-Ids: 1410dc4379336ae42d7320c5125f6a4eeb4e32a6 ce0067ceb5a5ea94939c2f9a960fd279036645e8
+
+Package: ros-jazzy-rmw-zenoh-cpp
+Architecture: amd64
+Version: 0-2024.10.19.11.24
+Priority: optional
+Section: misc
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 536
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-jazzy-fastcdr, ros-jazzy-ament-index-cpp, ros-jazzy-rcpputils, ros-jazzy-rcutils, ros-jazzy-rmw, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp, ros-jazzy-zenoh-c-vendor
+Filename: ./ros-jazzy-rmw-zenoh-cpp_0-2024.10.19.11.24_amd64.deb
+Size: 173446
+MD5sum: 8e2ed3b3de12cd0b40aed5d8326ddd96
+SHA1: 1411c53d4ac447c06cdceee029707ba891ec3347
+SHA256: 804bfcf3168e99a7f6edf1d818e09d39648b60b3f9781a2b023babc808b84457
+SHA512: 1da31ff89b3948518f7002840948fa204e52b599cf2cf96cb4958bd0d903dd3e78f341f0bac95048c81c66aa80f8a95bdf151fadfa0b12db0d170385b42071d2
+Description: A ROS 2 middleware implementation using zenoh-c
+
+Package: ros-jazzy-tier4-api-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.11.01
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-api-msgs
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Installed-Size: 1526
+Depends: ros-jazzy-tier4-api-msgs (= 0-2024.10.19.11.01)
+Filename: ./ros-jazzy-tier4-api-msgs-dbgsym_0-2024.10.19.11.01_amd64.ddeb
+Size: 1235920
+MD5sum: 06d93ead58e289cc9c86e0a901ce5443
+SHA1: a8256e4681260b3f0a2ad8a3a2facb1664ce2361
+SHA256: 54f01993a3f6d3c1f501bba357c80f1f4750b4ee6bd6e520325f931893ba46ad
+SHA512: 5ea3ac37c92fb5255935750eedabeb48362cc28145a07eb73c23ea5c3b4ef7f704e6705f21fb8d11073acb0f7b82326be7d096ad8c345e91b7842abfa25b25a7
+Description: debug symbols for ros-jazzy-tier4-api-msgs
+Build-Ids: 162702964b5d65c064c6a072c9dcc387571eaa34 256a1875b5bee5e44652b312cf2d7139a72d1921 3c753e118b33b86a6967b61d54e8f48b82bf7b8a 44cc07b8adc34ecbdd131742bc3a3522301d2b3b 76860c386cc142389c8fa2f678934873f0a17116 7753520cdb6c99a12655383bf0d48255a6909bb6 7e4504b8bb0b1ad550a87eec5ea8111efe0f4cb4 80857f9c8a23126a906f2ac07056aa5b6f60e2d5 86b730c4962d46757702b87f3ef8ee2f51be2e2f 95be013f06fc30082650971a3d8b3b669561b7d0 dc7933e961a1bb9b1b1fea0b93497e6e34a4076a
+
+Package: ros-jazzy-tier4-api-msgs
+Architecture: amd64
+Version: 0-2024.10.19.11.01
+Priority: optional
+Section: misc
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Installed-Size: 1924
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-diagnostic-msgs, ros-jazzy-geographic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-tier4-planning-msgs, ros-jazzy-tier4-system-msgs
+Filename: ./ros-jazzy-tier4-api-msgs_0-2024.10.19.11.01_amd64.deb
+Size: 147122
+MD5sum: 596094c941f1165367e0c658af02b758
+SHA1: 0c89a7c1aef20dab94659764943aae2bd369f237
+SHA256: cc380c9a2d2951006547f392d153d64db15bfbc16c840b0388f625f735b3d0c3
+SHA512: 549ff8d395211a0ed5b5101bc14cdf6a39a46654dbeed68f3c74f89a22eb66f9b3b7c6a7829917219850c705f7c7dd44fd02ba22cf7cf59671285be8ca47cd78
+Description: The tier4_api_msgs package
+
+Package: ros-jazzy-tier4-auto-msgs-converter
+Architecture: amd64
+Version: 0-2024.10.19.11.05
+Priority: optional
+Section: misc
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 64
+Depends: ros-jazzy-autoware-perception-msgs, ros-jazzy-autoware-planning-msgs, ros-jazzy-autoware-system-msgs, ros-jazzy-autoware-vehicle-msgs, ros-jazzy-tier4-perception-msgs, ros-jazzy-tier4-planning-msgs, ros-jazzy-tier4-system-msgs, ros-jazzy-tier4-vehicle-msgs
+Filename: ./ros-jazzy-tier4-auto-msgs-converter_0-2024.10.19.11.05_amd64.deb
+Size: 8724
+MD5sum: 66926e5f4b4e0f97f98cfd46d8260a8d
+SHA1: 8d0cae695a577ee625f667f28831a9b7d5f88eae
+SHA256: 9df51f395dd09874f7a495ce791492aea41b64abaa8e3aafc9c52ea452e7a2c5
+SHA512: 5f8de9bd3138a04f9751be39cf7ff79de7b9cc466b36cbb4a1e8e21e50081659ca23e9f124025cc6c5f349e403465f13b65759f168351608a4a6c76109c7efb1
+Description: The tier4_auto_msgs_converter package
+
+Package: ros-jazzy-tier4-control-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.44
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-control-msgs
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 1608
+Depends: ros-jazzy-tier4-control-msgs (= 0-2024.10.19.10.44)
+Filename: ./ros-jazzy-tier4-control-msgs-dbgsym_0-2024.10.19.10.44_amd64.ddeb
+Size: 1268842
+MD5sum: 4da96a1405a0de6217610bb6890efb3a
+SHA1: ae5e87aef0cdf240b195b384d22c04776de9a0af
+SHA256: 801a19edb6618a2ca50d014d10f96c0fc3df2da8d0ef1db6239d8ca14c72749a
+SHA512: f88ff199a02fe1a7b0f95bb7fd881cc0d2fa8b5e8156a1d03438ccdf45810637b26c9fd02b3ae3e872ea80e441d3d7fdfd8fd693df56a9720b97cae7fc884c74
+Description: debug symbols for ros-jazzy-tier4-control-msgs
+Build-Ids: 321a00571674863d3a59e44829849f3603e1b8d6 3a323d3ff6625a486cd7bf9eadede0d6f16baf66 3e3f187f3b6506c10b719373e7b70e5cfe5e086d 544cbc716527d0bbe352b8f6c0929d10261dfb42 71d0db08d4dd9daae05e2212265882de0372523b 8c3a731d2aa0e9476364e0c71eeda5b99920522d 96451a1b651282e4de9559cf508cca3768781744 9b3ef14c5c2c3abea0deb5b04b840ee2fbeb155e b30ec9cb5a65a8e0af6a85dae512375448f61884 d97b74c0699f24c1dd64afbee7bc7e92b523d145 e17c7f649d2bd4057e6d2823f469a0623b95383d
+
+Package: ros-jazzy-tier4-control-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.44
+Priority: optional
+Section: misc
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 2097
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-autoware-common-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-tier4-control-msgs_0-2024.10.19.10.44_amd64.deb
+Size: 152766
+MD5sum: be3b3ad1891a15d195f16c92c8047776
+SHA1: 6d70c1cc62e256c1c7bf5d3fbb674724fb08cfc4
+SHA256: e9a9c027ae022403a764e690979311c155a70d37fd2c2e84b7e2c72f96afad5e
+SHA512: cfd8e4683d1d2f739364f65d6b333842a9b873b3f9b87529d94966490146faab0aae71a4fe5335c21eebb7b0d6a1042429b79ea12508366b2469dc7d7a4aa61d
+Description: The tier4_control_msgs package
+
+Package: ros-jazzy-tier4-debug-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.45
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-debug-msgs
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 2019
+Depends: ros-jazzy-tier4-debug-msgs (= 0-2024.10.19.10.45)
+Filename: ./ros-jazzy-tier4-debug-msgs-dbgsym_0-2024.10.19.10.45_amd64.ddeb
+Size: 1652580
+MD5sum: a7a536321623e4ea1e2fae9ac5cc7ad2
+SHA1: fba0aba04c89fcdc893b2f8833a4e169978899ae
+SHA256: 94acb3e09a5705aac9f35269c50706aeded7e821cb087bf0200e2118d9852d6d
+SHA512: 95314738d9c7232503f5ced48cb36b4d9875950656c53d436cb49214e75dcbb866ea6b49ec0c798319c4a451c987facab789bf53368d31f715798835141be710
+Description: debug symbols for ros-jazzy-tier4-debug-msgs
+Build-Ids: 07b66f42f087a3354524fda2f2ce9a2a78977ebc 20e4ba0306ade1cddafed3d3ccde8ba8bf46c3f8 2bfedc7eb3a614dc18075d3ca9dc96b470fe8791 4d8652b0867e94dfd1168b63c3910506b1ebba44 5adbd1bc95005666e5ae9a4d3e1ff3ca8ecbdd31 82bee22a2bb8979b5b95a43dc045537910089290 8a8a9399ccf98136dfcba5228efdf0f0dea6f4ed 91b8d919a48729c7576acce7d094bbf1fa144fb0 c1700bca7c5571b162477284ea083810b45d7353 d7ac2ea67ab492ac4459758596728279b74fdd50 eba3d3626c5a8c61d64f492833b64b279f9ec8e7
+
+Package: ros-jazzy-tier4-debug-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.45
+Priority: optional
+Section: misc
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 2380
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime
+Filename: ./ros-jazzy-tier4-debug-msgs_0-2024.10.19.10.45_amd64.deb
+Size: 162298
+MD5sum: 794c4485f75bc8056ed517e30dc3d3fe
+SHA1: 933dc5ffb8138c30bc7fcf82e1ccd40d31015089
+SHA256: 7dd2a2e07247fbb514241b6a1bedd753f32d6377586fb6a18559abc38ed1600a
+SHA512: 19a4942967ec843e5f3bd2e7e58d53bebd33a4f98867d7727ede27a5319fce7503f3b5831c666fd8d1dfea4328277e994d9c95244cd06e3fe08a3c6d7f76da9c
+Description: The tier4_debug_msgs package
+
+Package: ros-jazzy-tier4-external-api-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.47
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-external-api-msgs
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 9805
+Depends: ros-jazzy-tier4-external-api-msgs (= 0-2024.10.19.10.47)
+Filename: ./ros-jazzy-tier4-external-api-msgs-dbgsym_0-2024.10.19.10.47_amd64.ddeb
+Size: 7729618
+MD5sum: 717339c18b666cba1f922ea9d43e9d38
+SHA1: 8212f2faeefa16f917f912362d952fcba9d8ded5
+SHA256: f7be990c609b8ac0bb5ae1ccf25f697d4037b4da1826a58adb7c253c52b142c0
+SHA512: 5dc511a8fe214165bb17613691021bead8fb77f6cf64241bed349f926331664913100d0834243342f517a266b4acc81324f5c6914e1d92c1edc516a09887c1e7
+Description: debug symbols for ros-jazzy-tier4-external-api-msgs
+Build-Ids: 265bf5ae9b987b0a937fddaed7c3ba29cc8a1cc3 6e2e77cce0898da7f4256b2257a986553c27bf2a 6fa623f3bf4812e83b712bd1ccdbe649399cab6e 778f16155521e8b82c489b93d13ee3b6d123fa93 7c7b54813ba78374f30ec758ddcd12712be0837b 7e8fe5a52e098da88ebeca1d86de2aa289124988 ab91e51373f37298f172056cb1869371516d1b55 c0b628e75f6958b5adec729bfffeb070e10abbd4 ca9507151be84a8f11565da0e4cd3f631da1d843 e929032802469042fd4ceb68cad31b3bff15674d f5679c10f8a159eb6c122bc8d4d81fefe00365f0
+
+Package: ros-jazzy-tier4-external-api-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.47
+Priority: optional
+Section: misc
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Installed-Size: 12954
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-diagnostic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime
+Filename: ./ros-jazzy-tier4-external-api-msgs_0-2024.10.19.10.47_amd64.deb
+Size: 730958
+MD5sum: 1ed85eed05170627cc0dbb0bd0655930
+SHA1: dadb754cc6a92ded597df3e6361f4aeb4e3be55c
+SHA256: 573337420f4f52af0c7f91533e0d957b136e3bf29f447acaa3830cc6c6769a0e
+SHA512: c5d9dd7d0cb14d812fe2668886d885b6d9cc70113079dbbde5bfe895f9bf0c156c4bee6215c6e0963585aa713ea8b50df3bdf2f52c2347f88e91914f93822418
+Description: The tier4_external_api_msgs package
+
+Package: ros-jazzy-tier4-hmi-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.50
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-hmi-msgs
+Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
+Installed-Size: 757
+Depends: ros-jazzy-tier4-hmi-msgs (= 0-2024.10.19.10.50)
+Filename: ./ros-jazzy-tier4-hmi-msgs-dbgsym_0-2024.10.19.10.50_amd64.ddeb
+Size: 568404
+MD5sum: 7ad60fcb779497a7935f01bdf5654905
+SHA1: 9ab9dfe81c28934de3d872781a36ceefc8d22da9
+SHA256: 2edfad7abeae6d6b36cb192fe0e3c1299213d88976dda7316f7882ddb6bd95ec
+SHA512: 26a579cc6a6c22e8e820735d35d316a83a55f4d4d766f23ab4b329b354d5c6877bd5bc9b361782ef44d5597480e6e5f5545ddc204a474fb6877059baccba3fbd
+Description: debug symbols for ros-jazzy-tier4-hmi-msgs
+Build-Ids: 124e45b90524d85b935f2de50d0dfe415484d52c 1cddd6583be122bb755dbd0d9d30375a423f24a3 25b96d66fdd3f744778048c0299d19cebe730725 315ef14bee0663371e08e985e6b45705ee8c388d 4a9b4b3c46c829681ccae1f938cbb821c7e40385 827fc9ffd1a76d016804e3ffd3a19bcd42e66e20 93a99113845d6eaa0f745221feb14694b50e15c5 9db899e9971e766eab6ad1713d158554f90f8ce2 a38de26cde260517a786a3d3e716fb436ef48b34 a71755fbb49cfa5567d4239d1ecec5137a4872f1 e040777c1bdfc50f1053f75aae85aeea2b3f667a
+
+Package: ros-jazzy-tier4-hmi-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.50
+Priority: optional
+Section: misc
+Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
+Installed-Size: 1074
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-tier4-external-api-msgs
+Filename: ./ros-jazzy-tier4-hmi-msgs_0-2024.10.19.10.50_amd64.deb
+Size: 88450
+MD5sum: af9d235cf26897b33a6c552f91574011
+SHA1: e19532eb49c11cd3c4ed79ab3b746340593e2156
+SHA256: 78855e0ee31aee93a8dcdb8e80d4ed45b4a24b4a062040617823773e02b0f67b
+SHA512: aa7029953d44e64d6def3c55f3275118f2b4f2672a5d475536cb7ca82d31b0cee27371b317ef9d3c38b06d2dca87265636246fdda84424d70bf9df9059795a88
+Description: The tier4_hmi_msgs package
+
+Package: ros-jazzy-tier4-localization-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.51
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-localization-msgs
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Installed-Size: 935
+Depends: ros-jazzy-tier4-localization-msgs (= 0-2024.10.19.10.51)
+Filename: ./ros-jazzy-tier4-localization-msgs-dbgsym_0-2024.10.19.10.51_amd64.ddeb
+Size: 714800
+MD5sum: 3e5525023161f0585eb37df624b7d18b
+SHA1: 1d57a3e2550754525601f7882e79d25c8fb762b7
+SHA256: ed4c380639461cba7294f751bcc117a0a303ea4d6f4a0e05364fecbe59b172f0
+SHA512: c017a30ac1a9bd9e2fb7daeb0caa3a25ca1ea81a14d1fa0e1e8cc616935a4735f535a9b9a9faae3f6f090ef9b072d267afa264b314a7cb9970eb5371eb96f951
+Description: debug symbols for ros-jazzy-tier4-localization-msgs
+Build-Ids: 21ef1cdf1d2bba3f27eec2284b8e9f9ede177254 2312ae68bdeeb3b2c013470428589f475b50636b 45ff3fbd20017883116929d1d7bce46ab3fd4597 5d62d9fa1580f8666d84292c54638dc2edf6bb9c 639f36af1870bac9203a37c58d30fc891ffca282 901ebab26a203b0683c33f1f6f99ecd03a32a3c2 9789811e893594fdc321cf186c564cef73371e71 b0f5ee4263285aa050c800de9de24bf4346526eb b38c7354030b94767d9a490fcffbdf1fe8e3e369 d62853d85f6aed47e7ed96f40bd5e742e464cdd0 e4338cc151d5985a23bbe372011d9173823bd9f8
+
+Package: ros-jazzy-tier4-localization-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.51
+Priority: optional
+Section: misc
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Installed-Size: 1279
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-autoware-common-msgs, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime
+Filename: ./ros-jazzy-tier4-localization-msgs_0-2024.10.19.10.51_amd64.deb
+Size: 105664
+MD5sum: 9d734e70da2dac398675f0216dbb52ff
+SHA1: 4859014d2092fc136c7ab4e2b2ee78d6c090af7b
+SHA256: 5fdfee59616cfbedabeb6545e6b7678f7542d32681651658d410d2c38a579035
+SHA512: 42f405dadf83d7e01a259e86beed00b44c283eef5d01c54a49e1f31d226e0f356825dfa596d41107361ebc69decbc02527df6725ecc74faa8ce5b5b4896c715f
+Description: The tier4_localization_msgs package
+
+Package: ros-jazzy-tier4-map-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-map-msgs
+Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
+Installed-Size: 285
+Depends: ros-jazzy-tier4-map-msgs (= 0-2024.10.19.10.52)
+Filename: ./ros-jazzy-tier4-map-msgs-dbgsym_0-2024.10.19.10.52_amd64.ddeb
+Size: 194650
+MD5sum: 3d2c5b758216a7928a5e287e15727420
+SHA1: 53e9ef391b15019e0c72a23ed0720ea08cc2368f
+SHA256: 27aa93f90e3cdf2a9b0fd8df24b9088bb8d518f8ae9e9527df2144cf33b3ba5a
+SHA512: 4899fb11a22198f4edf4bb120481727823bf1b3b522ed68f4fd4372ae15ee091674ed39e794d3101989735481259b858abe89e20e776766a99fa5e45398ef6c8
+Description: debug symbols for ros-jazzy-tier4-map-msgs
+Build-Ids: 1a7937b0b9b69c385d80116f83c96dea272ccf5e 4234a731be35395a88b44c661e63e9467d4c7118 47fc61734f254248f46b59cb468ca2b9ac74f082 67c14c22b8a3d15adbea11bdd476e6f8c96a3976 7a0cb835f18ecd265ba8c965425141e645052007 99bdb436f5f7e867b6ef788e70b2693a6082f8a3 ae6b0a54fb08013ca37200f71751a5ffb7e9bb47 d58ec7e34433f80987133f92eebe91f2fb1ad023 df577fe2da928a45a88e321d09bee0a6775e4836 e1e9c08a1260f029d3d3900d84b4fa7f490af90e efbad0f0422c798c7e63ba68d55838034ae4144f
+
+Package: ros-jazzy-tier4-map-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.52
+Priority: optional
+Section: misc
+Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
+Installed-Size: 456
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-geographic-msgs, ros-jazzy-rosidl-default-runtime
+Filename: ./ros-jazzy-tier4-map-msgs_0-2024.10.19.10.52_amd64.deb
+Size: 43480
+MD5sum: 5de775bba368175d395e039f2194e889
+SHA1: 89ebd32faf62e22ece7087e6ce9947745047bbf3
+SHA256: 79d354a01949911f848f41a934b34b72b797265c225d3b091bc07664ea963e81
+SHA512: aca3db1a1c1cc65bff4917213fd7fe71dc1fe7f9e4870b7334ae421280d2eac08b50438b9e7ceb8c52873845455b1934f9811527035ef18cfb8db9603678a71e
+Description: The tier4_map_msgs package
+
+Package: ros-jazzy-tier4-perception-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.53
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-perception-msgs
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 2170
+Depends: ros-jazzy-tier4-perception-msgs (= 0-2024.10.19.10.53)
+Filename: ./ros-jazzy-tier4-perception-msgs-dbgsym_0-2024.10.19.10.53_amd64.ddeb
+Size: 1803772
+MD5sum: a5a193f7c6e4aac38d57657472e2d25d
+SHA1: 4375d8eaddbe2dc42eb09e73aed3e1155763868a
+SHA256: be2261a3979c831ddf3714584b1ea48cb91699219ebbc97e14c28d0b79f33b6d
+SHA512: 33f19c033521a854b585bb129dddb45b10c7a166da169e2d55335158309e2ed4039f0c7161afe91f136a34566df5d1fcec0e822a5294cd08b6f8e5e68435e409
+Description: debug symbols for ros-jazzy-tier4-perception-msgs
+Build-Ids: 1055422e89cf57540fb48edaf2f1e624cd2d1dd2 1edde9bad47bff5c483c4c6f87e661097fb8c612 4b05b1b5696050c4f50d8eb2bb59d25d6cf5165b 4d6211e6dbb4982b5a0f5547a4b23bca60146ad2 6807c573ebbc461eae5376dbac0d8d3998d5e353 7dc80ca11f1489073bd313574b880fbfb7e8858a b465722c27d2d18439b8ae45f8fcee0f2aeba781 c55868063d64cbd332d817f14110190a0cff4dfc cfb16e2533701240a46debb7bf3876dab65810ff e94591969e6bc6c4bc47b530354a0ccf3e73079b f6d81d70290bc95ba2fbd63794d5fceb5aa86e4d
+
+Package: ros-jazzy-tier4-perception-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.53
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 2471
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-autoware-perception-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-unique-identifier-msgs
+Filename: ./ros-jazzy-tier4-perception-msgs_0-2024.10.19.10.53_amd64.deb
+Size: 182020
+MD5sum: 28cf23aaf8df1194be38862f9a736781
+SHA1: 2e54444b16b91517df8a5621fdbbc578a5020a54
+SHA256: c76c15d4c36a98c718c6071b72a36ef37ae3ed8f7334d2ae83a072a434897974
+SHA512: 8afc71c990dd599bac73fb9404bf3ab7da369ab4b99d5e61136d5415d602d2286d1e4645cbc3eee05391494da78fd8ce82aa00c185c82de9a3649f0a2294d178
+Description: The tier4_perception_msgs package
+
+Package: ros-jazzy-tier4-planning-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.55
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-planning-msgs
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 4887
+Depends: ros-jazzy-tier4-planning-msgs (= 0-2024.10.19.10.55)
+Filename: ./ros-jazzy-tier4-planning-msgs-dbgsym_0-2024.10.19.10.55_amd64.ddeb
+Size: 4008508
+MD5sum: 0dc8595dae4899491d4e36078f6d9770
+SHA1: 96d289fe04471c4a555dfe581f00d31baf5210df
+SHA256: 2d5c6019c6b19a4f7f4367f867beb8b5b3f23906edfadc7bc337a6a2e8f97663
+SHA512: 02a63d2c058e86e19679b5b341cf2b03d74ea2e12173a0c78440e64df68f1f789a4f32c538867a0d2de4ac9dd74742e4189a6fb36febb40af5aeb96251a4cd7e
+Description: debug symbols for ros-jazzy-tier4-planning-msgs
+Build-Ids: 0cd531a80b1be892a33ed07a035084f93a61ecd3 3d07409d303917894b3d2c6a09a89acfc6b6c1bf 3f9f5a00f8a86137ee642400b6c5a8ceb65c52ee 56d7cf823d7cf506b2016596a81cae5cfc0914c6 580f153109928dbf4180abd35e66d8d41f2e6701 7fcfe056157f55fcaba161814c303cd45a5612a3 9642bfb209fc149d8e6a7ae00ee2415b40a4b827 a2fc3756e17bc034a6a6dc46108de1689566627a adf04b9742fb77c9c6e371f9dc16a206f2176b1c ca4757d5cc9cbfa29d693741264718181291422e fc3c1225cd99445f1e5466a0be15b11cc09c4e47
+
+Package: ros-jazzy-tier4-planning-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.55
+Priority: optional
+Section: misc
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Installed-Size: 5869
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-autoware-common-msgs, ros-jazzy-autoware-planning-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-nav-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-unique-identifier-msgs
+Filename: ./ros-jazzy-tier4-planning-msgs_0-2024.10.19.10.55_amd64.deb
+Size: 392678
+MD5sum: 72bdf08afbef9a20c8e1df570c7f4b8a
+SHA1: 98b9063e2598e4de4c6dd17c6d865999da8e51ed
+SHA256: 4d6571af72e452ca548b819ea2e57a360b8710572258ecb9be9703665cada610
+SHA512: 37c0bb8459515553880a22ed3ac6e491ecb472767c79acc5a17df2604bc49288babab677c0f81930a6d294bff487fcdc8c977646c2ee1f2c6ca959f793674cb4
+Description: The tier4_planning_msgs package
+
+Package: ros-jazzy-tier4-rtc-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.57
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-rtc-msgs
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Installed-Size: 1977
+Depends: ros-jazzy-tier4-rtc-msgs (= 0-2024.10.19.10.57)
+Filename: ./ros-jazzy-tier4-rtc-msgs-dbgsym_0-2024.10.19.10.57_amd64.ddeb
+Size: 1569116
+MD5sum: 96f4572fa169cc8c2fc7961ec6ad3584
+SHA1: a5fbdde76efc50b8a78a6977d8b6888efb45d558
+SHA256: dfbefabb808b226e1c53cdada63423df0d653ba005df7286a2846800b84a7d7b
+SHA512: dab77161236c9a072551ff42eb6d2ff75e2fbcba6df86a77659faa11200f817002501f0757e4bfa870027c34b67834d123cbfe0b2a930fcca180c714b659fa44
+Description: debug symbols for ros-jazzy-tier4-rtc-msgs
+Build-Ids: 10fa364f7e9291d33ee214219a2fb95c81576760 4b25b2bcedbf7822c6baf9bab9a7b2717aa90e83 5dcc5a6b2878aa2c476a278b058bccb9d7f75505 76f845307fe4e77ddffbd2659b7296eef4051db6 b0cb3a41c0fed35434582ce0e422fa3983e6955f b2d576ebcd27716014b8a19f7439fc32a527dd41 b67e35c80c1d11df8debc56ca41cc7ace0b744f8 d4685e6cec9c2941a227a304d3e3dbc636c9b91c dc5f87674014c535e16813ba93632e94b3f64280 eb56289858a65392144d24c9b9c9797776c7b757 f960b626c7c479bc3970bbef8803a52eafaef2c9
+
+Package: ros-jazzy-tier4-rtc-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.57
+Priority: optional
+Section: misc
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Installed-Size: 2664
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-unique-identifier-msgs
+Filename: ./ros-jazzy-tier4-rtc-msgs_0-2024.10.19.10.57_amd64.deb
+Size: 187076
+MD5sum: cd0c8ee8cefd7ee0bfc6b1d70a0d3d21
+SHA1: 704c14bee5410ad163821753d7f5525971553533
+SHA256: 1937d40f5730eb4cc17f26d4739c1596e8c821953500ea9a046bcd83a689c3c5
+SHA512: a1a8a3c455acac7769640d2f16b7011397f3e1d549eb75d7e32deb9065ff0bf0a4645052278ba6aac395942aaa3a7521932bba3a06bde4a1df4d1176cefea815
+Description: The tier4_rtc_msgs package
+
+Package: ros-jazzy-tier4-simulation-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.10.58
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-simulation-msgs
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Installed-Size: 904
+Depends: ros-jazzy-tier4-simulation-msgs (= 0-2024.10.19.10.58)
+Filename: ./ros-jazzy-tier4-simulation-msgs-dbgsym_0-2024.10.19.10.58_amd64.ddeb
+Size: 699514
+MD5sum: 2bb7b056103f59ef22eaded8694c8d9d
+SHA1: 0bd7058ff38fd073adeac6e3f13d239b7c5493b9
+SHA256: 5fd4483338290c185b0fb57d8aef4d25fefb4e3e0300c9e9f58493e327e1f29b
+SHA512: e4fd5df16615bb6430354a9f112635911179e6efd369e244667d700c9c76d63877747558f4684c5f47ce686976e8f3474695f8b420beafe20810c2efd10b3f9b
+Description: debug symbols for ros-jazzy-tier4-simulation-msgs
+Build-Ids: 2b3bcbcca6cc9f7c1acf440cb604121501c234f8 2f1002bce80d3ea83e2add56321ee4b7fec6c280 4f11ce9a5808fa36176518ca682d117187151f46 627ebeebd24b6cfc53c80d84410ee22d3581837d 67f2cd26a84505d71e49c4a5e0243ab679224b00 885744acdd57b7bc119ef21c0a97e788e9e752fe 909cf905510857cafb7bde0f0cf13f77485b2ca2 96258ce92571a24b00e4681f0cace0337a48ee87 a0114918a9c74d99bf487ab239f25f7e505a4f82 b8f4f36954ee674f2255c0121c2a8945f6c3dc73 bac6dc8eac2757de931405b76a0c670e0d251f12
+
+Package: ros-jazzy-tier4-simulation-msgs
+Architecture: amd64
+Version: 0-2024.10.19.10.58
+Priority: optional
+Section: misc
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Installed-Size: 1188
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-autoware-perception-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-unique-identifier-msgs
+Filename: ./ros-jazzy-tier4-simulation-msgs_0-2024.10.19.10.58_amd64.deb
+Size: 99336
+MD5sum: de9c84d95e270d6d991aa3c1621513a0
+SHA1: aa6c4e19095ff374a9a11cc5f93a0bfb7420e72f
+SHA256: 42566d114c07dbb3fae859480a46596f6fb246e93c7cc98b441131a1935f0f98
+SHA512: f15374a77a9ff488c790acd0186d49205e3a3f714aaad472a414ce3d6f17e3832abbb5bd0a1a4dfeb7a2dad7ef2558790e1a5cff5be49a841c3a1874d422c815
+Description: The tier4_simulation_msgs package
+
+Package: ros-jazzy-tier4-system-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.11.00
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-system-msgs
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 3804
+Depends: ros-jazzy-tier4-system-msgs (= 0-2024.10.19.11.00)
+Filename: ./ros-jazzy-tier4-system-msgs-dbgsym_0-2024.10.19.11.00_amd64.ddeb
+Size: 3123044
+MD5sum: c7160d65348fd1b9f28c35fc29c99087
+SHA1: 157c373fc698854d0e43dabe16248c3953034844
+SHA256: d984e6d731f89e2ad3502c78c98c413a82795d5cbddb7fcb6d924ba56786c6ec
+SHA512: 4b8f5694aa7e3459a63c0c1e9b759ba8f7f3a4302a9483e48a172f9ed2828ac4be132526c91093b222b9ed7f1f235a918a3fdf00be8104acf493ac3c5521fb7b
+Description: debug symbols for ros-jazzy-tier4-system-msgs
+Build-Ids: 09f973ec829f287e523db06ad906c6a996dd5f59 115a8072dea9fe5873cd0e951495afce77c3fad5 38f58c94067372f77060ba11c6e3fbe6d4b53c1e 3c1e36e9ca7f595b0089e9463cee5ae0593eaed8 45cb296cdc45558b03eb8716bc0234e7a189c1a2 b6f0b4015f2b8d91f79bdc6d8f24631192304db1 b988c6130d5f77666b9d17c17586600aae4c0c4d c6197bca050c0e994fc5bfbeee8012e292a14b1d d4a8841423a69df91fef189bed822d043dd04647 f0612b9985c9725344e35ba44ed5b4db5f13adf8 ff260cb55d27ccd64327f4f67d2bdc2b18b1da17
+
+Package: ros-jazzy-tier4-system-msgs
+Architecture: amd64
+Version: 0-2024.10.19.11.00
+Priority: optional
+Section: misc
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 4537
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-autoware-common-msgs, ros-jazzy-builtin-interfaces, ros-jazzy-diagnostic-msgs, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-tier4-system-msgs_0-2024.10.19.11.00_amd64.deb
+Size: 303552
+MD5sum: 3fd068ffda8af6a7c760e80fa6b9acd0
+SHA1: 1ae2d26ca79a213d1075dae4f9fddfd992b27a63
+SHA256: 6a62cca1edcb7ca1433c3e6ddd9f56b03e22b860d2dc5b45b5f3ad7aa9b957d1
+SHA512: 527a4ae10fa0d97885ff4f90d7a4de902e775d948228aaf6fde0b04e9564ebacfcf85512c0aead35baead916fe135727550e1eec68a92049a6e535e53ea7909f
+Description: The tier4_system_msgs package
+
+Package: ros-jazzy-tier4-v2x-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.11.03
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-v2x-msgs
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 857
+Depends: ros-jazzy-tier4-v2x-msgs (= 0-2024.10.19.11.03)
+Filename: ./ros-jazzy-tier4-v2x-msgs-dbgsym_0-2024.10.19.11.03_amd64.ddeb
+Size: 688498
+MD5sum: 841060c100e5c698ba83fe41fa0e6466
+SHA1: abca5281edb4f968352cb60eb60f5c032cecdbab
+SHA256: cfbb1ce7ebd2eeabdd85da3d59719fadae499a90a0d3e09d998a14af679faa41
+SHA512: dff8d668777579984e0574b984e2cd701c4e4723c6cd9a0bfb3429cb224f5f3606a2557d82554b9ea9ac12fb8ab8750afac3d28ec2e17d35ce55b654152b4c85
+Description: debug symbols for ros-jazzy-tier4-v2x-msgs
+Build-Ids: 3a4d13c47f6a637d3cb64fa40bd830a78e734519 3e5471473d986caf662ceed75e5103a9a6b2d586 4bb476fe2a2430e134dcd34a424a7c4b20d9a9f5 78e320442d37ab0b7e0e662d23ae7e09843de722 844b15876b3c1f98c50c5dcc19270cce7c2149f4 b45d3ffe472185622f4384cfd5c524c2de175dd6 bffd735b6af574803dbdaf8fa2973e0e5788a7f4 c12b0bb79b576954181ce401c62144aef2b153b5 d150d9f9615bf67566abc0a258e7d1bab94201db dcbdde927acc03b4c9c384816e90e6588dbf43e4 f5b56a2a49e2589c383fd6e7ff16f0fa581d5bcf
+
+Package: ros-jazzy-tier4-v2x-msgs
+Architecture: amd64
+Version: 0-2024.10.19.11.03
+Priority: optional
+Section: misc
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Installed-Size: 1018
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-jazzy-fastcdr, ros-jazzy-builtin-interfaces, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs
+Filename: ./ros-jazzy-tier4-v2x-msgs_0-2024.10.19.11.03_amd64.deb
+Size: 89256
+MD5sum: 8f754002ac83030bebf0f1a0117f723f
+SHA1: 0866754e16f57f7abb1138c2ccac1f98ae2c0f89
+SHA256: af6a50147cab998f576338b8cec4d7fd3223fa8777ac73474e1e14d16c088404
+SHA512: 976ef81901a2269e20eb1aac137fa097be3da9c03fad80a6b53027b6af3f1b55f8e7d07257ce5bbeb6a26214b31344ae983a00ce4325c428be7da5f21cdde5b9
+Description: The tier4_v2x_msgs package
+
+Package: ros-jazzy-tier4-vehicle-msgs-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.11.04
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-tier4-vehicle-msgs
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 1572
+Depends: ros-jazzy-tier4-vehicle-msgs (= 0-2024.10.19.11.04)
+Filename: ./ros-jazzy-tier4-vehicle-msgs-dbgsym_0-2024.10.19.11.04_amd64.ddeb
+Size: 1241346
+MD5sum: a2535c82e0248ac2afc7f2d0aa9fb869
+SHA1: 47a9cad93ba520ae5089f82fe6f9369999390b46
+SHA256: d88970a12d4cf3e659be44f57d9fe7fceb7af83e32c0c267836f87ef2e936e3a
+SHA512: 880a1599a5852234e421c5ee37469c20f56c5b21fbeb00e992f2b76295f179e2e38a650e71b0b0a6d54f68986f4a9661a0b052edb013201a47deae0b10fe3e91
+Description: debug symbols for ros-jazzy-tier4-vehicle-msgs
+Build-Ids: 0c72344743342996b4d2e862b26c96a2e477f5d3 34481d82f7f7b057cc04c67461a875ea5e062b11 414e89bbe9ed8a5d609e0961eaa9f20740619185 461b671c810c63e0e6e18cc3b96415f426fb2a4d 55e94255a077ad92b50794960dedfa242849ae56 56890788ca038614341b4b125b0153fb4138836f 91c5d3439c0b7224914b8b5f15faba3c4d7a58db ba43768589ad448f91d297e8ce0d106059884c3d be2a6a06ce7817c3d3c103edc58aa8607307bc8d c3d4c66916d12a97dfeb658bbdf6aeaff16a142e e3c9b6c9e2b038f833f95ec1172a4775c34e46f5
+
+Package: ros-jazzy-tier4-vehicle-msgs
+Architecture: amd64
+Version: 0-2024.10.19.11.04
+Priority: optional
+Section: misc
+Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
+Installed-Size: 2047
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-jazzy-fastcdr, ros-jazzy-geometry-msgs, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-tier4-control-msgs
+Filename: ./ros-jazzy-tier4-vehicle-msgs_0-2024.10.19.11.04_amd64.deb
+Size: 146140
+MD5sum: bfa5c38d2fe4edefb4a732f84cd8b742
+SHA1: 19ef331d9ddfedebf76baae6f713745d447790d4
+SHA256: 9f4731203ad5f5289e1270b707b452af8f5912eefe53458aec919260f3417611
+SHA512: 931b0902a191b54cb15c1d32354c66ac42828b099ae3db7329ec64dcd3622db8128f8b802487114c37778c0833b1cc543ef8a29907bfd36350b052bfc9624862
+Description: The tier4_vehicle_msgs package
+
+Package: ros-jazzy-zenoh-bridge-ros2dds-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 1.0.0-dev-60-g4bd599d-2024.10.19.11.06
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-zenoh-bridge-ros2dds
+Maintainer: ZettaScale Zenoh team <zenoh@zettascale.tech>
+Installed-Size: 4508
+Depends: ros-jazzy-zenoh-bridge-ros2dds (= 1.0.0-dev-60-g4bd599d-2024.10.19.11.06)
+Filename: ./ros-jazzy-zenoh-bridge-ros2dds-dbgsym_1.0.0-dev-60-g4bd599d-2024.10.19.11.06_amd64.ddeb
+Size: 2965690
+MD5sum: bde9bf53ddf135c719c9e1f4c607105c
+SHA1: 7988c38c3ddc511a97ecc72395fa8c11a41313af
+SHA256: b6e979de23cb930d3a26c349b21f322457d1e2960577632ed51eca79dad44584
+SHA512: bdf5cc59e4fb23852c9451b87e5b787d51f9051114402101d284491f12d609b84305478987f980db607a8ec975ff0ce28005bc15ab72f21cddabb6f7b6889081
+Description: debug symbols for ros-jazzy-zenoh-bridge-ros2dds
+Build-Ids: 89cf070d17852dd348293f7b18a58e6b4af6a1b7
+
+Package: ros-jazzy-zenoh-bridge-ros2dds
+Architecture: amd64
+Version: 1.0.0-dev-60-g4bd599d-2024.10.19.11.06
+Priority: optional
+Section: misc
+Maintainer: ZettaScale Zenoh team <zenoh@zettascale.tech>
+Installed-Size: 29030
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: ./ros-jazzy-zenoh-bridge-ros2dds_1.0.0-dev-60-g4bd599d-2024.10.19.11.06_amd64.deb
+Size: 9238334
+MD5sum: 685c4f7e8084d5803cc7182ec7984cab
+SHA1: fa87428bd60323f66cacc32074cc27650670b039
+SHA256: a7985ee18a3022b993c5230df2077306e596c134e57d0cc9f465faa4ccaab579
+SHA512: c3206ad47fac2aa1f88d9c98127049b45f52dd6e55caf6951f085f109a8250396c8df52dc7b38dc92ac30937d69c5e6080baec52b023a9dd56a5d878602e34d7
+Homepage: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
+Description: Bridge between ROS2/DDS and Eclipse zenoh (https://zenoh.io).
+ It allows the integration of zenoh applications with ROS2, or the tunneling of ROS2 communications between nodes via the zenoh protocol at Internet scale.
+
+Package: ros-jazzy-zenoh-c-vendor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.19.11.17
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-jazzy-zenoh-c-vendor
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 2973
+Depends: ros-jazzy-zenoh-c-vendor (= 0-2024.10.19.11.17)
+Filename: ./ros-jazzy-zenoh-c-vendor-dbgsym_0-2024.10.19.11.17_amd64.ddeb
+Size: 2042200
+MD5sum: 70cb3981924c4c77ca62754b233c5603
+SHA1: 0f7f288670e29f60d5d9a0686fca65875ca205a8
+SHA256: 03493e33847c4498df828de935bf10208cc5a026fdc74f7160fa76400cd9bf8e
+SHA512: 3db5e03fdff8e402146b44ae67b30713e12999a012e9caeb5955cbbd1c32a4638697a93aa14fe061604ad97388c9d88d490894767a4f92dbd2002a5d37e555c4
+Description: debug symbols for ros-jazzy-zenoh-c-vendor
+Build-Ids: 1ff7d3e7bf9231b6ca51751523b1d02f471c9c25
+
+Package: ros-jazzy-zenoh-c-vendor
+Architecture: amd64
+Version: 0-2024.10.19.11.17
+Priority: optional
+Section: misc
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 9568
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: ./ros-jazzy-zenoh-c-vendor_0-2024.10.19.11.17_amd64.deb
+Size: 2916376
+MD5sum: d604f9ba70441d257c750534860be92a
+SHA1: d730c0b7a7d12e9532e29f1411d9d90b7ab87b8f
+SHA256: 31bac868128938bb1e28d3b906d94716f943c3bbbf4465e5d866ad19b547ae86
+SHA512: f92f60eaa50b6dc5ee29775d656ff22ef31bc521ecd7ca16b89e176dbd6e01b76f60731cc8c19614237aeec767a3ea1ed421443fcb0e7d0f5cbcabb9e8c8244b
+Description: Vendor pkg to install zenoh-c
+

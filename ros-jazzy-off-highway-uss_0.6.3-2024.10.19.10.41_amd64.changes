@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-uss
+Binary: ros-jazzy-off-highway-uss
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.19.10.41
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-uss - The off_highway_uss package
+Changes:
+ ros-jazzy-off-highway-uss (0.6.3-2024.10.19.10.41) noble; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ 7ad886471c62032c35e9862633c5ae690f0e31c2 4756144 ros-jazzy-off-highway-uss-dbgsym_0.6.3-2024.10.19.10.41_amd64.ddeb
+ 0388b9bc1656c895c9400f11ce6621efe5f89bdb 44660 ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.buildinfo
+ 1c312b3451737ca52d399a8202bdcdada0c45a4d 226614 ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.deb
+Checksums-Sha256:
+ efa1782dc9f5b44d8b69932b85e26ceebf1d949785e682abc1088e2af54fdfdc 4756144 ros-jazzy-off-highway-uss-dbgsym_0.6.3-2024.10.19.10.41_amd64.ddeb
+ a329fcedcd4b1a63cfd703b1b7e52651b0f3758375f9adf4bfb6459306b1e6b6 44660 ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.buildinfo
+ 495d24f1d655260e25f796585e367378707be86b06e81179c9b8589047e8553c 226614 ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.deb
+Files:
+ e8b1ee17ab6d082106db18b387ec093c 4756144 debug optional ros-jazzy-off-highway-uss-dbgsym_0.6.3-2024.10.19.10.41_amd64.ddeb
+ 3795e8c1174bb6443d9ee4835c85dded 44660 misc optional ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.buildinfo
+ 4821f2ae14a98a3cc5da1bf2c3ddf46d 226614 misc optional ros-jazzy-off-highway-uss_0.6.3-2024.10.19.10.41_amd64.deb
