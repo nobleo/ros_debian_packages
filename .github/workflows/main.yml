@@ -341,12 +341,9 @@ jobs:
             autoware_costmap_generator
             autoware_crosswalk_traffic_light_estimator
             autoware_default_adapi
-            autoware_detected_object_feature_remover
             autoware_detected_object_validation
-            autoware_detection_by_tracker
             autoware_ekf_localizer
             autoware_elevation_map_loader
-            autoware_euclidean_cluster
             autoware_evaluator_utils
             autoware_external_cmd_converter
             autoware_external_cmd_selector
@@ -363,7 +360,6 @@ jobs:
             autoware_image_projection_based_fusion
             autoware_image_transport_decompressor
             autoware_imu_corrector
-            autoware_interpolation
             autoware_joy_controller
             autoware_kalman_filter
             autoware_landmark_manager
@@ -381,7 +377,6 @@ jobs:
             autoware_map_tf_generator
             autoware_mission_details_overlay_rviz_plugin
             autoware_mission_planner
-            autoware_motion_utils
             autoware_motion_velocity_dynamic_obstacle_stop_module
             autoware_motion_velocity_obstacle_velocity_limiter_module
             autoware_motion_velocity_out_of_lane_module
@@ -392,12 +387,10 @@ jobs:
             autoware_ndt_scan_matcher
             autoware_object_merger
             autoware_object_range_splitter
-            autoware_object_recognition_utils
             autoware_object_velocity_splitter
             autoware_objects_of_interest_marker_interface
             autoware_obstacle_collision_checker
             autoware_obstacle_cruise_planner
-            autoware_obstacle_stop_planner
             autoware_occupancy_grid_map_outlier_filter
             autoware_operation_mode_transition_manager
             autoware_osqp_interface
@@ -406,10 +399,8 @@ jobs:
             autoware_path_optimizer
             autoware_path_sampler
             autoware_path_smoother
-            autoware_perception_rviz_plugin
             autoware_pid_longitudinal_controller
             autoware_planning_evaluator
-            autoware_planning_test_manager
             autoware_planning_topic_converter
             autoware_planning_validator
             autoware_polar_grid
@@ -433,13 +424,10 @@ jobs:
             autoware_raindrop_cluster_filter
             autoware_raw_vehicle_cmd_converter
             autoware_remaining_distance_time_calculator
-            autoware_route_handler
             autoware_rtc_interface
             autoware_sampler_common
             autoware_scenario_selector
-            autoware_shape_estimation
             autoware_shift_decider
-            autoware_signal_processing
             autoware_simple_object_merger
             autoware_smart_mpc_trajectory_follower
             autoware_static_centerline_generator
@@ -447,9 +435,7 @@ jobs:
             autoware_stop_filter
             autoware_surround_obstacle_checker
             autoware_tensorrt_classifier
-            autoware_tensorrt_common
             autoware_tensorrt_yolox
-            autoware_test_utils
             autoware_testing
             autoware_tracking_object_merger
             autoware_traffic_light_arbiter
@@ -466,12 +452,9 @@ jobs:
             autoware_velocity_smoother
             bag_time_manager_rviz_plugin
             bluetooth_monitor
-            component_interface_specs
             component_interface_tools
-            component_interface_utils
             component_state_monitor
             control_performance_analysis
-            cuda_utils
             diagnostic_converter
             diagnostic_graph_aggregator
             diagnostic_graph_utils
@@ -534,7 +517,6 @@ jobs:
             yabloc_monitor
             yabloc_particle_filter
             yabloc_pose_initializer
-
 
   rolling:
     runs-on: ubuntu-24.04
