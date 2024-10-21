@@ -547,4 +547,4 @@ jobs:
           GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
           REPOS_FILE: rolling.repos
           GIT_LFS: true
-          SBUILD_CONF: '$enable_network = 1;'  # For rmw_zenoh and novatel
+          SBUILD_CONF: '$enable_network = 1; $extra_packages = [libpcl-all-dev]'  # For rmw_zenoh and novatel, libpcl for: https://github.com/ros-perception/perception_pcl/pull/447
