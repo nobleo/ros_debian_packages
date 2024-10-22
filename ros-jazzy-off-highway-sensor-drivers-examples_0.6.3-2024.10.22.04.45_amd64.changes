@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-sensor-drivers-examples
+Binary: ros-jazzy-off-highway-sensor-drivers-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.22.04.45
+Distribution: noble
+Urgency: high
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Changed-By: Sarah Huber <sarah.huber@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-sensor-drivers-examples - The off_highway_sensor_drivers_examples package
+Changes:
+ ros-jazzy-off-highway-sensor-drivers-examples (0.6.3-2024.10.22.04.45) noble; urgency=high
+Checksums-Sha1:
+ 86808e952926d0f7a61235acb5ef3c6402bd4d42 2270146 ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.22.04.45_amd64.ddeb
+ a031d80ee0207c7340c59df130e66e62e2633c63 17984 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.04.45_amd64.buildinfo
+ 16f5525b5ae69c74473fd8c043e64a08315d2d8d 124974 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.04.45_amd64.deb
+Checksums-Sha256:
+ 6f3f3b68200dfeeb97530fbf5ca3f38c118f7d8cda1df88de9f6e005d166f4c8 2270146 ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.22.04.45_amd64.ddeb
+ 44d6f72eaf0698491377937271375707039b16c82ff895030c19a939bc6c4c9c 17984 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.04.45_amd64.buildinfo
+ cbc502de7af46690e5551502742029ad433c1c71823320dcd2ee7d7563244101 124974 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.04.45_amd64.deb
+Files:
+ 9b96c5e7aa1f1a7c13b049a8d12ab3de 2270146 debug optional ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.22.04.45_amd64.ddeb
+ 64c51bd64d6c7bd41055df8d9dd31b11 17984 misc optional ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.04.45_amd64.buildinfo
+ a35c96281e9caec687ed3a36d588e203 124974 misc optional ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.04.45_amd64.deb

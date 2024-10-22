@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 25 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-novatel-oem7-driver
+Binary: ros-jazzy-novatel-oem7-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-13-g4990204-2024.10.22.04.27
+Distribution: noble
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-jazzy-novatel-oem7-driver - NovAtel Oem7 ROS Driver
+Changes:
+ ros-jazzy-novatel-oem7-driver (20.1.0-13-g4990204-2024.10.22.04.27) noble; urgency=high
+ .
+   Implementation of Odometry to publish ellipsoid height for GNSS only and SPAN receivers
+   Fixes:
+   * Adjusted Odometry to use undulation from BESTPOS or INSPVAX
+   * Listed git as a dependency in CmakeLists.txt
+Checksums-Sha1:
+ 1541d74b78807a223b152dd68ffaa86d6e341a2a 15348330 ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-13-g4990204-2024.10.22.04.27_amd64.ddeb
+ d6c9c4aa88ef6a133e5f9c9f021d7eb2dac8d276 28143 ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.22.04.27_amd64.buildinfo
+ e67776c4ebb038015ddf225ec6d5b2b269a60895 658380 ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.22.04.27_amd64.deb
+Checksums-Sha256:
+ 4b14769a68af1fd01f4592be41bb2c7fba9491404f08fae7157117b0faf5edcb 15348330 ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-13-g4990204-2024.10.22.04.27_amd64.ddeb
+ d8d75669dd695f564bc5a2a8061e6da3232932e95fef1874ced1eba9b3e787ee 28143 ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.22.04.27_amd64.buildinfo
+ 82b6d1680640e7b31aca891ac96426b3c5d7ef3bfa44b19f66bd007b6323006b 658380 ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.22.04.27_amd64.deb
+Files:
+ 897aa4144cfc9e9ca77d2fa410484a04 15348330 debug optional ros-jazzy-novatel-oem7-driver-dbgsym_20.1.0-13-g4990204-2024.10.22.04.27_amd64.ddeb
+ de3c803bf42454bd07f8dd909ce453bf 28143 misc optional ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.22.04.27_amd64.buildinfo
+ 24443fb713ffe9e96e7b53981e5815f9 658380 misc optional ros-jazzy-novatel-oem7-driver_20.1.0-13-g4990204-2024.10.22.04.27_amd64.deb
