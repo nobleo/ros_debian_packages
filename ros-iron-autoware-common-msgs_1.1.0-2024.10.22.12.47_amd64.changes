@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-common-msgs
+Binary: ros-iron-autoware-common-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.10.22.12.47
+Distribution: jammy
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-iron-autoware-common-msgs - Autoware common messages package.
+Changes:
+ ros-iron-autoware-common-msgs (1.1.0-2024.10.22.12.47) jammy; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * build: package.xml dependencies  (#60 <https://github.com/youtalk/autoware_msgs/issues/60>)
+     * mark rosidl_default_generators as <build_depend>
+     * add missing rosidl_default_runtime <exec_depend>
+     ---------
+   * feat(autoware_common_msgs): add autoware common messages (#37 <https://github.com/youtalk/autoware_msgs/issues/37>)
+     * feat(autoware_common_msgs): add autoware common messages
+     * fix: fix dependency
+   * Contributors: Takagi, Isamu, Vincent Richard, Yutaka Kondo
+Checksums-Sha1:
+ f2559ee316b6acd0cf3e909c4d45bbc5daba78ad 164998 ros-iron-autoware-common-msgs-dbgsym_1.1.0-2024.10.22.12.47_amd64.ddeb
+ 494cc8d0c106046e587e855989ab29e5f6287310 14822 ros-iron-autoware-common-msgs_1.1.0-2024.10.22.12.47_amd64.buildinfo
+ a57a1902f0c2e52bf346b19cc2c12c5b2e29bda0 41218 ros-iron-autoware-common-msgs_1.1.0-2024.10.22.12.47_amd64.deb
+Checksums-Sha256:
+ 9aac6e1e49ca68454c312079428fc5929257b32e2cc5e6b2369bd0283fdd27fa 164998 ros-iron-autoware-common-msgs-dbgsym_1.1.0-2024.10.22.12.47_amd64.ddeb
+ b00757ac31115a379e13919e65ceb8c9cedf0ca543366d83fd87d5445ff90b10 14822 ros-iron-autoware-common-msgs_1.1.0-2024.10.22.12.47_amd64.buildinfo
+ a8b54adef85d6489f63ff44ac3e61d65f738a5840f6f7ec72c1a738cf1a17259 41218 ros-iron-autoware-common-msgs_1.1.0-2024.10.22.12.47_amd64.deb
+Files:
+ 3527f5c7cf2bbe41ab60f1681a5692e5 164998 debug optional ros-iron-autoware-common-msgs-dbgsym_1.1.0-2024.10.22.12.47_amd64.ddeb
+ 9381f70a53fae451f6dc6855d6e09971 14822 misc optional ros-iron-autoware-common-msgs_1.1.0-2024.10.22.12.47_amd64.buildinfo
+ 336cd1bc4172b22803df8c698ed5c4e7 41218 misc optional ros-iron-autoware-common-msgs_1.1.0-2024.10.22.12.47_amd64.deb

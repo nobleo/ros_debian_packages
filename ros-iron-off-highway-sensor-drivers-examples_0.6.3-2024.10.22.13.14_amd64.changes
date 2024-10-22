@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-sensor-drivers-examples
+Binary: ros-iron-off-highway-sensor-drivers-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.22.13.14
+Distribution: jammy
+Urgency: high
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Changed-By: Sarah Huber <sarah.huber@de.bosch.com>
+Description:
+ ros-iron-off-highway-sensor-drivers-examples - The off_highway_sensor_drivers_examples package
+Changes:
+ ros-iron-off-highway-sensor-drivers-examples (0.6.3-2024.10.22.13.14) jammy; urgency=high
+Checksums-Sha1:
+ 07a4ae98c1f0f08e8f192c4d7e2c8c8276abaa32 2013132 ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.22.13.14_amd64.ddeb
+ ecc711cc9c7056d64727cb589e3479390ba41318 17435 ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.13.14_amd64.buildinfo
+ fc596859416e3d69f36755ac4c695cb0b60f6bbc 110696 ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.13.14_amd64.deb
+Checksums-Sha256:
+ 74191e50b51cf701e90ed0e0b67b9413b0e068b49b8dc2df204c7d81cab9cd42 2013132 ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.22.13.14_amd64.ddeb
+ a58cdb279824d2c38b77e96a0326c8077475757cff658e64a57021b3e1a90490 17435 ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.13.14_amd64.buildinfo
+ 166878d3641f2a34647b59c374b7f761b873522b7671934335d8bd94a60a5a68 110696 ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.13.14_amd64.deb
+Files:
+ 5869659cfeb10e40a5e7f3daa7a9037e 2013132 debug optional ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-2024.10.22.13.14_amd64.ddeb
+ fbca1fb84846fbed483c3297588d0bbc 17435 misc optional ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.13.14_amd64.buildinfo
+ e8ddf42ee8b68b7a242319e5b2f980e5 110696 misc optional ros-iron-off-highway-sensor-drivers-examples_0.6.3-2024.10.22.13.14_amd64.deb

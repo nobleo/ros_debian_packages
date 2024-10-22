@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-uss
+Binary: ros-iron-off-highway-uss
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.22.13.16
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-uss - The off_highway_uss package
+Changes:
+ ros-iron-off-highway-uss (0.6.3-2024.10.22.13.16) jammy; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ f889d8165a1a5209731bcdc2850da889e7d454bb 4040026 ros-iron-off-highway-uss-dbgsym_0.6.3-2024.10.22.13.16_amd64.ddeb
+ b31c1575f980691467a12ff0023ce688643cda08 40798 ros-iron-off-highway-uss_0.6.3-2024.10.22.13.16_amd64.buildinfo
+ 28bf65167adad7f8eb7321edd607ccd9760f7d89 199962 ros-iron-off-highway-uss_0.6.3-2024.10.22.13.16_amd64.deb
+Checksums-Sha256:
+ d6998c8d3c040e47c5c9660d062b44a39115bb82799319f4716b563dec9a8d29 4040026 ros-iron-off-highway-uss-dbgsym_0.6.3-2024.10.22.13.16_amd64.ddeb
+ 043735b107d85ad44ff25e34f4bd95c959ce1ec7ebbf089c446a9bb40f01d16f 40798 ros-iron-off-highway-uss_0.6.3-2024.10.22.13.16_amd64.buildinfo
+ 14852de3d67508c25dfabe323dacbed1b2b241d3b4605a3ebd162f428505b88c 199962 ros-iron-off-highway-uss_0.6.3-2024.10.22.13.16_amd64.deb
+Files:
+ 2e4155f3e5b4802dbd5783a5af16492b 4040026 debug optional ros-iron-off-highway-uss-dbgsym_0.6.3-2024.10.22.13.16_amd64.ddeb
+ 7a4b7803ca2c6b060631dc5d21009f77 40798 misc optional ros-iron-off-highway-uss_0.6.3-2024.10.22.13.16_amd64.buildinfo
+ 1f036637e6217cc66371e8b9aa9b4d02 199962 misc optional ros-iron-off-highway-uss_0.6.3-2024.10.22.13.16_amd64.deb

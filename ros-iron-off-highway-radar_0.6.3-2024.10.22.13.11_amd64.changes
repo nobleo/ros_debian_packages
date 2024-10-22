@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-radar
+Binary: ros-iron-off-highway-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-2024.10.22.13.11
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-radar - The off_highway_radar package
+Changes:
+ ros-iron-off-highway-radar (0.6.3-2024.10.22.13.11) jammy; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ a13ba640199ec50f75379cda9a1e2e38428f6c2f 3844374 ros-iron-off-highway-radar-dbgsym_0.6.3-2024.10.22.13.11_amd64.ddeb
+ 54108872991fa0c267186e32ef81e0ecfcfa76bc 40818 ros-iron-off-highway-radar_0.6.3-2024.10.22.13.11_amd64.buildinfo
+ 08a25057475658e6f355d91dd6776f6a12497c62 188340 ros-iron-off-highway-radar_0.6.3-2024.10.22.13.11_amd64.deb
+Checksums-Sha256:
+ eacadd84cdd78ac05687c649f9ab99e26a88f11b2776c8f9606f9b86e883908d 3844374 ros-iron-off-highway-radar-dbgsym_0.6.3-2024.10.22.13.11_amd64.ddeb
+ ec70558d51dce5ecb0d1552e05c4d7d03ed84298464396b0e46c127272d6db6a 40818 ros-iron-off-highway-radar_0.6.3-2024.10.22.13.11_amd64.buildinfo
+ 6207b1e68beabd174c096e407d34d4c6d385780433ac935d356a222ba03afdf1 188340 ros-iron-off-highway-radar_0.6.3-2024.10.22.13.11_amd64.deb
+Files:
+ 6e3860c7f26ef0e2b448f5aaacf7d84d 3844374 debug optional ros-iron-off-highway-radar-dbgsym_0.6.3-2024.10.22.13.11_amd64.ddeb
+ 5e5e3d0d3e1fbc43dcd6668b7cab4462 40818 misc optional ros-iron-off-highway-radar_0.6.3-2024.10.22.13.11_amd64.buildinfo
+ 0f164c86c66a6bb4614bea73e9af61a0 188340 misc optional ros-iron-off-highway-radar_0.6.3-2024.10.22.13.11_amd64.deb

@@ -1,0 +1,60 @@
+Format: 1.8
+Date: Fri, 10 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-vehicle-msgs
+Binary: ros-iron-autoware-vehicle-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.10.22.12.57
+Distribution: jammy
+Urgency: high
+Maintainer: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Changed-By: Apex.AI, Inc. <beginning.fan@autocore.ai>
+Description:
+ ros-iron-autoware-vehicle-msgs - Interfaces between core Autoware vehicle components
+Changes:
+ ros-iron-autoware-vehicle-msgs (1.1.0-2024.10.22.12.57) jammy; urgency=high
+ .
+   * chore: update package.xml and fix CMakeLists.txt (#91 <https://github.com/youtalk/autoware_msgs/issues/91>)
+     update package.xml and fix cmakefiles
+   * feat: update msg definitions (#87 <https://github.com/youtalk/autoware_msgs/issues/87>)
+     * feat(autoware_perception_msgs): Add DetectedObjects messages and TrackedObjects messages
+     * feat!(autoware_planning_msgs): remove PathWithLaneId msgs
+     * feat!(autoware_perception_msgs): rename traffic signals to traffic lights
+     * remove control mode command msg
+     * fix(autoware_vehicle_msgs): remove ControlModeCommands.msg in CMakeLists.txt (#90 <https://github.com/youtalk/autoware_msgs/issues/90>)
+     * feat(autoware_vehicle_msgs)!: remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages (#88 <https://github.com/youtalk/autoware_msgs/issues/88>)
+     feat!(autoware_vehicle_msgs): remove VehicleControlCommand, VehicleKinematicState, and VehicleOdometry messages
+     * Revert "feat!(autoware_perception_msgs): rename traffic signals to traffic lights"
+     This reverts commit 768bb854036fc94db4364168e68d48b21401c17b.
+     * add TrafficLight msgs
+     * add todo
+     ---------
+     Co-authored-by: Ryohsuke Mitsudome <mailto:ryohsuke.mitsudome@tier4.jp>
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix(autoware_vehicle_msgs): add missed vehicle msgs (#80 <https://github.com/youtalk/autoware_msgs/issues/80>)
+     * fix(autoware_vehicle_msgs): add missed vehicle msgs
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_vehicle_msgs): add autoware_vehicle_msgs (#78 <https://github.com/youtalk/autoware_msgs/issues/78>)
+     * feat(autoware_vehicle_msgs): add autoware_vehicle_msgs
+     * feat(autoware_vehicle_msgs): add ControlModeCommand.srv
+     * style(pre-commit): autofix
+     * fix(autoware_vehicle_msgs): remove msgs unused
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Yukihiro Saito, Yutaka Kondo, beginningfan
+Checksums-Sha1:
+ 9562ed7ef296c41ddf59d4252d509371c9ce1a01 830234 ros-iron-autoware-vehicle-msgs-dbgsym_1.1.0-2024.10.22.12.57_amd64.ddeb
+ 871c7b6aedd1a3910da4074526ee64780dbfb86f 15126 ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.22.12.57_amd64.buildinfo
+ 7fd861a7f6c79cc8cd52f087c438b9d63ebd27d4 129178 ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.22.12.57_amd64.deb
+Checksums-Sha256:
+ 47922a50406ec4818156f25c481071cc665f350a95ce447c21a4fe491eeeb86a 830234 ros-iron-autoware-vehicle-msgs-dbgsym_1.1.0-2024.10.22.12.57_amd64.ddeb
+ da74651f0a0b1dd90f08d7027d90dc6e34e3fe05dbb2bf4024c02cdddaf636ff 15126 ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.22.12.57_amd64.buildinfo
+ 98fae2f4b7cde9c76e086c53e38a2f37ff69556d2e012eb101829396c1962304 129178 ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.22.12.57_amd64.deb
+Files:
+ 32bbda0e244c4cf1c18deb5d4f15fab9 830234 debug optional ros-iron-autoware-vehicle-msgs-dbgsym_1.1.0-2024.10.22.12.57_amd64.ddeb
+ 601ec10568e38826a4fed44a5004a7c1 15126 misc optional ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.22.12.57_amd64.buildinfo
+ aa1b0f2cc34edc14bcc3c7b8a3764ed0 129178 misc optional ros-iron-autoware-vehicle-msgs_1.1.0-2024.10.22.12.57_amd64.deb
