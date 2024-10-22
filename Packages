@@ -1,0 +1,72 @@
+Package: ros-rolling-rmw-zenoh-cpp-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.22.12.52
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-rmw-zenoh-cpp
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 4090
+Depends: ros-rolling-rmw-zenoh-cpp (= 0-2024.10.22.12.52)
+Filename: ./ros-rolling-rmw-zenoh-cpp-dbgsym_0-2024.10.22.12.52_amd64.ddeb
+Size: 3987936
+MD5sum: 266de70656acd677a00981befd8dc154
+SHA1: e831e6900e0abba8926e0f60a821d659a939084a
+SHA256: efbdab9b394acaff203e23ef78626b9ea99d6380b37d26a973799649c4387c38
+SHA512: f682f19d8e07a248d37819251562cee24468b2a6673a324394d1138fa5290d9d788842c451d20da4815ffcdc655efae6964a98ba4f5ff8c85c4524f8eda27254
+Description: debug symbols for ros-rolling-rmw-zenoh-cpp
+Build-Ids: b893f09a894b5d7ac7f68f0eccfc7c19ea7223a7 deef3bc9aeae32e152f400ae25143f2afa3d1f09
+
+Package: ros-rolling-rmw-zenoh-cpp
+Architecture: amd64
+Version: 0-2024.10.22.12.52
+Priority: optional
+Section: misc
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 536
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-rolling-fastcdr, ros-rolling-ament-index-cpp, ros-rolling-rcpputils, ros-rolling-rcutils, ros-rolling-rmw, ros-rolling-rosidl-typesupport-fastrtps-c, ros-rolling-rosidl-typesupport-fastrtps-cpp, ros-rolling-zenoh-c-vendor
+Filename: ./ros-rolling-rmw-zenoh-cpp_0-2024.10.22.12.52_amd64.deb
+Size: 173446
+MD5sum: f0903c5831822fe3c92709fe6bd1f103
+SHA1: b1ef4fe255e0fa9696c08f91794adf18e85cdbd6
+SHA256: 74f11b84d3616b81549eed0654de56a66753be1e2a765905e7a27ab9e677ef50
+SHA512: 586be19163d33ffd7d37b8acd78a009886ffd32385f0469e0b2b52608ba8125b4da1503190cc635a7c65274eae9216c0674bef6f32303e33369f716eb6aeed7e
+Description: A ROS 2 middleware implementation using zenoh-c
+
+Package: ros-rolling-zenoh-c-vendor-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2024.10.22.12.46
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-rolling-zenoh-c-vendor
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 2973
+Depends: ros-rolling-zenoh-c-vendor (= 0-2024.10.22.12.46)
+Filename: ./ros-rolling-zenoh-c-vendor-dbgsym_0-2024.10.22.12.46_amd64.ddeb
+Size: 2042132
+MD5sum: 4d5262d28696265db48540a8501ec96d
+SHA1: a5389b0ec3614deefa07f1b4868d1bf063448355
+SHA256: 6acf427cb6759cae3e5e25cdbaeb56b649f277f876928ac21bd37424830ba6bf
+SHA512: 9d4e7e2221aabeb27bde095d9b8280edf3709128f73b8378cd9ee7e63cdf9ebf7e4342d03660f6906039c96aa6505e81534b06e48b70fce38c2ca2587521d148
+Description: debug symbols for ros-rolling-zenoh-c-vendor
+Build-Ids: d5a40015f16fd2433ab6c25d9c9d0a36019b87c7
+
+Package: ros-rolling-zenoh-c-vendor
+Architecture: amd64
+Version: 0-2024.10.22.12.46
+Priority: optional
+Section: misc
+Maintainer: Yadunund <yadunund@openrobotics.org>
+Installed-Size: 9568
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2)
+Filename: ./ros-rolling-zenoh-c-vendor_0-2024.10.22.12.46_amd64.deb
+Size: 2916630
+MD5sum: b0eae62cdd619c6a1f737ac29aadfa27
+SHA1: ebc8dff2fa082b9b76758b865cc543d71ba8f1b7
+SHA256: a63aacac70e0bba47cc371bdef0b0e9887437e4353928e86ff563c60a2c6ab53
+SHA512: b12bd50aca17a3ac7564273baf06ada0c0bd8f415c5e6983a63567cbf5ae53d09773cfd0b03f4831dd2036516d085a00ad772cd4e83822fd95e6b447cf8a65a8
+Description: Vendor pkg to install zenoh-c
+
