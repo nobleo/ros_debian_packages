@@ -1,0 +1,15 @@
+list:
+  packages-up-to-regex:
+    - autoware_detected_object_feature_remover
+    - autoware_detection_by_tracker
+    - autoware_euclidean_cluster
+    - autoware_ground_segmentation
+    - autoware_object_merger
+    - autoware_obstacle_stop_planner
+    - autoware_perception_rviz_plugin
+    - autoware_pointcloud_preprocessor
+    - autoware_shape_estimation
+    - novatel_oem7_driver
+    - off_highway_.*
+    - rmw_zenoh_cpp
+    - zenoh_bridge_ros2dds
