@@ -20,6 +20,10 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
+  mussp:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: tier4/main
   zenoh-plugin-ros2dds:
     type: git
     url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
