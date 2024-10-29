@@ -27,4 +27,4 @@ repositories:
   zenoh-plugin-ros2dds:
     type: git
     url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
-    version: main
+    version: a20d21f4916d86dcc7c9fc5c8937f7992f9d3c66
