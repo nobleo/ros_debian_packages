@@ -369,6 +369,7 @@ jobs:
             autoware_geo_pose_projector
             autoware_geography_utils
             autoware_gnss_poser
+            autoware_goal_distance_calculator
             autoware_grid_map_utils
             autoware_gyro_odometer
             autoware_image_diagnostics
@@ -451,6 +452,7 @@ jobs:
             autoware_tensorrt_classifier
             autoware_tensorrt_yolox
             autoware_testing
+            autoware_time_utils
             autoware_tracking_object_merger
             autoware_traffic_light_arbiter
             autoware_traffic_light_classifier
@@ -479,7 +481,6 @@ jobs:
             fault_injection
             global_parameter_loader
             glog_component
-            goal_distance_calculator
             hazard_status_converter
             kinematic_evaluator
             learning_based_vehicle_model
@@ -517,7 +518,6 @@ jobs:
             tier4_traffic_light_rviz_plugin
             tier4_vehicle_launch
             tier4_vehicle_rviz_plugin
-            time_utils
             topic_state_monitor
             traffic_light_recognition_marker_publisher
             traffic_light_utils
