@@ -14,8 +14,9 @@ repositories:
     version: humble-devel
   rmw_zenoh:
     type: git
-    url: https://github.com/ros2/rmw_zenoh
-    version: rolling
+    # Until: https://github.com/ros2/rmw_zenoh/pull/276
+    url: https://github.com/ZettaScaleLabs/rmw_zenoh.git
+    version: dev/1.0.0
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
