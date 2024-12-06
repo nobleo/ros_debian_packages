@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-sensor-drivers-examples
+Binary: ros-jazzy-off-highway-sensor-drivers-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.44
+Distribution: noble
+Urgency: high
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Changed-By: Sarah Huber <sarah.huber@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-sensor-drivers-examples - The off_highway_sensor_drivers_examples package
+Changes:
+ ros-jazzy-off-highway-sensor-drivers-examples (0.6.3-1-geb93aec-2024.12.06.18.44) noble; urgency=high
+Checksums-Sha1:
+ 13a5d2a5f8098dab1f239046d5d32e850397c2c0 2270294 ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.ddeb
+ fe4d1d15c7385f36acaac0254654458ae7c2cd0e 18069 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.buildinfo
+ 772e8a1a5c5199678a2577fdd4c2302aeb9fb61b 124986 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.deb
+Checksums-Sha256:
+ 5785fd4d442798273072bd6948fa53b48478a92902255be1c042f54eae97a5fb 2270294 ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.ddeb
+ 968a4d3b71c3829e13c750eaea616b59fcb38f972e495af3ec0e9e7c46daf30a 18069 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.buildinfo
+ 244ffdfa767221cede4366b8f6d078c1a1e5e0bfc478ae190725304160f2fce2 124986 ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.deb
+Files:
+ 85a845babdacbcf314295194cad5fa8a 2270294 debug optional ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.ddeb
+ 3af4fad4767171f48ad713d0ca19b2e9 18069 misc optional ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.buildinfo
+ c302504a7a31177df5c766254eaca8cb 124986 misc optional ros-jazzy-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.44_amd64.deb

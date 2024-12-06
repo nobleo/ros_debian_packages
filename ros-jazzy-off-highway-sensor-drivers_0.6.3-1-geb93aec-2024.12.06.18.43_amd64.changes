@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-sensor-drivers
+Binary: ros-jazzy-off-highway-sensor-drivers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.43
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-sensor-drivers - The off_highway_sensor_drivers package
+Changes:
+ ros-jazzy-off-highway-sensor-drivers (0.6.3-1-geb93aec-2024.12.06.18.43) noble; urgency=high
+Checksums-Sha1:
+ d92ad8e5e76d6a9bba28015ac3fb53af5f3cfd71 9386 ros-jazzy-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.43_amd64.buildinfo
+ 813c1e01e94929feed8001877afe6bb54ffd6406 5312 ros-jazzy-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.43_amd64.deb
+Checksums-Sha256:
+ 61eb08f2ae519037083661c20212895b8b78e8cd5adac55d405daba44ceb73aa 9386 ros-jazzy-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.43_amd64.buildinfo
+ fe64cb1fca93c3b12fbaa98cf0289240de2a4a0ef65336f150a2a9b64beb5445 5312 ros-jazzy-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.43_amd64.deb
+Files:
+ 811297ec97d796d2251d58ad1891fd22 9386 misc optional ros-jazzy-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.43_amd64.buildinfo
+ 06528a85a1b20fc6917b54b0bb111563 5312 misc optional ros-jazzy-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.43_amd64.deb

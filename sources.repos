@@ -1,0 +1,29 @@
+repositories:
+  autoware.universe:
+    type: git
+    url: https://github.com/nobleo/autoware.universe.git
+    version: b7f2fbf7becb08406a523aa9edaaefdfbbb7e937
+  mussp:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: c79e98fd5e658f4f90c06d93472faa977bc873b9
+  novatel_oem7_driver:
+    type: git
+    url: https://github.com/novatel/novatel_oem7_driver.git
+    version: 499020480b35e9cf58144d535d4bccc2fad2cc97
+  off_highway_sensor_drivers:
+    type: git
+    url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+    version: eb93aec142d7cf275be7c1f4c7d7b1c79a38cbbb
+  rmw_zenoh:
+    type: git
+    url: https://github.com/ros2/rmw_zenoh
+    version: 029327863b5b01bb4828813a4f2631ff531ee6de
+  tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: 08da64e18b62f30f58bbcb50853c202f69c88641
+  zenoh-plugin-ros2dds:
+    type: git
+    url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
+    version: a20d21f4916d86dcc7c9fc5c8937f7992f9d3c66

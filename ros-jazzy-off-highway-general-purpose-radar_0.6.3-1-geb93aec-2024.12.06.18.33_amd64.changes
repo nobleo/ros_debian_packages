@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-general-purpose-radar
+Binary: ros-jazzy-off-highway-general-purpose-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.33
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-general-purpose-radar - The off_highway_general_purpose_radar package
+Changes:
+ ros-jazzy-off-highway-general-purpose-radar (0.6.3-1-geb93aec-2024.12.06.18.33) noble; urgency=high
+ .
+   * Add missing dependency on PCL headers (#9)
+     When I try to build this package on jazzy with rosdep, the PCL headers
+     are missing. This package uses find_package(PCL) and includes it in
+     the headers. Therefore I think it would be best to add it to the
+     build_depend and build_export_depend tags of the package.xml
+     files.
+     In the buildfarm this is technically not needed because the PCL headers
+     are a build_export_depend of pcl_conversions, but rosdep ignores
+     this dependency so it misses the PCL headers.
+   * Contributors: Ramon Wijnands
+Checksums-Sha1:
+ 1cd68fa259ea395916db8608ff28371d6bba4237 2580192 ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.ddeb
+ 559fe7b7819dbcbdea83bad3386ce572176267d1 45159 ros-jazzy-off-highway-general-purpose-radar_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.buildinfo
+ 4aab586c67625d189f59ffc2a830190b501e4214 148114 ros-jazzy-off-highway-general-purpose-radar_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.deb
+Checksums-Sha256:
+ 1df381d7b8f4e8f07e82b63ab78c576d8eb5b1dbf28939b5ce69bbd17b2d14fb 2580192 ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.ddeb
+ d5041f9b87877a0ab4fffd912e48c49f2c3326b69c6d2aecc4ba349fae090676 45159 ros-jazzy-off-highway-general-purpose-radar_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.buildinfo
+ 0dd6ebcc85ad59bf8386dc60a4bd29dac974d0052c81c84c1b06ad676cfa2921 148114 ros-jazzy-off-highway-general-purpose-radar_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.deb
+Files:
+ ae4fd22fc8856fc19d726dc0c080f39c 2580192 debug optional ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.ddeb
+ 2cdeae120cca27b43c78a760f18967b8 45159 misc optional ros-jazzy-off-highway-general-purpose-radar_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.buildinfo
+ d3d1faf166642169196dc61e0869f957 148114 misc optional ros-jazzy-off-highway-general-purpose-radar_0.6.3-1-geb93aec-2024.12.06.18.33_amd64.deb

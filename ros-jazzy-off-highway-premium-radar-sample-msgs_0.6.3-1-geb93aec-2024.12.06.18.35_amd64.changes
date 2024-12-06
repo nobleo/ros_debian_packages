@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample-msgs
+Binary: ros-jazzy-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.35
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample-msgs (0.6.3-1-geb93aec-2024.12.06.18.35) noble; urgency=high
+Checksums-Sha1:
+ 4ed3275b24ee15edeef7dc3baaf9a02977dff4d3 2518090 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.ddeb
+ bc22e95f1bc390190573bd500add0b9008758f37 15503 ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.buildinfo
+ 80d0a5a6dab11108d218d8d0fc74c9cef40e97c3 284792 ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.deb
+Checksums-Sha256:
+ c77228d8b32c23d968d2bb773c8db6d1fc27e90a664952b8cc0491e73aab79f0 2518090 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.ddeb
+ 7ca4727f74786593cdc9c6aac45e10edae0172abc7de42e54c510c662ae6ae22 15503 ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.buildinfo
+ dd839b455925e32a8943b1bbe13c5edf40d1b58d885dcd6d116a87643124dd6f 284792 ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.deb
+Files:
+ 18203b909e1445ddfe29b644a089ff7b 2518090 debug optional ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.ddeb
+ 54af30ee2e9a4d342029e4170ac63d39 15503 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.buildinfo
+ f8a18e1e425a861afe5633f8075623e4 284792 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.35_amd64.deb
