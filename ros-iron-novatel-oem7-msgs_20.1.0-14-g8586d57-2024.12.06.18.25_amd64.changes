@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 26 Sep 2024 00:00:00 -0000
+Source: ros-iron-novatel-oem7-msgs
+Binary: ros-iron-novatel-oem7-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-14-g8586d57-2024.12.06.18.25
+Distribution: jammy
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-iron-novatel-oem7-msgs - Messages for NovAtel Oem7 family of receivers.
+Changes:
+ ros-iron-novatel-oem7-msgs (20.1.0-14-g8586d57-2024.12.06.18.25) jammy; urgency=high
+ .
+   Misc ROS2 fixes
+   Added support in the CMakeLists.txt to include building with ninja
+Checksums-Sha1:
+ 40332f8303298188c9f3eef900c0d728ace0b25b 3274586 ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.ddeb
+ 7bd322b40a33d856e6f468f7b98670fbdbfa9a23 13289 ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.buildinfo
+ 03fccfe607e7b3ce5bfe942ae078fe8221047e2c 446790 ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.deb
+Checksums-Sha256:
+ 2a9d00229ebb831fdb4d2ca5331e3b8b84f098c151cb94cf82081567be1ffd90 3274586 ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.ddeb
+ b1544789035ada0d278cb94d034dfc8fdd1d1725b514727554a484b3470bf00d 13289 ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.buildinfo
+ 52628e457f320315aad928e67855084d2c1f335d0b6aaa477777c49d156a7e71 446790 ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.deb
+Files:
+ af5d5d837fd6cd49fb0f39eb6a7d4a4f 3274586 debug optional ros-iron-novatel-oem7-msgs-dbgsym_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.ddeb
+ 6860c008d215bff4009ed585d2791d7c 13289 misc optional ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.buildinfo
+ 8fcd9c6d135af8f528f9fb2c81082843 446790 misc optional ros-iron-novatel-oem7-msgs_20.1.0-14-g8586d57-2024.12.06.18.25_amd64.deb

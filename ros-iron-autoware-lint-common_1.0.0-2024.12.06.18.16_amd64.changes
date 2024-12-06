@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 02 May 2024 00:00:00 -0000
+Source: ros-iron-autoware-lint-common
+Binary: ros-iron-autoware-lint-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-2024.12.06.18.16
+Distribution: jammy
+Urgency: high
+Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Changed-By: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
+Description:
+ ros-iron-autoware-lint-common - The list of commonly used linters in Autoware
+Changes:
+ ros-iron-autoware-lint-common (1.0.0-2024.12.06.18.16) jammy; urgency=high
+ .
+   * Merge pull request #1 <https://github.com/youtalk/autoware_cmake/issues/1> from youtalk/import-from-autoware-common
+     feat: import from autoware_common
+   * Merge branch 'autoware-lint-common' into import-from-autoware-common
+   * move to autoware_lint_common
+   * Contributors: Yutaka Kondo
+Checksums-Sha1:
+ c45f99423078755d12942323f6e7f886ea467599 8315 ros-iron-autoware-lint-common_1.0.0-2024.12.06.18.16_amd64.buildinfo
+ c6f5fddd1eb83bd3d2c1cf7061d044b04dd6f043 6066 ros-iron-autoware-lint-common_1.0.0-2024.12.06.18.16_amd64.deb
+Checksums-Sha256:
+ 8a40db3f46c8e0a77cbc679e027c78ede607d7ca50d9be63920a8fbdc27a3ef3 8315 ros-iron-autoware-lint-common_1.0.0-2024.12.06.18.16_amd64.buildinfo
+ c5f95b2e3450b3f23888f8760f020a41f35ee6f5500f9655db767d9be4910baa 6066 ros-iron-autoware-lint-common_1.0.0-2024.12.06.18.16_amd64.deb
+Files:
+ df53a29331c1f3874946f9627c145704 8315 misc optional ros-iron-autoware-lint-common_1.0.0-2024.12.06.18.16_amd64.buildinfo
+ 85181dc90e8d9af721452619e4e5ec68 6066 misc optional ros-iron-autoware-lint-common_1.0.0-2024.12.06.18.16_amd64.deb

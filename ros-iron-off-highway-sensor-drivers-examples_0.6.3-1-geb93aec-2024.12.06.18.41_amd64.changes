@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-sensor-drivers-examples
+Binary: ros-iron-off-highway-sensor-drivers-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.41
+Distribution: jammy
+Urgency: high
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Changed-By: Sarah Huber <sarah.huber@de.bosch.com>
+Description:
+ ros-iron-off-highway-sensor-drivers-examples - The off_highway_sensor_drivers_examples package
+Changes:
+ ros-iron-off-highway-sensor-drivers-examples (0.6.3-1-geb93aec-2024.12.06.18.41) jammy; urgency=high
+Checksums-Sha1:
+ 86ab13a561fa33e9bdcee35b1a1b611a32f849f8 2013144 ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.ddeb
+ 06272734abb4100bd470b072b57ad5639fba8379 17521 ros-iron-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.buildinfo
+ 07944e543bd5685762fabfce5346304d5eb73adc 110714 ros-iron-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.deb
+Checksums-Sha256:
+ 83112a5d23da2f1889d9782a53e3d341c19b78cfc8e9fbe0e799c65ab6301e86 2013144 ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.ddeb
+ 2f318c402c22c254fae46c4a1e0ceb5073b2319b1678a2a30458d1e63f995c41 17521 ros-iron-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.buildinfo
+ c380886c927fb8382f9a305747c216906d13cf20248657a54d4f2ad728404791 110714 ros-iron-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.deb
+Files:
+ 77e666e4166bd99f3ecb4cf6a91e0897 2013144 debug optional ros-iron-off-highway-sensor-drivers-examples-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.ddeb
+ 755fe4536e7f75e9350fee0e74975bc5 17521 misc optional ros-iron-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.buildinfo
+ c62dcfa4d3dd841bfe1a78bf42640d49 110714 misc optional ros-iron-off-highway-sensor-drivers-examples_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.deb

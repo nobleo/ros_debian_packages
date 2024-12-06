@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-premium-radar-sample-msgs
+Binary: ros-iron-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.34
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-iron-off-highway-premium-radar-sample-msgs (0.6.3-1-geb93aec-2024.12.06.18.34) jammy; urgency=high
+Checksums-Sha1:
+ 81b51b864b79cfc1a56e2380f33179d93f1df065 2048476 ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.ddeb
+ 6362f5fa4fde32f0fce9648eb47cce340db58cd3 15184 ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.buildinfo
+ a9610492290e8dd21db221f76a382082c77df181 273980 ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.deb
+Checksums-Sha256:
+ fef27cf7df00f5a30e96ae3796a42c5b14916e1171767c9e9fe44846445bc5ae 2048476 ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.ddeb
+ 01a1bff9b2aa722e77dcc6497f47b9928a5892e3399f09f503c0254d0157233f 15184 ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.buildinfo
+ 38431838c29c2e46734d4dcef5b7d1e7b397c48805463ba5a7031dbad872c99e 273980 ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.deb
+Files:
+ e2dbc3cb02a74343d4b7eedc3c3ab91a 2048476 debug optional ros-iron-off-highway-premium-radar-sample-msgs-dbgsym_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.ddeb
+ 905069df159f5719c7ec3dbca058c6c2 15184 misc optional ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.buildinfo
+ c55390a1d58568ca02dfe367370a41db 273980 misc optional ros-iron-off-highway-premium-radar-sample-msgs_0.6.3-1-geb93aec-2024.12.06.18.34_amd64.deb

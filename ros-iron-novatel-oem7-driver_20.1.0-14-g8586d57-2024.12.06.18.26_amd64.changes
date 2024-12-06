@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 26 Sep 2024 00:00:00 -0000
+Source: ros-iron-novatel-oem7-driver
+Binary: ros-iron-novatel-oem7-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 20.1.0-14-g8586d57-2024.12.06.18.26
+Distribution: jammy
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-iron-novatel-oem7-driver - NovAtel Oem7 ROS Driver
+Changes:
+ ros-iron-novatel-oem7-driver (20.1.0-14-g8586d57-2024.12.06.18.26) jammy; urgency=high
+ .
+   Misc ROS2 fixes
+   Added support in the CMakeLists.txt to include building with ninja
+Checksums-Sha1:
+ 7b112cd6eee2f484188ab579052aa711ce34bfc2 13371096 ros-iron-novatel-oem7-driver-dbgsym_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.ddeb
+ 08e104f97477ad36daa349b6cae99580fd41d549 25552 ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.buildinfo
+ 85df0398a7e06d8671ebbc580126a4b486796dc2 587570 ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.deb
+Checksums-Sha256:
+ 0b98eba9ac2a1a289653b93300265509d156a4d5bdb099533536e0a22b230616 13371096 ros-iron-novatel-oem7-driver-dbgsym_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.ddeb
+ 62337848aff0933d64a9433f44d624afcdd1102532d47fb3f32012107a190658 25552 ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.buildinfo
+ 8c5ea631f5be97f155a38caabdffea821bdd8330b5b162d322eaa0b8c4d41ffe 587570 ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.deb
+Files:
+ fc78908841f15b5654b4888d400554fc 13371096 debug optional ros-iron-novatel-oem7-driver-dbgsym_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.ddeb
+ 570ba69b034a28f7a41ec46b2d159888 25552 misc optional ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.buildinfo
+ a2c21e80f0cd33e9f745dcd52cc12c00 587570 misc optional ros-iron-novatel-oem7-driver_20.1.0-14-g8586d57-2024.12.06.18.26_amd64.deb

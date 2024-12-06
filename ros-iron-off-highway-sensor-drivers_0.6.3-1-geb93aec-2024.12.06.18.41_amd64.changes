@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Tue, 09 Jul 2024 00:00:00 -0000
+Source: ros-iron-off-highway-sensor-drivers
+Binary: ros-iron-off-highway-sensor-drivers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.6.3-1-geb93aec-2024.12.06.18.41
+Distribution: jammy
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-iron-off-highway-sensor-drivers - The off_highway_sensor_drivers package
+Changes:
+ ros-iron-off-highway-sensor-drivers (0.6.3-1-geb93aec-2024.12.06.18.41) jammy; urgency=high
+Checksums-Sha1:
+ 180b8d3b6aa6f56d746ddcf89c8664fa0f224c69 9244 ros-iron-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.buildinfo
+ 0483a5b93333858359bf9e2f70890f6dc7e7ddb0 5256 ros-iron-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.deb
+Checksums-Sha256:
+ 1ee53efd7af036b590c61c01a06a293a990b84a694c4ea53df9dc1a369e7cc72 9244 ros-iron-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.buildinfo
+ eae228b374265b5be147484f64ea3c71e30f43c77ee5ae260c4c04e77193056c 5256 ros-iron-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.deb
+Files:
+ 058bdadfcebb9d67b8533d0836bbd027 9244 misc optional ros-iron-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.buildinfo
+ 455366852dbb7689a0f195afa62e83e6 5256 misc optional ros-iron-off-highway-sensor-drivers_0.6.3-1-geb93aec-2024.12.06.18.41_amd64.deb

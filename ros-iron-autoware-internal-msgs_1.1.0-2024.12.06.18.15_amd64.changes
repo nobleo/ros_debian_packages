@@ -1,0 +1,74 @@
+Format: 1.8
+Date: Mon, 01 Jul 2024 00:00:00 -0000
+Source: ros-iron-autoware-internal-msgs
+Binary: ros-iron-autoware-internal-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.1.0-2024.12.06.18.15
+Distribution: jammy
+Urgency: high
+Maintainer: Berkay Karaman <berkay@leodrive.ai>
+Changed-By: Berkay Karaman <berkay@leodrive.ai>
+Description:
+ ros-iron-autoware-internal-msgs - Autoware internal messages package.
+Changes:
+ ros-iron-autoware-internal-msgs (1.1.0-2024.12.06.18.15) jammy; urgency=high
+ .
+   * feat(ResourceUsageReport): update fields (#18 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/18>)
+   * feat(system): create system usage message (#12 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/12>)
+   * build(deps): Bump actions/checkout from 3 to 4 (#15 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/15>)
+     Bumps [actions/checkout](https://github.com/actions/checkout) from 3 to 4.
+     - [Release notes](https://github.com/actions/checkout/releases)
+     - [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+     - [Commits](https://github.com/actions/checkout/compare/v3...v4)
+     ---
+     updated-dependencies:
+     - dependency-name: actions/checkout
+     dependency-type: direct:production
+     update-type: version-update:semver-major
+     ...
+     Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+   * build(deps): Bump tj-actions/changed-files from 42 to 44 (#13 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/13>)
+     Bumps [tj-actions/changed-files](https://github.com/tj-actions/changed-files) from 42 to 44.
+     - [Release notes](https://github.com/tj-actions/changed-files/releases)
+     - [Changelog](https://github.com/tj-actions/changed-files/blob/main/HISTORY.md)
+     - [Commits](https://github.com/tj-actions/changed-files/compare/v42...v44)
+     ---
+     updated-dependencies:
+     - dependency-name: tj-actions/changed-files
+     dependency-type: direct:production
+     update-type: version-update:semver-major
+     ...
+     Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+   * build(deps): Bump codecov/codecov-action from 3 to 4 (#5 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/5>)
+     Bumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 3 to 4.
+     - [Release notes](https://github.com/codecov/codecov-action/releases)
+     - [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)
+     - [Commits](https://github.com/codecov/codecov-action/compare/v3...v4)
+     ---
+     updated-dependencies:
+     - dependency-name: codecov/codecov-action
+     dependency-type: direct:production
+     update-type: version-update:semver-major
+     ...
+     Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+   * [pre-commit.ci] pre-commit autoupdate (#8 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/8>)
+     updates:
+     - [github.com/igorshubovych/markdownlint-cli: v0.39.0 → v0.41.0](https://github.com/igorshubovych/markdownlint-cli/compare/v0.39.0...v0.41.0)
+     - [github.com/AleksaC/hadolint-py: v2.12.1-beta → v2.12.1b3](https://github.com/AleksaC/hadolint-py/compare/v2.12.1-beta...v2.12.1b3)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * chore: sync files (#9 <https://github.com/autowarefoundation/autoware_internal_msgs/issues/9>)
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+   * Contributors: M. Fatih Cırıt, Mehmet Emin BAŞOĞLU, awf-autoware-bot[bot], dependabot[bot], pre-commit-ci[bot]
+Checksums-Sha1:
+ 39932e4609f3b1cbc8c08320426f22a7fc83569c 293946 ros-iron-autoware-internal-msgs-dbgsym_1.1.0-2024.12.06.18.15_amd64.ddeb
+ ac214dcfa066f429e501cb64b51607d4dae2039a 14969 ros-iron-autoware-internal-msgs_1.1.0-2024.12.06.18.15_amd64.buildinfo
+ 3fa95fab9a55a34e5552dfb17479c6dbc7e0b207 58760 ros-iron-autoware-internal-msgs_1.1.0-2024.12.06.18.15_amd64.deb
+Checksums-Sha256:
+ e9a923477b8381fc305f03f2aba1f9cbb2fde7fc9138a9031be2130631203795 293946 ros-iron-autoware-internal-msgs-dbgsym_1.1.0-2024.12.06.18.15_amd64.ddeb
+ ec7e131133ff7d37df1cc8f12b0b3fcb90c3dc3466114a4e1e7c15e45bc9f2ee 14969 ros-iron-autoware-internal-msgs_1.1.0-2024.12.06.18.15_amd64.buildinfo
+ 1a0aa02d734578d6c7cc40ce17655451d8b3a505394d23df325ff9c2dc5a6ade 58760 ros-iron-autoware-internal-msgs_1.1.0-2024.12.06.18.15_amd64.deb
+Files:
+ 4ce9b3d7f97dd5817ef994d14c95108d 293946 debug optional ros-iron-autoware-internal-msgs-dbgsym_1.1.0-2024.12.06.18.15_amd64.ddeb
+ 9d362b0b98a81b696757274ee16bff4e 14969 misc optional ros-iron-autoware-internal-msgs_1.1.0-2024.12.06.18.15_amd64.buildinfo
+ c7b65499cbb13beee27ed32ba3056911 58760 misc optional ros-iron-autoware-internal-msgs_1.1.0-2024.12.06.18.15_amd64.deb
