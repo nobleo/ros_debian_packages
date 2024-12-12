@@ -1,0 +1,6 @@
+zenoh_c_vendor:
+  ubuntu:
+  - ros-rolling-zenoh-c-vendor
+rmw_zenoh_cpp:
+  ubuntu:
+  - ros-rolling-rmw-zenoh-cpp
