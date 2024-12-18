@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-uss
+Binary: ros-jazzy-off-highway-uss
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-2024.12.18.22.03
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-uss - The off_highway_uss package
+Changes:
+ ros-jazzy-off-highway-uss (0.7.0-2024.12.18.22.03) noble; urgency=high
+ .
+   * Add object type SNA and filter such objects
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Robin Petereit, Tim Clephas
+Checksums-Sha1:
+ f1ff4258f2720b87c0597f841824a309c6f33081 4782362 ros-jazzy-off-highway-uss-dbgsym_0.7.0-2024.12.18.22.03_amd64.ddeb
+ ee909149503d100ac93e6b1fa8a441d2a6d730b8 45014 ros-jazzy-off-highway-uss_0.7.0-2024.12.18.22.03_amd64.buildinfo
+ 8ff408945ce166485c876d2a6c7a2d7e81ef925a 230594 ros-jazzy-off-highway-uss_0.7.0-2024.12.18.22.03_amd64.deb
+Checksums-Sha256:
+ 536db7437852bece9c9c920e622fcd7be67d6c0c04fafafd52ffc36dd4af4f68 4782362 ros-jazzy-off-highway-uss-dbgsym_0.7.0-2024.12.18.22.03_amd64.ddeb
+ 9ccf60846010e2291988484c45fcde1d1b9b14041350c24006571ec01c47f790 45014 ros-jazzy-off-highway-uss_0.7.0-2024.12.18.22.03_amd64.buildinfo
+ bea591ca0d1562a96bf80117bec887349c13c746f28b5ca2624d9ed03cc48060 230594 ros-jazzy-off-highway-uss_0.7.0-2024.12.18.22.03_amd64.deb
+Files:
+ 10ffe7192ed545f25da160418aa5d3d5 4782362 debug optional ros-jazzy-off-highway-uss-dbgsym_0.7.0-2024.12.18.22.03_amd64.ddeb
+ 0b590ca2704627b4f39d484a82f82e44 45014 misc optional ros-jazzy-off-highway-uss_0.7.0-2024.12.18.22.03_amd64.buildinfo
+ a94c2cfd479d0d35d57e84c22bccff19 230594 misc optional ros-jazzy-off-highway-uss_0.7.0-2024.12.18.22.03_amd64.deb

@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample-msgs
+Binary: ros-jazzy-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-2024.12.18.21.52
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample-msgs (0.7.0-2024.12.18.21.52) noble; urgency=high
+ .
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ 4eda20ddb6a0d46dc1b57d000f8f3c10b8007408 2517516 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.7.0-2024.12.18.21.52_amd64.ddeb
+ 65d5228cdf35acf2c1a1f810ee6ace0e115f6891 15471 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2024.12.18.21.52_amd64.buildinfo
+ 8b72faf890ea080382a1ee83a8c8d8a4ced95f48 284912 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2024.12.18.21.52_amd64.deb
+Checksums-Sha256:
+ 62c50f7fba9a6ea1572b89440ece263d35fec0f90188f4ddf06dd45d2fc58bba 2517516 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.7.0-2024.12.18.21.52_amd64.ddeb
+ c80d5968f4935ae2ccadc13f3d821f4ccbd794e3cb41ff7973c4d21197970476 15471 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2024.12.18.21.52_amd64.buildinfo
+ 87e1a095e54f1eeb819c1a1549d0f72ef757f6db1760f1f1a9f6017e5e3e6395 284912 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2024.12.18.21.52_amd64.deb
+Files:
+ 9e1ded986470d888ba7f0130995f9c05 2517516 debug optional ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.7.0-2024.12.18.21.52_amd64.ddeb
+ 53d737e10028cd7e3d08859b05b02b8d 15471 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2024.12.18.21.52_amd64.buildinfo
+ 7f67d49ba9ef05ba5fb004f6a5f5bd8e 284912 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2024.12.18.21.52_amd64.deb

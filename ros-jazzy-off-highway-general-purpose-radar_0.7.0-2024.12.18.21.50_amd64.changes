@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-general-purpose-radar
+Binary: ros-jazzy-off-highway-general-purpose-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-2024.12.18.21.50
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-general-purpose-radar - The off_highway_general_purpose_radar package
+Changes:
+ ros-jazzy-off-highway-general-purpose-radar (0.7.0-2024.12.18.21.50) noble; urgency=high
+ .
+   * Register GPR component
+   * Contributors: Robin Petereit
+Checksums-Sha1:
+ 943a09635fa1d085f50b93a786bd8708f471a360 2676004 ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.7.0-2024.12.18.21.50_amd64.ddeb
+ 572723262743b4ca67a32044cd0877e3f8925d14 45194 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2024.12.18.21.50_amd64.buildinfo
+ a50307bdcd3ac6fd3e005346815fbd73a6a5cbf3 151538 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2024.12.18.21.50_amd64.deb
+Checksums-Sha256:
+ 4c7a6c0f96ef358ccf42a553848c835f35d5bb9ec2b18d23bc41431130cd4f39 2676004 ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.7.0-2024.12.18.21.50_amd64.ddeb
+ f1334a444d6007ed619d55cbce87334a61a0c4c48e5de0d55192b547bd8b9b5b 45194 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2024.12.18.21.50_amd64.buildinfo
+ 2a7ecf8904226b9dadf79763623a59ab641b3071bc033e1f70dc8451f0131a76 151538 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2024.12.18.21.50_amd64.deb
+Files:
+ 625975939df0a2e66a8ed32f1b614040 2676004 debug optional ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.7.0-2024.12.18.21.50_amd64.ddeb
+ ab46ddc98e914b9da4d5051813a12464 45194 misc optional ros-jazzy-off-highway-general-purpose-radar_0.7.0-2024.12.18.21.50_amd64.buildinfo
+ acaa12e9d7a830ab64821434006081c1 151538 misc optional ros-jazzy-off-highway-general-purpose-radar_0.7.0-2024.12.18.21.50_amd64.deb
