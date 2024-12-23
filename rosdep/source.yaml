@@ -1,0 +1,4 @@
+framos-librealsense2:
+  ubuntu:
+    source:
+      uri: https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/rdmanifest/framos-librealsense2.rdmanifest

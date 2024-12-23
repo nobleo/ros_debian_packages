@@ -12,6 +12,7 @@ jobs:
         with:
           ROS_DISTRO: jazzy
           DEB_DISTRO: noble
+          ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} only on main branch
           GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
           REPOS_FILE: jazzy.repos
@@ -261,6 +262,7 @@ jobs:
         with:
           ROS_DISTRO: rolling
           DEB_DISTRO: noble
+          ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} only on main branch
           GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
           REPOS_FILE: rolling.repos
