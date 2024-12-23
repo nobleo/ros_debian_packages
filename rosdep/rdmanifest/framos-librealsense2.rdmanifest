@@ -2,7 +2,7 @@ uri: https://www.framos.com/framos3d/D400e/Software/Latest/FRAMOS_D400e_Software
 
 install-script: |
   #!/bin/bash
-  sudo dpkg -i FRAMOS_D400e_Software_Package/FRAMOS-librealsense2-2.50.13-Linux64_x64.deb
+  sudo DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends --assume-yes ./FRAMOS_D400e_Software_Package/FRAMOS*.deb
 
 check-presence-script: |
   #!/bin/bash
