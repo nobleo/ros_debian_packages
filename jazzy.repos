@@ -15,7 +15,7 @@ repositories:
   rmw_zenoh:
     type: git
     url: https://github.com/ros2/rmw_zenoh
-    version: rolling
+    version: jazzy
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
