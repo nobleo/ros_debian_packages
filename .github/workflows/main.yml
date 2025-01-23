@@ -7,7 +7,27 @@ on:
 jobs:
   jazzy:
     runs-on: ubuntu-24.04
+    container:
+      image: ubuntu:24.04
+      options: --privileged
+      volumes:
+        - /mnt:/tmp
+
     steps:
+      - run: |
+          chmod 777 /tmp
+          df -h
+
+      - run: |
+          apt update
+          apt install -y sudo
+          # sudo apt install -y cmake
+          # cmake --version
+          sudo apt install -y curl lsb-release software-properties-common
+
+      - run: |
+          usermod --add-subuids 100000-165535 --add-subgids 100000-165535 $(whoami)
+
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: jazzy
