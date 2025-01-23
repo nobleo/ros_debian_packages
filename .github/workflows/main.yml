@@ -8,6 +8,8 @@ jobs:
   jazzy:
     runs-on: ubuntu-24.04
     steps:
+      - name: Set permissions
+        run: sudo chmod -R 777 /sbuild-nonexistent/.cargo
       - uses: jspricke/ros-deb-builder-action@main
         with:
           ROS_DISTRO: jazzy
