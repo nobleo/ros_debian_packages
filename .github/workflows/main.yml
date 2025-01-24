@@ -8,7 +8,10 @@ jobs:
   jazzy:
     runs-on: ubuntu-24.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      # https://github.com/jspricke/ros-deb-builder-action/issues/59
+      # https://github.com/ros-infrastructure/bloom/pull/643
+      # - uses: jspricke/ros-deb-builder-action@main
+      - uses: nobleo/ros-deb-builder-action@debian-compat-13
         with:
           ROS_DISTRO: jazzy
           DEB_DISTRO: noble
