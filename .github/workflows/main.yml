@@ -19,4 +19,4 @@ jobs:
           GIT_LFS: true
           SBUILD_CONF: '$enable_network = 1;'  # For rmw_zenoh and novatel
         env:
-          HOME: /home/runner
+          CARGO_HOME: /home/runner
