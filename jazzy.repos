@@ -1,5 +1,9 @@
 ---
 repositories:
+  autoware.core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.core.git
+    version: main
   autoware.universe:
     type: git
     url: https://github.com/nobleo/autoware.universe.git
