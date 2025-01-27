@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-pcl-extensions
+Binary: ros-jazzy-autoware-pcl-extensions
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.06.34
+Distribution: noble
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-jazzy-autoware-pcl-extensions - The autoware_pcl_extensions package
+Changes:
+ ros-jazzy-autoware-pcl-extensions (0-2025.01.27.06.34) noble; urgency=high
+ .
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ d06f595b1b85a3419d7c5d3c79641280e925dc75 5325570 ros-jazzy-autoware-pcl-extensions-dbgsym_0-2025.01.27.06.34_amd64.ddeb
+ ce8f1b7bfd1724b1aad998a0f802ad86a532a0db 37643 ros-jazzy-autoware-pcl-extensions_0-2025.01.27.06.34_amd64.buildinfo
+ bf9cfcff65310bf82a411b09f23c4ba257c143d3 132986 ros-jazzy-autoware-pcl-extensions_0-2025.01.27.06.34_amd64.deb
+Checksums-Sha256:
+ b04c3fbd5f6ba86b1378ea4197b1bdfbf0458488eacb749e6db62e3d636a5d09 5325570 ros-jazzy-autoware-pcl-extensions-dbgsym_0-2025.01.27.06.34_amd64.ddeb
+ 9cb9509eea251f2e3d26374deaa285e98c3c6e7eb5084ff75352d7718521fb6a 37643 ros-jazzy-autoware-pcl-extensions_0-2025.01.27.06.34_amd64.buildinfo
+ 6e8efdff3039c9e02bf0dea171b453be84a94147efc55c8e09f9e5c98a0e13fd 132986 ros-jazzy-autoware-pcl-extensions_0-2025.01.27.06.34_amd64.deb
+Files:
+ 8f1f5a2f0ad03e6c555df69f524f5276 5325570 debug optional ros-jazzy-autoware-pcl-extensions-dbgsym_0-2025.01.27.06.34_amd64.ddeb
+ 9fdd35c9c22484103bd1f5c52e4db46f 37643 misc optional ros-jazzy-autoware-pcl-extensions_0-2025.01.27.06.34_amd64.buildinfo
+ 60e89c84b9cb2ac99ca75ef73a65046e 132986 misc optional ros-jazzy-autoware-pcl-extensions_0-2025.01.27.06.34_amd64.deb

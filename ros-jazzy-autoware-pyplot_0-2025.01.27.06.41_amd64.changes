@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-pyplot
+Binary: ros-jazzy-autoware-pyplot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.06.41
+Distribution: noble
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-jazzy-autoware-pyplot - C++ interface for matplotlib based on pybind11
+Changes:
+ ros-jazzy-autoware-pyplot (0-2025.01.27.06.41) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * docs(autoware_pyplot): add missing readme and move the package to common (#9546 <https://github.com/autowarefoundation/autoware.universe/issues/9546>)
+   * fix(autoware_pyplot): fix missing python3-dev dependency (#9461 <https://github.com/autowarefoundation/autoware.universe/issues/9461>)
+   * feat(pyplot): add C++ pyplot (#9430 <https://github.com/autowarefoundation/autoware.universe/issues/9430>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Mamoru Sobue, Ryohsuke Mitsudome
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * docs(autoware_pyplot): add missing readme and move the package to common (#9546 <https://github.com/autowarefoundation/autoware.universe/issues/9546>)
+   * fix(autoware_pyplot): fix missing python3-dev dependency (#9461 <https://github.com/autowarefoundation/autoware.universe/issues/9461>)
+   * feat(pyplot): add C++ pyplot (#9430 <https://github.com/autowarefoundation/autoware.universe/issues/9430>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Mamoru Sobue, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 5d2d2266daa6de0677b17df7783ff64d115ae641 11409 ros-jazzy-autoware-pyplot_0-2025.01.27.06.41_amd64.buildinfo
+ c5cbd1f127d2044f1515b7393c2e1dfd388b9c7a 157260 ros-jazzy-autoware-pyplot_0-2025.01.27.06.41_amd64.deb
+Checksums-Sha256:
+ 31cc0ebf98a60f87f6e10fe328c1b46f6e537e9e17f3aa9abc0a2e61e87d5342 11409 ros-jazzy-autoware-pyplot_0-2025.01.27.06.41_amd64.buildinfo
+ 6ca607cce68ad194d2c7f6cbb8e39ad5e3957f62999ed6181fdac72e8406cbf0 157260 ros-jazzy-autoware-pyplot_0-2025.01.27.06.41_amd64.deb
+Files:
+ 3c91438d26edfd840b38e6303be3bf71 11409 misc optional ros-jazzy-autoware-pyplot_0-2025.01.27.06.41_amd64.buildinfo
+ caea6f4e226e794d27141074b913c5d1 157260 misc optional ros-jazzy-autoware-pyplot_0-2025.01.27.06.41_amd64.deb

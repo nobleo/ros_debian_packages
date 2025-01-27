@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-object-merger
+Binary: ros-jazzy-autoware-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.08.12
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-object-merger - The autoware_object_merger package
+Changes:
+ ros-jazzy-autoware-object-merger (0-2025.01.27.08.12) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 1efed6a8ac03f46cacc0368082da8383f444d9bd 5449078 ros-jazzy-autoware-object-merger-dbgsym_0-2025.01.27.08.12_amd64.ddeb
+ a5c5cf555acc2f31cd36587f8042b96411645f7e 45892 ros-jazzy-autoware-object-merger_0-2025.01.27.08.12_amd64.buildinfo
+ 88df5351c2faba67740f647105bdae26dcd4a81e 300510 ros-jazzy-autoware-object-merger_0-2025.01.27.08.12_amd64.deb
+Checksums-Sha256:
+ c9195de411b045af45d23eb12f13c936d6cef2dbcf729f8899a0cafa08c6b1cb 5449078 ros-jazzy-autoware-object-merger-dbgsym_0-2025.01.27.08.12_amd64.ddeb
+ 0e7e1094364113356e4ef7fde9e8ff0ce53797c6709dbeb1c0c2932a012fc444 45892 ros-jazzy-autoware-object-merger_0-2025.01.27.08.12_amd64.buildinfo
+ 23373cd8ad05b5e920b27e8350648eb30a827ec67f235b1051bd5732e413e62a 300510 ros-jazzy-autoware-object-merger_0-2025.01.27.08.12_amd64.deb
+Files:
+ 31a5afb1548fb8d8c4ead3d78fbc2453 5449078 debug optional ros-jazzy-autoware-object-merger-dbgsym_0-2025.01.27.08.12_amd64.ddeb
+ ea1be63bf9eb3aa19bca6def82482fdd 45892 misc optional ros-jazzy-autoware-object-merger_0-2025.01.27.08.12_amd64.buildinfo
+ cefc1503a996dfab374c241c8adea6a8 300510 misc optional ros-jazzy-autoware-object-merger_0-2025.01.27.08.12_amd64.deb

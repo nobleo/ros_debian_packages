@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 09 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-geography-utils
+Binary: ros-jazzy-autoware-geography-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.0-42-g7908651-2025.01.27.06.29
+Distribution: noble
+Urgency: high
+Maintainer: Yamato Ando <yamato.ando@tier4.jp>
+Changed-By: Yamato Ando <yamato.ando@tier4.jp>
+Description:
+ ros-jazzy-autoware-geography-utils - The autoware_geography_utils package
+Changes:
+ ros-jazzy-autoware-geography-utils (0.0.0-42-g7908651-2025.01.27.06.29) noble; urgency=high
+ .
+   * refactor(autoware_geography_utils): apply modern C++17 style (#109 <https://github.com/autowarefoundation/autoware.core/issues/109>)
+     * use using
+     * refactor height
+     * refactor projection
+     * refactor lanelet2_projector
+     * set class name
+     * revert string
+     ---------
+   * test(autoware_geography_utils): add lanelet2_projector test (#128 <https://github.com/autowarefoundation/autoware.core/issues/128>)
+     * add test
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * chore: sync files (#115 <https://github.com/autowarefoundation/autoware.core/issues/115>)
+     * chore: sync files
+     * style(pre-commit): autofix
+     * include what you use
+     ---------
+     Co-authored-by: github-actions <mailto:github-actions@github.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: M. Fatih Cırıt <mailto:mfc@autoware.org>
+   * docs(autoware_geography_utils): update README.md (#111 <https://github.com/autowarefoundation/autoware.core/issues/111>)
+     update readme
+   * feat: port autoware_geography_utils from autoware.universe (#100 <https://github.com/autowarefoundation/autoware.core/issues/100>)
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Ryohsuke Mitsudome, Yutaka Kondo, awf-autoware-bot[bot]
+Checksums-Sha1:
+ 14ba6f045f6507852f682967480a3293b6624810 174240 ros-jazzy-autoware-geography-utils-dbgsym_0.0.0-42-g7908651-2025.01.27.06.29_amd64.ddeb
+ 170efdb620bea918d022d669ab6f8c3a5fa3254e 29318 ros-jazzy-autoware-geography-utils_0.0.0-42-g7908651-2025.01.27.06.29_amd64.buildinfo
+ 26f60440e8e21071aec66255473467f0c570eb3f 19132 ros-jazzy-autoware-geography-utils_0.0.0-42-g7908651-2025.01.27.06.29_amd64.deb
+Checksums-Sha256:
+ df97477d0cec6cdea0be495a71e6c8898a7d65cae63151879d2438f0dac7071c 174240 ros-jazzy-autoware-geography-utils-dbgsym_0.0.0-42-g7908651-2025.01.27.06.29_amd64.ddeb
+ 42b9d781f3dabbb0fc4e3d931aa6b5b540084c24f03bd11c9fc8d9073cba3aaa 29318 ros-jazzy-autoware-geography-utils_0.0.0-42-g7908651-2025.01.27.06.29_amd64.buildinfo
+ 2e2f86df1bcf0804146b022ca1c577d77bc61e90f272668dc156e58899df23d0 19132 ros-jazzy-autoware-geography-utils_0.0.0-42-g7908651-2025.01.27.06.29_amd64.deb
+Files:
+ eb39fde76f02ff4d603ba0e45a8a08bf 174240 debug optional ros-jazzy-autoware-geography-utils-dbgsym_0.0.0-42-g7908651-2025.01.27.06.29_amd64.ddeb
+ cd964ca4256ae5b8d0499477fa45cfbd 29318 misc optional ros-jazzy-autoware-geography-utils_0.0.0-42-g7908651-2025.01.27.06.29_amd64.buildinfo
+ 916a333ce10b807d797cea9f599c6d05 19132 misc optional ros-jazzy-autoware-geography-utils_0.0.0-42-g7908651-2025.01.27.06.29_amd64.deb

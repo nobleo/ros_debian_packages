@@ -1,0 +1,69 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-pointcloud-preprocessor
+Binary: ros-jazzy-autoware-pointcloud-preprocessor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.39
+Distribution: noble
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-jazzy-autoware-pointcloud-preprocessor - The ROS 2 autoware_pointcloud_preprocessor package
+Changes:
+ ros-jazzy-autoware-pointcloud-preprocessor (0-2025.01.27.07.39) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - sensing (#9571 <https://github.com/autowarefoundation/autoware.universe/issues/9571>)
+   * fix(autoware_pointcloud_preprocessor): remove unused arg and unavailable param file. (#9525 <https://github.com/autowarefoundation/autoware.universe/issues/9525>)
+     Remove unused arg and unavailable param file.
+   * fix(autoware_pointcloud_preprocessor): fix clang-diagnostic-inconsistent-missing-override (#9445 <https://github.com/autowarefoundation/autoware.universe/issues/9445>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore: update license of pointcloud preprocessor (#9397 <https://github.com/autowarefoundation/autoware.universe/issues/9397>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_pointcloud_preprocessor): clang-tidy error in distortion corrector (#9412 <https://github.com/autowarefoundation/autoware.universe/issues/9412>)
+     fix: clang-tidy
+   * fix(autoware_pointcloud_preprocessor): clang-tidy for overrides (#9414 <https://github.com/autowarefoundation/autoware.universe/issues/9414>)
+     fix: clang-tidy for overrides
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_pointcloud_preprocessor): fix the wrong naming of crop box parameter file  (#9258 <https://github.com/autowarefoundation/autoware.universe/issues/9258>)
+     fix: fix the wrong file name
+   * fix(autoware_pointcloud_preprocessor): launch file load parameter from yaml (#8129 <https://github.com/autowarefoundation/autoware.universe/issues/8129>)
+     * feat: fix launch file
+     * chore: fix spell error
+     * chore: fix parameters file name
+     * chore: remove filter base
+     ---------
+   * Contributors: Daisuke Nishimatsu, Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Mukunda Bharatheesha, Ryohsuke Mitsudome, Ryuta Kambe, Yi-Hsiang Fang (Vivid), Yutaka Kondo
+Checksums-Sha1:
+ dce69dd2d770c12dc1cfed95dbc4ed7da29beff5 37502464 ros-jazzy-autoware-pointcloud-preprocessor-dbgsym_0-2025.01.27.07.39_amd64.ddeb
+ 7bb06f093446aa296b086a2ff5676eec9f9e1bf7 53640 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.01.27.07.39_amd64.buildinfo
+ 30bdac0332c99c615c7bc62847c50ef9617d2848 939774 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.01.27.07.39_amd64.deb
+Checksums-Sha256:
+ c02ea9718dd423606d00fe571aa4166ac247fc38e9e9f491c854db0b093acdd2 37502464 ros-jazzy-autoware-pointcloud-preprocessor-dbgsym_0-2025.01.27.07.39_amd64.ddeb
+ d19783172158b6b0ff1682a0e11a0c1bf91cffed8132b29676c37f8cf341cd11 53640 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.01.27.07.39_amd64.buildinfo
+ ec4b50c80f497b4d2612e5ff99d786829bca67fdd95f768b049b775049362953 939774 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.01.27.07.39_amd64.deb
+Files:
+ 3949abebe3abff6eacaec69df5a8696a 37502464 debug optional ros-jazzy-autoware-pointcloud-preprocessor-dbgsym_0-2025.01.27.07.39_amd64.ddeb
+ 65d9c9029ae19fcd98fcfd7bfd0762a7 53640 misc optional ros-jazzy-autoware-pointcloud-preprocessor_0-2025.01.27.07.39_amd64.buildinfo
+ 1e8ff6c0ed8371afe5f565cffcc61297 939774 misc optional ros-jazzy-autoware-pointcloud-preprocessor_0-2025.01.27.07.39_amd64.deb

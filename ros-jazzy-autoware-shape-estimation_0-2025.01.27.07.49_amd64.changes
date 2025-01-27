@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-shape-estimation
+Binary: ros-jazzy-autoware-shape-estimation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.49
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-shape-estimation - This package implements a shape estimation algorithm as a ROS 2 n
+Changes:
+ ros-jazzy-autoware-shape-estimation (0-2025.01.27.07.49) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * refactor: correct spelling (#9528 <https://github.com/autowarefoundation/autoware.universe/issues/9528>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(cuda_utils): prefix package and namespace with autoware (#9171 <https://github.com/autowarefoundation/autoware.universe/issues/9171>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 9b9a3e1d39093a6662e1003bb46cc76c352f2206 4222546 ros-jazzy-autoware-shape-estimation-dbgsym_0-2025.01.27.07.49_amd64.ddeb
+ fad5671639fdd5b127474fa2dd61e17fb2c13f4f 48865 ros-jazzy-autoware-shape-estimation_0-2025.01.27.07.49_amd64.buildinfo
+ ed6c5592a4135a3768224fb4bcbaf3262864c735 178584 ros-jazzy-autoware-shape-estimation_0-2025.01.27.07.49_amd64.deb
+Checksums-Sha256:
+ b17b8f3c25ee6d55d3dfb126da166d10f8c564296dc8f09ca96ef0c6fc5741aa 4222546 ros-jazzy-autoware-shape-estimation-dbgsym_0-2025.01.27.07.49_amd64.ddeb
+ 2a80595af644999c0eb6a2c69a875e906c173dde46f463aad998e49ed840fbbc 48865 ros-jazzy-autoware-shape-estimation_0-2025.01.27.07.49_amd64.buildinfo
+ 246c78722b0b1e431d42ac72903d4fa399762593d86331d69ad8350fd9fbbd4d 178584 ros-jazzy-autoware-shape-estimation_0-2025.01.27.07.49_amd64.deb
+Files:
+ b707d05cc43e00d06e679d10dc02b00f 4222546 debug optional ros-jazzy-autoware-shape-estimation-dbgsym_0-2025.01.27.07.49_amd64.ddeb
+ f3391a223778fe901f3ca031a9b6826e 48865 misc optional ros-jazzy-autoware-shape-estimation_0-2025.01.27.07.49_amd64.buildinfo
+ 5ef7a7b0953ab4e7e3493fac9ba4f16b 178584 misc optional ros-jazzy-autoware-shape-estimation_0-2025.01.27.07.49_amd64.deb

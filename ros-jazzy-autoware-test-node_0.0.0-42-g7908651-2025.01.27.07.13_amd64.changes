@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 09 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-test-node
+Binary: ros-jazzy-autoware-test-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.0-42-g7908651-2025.01.27.07.13
+Distribution: noble
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@autoware.org>
+Changed-By: M. Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-jazzy-autoware-test-node - Test package for Autoware Node.
+Changes:
+ ros-jazzy-autoware-test-node (0.0.0-42-g7908651-2025.01.27.07.13) noble; urgency=high
+ .
+   * feat: add autoware_node and autoware_test node (#113 <https://github.com/autowarefoundation/autoware.core/issues/113>)
+   * Contributors: M. Fatih Cırıt
+Checksums-Sha1:
+ eea07f7b29fa675745a0f9329fafdad7bbef7ca2 413616 ros-jazzy-autoware-test-node-dbgsym_0.0.0-42-g7908651-2025.01.27.07.13_amd64.ddeb
+ e49ec16b555f5f9cb9d1828cd0565d7a98c95af4 17730 ros-jazzy-autoware-test-node_0.0.0-42-g7908651-2025.01.27.07.13_amd64.buildinfo
+ 48b19e872ae456a8c939750d0073896876a24ae2 28726 ros-jazzy-autoware-test-node_0.0.0-42-g7908651-2025.01.27.07.13_amd64.deb
+Checksums-Sha256:
+ 609feef7dbe62feb7ad2a4fc59fda266bd0405893edc6e36a59e184fbd6b4552 413616 ros-jazzy-autoware-test-node-dbgsym_0.0.0-42-g7908651-2025.01.27.07.13_amd64.ddeb
+ 639511c6d501c1b9dc11a2543bef9ffa2f9a089d98bf5438f431539803c0e299 17730 ros-jazzy-autoware-test-node_0.0.0-42-g7908651-2025.01.27.07.13_amd64.buildinfo
+ 7fb0e898ccb552b9a5626b82e212aedf8a079d7e74a04722d87af3b8e03ace33 28726 ros-jazzy-autoware-test-node_0.0.0-42-g7908651-2025.01.27.07.13_amd64.deb
+Files:
+ 291fbcdcd94b4bcb39ff8444b636302e 413616 debug optional ros-jazzy-autoware-test-node-dbgsym_0.0.0-42-g7908651-2025.01.27.07.13_amd64.ddeb
+ 30022b53ea79317691fa9bddbdd18bf7 17730 misc optional ros-jazzy-autoware-test-node_0.0.0-42-g7908651-2025.01.27.07.13_amd64.buildinfo
+ 74f07b869a4bac8732b8df3938cf3123 28726 misc optional ros-jazzy-autoware-test-node_0.0.0-42-g7908651-2025.01.27.07.13_amd64.deb

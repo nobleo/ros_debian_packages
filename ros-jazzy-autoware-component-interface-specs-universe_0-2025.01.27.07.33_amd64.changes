@@ -1,0 +1,48 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-component-interface-specs-universe
+Binary: ros-jazzy-autoware-component-interface-specs-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.33
+Distribution: noble
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-jazzy-autoware-component-interface-specs-universe - The autoware_component_interface_specs_universe package
+Changes:
+ ros-jazzy-autoware-component-interface-specs-universe (0-2025.01.27.07.33) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * feat!: replace tier4_map_msgs with autoware_map_msgs for MapProjectorInfo (#9392 <https://github.com/autowarefoundation/autoware.universe/issues/9392>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 7341122afbc69b30029d998a6eb62087ca6ed52f 18400 ros-jazzy-autoware-component-interface-specs-universe_0-2025.01.27.07.33_amd64.buildinfo
+ ec5a8e4de683ccaa48f1e09fc982e2c286c7a500 9430 ros-jazzy-autoware-component-interface-specs-universe_0-2025.01.27.07.33_amd64.deb
+Checksums-Sha256:
+ 97b556850b12d42238357609896300b5bc67cc30591ff4f31d1e74fe82330c0b 18400 ros-jazzy-autoware-component-interface-specs-universe_0-2025.01.27.07.33_amd64.buildinfo
+ 1410db42bd129dadac52dac8b9c434e39e360f1cc45d65b6be0d7421f49a68be 9430 ros-jazzy-autoware-component-interface-specs-universe_0-2025.01.27.07.33_amd64.deb
+Files:
+ 1440ac44213aa3d0908609d27d6d5ea8 18400 misc optional ros-jazzy-autoware-component-interface-specs-universe_0-2025.01.27.07.33_amd64.buildinfo
+ 4c8e353360e6eccc677da7b02be4e2e6 9430 misc optional ros-jazzy-autoware-component-interface-specs-universe_0-2025.01.27.07.33_amd64.deb

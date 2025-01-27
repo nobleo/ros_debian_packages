@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-sensor-drivers-examples
+Binary: ros-jazzy-off-highway-sensor-drivers-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-1-gc4f2379-2025.01.27.07.55
+Distribution: noble
+Urgency: high
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Changed-By: Sarah Huber <sarah.huber@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-sensor-drivers-examples - The off_highway_sensor_drivers_examples package
+Changes:
+ ros-jazzy-off-highway-sensor-drivers-examples (0.7.0-1-gc4f2379-2025.01.27.07.55) noble; urgency=high
+Checksums-Sha1:
+ 4172b7dd3e271d3c0b1337308dabdcb71663366c 1800562 ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.ddeb
+ ee19191391d8ad202dbba31389417a53589599a5 18114 ros-jazzy-off-highway-sensor-drivers-examples_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.buildinfo
+ 4d9c98579051351d66efe5e174940af9da94d9ef 125056 ros-jazzy-off-highway-sensor-drivers-examples_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.deb
+Checksums-Sha256:
+ ebd1b4b54e2c5973c676f96836c98d73cf67d1398d9b5331bf1d385321e4bb77 1800562 ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.ddeb
+ 1529c6705006cce83e2be9f66361b385765261faa847c1a732c50dc15a0d7aec 18114 ros-jazzy-off-highway-sensor-drivers-examples_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.buildinfo
+ 19ee36eadea826d99d1add59f9b3e0ed8bdca9bbaba41b76c52db848f8e2be70 125056 ros-jazzy-off-highway-sensor-drivers-examples_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.deb
+Files:
+ 7355e0f1c17f2b5632554a8288bc4f3e 1800562 debug optional ros-jazzy-off-highway-sensor-drivers-examples-dbgsym_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.ddeb
+ dfa751020d139737344f81ce3efa8041 18114 misc optional ros-jazzy-off-highway-sensor-drivers-examples_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.buildinfo
+ 83b7cba7c8f99c33eec7cfd0d506ad75 125056 misc optional ros-jazzy-off-highway-sensor-drivers-examples_0.7.0-1-gc4f2379-2025.01.27.07.55_amd64.deb

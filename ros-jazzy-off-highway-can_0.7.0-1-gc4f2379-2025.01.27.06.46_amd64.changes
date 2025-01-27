@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-can
+Binary: ros-jazzy-off-highway-can
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-1-gc4f2379-2025.01.27.06.46
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-can - The off_highway_can package
+Changes:
+ ros-jazzy-off-highway-can (0.7.0-1-gc4f2379-2025.01.27.06.46) noble; urgency=high
+ .
+   * Update docs for CAN FD
+   * Check matching lengths in decoding
+   * Allow start bits in CAN FD range
+   * Make CRC and message counter optional
+   * Enable processing of CAN FD frames
+   * Remove unused definitions
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Robin Petereit, Tim Clephas
+Checksums-Sha1:
+ b8b64f9ab59939d75f3aef709c8c7246a092df34 3097520 ros-jazzy-off-highway-can-dbgsym_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.ddeb
+ 3bb299c9c5cbe799afc50721a618083bbe320648 18031 ros-jazzy-off-highway-can_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.buildinfo
+ b43e07fa4c91c1b402ac36d4158a010664fbb788 153362 ros-jazzy-off-highway-can_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.deb
+Checksums-Sha256:
+ b655839ba6552d67aada48794a29e84320f24fc6dd852447a35d72e2e323372c 3097520 ros-jazzy-off-highway-can-dbgsym_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.ddeb
+ 6f3f73506c173a04f85995bd5d200f3eb4c77f3670ee57386e80cd452d60190b 18031 ros-jazzy-off-highway-can_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.buildinfo
+ 6129fea8bad31a7bb2c7211ea3e317b8d77f6c3d4d9493fe99a942dc73bd28cc 153362 ros-jazzy-off-highway-can_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.deb
+Files:
+ a5a541aa38004d453e1fda5c58cccd2c 3097520 debug optional ros-jazzy-off-highway-can-dbgsym_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.ddeb
+ 7ff290dec605367fad8b6d14a702a5b2 18031 misc optional ros-jazzy-off-highway-can_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.buildinfo
+ 68d75d65f6ac417d4d99a53618ab16d7 153362 misc optional ros-jazzy-off-highway-can_0.7.0-1-gc4f2379-2025.01.27.06.46_amd64.deb

@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-vehicle-info-utils
+Binary: ros-jazzy-autoware-vehicle-info-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.52
+Distribution: noble
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-jazzy-autoware-vehicle-info-utils - The autoware_vehicle_info_utils package
+Changes:
+ ros-jazzy-autoware-vehicle-info-utils (0-2025.01.27.07.52) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix(static_centerline_generator): several bug fixes (#9426 <https://github.com/autowarefoundation/autoware.universe/issues/9426>)
+     * fix: dependent packages
+     * feat: use steer angle, use warn for steer angle failure, calc curvature dicontinuously
+     * fix cppcheck
+     ---------
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * 0.39.0
+   * update changelog
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Takayuki Murooka, Yutaka Kondo
+Checksums-Sha1:
+ ca226f9b4fe8ed7b107940ffd710869c33bb53cf 334450 ros-jazzy-autoware-vehicle-info-utils-dbgsym_0-2025.01.27.07.52_amd64.ddeb
+ 726b7e11ed6ac5eb836f6047da992ca21c5ee6ab 45763 ros-jazzy-autoware-vehicle-info-utils_0-2025.01.27.07.52_amd64.buildinfo
+ ba1286b3bb50a9cdadb2f7618badd2fa1cc2003b 21878 ros-jazzy-autoware-vehicle-info-utils_0-2025.01.27.07.52_amd64.deb
+Checksums-Sha256:
+ 1a02309bd6563fc978f900160a5f2c3a5c7f83c288e96a2f5f33468786465eea 334450 ros-jazzy-autoware-vehicle-info-utils-dbgsym_0-2025.01.27.07.52_amd64.ddeb
+ 45859939da7140785d09a2082a1e9fac3ee8a8892d2458087a9700ad95cba3c1 45763 ros-jazzy-autoware-vehicle-info-utils_0-2025.01.27.07.52_amd64.buildinfo
+ a5e7cde65a75e6176e492299da1c22c8a06ec9d7c287cd8102f48d401ab57a4f 21878 ros-jazzy-autoware-vehicle-info-utils_0-2025.01.27.07.52_amd64.deb
+Files:
+ 92e6e48910ed28774ede64bbcb78cb88 334450 debug optional ros-jazzy-autoware-vehicle-info-utils-dbgsym_0-2025.01.27.07.52_amd64.ddeb
+ 535dc4559a86215aa12f53639db944ea 45763 misc optional ros-jazzy-autoware-vehicle-info-utils_0-2025.01.27.07.52_amd64.buildinfo
+ 1062c9a021e483fd7767b7e4452de392 21878 misc optional ros-jazzy-autoware-vehicle-info-utils_0-2025.01.27.07.52_amd64.deb

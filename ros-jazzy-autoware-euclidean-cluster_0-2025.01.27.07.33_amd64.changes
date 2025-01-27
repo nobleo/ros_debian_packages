@@ -1,0 +1,54 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-euclidean-cluster
+Binary: ros-jazzy-autoware-euclidean-cluster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.33
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-euclidean-cluster - The autoware_euclidean_cluster package
+Changes:
+ ros-jazzy-autoware-euclidean-cluster (0-2025.01.27.07.33) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - perception (#9569 <https://github.com/autowarefoundation/autoware.universe/issues/9569>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * fix(autoware_euclidean_cluster): fix bugprone-misplaced-widening-cast (#9227 <https://github.com/autowarefoundation/autoware.universe/issues/9227>)
+     fix: bugprone-misplaced-widening-cast
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, kobayu858
+Checksums-Sha1:
+ 293bec06505884284bd5321a0b1d1e046e8150f2 5678248 ros-jazzy-autoware-euclidean-cluster-dbgsym_0-2025.01.27.07.33_amd64.ddeb
+ a20c7a876e9daf7304c2f202328c5924fdf1662e 45974 ros-jazzy-autoware-euclidean-cluster_0-2025.01.27.07.33_amd64.buildinfo
+ 443859515d829e87cdbb39ec86ad4ec51e953e1b 245232 ros-jazzy-autoware-euclidean-cluster_0-2025.01.27.07.33_amd64.deb
+Checksums-Sha256:
+ 239d92390d7d9a891c8afb0017c561202dbe746415ecb76740730ec01decfb42 5678248 ros-jazzy-autoware-euclidean-cluster-dbgsym_0-2025.01.27.07.33_amd64.ddeb
+ aba657941efd8c967412d095adbd25528d3f8b54567b03ecf327e07a07c6575d 45974 ros-jazzy-autoware-euclidean-cluster_0-2025.01.27.07.33_amd64.buildinfo
+ fb100f1f78028d52e88524d1b7b93a1df9f52a09a22e45ddbdb653bfe991c923 245232 ros-jazzy-autoware-euclidean-cluster_0-2025.01.27.07.33_amd64.deb
+Files:
+ 5385ea6f3b715ad95c9c21a21f8830d2 5678248 debug optional ros-jazzy-autoware-euclidean-cluster-dbgsym_0-2025.01.27.07.33_amd64.ddeb
+ 96f446b157885e9205ed6886daf40718 45974 misc optional ros-jazzy-autoware-euclidean-cluster_0-2025.01.27.07.33_amd64.buildinfo
+ dc914739c8d6f9f3e1b57ca45590e426 245232 misc optional ros-jazzy-autoware-euclidean-cluster_0-2025.01.27.07.33_amd64.deb

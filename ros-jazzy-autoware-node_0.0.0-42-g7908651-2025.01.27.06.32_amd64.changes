@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 09 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-node
+Binary: ros-jazzy-autoware-node
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.0.0-42-g7908651-2025.01.27.06.32
+Distribution: noble
+Urgency: high
+Maintainer: M. Fatih Cırıt <mfc@autoware.org>
+Changed-By: M. Fatih Cırıt <mfc@autoware.org>
+Description:
+ ros-jazzy-autoware-node - Autoware Node is an Autoware.Core package designed to provide a b
+Changes:
+ ros-jazzy-autoware-node (0.0.0-42-g7908651-2025.01.27.06.32) noble; urgency=high
+ .
+   * fix: change autoware_node from a static library to a shared library (#121 <https://github.com/autowarefoundation/autoware.core/issues/121>)
+   * feat: add autoware_node and autoware_test node (#113 <https://github.com/autowarefoundation/autoware.core/issues/113>)
+   * Contributors: M. Fatih Cırıt, SakodaShintaro
+Checksums-Sha1:
+ 3a2df73fc30d9150eddc53e6e8c1e02079281d29 189948 ros-jazzy-autoware-node-dbgsym_0.0.0-42-g7908651-2025.01.27.06.32_amd64.ddeb
+ 3c96d5acee6393d2b29b812d72716bbf1ecb0c54 17765 ros-jazzy-autoware-node_0.0.0-42-g7908651-2025.01.27.06.32_amd64.buildinfo
+ 79db0aba306944f1bd1efb3d4f2049da85e01c45 12914 ros-jazzy-autoware-node_0.0.0-42-g7908651-2025.01.27.06.32_amd64.deb
+Checksums-Sha256:
+ 12c404700eb67f2c89bbbb0017d8e5d9334ca39d3351a4ccd1d029cdc0f2dc2b 189948 ros-jazzy-autoware-node-dbgsym_0.0.0-42-g7908651-2025.01.27.06.32_amd64.ddeb
+ 9f8f49adb2927a92baba9b5348f77696447fa6c09ebedcacdeef6be2764238b6 17765 ros-jazzy-autoware-node_0.0.0-42-g7908651-2025.01.27.06.32_amd64.buildinfo
+ 2363cce9926bb1b6e3caa074c1b44773997ffe626597c24e88f450f7d89b807c 12914 ros-jazzy-autoware-node_0.0.0-42-g7908651-2025.01.27.06.32_amd64.deb
+Files:
+ d748685a9a6e12476be60b8da0cd61dd 189948 debug optional ros-jazzy-autoware-node-dbgsym_0.0.0-42-g7908651-2025.01.27.06.32_amd64.ddeb
+ 3c011c8899237f5412f4723d700e9ae8 17765 misc optional ros-jazzy-autoware-node_0.0.0-42-g7908651-2025.01.27.06.32_amd64.buildinfo
+ 52881ef322727b954ca1ddd69849329e 12914 misc optional ros-jazzy-autoware-node_0.0.0-42-g7908651-2025.01.27.06.32_amd64.deb

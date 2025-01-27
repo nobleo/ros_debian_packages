@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-universe-utils
+Binary: ros-jazzy-autoware-universe-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.14
+Distribution: noble
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-jazzy-autoware-universe-utils - The autoware_universe_utils package
+Changes:
+ ros-jazzy-autoware-universe-utils (0-2025.01.27.07.14) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * feat(universe_utils): add extra info to time keeper warning (#9484 <https://github.com/autowarefoundation/autoware.universe/issues/9484>)
+     add extra info to time keeper warning
+   * refactor(evaluators, autoware_universe_utils): rename Stat class to Accumulator and move it to autoware_universe_utils (#9459 <https://github.com/autowarefoundation/autoware.universe/issues/9459>)
+     * add Accumulator class to autoware_universe_utils
+     * use Accumulator on all evaluators.
+     * pre-commit
+     * found and fixed a bug. add more tests.
+     * pre-commit
+     * Update common/autoware_universe_utils/include/autoware/universe_utils/math/accumulator.hpp
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+     ---------
+     Co-authored-by: Kosuke Takeuchi <mailto:kosuke.tnp@gmail.com>
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * fix(autoware_utils): address self-intersecting polygons in random_concave_generator and handle empty inners() during triangulation (#8995 <https://github.com/autowarefoundation/autoware.universe/issues/8995>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Maxime CLEMENT <mailto:78338830+maxime-clem@users.noreply.github.com>
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, Giovanni Muhammad Raditya, Kem (TiankuiXian), M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo, danielsanchezaran
+Checksums-Sha1:
+ 6af0726eedb35db4a04a451717c687ce3d6bd4c0 3969340 ros-jazzy-autoware-universe-utils-dbgsym_0-2025.01.27.07.14_amd64.ddeb
+ ab587f69030b70ea7c273ff61fe32dfdc6bf0886 45674 ros-jazzy-autoware-universe-utils_0-2025.01.27.07.14_amd64.buildinfo
+ c0cb289ed0aa4ff0bab9e5307224b6c1935cc2a4 310170 ros-jazzy-autoware-universe-utils_0-2025.01.27.07.14_amd64.deb
+Checksums-Sha256:
+ 4865b31cab14ecfd26115af3422a76416ba06de651507b3ec43cd760dda8ff2d 3969340 ros-jazzy-autoware-universe-utils-dbgsym_0-2025.01.27.07.14_amd64.ddeb
+ a79073714d283ba5c59e214433acbd6a7b41bb6c53bbed9634cfee5f3a7345be 45674 ros-jazzy-autoware-universe-utils_0-2025.01.27.07.14_amd64.buildinfo
+ 5443ec1dd08792b038ebad0fba6906090aa701843739a4803d521bbf1a1f550b 310170 ros-jazzy-autoware-universe-utils_0-2025.01.27.07.14_amd64.deb
+Files:
+ 59aa4b92856d62ebff8bcc04bbf9509c 3969340 debug optional ros-jazzy-autoware-universe-utils-dbgsym_0-2025.01.27.07.14_amd64.ddeb
+ 13f5247019a1483534452bec81dd708f 45674 misc optional ros-jazzy-autoware-universe-utils_0-2025.01.27.07.14_amd64.buildinfo
+ 3deb5cd76d60c270006f6dcf92d0526d 310170 misc optional ros-jazzy-autoware-universe-utils_0-2025.01.27.07.14_amd64.deb

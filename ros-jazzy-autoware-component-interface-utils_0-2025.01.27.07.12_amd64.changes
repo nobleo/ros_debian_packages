@@ -1,0 +1,50 @@
+Format: 1.8
+Date: Thu, 12 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-autoware-component-interface-utils
+Binary: ros-jazzy-autoware-component-interface-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.27.07.12
+Distribution: noble
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-jazzy-autoware-component-interface-utils - The autoware_component_interface_utils package
+Changes:
+ ros-jazzy-autoware-component-interface-utils (0-2025.01.27.07.12) noble; urgency=high
+ .
+   * Merge branch 'main' into release-0.40.0
+   * Revert "chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)"
+     This reverts commit c9f0f2688c57b0f657f5c1f28f036a970682e7f5.
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * chore(package.xml): bump version to 0.39.0 (#9587 <https://github.com/autowarefoundation/autoware.universe/issues/9587>)
+     * chore(package.xml): bump version to 0.39.0
+     * fix: fix ticket links in CHANGELOG.rst
+     * fix: remove unnecessary diff
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * fix: fix ticket links in CHANGELOG.rst (#9588 <https://github.com/autowarefoundation/autoware.universe/issues/9588>)
+   * fix(cpplint): include what you use - common (#9564 <https://github.com/autowarefoundation/autoware.universe/issues/9564>)
+   * fix: fix package names in changelog files (#9500 <https://github.com/autowarefoundation/autoware.universe/issues/9500>)
+   * 0.39.0
+   * update changelog
+   * Merge commit '6a1ddbd08bd' into release-0.39.0
+   * fix: fix ticket links to point to https://github.com/autowarefoundation/autoware.universe (#9304 <https://github.com/autowarefoundation/autoware.universe/issues/9304>)
+   * chore(package.xml): bump version to 0.38.0 (#9266 <https://github.com/autowarefoundation/autoware.universe/issues/9266>) (#9284 <https://github.com/autowarefoundation/autoware.universe/issues/9284>)
+     * unify package.xml version to 0.37.0
+     * remove system_monitor/CHANGELOG.rst
+     * add changelog
+     * 0.38.0
+     ---------
+   * refactor(component_interface_utils): prefix package and namespace with autoware (#9092 <https://github.com/autowarefoundation/autoware.universe/issues/9092>)
+   * Contributors: Esteve Fernandez, Fumiya Watanabe, M. Fatih Cırıt, Ryohsuke Mitsudome, Yutaka Kondo
+Checksums-Sha1:
+ 0b748d6176f86cbe3a9fa0f944d3bfb17a729d16 18045 ros-jazzy-autoware-component-interface-utils_0-2025.01.27.07.12_amd64.buildinfo
+ 0eff8fd013e01c467ce907fe8b07aaffec2ada74 13388 ros-jazzy-autoware-component-interface-utils_0-2025.01.27.07.12_amd64.deb
+Checksums-Sha256:
+ e5fdf67a5bd415026dab8d203c8afd5303e3fe29203631e184a8c3f1aae64dec 18045 ros-jazzy-autoware-component-interface-utils_0-2025.01.27.07.12_amd64.buildinfo
+ f668e063f0595ca2f3ce94dc1bae225361f5ab54529fd2c8c20698aefcdc3d66 13388 ros-jazzy-autoware-component-interface-utils_0-2025.01.27.07.12_amd64.deb
+Files:
+ 804ee71ad46ba08a3f5bbc1c361dfafd 18045 misc optional ros-jazzy-autoware-component-interface-utils_0-2025.01.27.07.12_amd64.buildinfo
+ 3ee4f2146c8cc2f46510c7dea8a78d28 13388 misc optional ros-jazzy-autoware-component-interface-utils_0-2025.01.27.07.12_amd64.deb
