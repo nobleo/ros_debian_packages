@@ -32,6 +32,7 @@ jobs:
           #   autoware_pointcloud_preprocessor \
           #   autoware_shape_estimation \
           #   autoware_perception_rviz_plugin \
+          #   nebula_ros \
           #   )" | sort | uniq -u
           SKIP_PACKAGES: >-
             autoware_accel_brake_map_calibrator
