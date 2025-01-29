@@ -230,6 +230,8 @@ jobs:
             hazard_status_converter
             kinematic_evaluator
             learning_based_vehicle_model
+            nebula_examples
+            nebula_tests
             perception_utils
             reaction_analyzer
             system_diagnostic_monitor
