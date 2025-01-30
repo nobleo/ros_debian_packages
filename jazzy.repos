@@ -20,15 +20,11 @@ repositories:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
     version: humble-devel
-#  # Continental compatible version of ROS 2 socket CAN
-#  ros2_socketcan:
-#    type: git
-#    url: https://github.com/knzo25/ros2_socketcan
-#    version: feat/continental_fd
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
+  # As per: https://github.com/tier4/nebula/blob/main/build_depends.repos
   transport_drivers:
     type: git
     url: https://github.com/mojomex/transport_drivers
