@@ -32,6 +32,7 @@ jobs:
           #   autoware_pointcloud_preprocessor \
           #   autoware_shape_estimation \
           #   autoware_perception_rviz_plugin \
+          #   nebula_ros \
           #   )" | sort | uniq -u
           SKIP_PACKAGES: >-
             autoware_accel_brake_map_calibrator
@@ -229,6 +230,8 @@ jobs:
             hazard_status_converter
             kinematic_evaluator
             learning_based_vehicle_model
+            nebula_examples
+            nebula_tests
             perception_utils
             reaction_analyzer
             system_diagnostic_monitor

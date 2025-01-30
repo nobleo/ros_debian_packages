@@ -8,6 +8,10 @@ repositories:
     type: git
     url: https://github.com/nobleo/autoware.universe.git
     version: nobleo-main
+  nebula:
+    type: git
+    url: https://github.com/tier4/nebula.git
+    version: main
   novatel_oem7_driver:
     type: git
     url: https://github.com/novatel/novatel_oem7_driver.git
@@ -20,6 +24,11 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
+  # As per: https://github.com/tier4/nebula/blob/main/build_depends.repos
+  transport_drivers:
+    type: git
+    url: https://github.com/mojomex/transport_drivers
+    version: feat-set-rmem
   mussp:
     type: git
     url: https://github.com/tier4/muSSP.git
