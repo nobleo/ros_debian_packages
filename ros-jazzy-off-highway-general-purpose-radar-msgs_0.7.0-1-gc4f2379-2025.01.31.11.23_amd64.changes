@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-general-purpose-radar-msgs
+Binary: ros-jazzy-off-highway-general-purpose-radar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-1-gc4f2379-2025.01.31.11.23
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-general-purpose-radar-msgs - The off_highway_general_purpose_radar_msgs package
+Changes:
+ ros-jazzy-off-highway-general-purpose-radar-msgs (0.7.0-1-gc4f2379-2025.01.31.11.23) noble; urgency=high
+Checksums-Sha1:
+ 6fb326514a19d9c4e4b344d1ce2f326614c50ef3 279464 ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.ddeb
+ b366678c6028132519b9d18f11b364e541440339 15538 ros-jazzy-off-highway-general-purpose-radar-msgs_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.buildinfo
+ b146775b204d0ed44f84e6b3c2931545a4e96a61 84788 ros-jazzy-off-highway-general-purpose-radar-msgs_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.deb
+Checksums-Sha256:
+ 07516bbba4ebeb81924a3687569f51188518880a9e175f388f858806aec10577 279464 ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.ddeb
+ 172dab18045c324d484a98f4e37d5ec06318701e7e55e8fb282ff0821dc094f0 15538 ros-jazzy-off-highway-general-purpose-radar-msgs_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.buildinfo
+ 6919fbb4af1c803405b9a79c1e6a0fe6ba57ab48ca408bf957b7ea94330877fb 84788 ros-jazzy-off-highway-general-purpose-radar-msgs_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.deb
+Files:
+ 3d8e44e3f01dbdff95b0735e25f64c38 279464 debug optional ros-jazzy-off-highway-general-purpose-radar-msgs-dbgsym_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.ddeb
+ e640a4e37e4151302c3ea7b7f3dd1a2b 15538 misc optional ros-jazzy-off-highway-general-purpose-radar-msgs_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.buildinfo
+ 4c02a037ecdfa3df7b57dd75d206447a 84788 misc optional ros-jazzy-off-highway-general-purpose-radar-msgs_0.7.0-1-gc4f2379-2025.01.31.11.23_amd64.deb

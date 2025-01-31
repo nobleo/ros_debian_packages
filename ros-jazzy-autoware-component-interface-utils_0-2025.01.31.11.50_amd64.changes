@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-component-interface-utils
+Binary: ros-jazzy-autoware-component-interface-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.31.11.50
+Distribution: noble
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-jazzy-autoware-component-interface-utils - The autoware_component_interface_utils package
+Changes:
+ ros-jazzy-autoware-component-interface-utils (0-2025.01.31.11.50) noble; urgency=high
+Checksums-Sha1:
+ 532f0f2d73cdb256d57be65d44519bebe01afdb1 18093 ros-jazzy-autoware-component-interface-utils_0-2025.01.31.11.50_amd64.buildinfo
+ f7d7d377db7f364e38f01a82bfce1ad4a3528fce 13398 ros-jazzy-autoware-component-interface-utils_0-2025.01.31.11.50_amd64.deb
+Checksums-Sha256:
+ 74d98afab4c8ec2d02625de1aee478a6d6d730c722675424b09c87d544e4dc3d 18093 ros-jazzy-autoware-component-interface-utils_0-2025.01.31.11.50_amd64.buildinfo
+ 5408ac5a0b9a6dc9288a059a581a43f20d3613ee8dd802b866f6ec9a839fbc6f 13398 ros-jazzy-autoware-component-interface-utils_0-2025.01.31.11.50_amd64.deb
+Files:
+ dced1eee772ad1ede64ff9fa5a44f3de 18093 misc optional ros-jazzy-autoware-component-interface-utils_0-2025.01.31.11.50_amd64.buildinfo
+ 17ff7395064099c904e73396196b8cdf 13398 misc optional ros-jazzy-autoware-component-interface-utils_0-2025.01.31.11.50_amd64.deb

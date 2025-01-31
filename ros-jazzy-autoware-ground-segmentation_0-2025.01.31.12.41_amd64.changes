@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-ground-segmentation
+Binary: ros-jazzy-autoware-ground-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.31.12.41
+Distribution: noble
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-jazzy-autoware-ground-segmentation - The ROS 2 autoware_ground_segmentation package
+Changes:
+ ros-jazzy-autoware-ground-segmentation (0-2025.01.31.12.41) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_ground_segmentation): tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9878 <https://github.com/autowarefoundation/autoware.universe/issues/9878>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_ground_segmentation
+   * fix(autoware_ground_segmentation): fix bugprone-branch-clone (#9648 <https://github.com/autowarefoundation/autoware.universe/issues/9648>)
+     fix: bugprone-branch-clone
+   * Contributors: Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 983733f61dd23d696c463b9bb6915e97f00564e4 8815198 ros-jazzy-autoware-ground-segmentation-dbgsym_0-2025.01.31.12.41_amd64.ddeb
+ cf2a799f6ed69bd1543e2256c7295e91a997faa8 53479 ros-jazzy-autoware-ground-segmentation_0-2025.01.31.12.41_amd64.buildinfo
+ a050c418414b5d66fba12d10d5d56b9cfbead466 835072 ros-jazzy-autoware-ground-segmentation_0-2025.01.31.12.41_amd64.deb
+Checksums-Sha256:
+ 4054a9c4c3df700310d62ddaf043a6cd5e24af878bad7647e6182f3c3399cb16 8815198 ros-jazzy-autoware-ground-segmentation-dbgsym_0-2025.01.31.12.41_amd64.ddeb
+ a7bcc576a5ba1080326d37b40ab3c993117e62b13ae84ddb547358a3cd8d1467 53479 ros-jazzy-autoware-ground-segmentation_0-2025.01.31.12.41_amd64.buildinfo
+ b23face42c57e784d570882ef952f5c36c3ee08e7fbf5c9bd1bd8ca08120736c 835072 ros-jazzy-autoware-ground-segmentation_0-2025.01.31.12.41_amd64.deb
+Files:
+ c8fa34369f3ab7f0e350717a2e26c13f 8815198 debug optional ros-jazzy-autoware-ground-segmentation-dbgsym_0-2025.01.31.12.41_amd64.ddeb
+ 275ac462ff0d39ab3527b0150e03abe3 53479 misc optional ros-jazzy-autoware-ground-segmentation_0-2025.01.31.12.41_amd64.buildinfo
+ 9b1875048a2f77e1a3ae2b103c34077f 835072 misc optional ros-jazzy-autoware-ground-segmentation_0-2025.01.31.12.41_amd64.deb

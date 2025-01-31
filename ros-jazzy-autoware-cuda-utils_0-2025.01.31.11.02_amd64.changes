@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-cuda-utils
+Binary: ros-jazzy-autoware-cuda-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.31.11.02
+Distribution: noble
+Urgency: high
+Maintainer: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Changed-By: Manato Hirabayashi <manato.hirabayashi@tier4.jp>
+Description:
+ ros-jazzy-autoware-cuda-utils - cuda utility library
+Changes:
+ ros-jazzy-autoware-cuda-utils (0-2025.01.31.11.02) noble; urgency=high
+Checksums-Sha1:
+ 94a9a01df9d4ee26dcc401973145ca060c0802b2 10743 ros-jazzy-autoware-cuda-utils_0-2025.01.31.11.02_amd64.buildinfo
+ d29ae292f62db69c199e515af94548f5f46172f6 1996 ros-jazzy-autoware-cuda-utils_0-2025.01.31.11.02_amd64.deb
+Checksums-Sha256:
+ f260be633d9607cb1e66d82a5deb276d3301ac4036f2e3039f1f3b1ec2441622 10743 ros-jazzy-autoware-cuda-utils_0-2025.01.31.11.02_amd64.buildinfo
+ 00bc39035b64138ee1efb9a4b074de669e3026fa09b78bca27a92a665636a648 1996 ros-jazzy-autoware-cuda-utils_0-2025.01.31.11.02_amd64.deb
+Files:
+ bbd6aa06a846be153d17a7f96ef34a32 10743 misc optional ros-jazzy-autoware-cuda-utils_0-2025.01.31.11.02_amd64.buildinfo
+ 0069142b4bbfd6039eca3a4cdd03fb0b 1996 misc optional ros-jazzy-autoware-cuda-utils_0-2025.01.31.11.02_amd64.deb

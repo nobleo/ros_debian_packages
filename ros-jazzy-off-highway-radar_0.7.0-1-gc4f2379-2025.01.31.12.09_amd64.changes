@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-radar
+Binary: ros-jazzy-off-highway-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-1-gc4f2379-2025.01.31.12.09
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-radar - The off_highway_radar package
+Changes:
+ ros-jazzy-off-highway-radar (0.7.0-1-gc4f2379-2025.01.31.12.09) noble; urgency=high
+ .
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ a35c860f3581041e41d3c22792dc5910847c69c4 3525314 ros-jazzy-off-highway-radar-dbgsym_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.ddeb
+ 0de8383e43bbf05b1c76f8351b6696f239e15372 45349 ros-jazzy-off-highway-radar_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.buildinfo
+ f38379b0cafd7767a7258624f9098c6bd6c154a6 214780 ros-jazzy-off-highway-radar_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.deb
+Checksums-Sha256:
+ d1d4a2e7e4e55aaac4a40e6264275a68b142e4b76282b40a82d0af7c08cf8482 3525314 ros-jazzy-off-highway-radar-dbgsym_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.ddeb
+ e522fa22e3f1c7d87c30ac6d8d51b9bde2be3328a6127bee63163d813d6e8ae2 45349 ros-jazzy-off-highway-radar_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.buildinfo
+ d581cae65f456bf61e081e65c8d783965acf8426880813565751b6be12a7a162 214780 ros-jazzy-off-highway-radar_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.deb
+Files:
+ 94514b3ce99f8002f099692d409fc3c0 3525314 debug optional ros-jazzy-off-highway-radar-dbgsym_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.ddeb
+ 76c6529f920b61eb5f55b9b87955d4c5 45349 misc optional ros-jazzy-off-highway-radar_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.buildinfo
+ 6cc8efd36565375f76f367d1b4784a80 214780 misc optional ros-jazzy-off-highway-radar_0.7.0-1-gc4f2379-2025.01.31.12.09_amd64.deb

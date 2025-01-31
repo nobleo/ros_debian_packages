@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-perception-rviz-plugin
+Binary: ros-jazzy-autoware-perception-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.01.31.11.06
+Distribution: noble
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-jazzy-autoware-perception-rviz-plugin - Contains plugins to visualize object detection outputs
+Changes:
+ ros-jazzy-autoware-perception-rviz-plugin (0-2025.01.31.11.06) noble; urgency=high
+Checksums-Sha1:
+ 435e2ba74b8ca70738273059e47ec2e06a402f2e 8633590 ros-jazzy-autoware-perception-rviz-plugin-dbgsym_0-2025.01.31.11.06_amd64.ddeb
+ 480d0c3f558ed9f408877405e78b2cc83491e485 26449 ros-jazzy-autoware-perception-rviz-plugin_0-2025.01.31.11.06_amd64.buildinfo
+ 4be8486784c1588b1828abe35816288cfc213aad 255538 ros-jazzy-autoware-perception-rviz-plugin_0-2025.01.31.11.06_amd64.deb
+Checksums-Sha256:
+ d6ae05f0da8e244461d48c98f01f55ec9d66f3a1a16b4018f30beed62def017b 8633590 ros-jazzy-autoware-perception-rviz-plugin-dbgsym_0-2025.01.31.11.06_amd64.ddeb
+ 5691133b869ef42c4568c9e6b85e88785be55b0b890c046106f8558d72fb7b82 26449 ros-jazzy-autoware-perception-rviz-plugin_0-2025.01.31.11.06_amd64.buildinfo
+ beb5faaa544d7f522c73ecab760afc028629208afcc40b2a4218793ec4d88a75 255538 ros-jazzy-autoware-perception-rviz-plugin_0-2025.01.31.11.06_amd64.deb
+Files:
+ ddf1018d81083c0deea9a95f42c788c3 8633590 debug optional ros-jazzy-autoware-perception-rviz-plugin-dbgsym_0-2025.01.31.11.06_amd64.ddeb
+ 60bb6a777289f61a5baf73a6e6cdfa72 26449 misc optional ros-jazzy-autoware-perception-rviz-plugin_0-2025.01.31.11.06_amd64.buildinfo
+ 983cd8e71f56863a5357d003f6ff2375 255538 misc optional ros-jazzy-autoware-perception-rviz-plugin_0-2025.01.31.11.06_amd64.deb
