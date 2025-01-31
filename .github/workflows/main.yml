@@ -36,7 +36,6 @@ jobs:
           #   )" | sort | uniq -u
           SKIP_PACKAGES: >-
             autoware_accel_brake_map_calibrator
-            autoware_accel_brake_map_calibrator
             autoware_adapi_adaptors
             autoware_adapi_specs
             autoware_adapi_visualizers
@@ -44,6 +43,7 @@ jobs:
             autoware_auto_common
             autoware_automatic_pose_initializer
             autoware_autonomous_emergency_braking
+            autoware_bag_time_manager_rviz_plugin
             autoware_behavior_path_avoidance_by_lane_change_module
             autoware_behavior_path_dynamic_obstacle_avoidance_module
             autoware_behavior_path_external_request_lane_change_module
@@ -81,6 +81,7 @@ jobs:
             autoware_compare_map_segmentation
             autoware_component_interface_tools
             autoware_component_monitor
+            autoware_component_state_monitor
             autoware_control_evaluator
             autoware_control_performance_analysis
             autoware_control_validator
@@ -88,8 +89,11 @@ jobs:
             autoware_crosswalk_traffic_light_estimator
             autoware_default_adapi
             autoware_detected_object_validation
+            autoware_diagnostic_graph_aggregator
+            autoware_diagnostic_graph_utils
             autoware_dummy_diag_publisher
             autoware_dummy_infrastructure
+            autoware_dummy_perception_publisher
             autoware_duplicated_node_checker
             autoware_ekf_localizer
             autoware_elevation_map_loader
@@ -102,20 +106,25 @@ jobs:
             autoware_freespace_planning_algorithms
             autoware_frenet_planner
             autoware_geo_pose_projector
+            autoware_geography_utils
             autoware_global_parameter_loader
             autoware_glog_component
             autoware_gnss_poser
             autoware_goal_distance_calculator
             autoware_grid_map_utils
             autoware_gyro_odometer
+            autoware_hazard_status_converter
             autoware_image_diagnostics
             autoware_image_projection_based_fusion
             autoware_image_transport_decompressor
             autoware_imu_corrector
             autoware_joy_controller
+            autoware_kalman_filter
+            autoware_kinematic_evaluator
             autoware_landmark_manager
             autoware_lane_departure_checker
             autoware_lanelet2_map_visualizer
+            autoware_learning_based_vehicle_model
             autoware_lidar_apollo_instance_segmentation
             autoware_lidar_centerpoint
             autoware_lidar_marker_localizer
@@ -123,6 +132,7 @@ jobs:
             autoware_livox_tag_filter
             autoware_localization_error_monitor
             autoware_localization_evaluator
+            autoware_localization_util
             autoware_map_based_prediction
             autoware_map_height_fitter
             autoware_map_loader
@@ -132,6 +142,9 @@ jobs:
             autoware_mission_planner_universe
             autoware_motion_utils
             autoware_motion_velocity_dynamic_obstacle_stop_module
+            autoware_motion_velocity_obstacle_cruise_module
+            autoware_motion_velocity_obstacle_slow_down_module
+            autoware_motion_velocity_obstacle_stop_module
             autoware_motion_velocity_obstacle_velocity_limiter_module
             autoware_motion_velocity_out_of_lane_module
             autoware_motion_velocity_planner_common_universe
@@ -142,6 +155,7 @@ jobs:
             autoware_mrm_handler
             autoware_multi_object_tracker
             autoware_ndt_scan_matcher
+            autoware_node
             autoware_object_range_splitter
             autoware_object_velocity_splitter
             autoware_objects_of_interest_marker_interface
@@ -150,6 +164,7 @@ jobs:
             autoware_obstacle_stop_planner
             autoware_occupancy_grid_map_outlier_filter
             autoware_operation_mode_transition_manager
+            autoware_osqp_interface
             autoware_overlay_rviz_plugin
             autoware_path_distance_calculator
             autoware_path_optimizer
@@ -172,6 +187,7 @@ jobs:
             autoware_probabilistic_occupancy_grid_map
             autoware_processing_time_checker
             autoware_pure_pursuit
+            autoware_qp_interface
             autoware_radar_crossing_objects_noise_filter
             autoware_radar_fusion_to_detected_object
             autoware_radar_object_clustering
@@ -198,12 +214,15 @@ jobs:
             autoware_stop_filter
             autoware_string_stamped_rviz_plugin
             autoware_surround_obstacle_checker
+            autoware_system_diagnostic_monitor
             autoware_system_monitor
             autoware_tensorrt_classifier
             autoware_tensorrt_yolox
+            autoware_test_node
             autoware_testing
             autoware_time_utils
             autoware_topic_relay_controller
+            autoware_topic_state_monitor
             autoware_tracking_object_merger
             autoware_traffic_light_arbiter
             autoware_traffic_light_classifier
@@ -222,19 +241,12 @@ jobs:
             autoware_vehicle_door_simulator
             autoware_vehicle_velocity_converter
             autoware_velocity_smoother
-            bag_time_manager_rviz_plugin
-            component_state_monitor
-            diagnostic_graph_aggregator
-            diagnostic_graph_utils
-            dummy_perception_publisher
-            hazard_status_converter
-            kinematic_evaluator
-            learning_based_vehicle_model
+            autoware_velodyne_monitor
             nebula_examples
+            nebula_sensor_driver
             nebula_tests
             perception_utils
             reaction_analyzer
-            system_diagnostic_monitor
             tier4_adapi_rviz_plugin
             tier4_api_msgs
             tier4_api_utils
@@ -266,8 +278,6 @@ jobs:
             tier4_v2x_msgs
             tier4_vehicle_launch
             tier4_vehicle_rviz_plugin
-            topic_state_monitor
-            velodyne_monitor
             yabloc_common
             yabloc_image_processing
             yabloc_monitor
