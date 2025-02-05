@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-euclidean-cluster
+Binary: ros-jazzy-autoware-euclidean-cluster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.05.10.58
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-euclidean-cluster - The autoware_euclidean_cluster package
+Changes:
+ ros-jazzy-autoware-euclidean-cluster (0-2025.02.05.10.58) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_euclidean_cluster)!: tier4_debug_msgs changed to autoware_internal_debug_msgs in autoware_euclidean_cluster (#9873 <https://github.com/autowarefoundation/autoware.universe/issues/9873>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_euclidean_cluster
+     Co-authored-by: Ryohsuke Mitsudome <mailto:43976834+mitsudome-r@users.noreply.github.com>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 2166c39e49eb70658f4406c792c056c3bdab16eb 5676696 ros-jazzy-autoware-euclidean-cluster-dbgsym_0-2025.02.05.10.58_amd64.ddeb
+ fc4e36dcbea5d73b40532cf771a69ec5dc54a47c 46168 ros-jazzy-autoware-euclidean-cluster_0-2025.02.05.10.58_amd64.buildinfo
+ 573324dc7ce597190517ec823dee8f709925e642 245384 ros-jazzy-autoware-euclidean-cluster_0-2025.02.05.10.58_amd64.deb
+Checksums-Sha256:
+ 61f972ab1af97f6eb45605381c4b6a7fcc5db5d7e65a2c8080635352192c2ed5 5676696 ros-jazzy-autoware-euclidean-cluster-dbgsym_0-2025.02.05.10.58_amd64.ddeb
+ 72c0464cc0fbda0f92c7dc3b9f155cc1e1f62d464964dab36b3a5a8171ed5e1f 46168 ros-jazzy-autoware-euclidean-cluster_0-2025.02.05.10.58_amd64.buildinfo
+ af2560c1522d6ba3f31ba826ca0934f4d457851a9c64e8ae0e6b74cd0deaef06 245384 ros-jazzy-autoware-euclidean-cluster_0-2025.02.05.10.58_amd64.deb
+Files:
+ 3ddb802370336da661c6f171f15d0c52 5676696 debug optional ros-jazzy-autoware-euclidean-cluster-dbgsym_0-2025.02.05.10.58_amd64.ddeb
+ fb802ece66c03c97c5102a0d9f8b940b 46168 misc optional ros-jazzy-autoware-euclidean-cluster_0-2025.02.05.10.58_amd64.buildinfo
+ 9aa95f217b5b418616787c17616a6eb3 245384 misc optional ros-jazzy-autoware-euclidean-cluster_0-2025.02.05.10.58_amd64.deb

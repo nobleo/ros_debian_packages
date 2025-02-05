@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-detected-object-feature-remover
+Binary: ros-jazzy-autoware-detected-object-feature-remover
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.05.11.39
+Distribution: noble
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-jazzy-autoware-detected-object-feature-remover - The autoware_detected_object_feature_remover package
+Changes:
+ ros-jazzy-autoware-detected-object-feature-remover (0-2025.02.05.11.39) noble; urgency=high
+Checksums-Sha1:
+ c0c64752cb056c26f808599505f5a61b09e74fe9 2097520 ros-jazzy-autoware-detected-object-feature-remover-dbgsym_0-2025.02.05.11.39_amd64.ddeb
+ de67642b5d1336f15d5b66fccd0a0e63048cc603 49789 ros-jazzy-autoware-detected-object-feature-remover_0-2025.02.05.11.39_amd64.buildinfo
+ 399628e294022f6b3df1b75ad8c109759f55b84c 135144 ros-jazzy-autoware-detected-object-feature-remover_0-2025.02.05.11.39_amd64.deb
+Checksums-Sha256:
+ ec196fde93b3c53c6d6968e16a7f53a175eef3c8b0e71738e4df468ab8b0530b 2097520 ros-jazzy-autoware-detected-object-feature-remover-dbgsym_0-2025.02.05.11.39_amd64.ddeb
+ 1dcb22b13bc48f07107890ac879282b67f0ae43d223332366b97f9a4ec4b500d 49789 ros-jazzy-autoware-detected-object-feature-remover_0-2025.02.05.11.39_amd64.buildinfo
+ a29386d5b4a7a7adff5f504654634d94f959dd7c4b8a9b65f027bfe9bd619779 135144 ros-jazzy-autoware-detected-object-feature-remover_0-2025.02.05.11.39_amd64.deb
+Files:
+ 7ac09d042810b8ec61e4d635d4e17bcb 2097520 debug optional ros-jazzy-autoware-detected-object-feature-remover-dbgsym_0-2025.02.05.11.39_amd64.ddeb
+ 4b4c0ae6027fa16664d76aa0911df0d3 49789 misc optional ros-jazzy-autoware-detected-object-feature-remover_0-2025.02.05.11.39_amd64.buildinfo
+ 7a8e12be09ef6344e32cbfdf0b145b14 135144 misc optional ros-jazzy-autoware-detected-object-feature-remover_0-2025.02.05.11.39_amd64.deb

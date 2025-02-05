@@ -1,0 +1,43 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-test-utils
+Binary: ros-jazzy-autoware-test-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.05.11.28
+Distribution: noble
+Urgency: high
+Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Changed-By: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
+Description:
+ ros-jazzy-autoware-test-utils - ROS 2 node for testing interface of the nodes in planning module
+Changes:
+ ros-jazzy-autoware-test-utils (0-2025.02.05.11.28) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * feat(autoware_planning_test_manager): remove dependency of tier4_planning_msgs::msg::LateralOffset (#9967 <https://github.com/autowarefoundation/autoware.universe/issues/9967>)
+     * feat(autoware_planning_test_manager): remove dependency of tier4_planning_msgs::msg::LateralOffset
+     * fix
+     ---------
+   * chore(autoware_test_utils): move rviz config to autoware_launch (#9925 <https://github.com/autowarefoundation/autoware.universe/issues/9925>)
+   * feat(autoware_test_utils): add visualization and yaml dumper for PathWithLaneId (#9841 <https://github.com/autowarefoundation/autoware.universe/issues/9841>)
+   * chore(autoware_test_utils): update test map (#9664 <https://github.com/autowarefoundation/autoware.universe/issues/9664>)
+   * feat(autoware_test_utils): add visualization (#9603 <https://github.com/autowarefoundation/autoware.universe/issues/9603>)
+   * refactor(autoware_test_utils): enhance makeMapBinMsg to accept package name and map filename parameters (#9617 <https://github.com/autowarefoundation/autoware.universe/issues/9617>)
+     * feat: enhance makeMapBinMsg to accept package name and map filename parameters
+     * feat: set default package name to 'autoware_test_utils' in makeMapBinMsg and related functions
+     ---------
+   * Contributors: Fumiya Watanabe, Kyoichi Sugahara, Mamoru Sobue, Ryohsuke Mitsudome, Takayuki Murooka
+Checksums-Sha1:
+ 2ec987655d62cd17e8315a42abadc3bea02a104c 7565410 ros-jazzy-autoware-test-utils-dbgsym_0-2025.02.05.11.28_amd64.ddeb
+ c575b4ecbcbfa116c7b3beae0d4de0a5c4812815 49478 ros-jazzy-autoware-test-utils_0-2025.02.05.11.28_amd64.buildinfo
+ 59f83f0d4021c45ce77b84354993ac327d22bb18 16637996 ros-jazzy-autoware-test-utils_0-2025.02.05.11.28_amd64.deb
+Checksums-Sha256:
+ ce639e460ac26f13b13751a612360a7e0b649cb3cb9314941bf034b45a5efde7 7565410 ros-jazzy-autoware-test-utils-dbgsym_0-2025.02.05.11.28_amd64.ddeb
+ 7e045e05c34d6193acc074ccd52638f55a7a04dd89c7ed0406930967ed707f7e 49478 ros-jazzy-autoware-test-utils_0-2025.02.05.11.28_amd64.buildinfo
+ 8bd78006cdde59e703ab1a01f523c0de368bd9a30c17fdd2685758b11bca143f 16637996 ros-jazzy-autoware-test-utils_0-2025.02.05.11.28_amd64.deb
+Files:
+ 7858fd0c1f02ca3e61c0ac0bf0accef0 7565410 debug optional ros-jazzy-autoware-test-utils-dbgsym_0-2025.02.05.11.28_amd64.ddeb
+ a3f3b7945f028509114b601eeb57e600 49478 misc optional ros-jazzy-autoware-test-utils_0-2025.02.05.11.28_amd64.buildinfo
+ f1edcd8fc2f3ffaac04581c304943e79 16637996 misc optional ros-jazzy-autoware-test-utils_0-2025.02.05.11.28_amd64.deb

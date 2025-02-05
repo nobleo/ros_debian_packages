@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-pcl-extensions
+Binary: ros-jazzy-autoware-pcl-extensions
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.05.09.45
+Distribution: noble
+Urgency: high
+Maintainer: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Changed-By: Ryu Yamamoto <ryu.yamamoto@tier4.jp>
+Description:
+ ros-jazzy-autoware-pcl-extensions - The autoware_pcl_extensions package
+Changes:
+ ros-jazzy-autoware-pcl-extensions (0-2025.02.05.09.45) noble; urgency=high
+Checksums-Sha1:
+ 388769318bc47bfdb43b26b3d727608a56357464 5325112 ros-jazzy-autoware-pcl-extensions-dbgsym_0-2025.02.05.09.45_amd64.ddeb
+ 2ed6e818bf060d5dad76d20e88202d56d3344d93 37837 ros-jazzy-autoware-pcl-extensions_0-2025.02.05.09.45_amd64.buildinfo
+ a09e7a147212c9872ce0b36c5c0b09a35b679194 133006 ros-jazzy-autoware-pcl-extensions_0-2025.02.05.09.45_amd64.deb
+Checksums-Sha256:
+ 63bdf5a6d714ea38a617b666176d17d0bca18d6532a57584b8147db7a7c72e6a 5325112 ros-jazzy-autoware-pcl-extensions-dbgsym_0-2025.02.05.09.45_amd64.ddeb
+ 453637d5b858243c93a7f918005e368d01435a1b1c9d366ac6dea045ab08d636 37837 ros-jazzy-autoware-pcl-extensions_0-2025.02.05.09.45_amd64.buildinfo
+ 13f9ed579cb6ee5976aaf6eade1c091634444a7f472548c54414e4af6bec8926 133006 ros-jazzy-autoware-pcl-extensions_0-2025.02.05.09.45_amd64.deb
+Files:
+ 8bb3686e406fc68cffa1b7eaaa7e21e1 5325112 debug optional ros-jazzy-autoware-pcl-extensions-dbgsym_0-2025.02.05.09.45_amd64.ddeb
+ 5b739529edf2f44feb19be014498dabf 37837 misc optional ros-jazzy-autoware-pcl-extensions_0-2025.02.05.09.45_amd64.buildinfo
+ 30abf089835b674e7000debad90669c5 133006 misc optional ros-jazzy-autoware-pcl-extensions_0-2025.02.05.09.45_amd64.deb

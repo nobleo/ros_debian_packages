@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 20 Mar 2022 00:00:00 -0000
+Source: ros-jazzy-boost-serial-driver
+Binary: ros-jazzy-boost-serial-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.02.05.10.35
+Distribution: noble
+Urgency: high
+Maintainer: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-jazzy-boost-serial-driver - A template class and associated utilities which encapsulate basic
+Changes:
+ ros-jazzy-boost-serial-driver (0-2025.02.05.10.35) noble; urgency=high
+ .
+   * Disable broken test.
+   * Fix linter errors.
+   * Contributors: WhitleySoftwareServices
+Checksums-Sha1:
+ 3008cfbf284f2d1ae657fb1dbe0933280074a5c1 2309756 ros-jazzy-boost-serial-driver-dbgsym_0-2025.02.05.10.35_amd64.ddeb
+ d10722c709ff086fda4f6f8804cc6bf7d6fa9fcc 18289 ros-jazzy-boost-serial-driver_0-2025.02.05.10.35_amd64.buildinfo
+ b2c00131737b963437dc59618abb3a7474169f0e 172836 ros-jazzy-boost-serial-driver_0-2025.02.05.10.35_amd64.deb
+Checksums-Sha256:
+ 33411320d7393203af55d684a07932dccfe5ba315683d69e114d013f28ee20e0 2309756 ros-jazzy-boost-serial-driver-dbgsym_0-2025.02.05.10.35_amd64.ddeb
+ a735095722d76e5943c9c33c0e61ce40254babd8416d4ed499a0a5ede127d89f 18289 ros-jazzy-boost-serial-driver_0-2025.02.05.10.35_amd64.buildinfo
+ da77d8b91c900a959cf5a4deadffadc19940fd43bd9dae1efa5a11d705251e6e 172836 ros-jazzy-boost-serial-driver_0-2025.02.05.10.35_amd64.deb
+Files:
+ 34c323c8250541475bf7fe2d2e0b9a4c 2309756 debug optional ros-jazzy-boost-serial-driver-dbgsym_0-2025.02.05.10.35_amd64.ddeb
+ 9191adda430e49a5ec19d08f2a36d2e7 18289 misc optional ros-jazzy-boost-serial-driver_0-2025.02.05.10.35_amd64.buildinfo
+ 5f17733c85bf936dcd8b3dbc2595b7d6 172836 misc optional ros-jazzy-boost-serial-driver_0-2025.02.05.10.35_amd64.deb

@@ -1,0 +1,37 @@
+repositories:
+  autoware.core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.core.git
+    version: 3f26d5245f5c161fc255a8c707cfdaca5c7c9710
+  autoware.universe:
+    type: git
+    url: https://github.com/nobleo/autoware.universe.git
+    version: f36180083883f46eaebb5295a923d186a728556d
+  mussp:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: c79e98fd5e658f4f90c06d93472faa977bc873b9
+  nebula:
+    type: git
+    url: https://github.com/nobleo/nebula.git
+    version: 11f86698809af2da38ddf6dd1b4061b68b7bcd6e
+  novatel_oem7_driver:
+    type: git
+    url: https://github.com/novatel/novatel_oem7_driver.git
+    version: 499020480b35e9cf58144d535d4bccc2fad2cc97
+  off_highway_sensor_drivers:
+    type: git
+    url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
+    version: 35de81aab81431ca0680e1abad52503d9eb1377f
+  tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: e6d504b0bf4fc80d994a92fc7a783bdca11ac8d0
+  transport_drivers:
+    type: git
+    url: https://github.com/mojomex/transport_drivers
+    version: 86b9aae8555dbb4a3103c21475d7f5e2d49981ab
+  zenoh-plugin-ros2dds:
+    type: git
+    url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
+    version: 6486b9067ec14206fdba4a20e6c8799d7378a0c2
