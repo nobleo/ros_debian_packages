@@ -10,8 +10,9 @@ repositories:
     version: nobleo-main
   nebula:
     type: git
-    url: https://github.com/tier4/nebula.git
-    version: main
+    url: https://github.com/nobleo/nebula.git
+    version: specify-lib-destination
+    #Until https://github.com/tier4/nebula/pull/261 is merged
   novatel_oem7_driver:
     type: git
     url: https://github.com/novatel/novatel_oem7_driver.git
