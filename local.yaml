@@ -1,0 +1,48 @@
+tier4_control_msgs:
+  ubuntu:
+  - ros-rolling-tier4-control-msgs
+tier4_debug_msgs:
+  ubuntu:
+  - ros-rolling-tier4-debug-msgs
+tier4_external_api_msgs:
+  ubuntu:
+  - ros-rolling-tier4-external-api-msgs
+tier4_localization_msgs:
+  ubuntu:
+  - ros-rolling-tier4-localization-msgs
+tier4_map_msgs:
+  ubuntu:
+  - ros-rolling-tier4-map-msgs
+tier4_metric_msgs:
+  ubuntu:
+  - ros-rolling-tier4-metric-msgs
+tier4_perception_msgs:
+  ubuntu:
+  - ros-rolling-tier4-perception-msgs
+tier4_planning_msgs:
+  ubuntu:
+  - ros-rolling-tier4-planning-msgs
+tier4_rtc_msgs:
+  ubuntu:
+  - ros-rolling-tier4-rtc-msgs
+tier4_simulation_msgs:
+  ubuntu:
+  - ros-rolling-tier4-simulation-msgs
+tier4_system_msgs:
+  ubuntu:
+  - ros-rolling-tier4-system-msgs
+tier4_v2x_msgs:
+  ubuntu:
+  - ros-rolling-tier4-v2x-msgs
+tier4_api_msgs:
+  ubuntu:
+  - ros-rolling-tier4-api-msgs
+tier4_hmi_msgs:
+  ubuntu:
+  - ros-rolling-tier4-hmi-msgs
+tier4_vehicle_msgs:
+  ubuntu:
+  - ros-rolling-tier4-vehicle-msgs
+tier4_auto_msgs_converter:
+  ubuntu:
+  - ros-rolling-tier4-auto-msgs-converter
