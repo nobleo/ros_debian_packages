@@ -11,8 +11,9 @@ repositories:
   nebula:
     type: git
     url: https://github.com/nobleo/nebula.git
-    version: specify-lib-destination
-    #Until https://github.com/tier4/nebula/pull/261 is merged
+    version: velodyne-launch-hw-dynamic
+    #Until https://github.com/tier4/nebula/pull/261
+    #Until dynamic reconfigure for enabling hw is merged
   novatel_oem7_driver:
     type: git
     url: https://github.com/novatel/novatel_oem7_driver.git
