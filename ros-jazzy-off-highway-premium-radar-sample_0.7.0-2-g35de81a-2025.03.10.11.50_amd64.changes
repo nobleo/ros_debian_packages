@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample
+Binary: ros-jazzy-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-2-g35de81a-2025.03.10.11.50
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample (0.7.0-2-g35de81a-2025.03.10.11.50) noble; urgency=high
+ .
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ 90baf50b43afe629f4cb99d9502cc7cc9bb62f3f 4870848 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.ddeb
+ 1022dff1312856e197569d2b4a05c61a2ec4a71f 45459 ros-jazzy-off-highway-premium-radar-sample_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.buildinfo
+ a256afaf98ab7ae6c603a17a8cc269b81f1af96c 291874 ros-jazzy-off-highway-premium-radar-sample_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.deb
+Checksums-Sha256:
+ b7bad7f0c84493327fe60501ed88631d65df84f7381444fb69c572ca1fd194de 4870848 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.ddeb
+ f2d58a7cb0484e03454b70ebe8c80a11aa818666926b8c9fa0590919c8467df6 45459 ros-jazzy-off-highway-premium-radar-sample_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.buildinfo
+ 3281a1901b3bb3fa243f803bcb329ae902978ec19dd00310bc2d154c6eadeb76 291874 ros-jazzy-off-highway-premium-radar-sample_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.deb
+Files:
+ 5219210d227348bdc0d8b2e6e0529d77 4870848 debug optional ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.ddeb
+ dcae6d7d41f703d0703a34db08cc1f0c 45459 misc optional ros-jazzy-off-highway-premium-radar-sample_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.buildinfo
+ 79bcce0c18cf8515b5bb37b7a0d68910 291874 misc optional ros-jazzy-off-highway-premium-radar-sample_0.7.0-2-g35de81a-2025.03.10.11.50_amd64.deb

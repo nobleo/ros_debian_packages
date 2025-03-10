@@ -1,0 +1,57 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-tensorrt-common
+Binary: ros-jazzy-autoware-tensorrt-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.10.11.01
+Distribution: noble
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-jazzy-autoware-tensorrt-common - tensorrt utility wrapper
+Changes:
+ ros-jazzy-autoware-tensorrt-common (0-2025.03.10.11.01) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * fix(autoware_tensorrt_common): fix bugprone-integer-division (#9660 <https://github.com/autowarefoundation/autoware.universe/issues/9660>)
+     fix: bugprone-error
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, kobayu858
+Checksums-Sha1:
+ 49e5cced5ad673e578052cf2a5412d944da32968 17151 ros-jazzy-autoware-tensorrt-common_0-2025.03.10.11.01_amd64.buildinfo
+ 4464d145c5e26ccd52e6d8589ab39d60751ccb30 2406 ros-jazzy-autoware-tensorrt-common_0-2025.03.10.11.01_amd64.deb
+Checksums-Sha256:
+ 2623ee291a5f74cf1175b5c39ef27437d4647da0461d569d9de358e0928b51a2 17151 ros-jazzy-autoware-tensorrt-common_0-2025.03.10.11.01_amd64.buildinfo
+ 984dc68d7670178634dfc73fc9f0a612b9ad6ac64261d4ca8baf066b768dfd13 2406 ros-jazzy-autoware-tensorrt-common_0-2025.03.10.11.01_amd64.deb
+Files:
+ 21dd669ad3a49aede64055fdd994ad34 17151 misc optional ros-jazzy-autoware-tensorrt-common_0-2025.03.10.11.01_amd64.buildinfo
+ 9a49476f1142eacd013e239793f3d7ce 2406 misc optional ros-jazzy-autoware-tensorrt-common_0-2025.03.10.11.01_amd64.deb

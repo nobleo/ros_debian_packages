@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-general-purpose-radar
+Binary: ros-jazzy-off-highway-general-purpose-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-2-g35de81a-2025.03.10.11.48
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-general-purpose-radar - The off_highway_general_purpose_radar package
+Changes:
+ ros-jazzy-off-highway-general-purpose-radar (0.7.0-2-g35de81a-2025.03.10.11.48) noble; urgency=high
+ .
+   * Register GPR component
+   * Contributors: Robin Petereit
+Checksums-Sha1:
+ dcfc4996fe86233c412d3a865cef725a25c2c325 2260560 ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.ddeb
+ 16f6c38fac08b94692d0b1d291a6c050f7ab0683 45498 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.buildinfo
+ 36e972ebf43f40cb1c4dd8ec6f100841207dd288 152540 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.deb
+Checksums-Sha256:
+ 9c06ca085d0a48eefac2086c7bec0ffd67d0928dd5fcf287cc88e106b7460c0c 2260560 ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.ddeb
+ d6e0d00bce656e7258b2d287768762de89d414cf61598c6792f4a1ce9994ffdb 45498 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.buildinfo
+ 3d55c953de6825d2dde524e7cff5555c41dd9c21cb3dd665810e56babf98f4e1 152540 ros-jazzy-off-highway-general-purpose-radar_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.deb
+Files:
+ 23d5bb26d22d4b8ef328079c0acb84c1 2260560 debug optional ros-jazzy-off-highway-general-purpose-radar-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.ddeb
+ ec5e1a4bae1f1cb8e06fab9136f89f35 45498 misc optional ros-jazzy-off-highway-general-purpose-radar_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.buildinfo
+ 51dc12e4927033410c59b4679fbade0f 152540 misc optional ros-jazzy-off-highway-general-purpose-radar_0.7.0-2-g35de81a-2025.03.10.11.48_amd64.deb

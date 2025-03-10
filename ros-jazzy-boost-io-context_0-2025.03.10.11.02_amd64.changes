@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 20 Mar 2022 00:00:00 -0000
+Source: ros-jazzy-boost-io-context
+Binary: ros-jazzy-boost-io-context
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.10.11.02
+Distribution: noble
+Urgency: high
+Maintainer: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-jazzy-boost-io-context - A library to write Synchronous and Asynchronous networking applic
+Changes:
+ ros-jazzy-boost-io-context (0-2025.03.10.11.02) noble; urgency=high
+ .
+   * Fix linter errors.
+   * Contributors: WhitleySoftwareServices
+Checksums-Sha1:
+ 7c14afbb4a0078c982bd6ef6ea2dd456bb8021ef 214458 ros-jazzy-boost-io-context-dbgsym_0-2025.03.10.11.02_amd64.ddeb
+ 2836d51f5b93b56acbc26b2c1f627e1ff28ab068 17681 ros-jazzy-boost-io-context_0-2025.03.10.11.02_amd64.buildinfo
+ 5b9ed92792ca35e51490c31b36841b49ef64c278 46774 ros-jazzy-boost-io-context_0-2025.03.10.11.02_amd64.deb
+Checksums-Sha256:
+ 8a9206ac73c1e417b09047df44c44632b23540bd85a3025e89c205a46c63f337 214458 ros-jazzy-boost-io-context-dbgsym_0-2025.03.10.11.02_amd64.ddeb
+ 06bb7a2ecb3f63dcf82c2c9a661442a4e847f301591b2c6f7609cbad8b94aa8a 17681 ros-jazzy-boost-io-context_0-2025.03.10.11.02_amd64.buildinfo
+ 19b95df0660d817c0c2f90e5aa447bbf86cf612f6767579d6a61d956cded9fba 46774 ros-jazzy-boost-io-context_0-2025.03.10.11.02_amd64.deb
+Files:
+ 2d951962f34592a2d8f2a951c1845f14 214458 debug optional ros-jazzy-boost-io-context-dbgsym_0-2025.03.10.11.02_amd64.ddeb
+ 67d0ad54e3d2c635684d79b7fb19e56a 17681 misc optional ros-jazzy-boost-io-context_0-2025.03.10.11.02_amd64.buildinfo
+ b1bc9cf8f8d98573a05a78eb40931f62 46774 misc optional ros-jazzy-boost-io-context_0-2025.03.10.11.02_amd64.deb

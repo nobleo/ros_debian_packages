@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample-msgs
+Binary: ros-jazzy-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.7.0-2-g35de81a-2025.03.10.11.12
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample-msgs (0.7.0-2-g35de81a-2025.03.10.11.12) noble; urgency=high
+ .
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ ea622907b96bd97ae5a212132547a04b6c63100a 916350 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.ddeb
+ ad6009ee439956e288f350dc89f9a7556423d7c1 15602 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.buildinfo
+ 1d5d1101ba4f86f02431be9d0c26a4c5b242e23d 284930 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.deb
+Checksums-Sha256:
+ 473db6ba83160f6d9d59558d98567d7db976ed4e99b51024b32dbb9a208dcb57 916350 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.ddeb
+ a8d4c43915f1f9aeab84fa39817ce3a8b416c12b53cf71d234901c8ea3dc634a 15602 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.buildinfo
+ eadcb6982ed5d2df660932c97b6555218bca04f4300ee18c737eebd3e60a53ae 284930 ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.deb
+Files:
+ 33dd38199ba7acf9d9e0aaa96172a797 916350 debug optional ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.ddeb
+ ebf10c8c9f9c0ade1f830313a91a592c 15602 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.buildinfo
+ 4e8379ff56ba1e9ab25cc6f319d1a97b 284930 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.7.0-2-g35de81a-2025.03.10.11.12_amd64.deb
