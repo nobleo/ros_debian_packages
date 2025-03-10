@@ -1,5 +1,5 @@
 ---
-# Do not forget to add the packages of interest to the colcon_defaults.yaml file
+# Do not forget to add the packages of interest to the colcon_jazzy.yaml file
 repositories:
   autoware.core:
     type: git

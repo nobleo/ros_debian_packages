@@ -7,6 +7,8 @@ on:
 jobs:
   jazzy:
     runs-on: ubuntu-24.04
+    env:
+      COLCON_DEFAULTS_FILE: ${{ github.workspace }}/colcon_jazzy.yaml
     steps:
       # https://github.com/jspricke/ros-deb-builder-action/issues/59
       # https://github.com/ros-infrastructure/bloom/pull/643
