@@ -12,7 +12,7 @@ jobs:
       # https://github.com/ros-infrastructure/bloom/pull/643
       # - uses: jspricke/ros-deb-builder-action@main
       - name: Set colcon file
-        run: echo "COLCON_DEFAULTS_FILE=${{ github.workspace }}/colcon_jazzy.yaml" >> /etc/os-release
+        run: echo "COLCON_DEFAULTS_FILE=${{ github.workspace }}/colcon_jazzy.yaml" | sudo tee --append /etc/os-release
       - uses: nobleo/ros-deb-builder-action@debian-compat-13
         with:
           ROS_DISTRO: jazzy
