@@ -3,7 +3,7 @@ repositories:
   autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: main
+    version: 0.2.0
   autoware.universe:
     type: git
     url: https://github.com/nobleo/autoware.universe.git
@@ -14,10 +14,6 @@ repositories:
     version: velodyne-launch-hw-dynamic
     #Until https://github.com/tier4/nebula/pull/261
     #Until dynamic reconfigure for enabling hw is merged
-  novatel_oem7_driver:
-    type: git
-    url: https://github.com/novatel/novatel_oem7_driver.git
-    version: jazzy-dev
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
