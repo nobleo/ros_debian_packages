@@ -11,13 +11,12 @@ jobs:
       # https://github.com/jspricke/ros-deb-builder-action/issues/59
       # https://github.com/ros-infrastructure/bloom/pull/643
       # - uses: jspricke/ros-deb-builder-action@main
-      - name: Set colcon file
-        run: echo "export COLCON_DEFAULTS_FILE=${{ github.workspace }}/colcon_jazzy.yaml" | sudo tee --append /etc/os-release
-      - uses: nobleo/ros-deb-builder-action@debian-compat-13
+      - uses: nobleo/ros-deb-builder-action@colcon-defaults-file
         with:
           ROS_DISTRO: jazzy
           DEB_DISTRO: noble
           ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
+          COLCON_DEFAULTS_FILE: ${{ github.workspace }}/colcon_jazzy.yaml
           # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} only on main branch
           GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
           REPOS_FILE: jazzy.repos
