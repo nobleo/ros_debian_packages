@@ -11,9 +11,8 @@ repositories:
     version: nobleo-main
   nebula:
     type: git
-    url: https://github.com/nobleo/nebula.git
-    version: velodyne-launch-hw-dynamic
-    #Until https://github.com/tier4/nebula/pull/261
+    url: https://github.com/agxeed/nebula.git
+    version: HARVEY2-751/nebula_no_ptp
     #Until dynamic reconfigure for enabling hw is merged
   off_highway_sensor_drivers:
     type: git
