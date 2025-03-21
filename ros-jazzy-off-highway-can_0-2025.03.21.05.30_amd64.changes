@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 04 Dec 2024 00:00:00 -0000
+Source: ros-jazzy-off-highway-can
+Binary: ros-jazzy-off-highway-can
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.21.05.30
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-can - The off_highway_can package
+Changes:
+ ros-jazzy-off-highway-can (0-2025.03.21.05.30) noble; urgency=high
+ .
+   * Update docs for CAN FD
+   * Check matching lengths in decoding
+   * Allow start bits in CAN FD range
+   * Make CRC and message counter optional
+   * Enable processing of CAN FD frames
+   * Remove unused definitions
+   * Do not force warnings as errors to fix rolling (#11)
+   * Contributors: Robin Petereit, Tim Clephas
+Checksums-Sha1:
+ ed1ccc2e29f626a8bd2ab59d1c1333a859409306 3097802 ros-jazzy-off-highway-can-dbgsym_0-2025.03.21.05.30_amd64.ddeb
+ d58710a659b8a509935c4a6c2065ba891bdcedf4 17985 ros-jazzy-off-highway-can_0-2025.03.21.05.30_amd64.buildinfo
+ d35eaf4f4f0f3525a6373f08aff31d28be42b248 153334 ros-jazzy-off-highway-can_0-2025.03.21.05.30_amd64.deb
+Checksums-Sha256:
+ 0f74851f33a32c52e47f6a0caec4a8fa04adc9f0e88914cea50711d6314c001e 3097802 ros-jazzy-off-highway-can-dbgsym_0-2025.03.21.05.30_amd64.ddeb
+ 8fa597b7aefe6f4d8727083010641a16ce51bb88c8ff03fe7a4a340b0c9045cf 17985 ros-jazzy-off-highway-can_0-2025.03.21.05.30_amd64.buildinfo
+ c129e52f2d48aa13e598ff914f789b44a8e6c6038633da58001cbfa6604325cd 153334 ros-jazzy-off-highway-can_0-2025.03.21.05.30_amd64.deb
+Files:
+ 0e44f155217d0116fb23127b13598d06 3097802 debug optional ros-jazzy-off-highway-can-dbgsym_0-2025.03.21.05.30_amd64.ddeb
+ 57af029a3c9aaf9ef7528e3731b48472 17985 misc optional ros-jazzy-off-highway-can_0-2025.03.21.05.30_amd64.buildinfo
+ 1dd6b982d5521d87130ce26ed6abb345 153334 misc optional ros-jazzy-off-highway-can_0-2025.03.21.05.30_amd64.deb

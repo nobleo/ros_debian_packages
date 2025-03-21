@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-object-recognition-utils
+Binary: ros-jazzy-autoware-object-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.03.21.06.39
+Distribution: noble
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-jazzy-autoware-object-recognition-utils - The autoware_object_recognition_utils package
+Changes:
+ ros-jazzy-autoware-object-recognition-utils (0-2025.03.21.06.39) noble; urgency=high
+Checksums-Sha1:
+ 3f8538a066e4ad636986461c91a8be777dde9a4b 174762 ros-jazzy-autoware-object-recognition-utils-dbgsym_0-2025.03.21.06.39_amd64.ddeb
+ d6534135de978913ee861dbc11a78df76328e412 46057 ros-jazzy-autoware-object-recognition-utils_0-2025.03.21.06.39_amd64.buildinfo
+ 2f39a67b711fb636e6632c9c1fd8d1d99822a5d5 22712 ros-jazzy-autoware-object-recognition-utils_0-2025.03.21.06.39_amd64.deb
+Checksums-Sha256:
+ 0092a31bba221a819e2e16fb3b194d935b9a8d2f3fa7e0767de2a5359102b610 174762 ros-jazzy-autoware-object-recognition-utils-dbgsym_0-2025.03.21.06.39_amd64.ddeb
+ cf9972a84dd7c5f66624277e6ef3cb3d89d0a2e8ca778299ffcbe8585c834b7a 46057 ros-jazzy-autoware-object-recognition-utils_0-2025.03.21.06.39_amd64.buildinfo
+ f00b408dcc4268771d15994ffd584de575adc32912a06f9192060803e2c174ab 22712 ros-jazzy-autoware-object-recognition-utils_0-2025.03.21.06.39_amd64.deb
+Files:
+ 02a5ca02cee4ec8be7d2f63650648869 174762 debug optional ros-jazzy-autoware-object-recognition-utils-dbgsym_0-2025.03.21.06.39_amd64.ddeb
+ e0843dbb843b7358007ad8c8bb25c6cf 46057 misc optional ros-jazzy-autoware-object-recognition-utils_0-2025.03.21.06.39_amd64.buildinfo
+ 456852d41a8fa9c9f94b5b520c008425 22712 misc optional ros-jazzy-autoware-object-recognition-utils_0-2025.03.21.06.39_amd64.deb
