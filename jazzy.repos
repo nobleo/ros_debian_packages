@@ -1,4 +1,5 @@
 ---
+# Do not forget to add the packages of interest to the colcon_jazzy.yaml file
 repositories:
   autoware.core:
     type: git
@@ -10,9 +11,8 @@ repositories:
     version: nobleo-main
   nebula:
     type: git
-    url: https://github.com/nobleo/nebula.git
-    version: velodyne-launch-hw-dynamic
-    #Until https://github.com/tier4/nebula/pull/261
+    url: https://github.com/agxeed/nebula.git
+    version: HARVEY2-751/nebula_no_ptp
     #Until dynamic reconfigure for enabling hw is merged
   off_highway_sensor_drivers:
     type: git
@@ -23,6 +23,7 @@ repositories:
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
   # As per: https://github.com/tier4/nebula/blob/main/build_depends.repos
+  # Until: https://github.com/tier4/nebula/issues/267
   transport_drivers:
     type: git
     url: https://github.com/mojomex/transport_drivers

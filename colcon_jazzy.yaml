@@ -1,0 +1,17 @@
+list:
+  packages-up-to:
+    - autoware_detected_object_feature_remover
+    - autoware_detection_by_tracker
+    - autoware_euclidean_cluster
+    - autoware_ground_segmentation
+    - autoware_ground_segmentation
+    - autoware_object_merger
+    - autoware_perception_rviz_plugin
+    - autoware_pointcloud_preprocessor
+    - autoware_shape_estimation
+    - nebula_decoders
+    - nebula_ros
+    - off_highway_premium_radar_sample
+    - off_highway_radar
+    - off_highway_uss
+    - zenoh_bridge_ros2dds
