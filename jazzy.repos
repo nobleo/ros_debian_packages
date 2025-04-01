@@ -1,14 +1,18 @@
 ---
 # Do not forget to add the packages of interest to the colcon_jazzy.yaml file
 repositories:
-  autoware.core:
+  autoware_utils:
     type: git
-    url: https://github.com/autowarefoundation/autoware.core.git
-    version: 0.2.0
-  autoware.universe:
+    url: https://github.com/nobleo/autoware_utils.git
+    version: fix/jazzy
+  autoware_core:
     type: git
-    url: https://github.com/nobleo/autoware.universe.git
-    version: nobleo-main
+    url: https://github.com/nobleo/autoware_core.git
+    version: drop-local-cartesian
+  autoware_universe:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: main
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
