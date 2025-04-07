@@ -9,11 +9,6 @@ repositories:
     type: git
     url: https://github.com/nobleo/autoware.universe.git
     version: nobleo-main
-  nebula:
-    type: git
-    url: https://github.com/agxeed/nebula.git
-    version: HARVEY2-751/nebula_no_ptp
-    #Until dynamic reconfigure for enabling hw is merged
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
