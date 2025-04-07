@@ -17,5 +17,12 @@ list:
     - zenoh_bridge_ros2dds
 build:
   cmake-args:
+    # To get autoware to build under jazzy
     - "-DBUILD_TESTING=OFF"
     - "-DCMAKE_CXX_FLAGS=-Wno-error=maybe-uninitialized -Wno-error=uninitialized -Wno-error=cpp -Wno-error=deprecated-declarations"
+    # Optimizations
+    - "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
+    - "-DCMAKE_EXE_LINKER_FLAGS=-Wl,--compress-debug-sections=zlib"
+    - "-DCMAKE_SHARED_LINKER_FLAGS=-Wl,--compress-debug-sections=zlib"
+    - "-Wno-dev"
+    - "--no-warn-unused-cli"
