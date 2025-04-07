@@ -17,7 +17,5 @@ list:
     - zenoh_bridge_ros2dds
 build:
   cmake-args:
-  - "-DBUILD_TESTING=OFF"
-  - "--no-warn-unused-cli"
-  - "-Wno-error"
-  - "-Wno-dev"
+    - "-DBUILD_TESTING=OFF"
+    - "-DCMAKE_CXX_FLAGS=-Wno-error=maybe-uninitialized -Wno-error=uninitialized -Wno-error=cpp -Wno-error=deprecated-declarations"
