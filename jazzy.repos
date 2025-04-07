@@ -17,6 +17,12 @@ repositories:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
     version: tier4/universe
+  # As per: https://github.com/tier4/nebula/blob/main/build_depends.repos
+  # Until: https://github.com/tier4/nebula/issues/267
+  transport_drivers:
+    type: git
+    url: https://github.com/mojomex/transport_drivers
+    version: feat-set-rmem
   mussp:
     type: git
     url: https://github.com/tier4/muSSP.git

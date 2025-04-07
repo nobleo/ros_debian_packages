@@ -9,6 +9,8 @@ list:
     - autoware_perception_rviz_plugin
     - autoware_pointcloud_preprocessor
     - autoware_shape_estimation
+    - boost_tcp_driver
+    - boost_udp_driver
     - off_highway_premium_radar_sample
     - off_highway_radar
     - off_highway_uss
