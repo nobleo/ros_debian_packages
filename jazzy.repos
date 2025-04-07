@@ -3,7 +3,8 @@
 repositories:
   autoware_utils:
     type: git
-    url: https://github.com/autowarefoundation/autoware_utils.git
+    url: https://github.com/nobleo/autoware_utils.git
+    version: nobleo/jazzy
   autoware_core:
     type: git
     url: https://github.com/nobleo/autoware_core.git
