@@ -3,12 +3,12 @@
 repositories:
   autoware_utils:
     type: git
-    url: https://github.com/nobleo/autoware_utils.git
-    version: nobleo/jazzy
+    url: https://github.com/autowarefoundation/autoware_utils.git
+    version: feat/jazzy-buildable
   autoware_core:
     type: git
-    url: https://github.com/nobleo/autoware_core.git
-    version: drop-local-cartesian
+    url: https://github.com/autowarefoundation/autoware_core.git
+    version: main
   autoware_universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
