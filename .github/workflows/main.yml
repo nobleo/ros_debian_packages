@@ -3,6 +3,11 @@ name: builder
 on:
   workflow_dispatch:
   push:
+  schedule:
+    - cron: '13 2 * * *'  # Every day at 02:13 UTC
+
+env:  # Only set the github token on the main branch on push events. Otherwise only build is verified but no binaries pushed
+  EFFECTIVE_GITHUB_TOKEN: ${{ (github.event_name != 'schedule' && github.ref == 'refs/heads/main') && secrets.GITHUB_TOKEN || '' }}
 
 jobs:
   jazzy:
@@ -18,8 +23,7 @@ jobs:
           DEB_DISTRO: noble
           ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
           COLCON_DEFAULTS_FILE: ${{ github.workspace }}/colcon_jazzy.yaml
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} only on main branch
-          GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
+          GITHUB_TOKEN: "${{ env.EFFECTIVE_GITHUB_TOKEN }}"
           REPOS_FILE: jazzy.repos
           GIT_LFS: true
           SBUILD_CONF: '$enable_network = 1;'  # For rmw_zenoh and novatel
@@ -32,8 +36,7 @@ jobs:
           ROS_DISTRO: rolling
           DEB_DISTRO: noble
           ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} only on main branch
-          GITHUB_TOKEN: "${{ github.ref == 'refs/heads/main' && secrets.GITHUB_TOKEN || '' }}"
+          GITHUB_TOKEN: "${{ env.EFFECTIVE_GITHUB_TOKEN }}"
           REPOS_FILE: rolling.repos
           GIT_LFS: true
           SBUILD_CONF: '$enable_network = 1;'  # For rmw_zenoh and novatel
