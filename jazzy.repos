@@ -3,11 +3,11 @@
 repositories:
   autoware.core:
     type: git
-    url: https://github.com/nobleo/autoware.core.git
+    url: https://github.com/nobleo/autoware_core.git
     version: message_filters/hpp
   autoware.universe:
     type: git
-    url: https://github.com/nobleo/autoware.universe.git
+    url: https://github.com/nobleo/autoware_universe.git
     version: message_filters/hpp
   off_highway_sensor_drivers:
     type: git
