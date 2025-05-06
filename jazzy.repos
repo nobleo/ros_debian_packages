@@ -3,7 +3,7 @@
 repositories:
   autoware.core:
     type: git
-    url: https://github.com/autowarefoundation/autoware.core.git
+    url: https://github.com/nobleo/autoware.core.git
     version: message_filters/hpp
   autoware.universe:
     type: git
