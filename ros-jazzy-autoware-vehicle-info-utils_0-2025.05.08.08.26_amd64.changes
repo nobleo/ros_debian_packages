@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-vehicle-info-utils
+Binary: ros-jazzy-autoware-vehicle-info-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.08.08.26
+Distribution: noble
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-jazzy-autoware-vehicle-info-utils - The autoware_vehicle_info_utils package
+Changes:
+ ros-jazzy-autoware-vehicle-info-utils (0-2025.05.08.08.26) noble; urgency=high
+Checksums-Sha1:
+ b163028646c1897fafd02c150a6eb7055e8e2e65 334358 ros-jazzy-autoware-vehicle-info-utils-dbgsym_0-2025.05.08.08.26_amd64.ddeb
+ 2ae9fe0d8b96fb507556f4670bc11bb12a60cbd2 46259 ros-jazzy-autoware-vehicle-info-utils_0-2025.05.08.08.26_amd64.buildinfo
+ 752cff12bcee0d96bf2eb86d8d94a105a9e5c8bc 21876 ros-jazzy-autoware-vehicle-info-utils_0-2025.05.08.08.26_amd64.deb
+Checksums-Sha256:
+ ab7308d859f9913f301099877593b58c4a78791333a13fbdc68fdd77152679a9 334358 ros-jazzy-autoware-vehicle-info-utils-dbgsym_0-2025.05.08.08.26_amd64.ddeb
+ c1a19eca91358db82241eafb82a3b47fbd3f3ce2bdff04a55c8461111cf4ae38 46259 ros-jazzy-autoware-vehicle-info-utils_0-2025.05.08.08.26_amd64.buildinfo
+ bbda1bb70386eb72cf57cb19f2d89e500301a5ec4eebb2ea45e1ebef9ea8204a 21876 ros-jazzy-autoware-vehicle-info-utils_0-2025.05.08.08.26_amd64.deb
+Files:
+ decdb7779f4e6725fc931630135f68c6 334358 debug optional ros-jazzy-autoware-vehicle-info-utils-dbgsym_0-2025.05.08.08.26_amd64.ddeb
+ 2dab3d9716122b74956fc4047319c7bd 46259 misc optional ros-jazzy-autoware-vehicle-info-utils_0-2025.05.08.08.26_amd64.buildinfo
+ 3de0a8189e7417ce614f46517701c348 21876 misc optional ros-jazzy-autoware-vehicle-info-utils_0-2025.05.08.08.26_amd64.deb

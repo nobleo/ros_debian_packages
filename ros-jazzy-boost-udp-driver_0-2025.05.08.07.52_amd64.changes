@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sun, 20 Mar 2022 00:00:00 -0000
+Source: ros-jazzy-boost-udp-driver
+Binary: ros-jazzy-boost-udp-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.08.07.52
+Distribution: noble
+Urgency: high
+Maintainer: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Changed-By: Joshua Whitley <whitleysoftwareservices@gmail.com>
+Description:
+ ros-jazzy-boost-udp-driver - A library to write Synchronous and Asynchronous networking applic
+Changes:
+ ros-jazzy-boost-udp-driver (0-2025.05.08.07.52) noble; urgency=high
+ .
+   * Fix linter errors.
+   * Contributors: WhitleySoftwareServices
+Checksums-Sha1:
+ 9124ff8825e94795ebe466f0f1d83d36ade5dd36 2914130 ros-jazzy-boost-udp-driver-dbgsym_0-2025.05.08.07.52_amd64.ddeb
+ 3d827236a13e39c1b72a451460d5281a25369f9e 25543 ros-jazzy-boost-udp-driver_0-2025.05.08.07.52_amd64.buildinfo
+ 5c9d94c4d0b523d1cd1498f69d9dd8254eeb4926 188448 ros-jazzy-boost-udp-driver_0-2025.05.08.07.52_amd64.deb
+Checksums-Sha256:
+ 2dfb8018e1b2bb0b0c9ebe1a7510b2f121d533a1289be8be6adc5f5c7bd423df 2914130 ros-jazzy-boost-udp-driver-dbgsym_0-2025.05.08.07.52_amd64.ddeb
+ a553d0e9b626f35be403edcc28a617a122397adc5d5fe18d0c2152fad4d995e8 25543 ros-jazzy-boost-udp-driver_0-2025.05.08.07.52_amd64.buildinfo
+ 955db3bde0f0c7a477d387a848a140685c8c842c8dabdd63741055105b0295a7 188448 ros-jazzy-boost-udp-driver_0-2025.05.08.07.52_amd64.deb
+Files:
+ bc2ce0baa7dc62b65426bddec5c059c8 2914130 debug optional ros-jazzy-boost-udp-driver-dbgsym_0-2025.05.08.07.52_amd64.ddeb
+ cc222f25fde3755bde0157487eba0f26 25543 misc optional ros-jazzy-boost-udp-driver_0-2025.05.08.07.52_amd64.buildinfo
+ 435ef705f9aeb5a1d2008cc8a5671c27 188448 misc optional ros-jazzy-boost-udp-driver_0-2025.05.08.07.52_amd64.deb
