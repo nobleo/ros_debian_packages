@@ -1,0 +1,66 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-shape-estimation
+Binary: ros-jazzy-autoware-shape-estimation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.23.14.03
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-shape-estimation - This package implements a shape estimation algorithm as a ROS 2 n
+Changes:
+ ros-jazzy-autoware-shape-estimation (0-2025.05.23.14.03) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_shape_estimation): tier4_debug_msgs chnaged to autoware_internal_debug_msgs in autoware_shape_estimation (#9897 <https://github.com/autowarefoundation/autoware.universe/issues/9897>)
+     feat: tier4_debug_msgs chnaged to autoware_internal_debug_msgs in files  perception/autoware_shape_estimation
+   * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components (#9762 <https://github.com/autowarefoundation/autoware.universe/issues/9762>)
+     * refactor(autoware_tensorrt_common): multi-TensorRT compatibility & tensorrt_common as unified lib for all perception components
+     * style(pre-commit): autofix
+     * style(autoware_tensorrt_common): linting
+     * style(autoware_lidar_centerpoint): typo
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * docs(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_lidar_transfusion): reuse cast variable
+     * fix(autoware_tensorrt_common): remove deprecated inference API
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * style(autoware_tensorrt_common): grammar
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     * fix(autoware_tensorrt_common): const pointer
+     * fix(autoware_tensorrt_common): remove unused method declaration
+     * style(pre-commit): autofix
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): return if layer not registered
+     * refactor(autoware_tensorrt_common): readability
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+     * fix(autoware_tensorrt_common): rename struct
+     * style(pre-commit): autofix
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Kenzo Lobos Tsunekawa <mailto:kenzo.lobos@tier4.jp>
+     Co-authored-by: Kotaro Uetake <mailto:60615504+ktro2828@users.noreply.github.com>
+   * fix(autoware_shape_estimation): fix bugprone-branch-clone (#9659 <https://github.com/autowarefoundation/autoware.universe/issues/9659>)
+     * fix: bugprone-error
+     * fix: fmt
+     * fix: pre-commit
+     * fix: pre-commit
+     ---------
+   * Contributors: Amadeusz Szymko, Fumiya Watanabe, Vishal Chauhan, kobayu858
+Checksums-Sha1:
+ 23b8f65607cb20accf6e94585dfa323bb8f9051d 4218516 ros-jazzy-autoware-shape-estimation-dbgsym_0-2025.05.23.14.03_amd64.ddeb
+ 177de741291e511b6a994c8b8193a15ed9e3eb6d 49364 ros-jazzy-autoware-shape-estimation_0-2025.05.23.14.03_amd64.buildinfo
+ 70fe88d35e4a0ae025fd07bbed86ca668ef4b943 178578 ros-jazzy-autoware-shape-estimation_0-2025.05.23.14.03_amd64.deb
+Checksums-Sha256:
+ a805cf931862e1990ace0101830f51f435056913b46534716ab6e74468d95b9e 4218516 ros-jazzy-autoware-shape-estimation-dbgsym_0-2025.05.23.14.03_amd64.ddeb
+ 431954c35019dc8a8ffb48e2545e86c7b78c3c4058050359c3a09fee322dc8bf 49364 ros-jazzy-autoware-shape-estimation_0-2025.05.23.14.03_amd64.buildinfo
+ 6863f324d20b0460a3f3b8d279d6c0d9784177aed61b8f9eaab5859380bb6718 178578 ros-jazzy-autoware-shape-estimation_0-2025.05.23.14.03_amd64.deb
+Files:
+ 1744cbec332f92fc1c8e1276501a955d 4218516 debug optional ros-jazzy-autoware-shape-estimation-dbgsym_0-2025.05.23.14.03_amd64.ddeb
+ 001d887bf79d5b0d1d7c1c9d1d6e1146 49364 misc optional ros-jazzy-autoware-shape-estimation_0-2025.05.23.14.03_amd64.buildinfo
+ ed56d7081f8a7dff05e01bac09ded8de 178578 misc optional ros-jazzy-autoware-shape-estimation_0-2025.05.23.14.03_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample
+Binary: ros-jazzy-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.05.23.13.38
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample (0.8.0-2025.05.23.13.38) noble; urgency=high
+Checksums-Sha1:
+ a4e0793e0b9c9e83d90f57373f405f7fdff9642e 4869196 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.05.23.13.38_amd64.ddeb
+ e4ac94aee546611b8d9d8df10483fe0c9404aab8 45430 ros-jazzy-off-highway-premium-radar-sample_0.8.0-2025.05.23.13.38_amd64.buildinfo
+ 75b14d4c9702f4979f9e610d363a4cd46fb2bc75 292862 ros-jazzy-off-highway-premium-radar-sample_0.8.0-2025.05.23.13.38_amd64.deb
+Checksums-Sha256:
+ 99ba882b31eae2fd1fa4ac8e7358b1109fcd94b4e64ba8614d9ed8c742ec975d 4869196 ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.05.23.13.38_amd64.ddeb
+ afb4fa6bae035b456e6e401a18f4959d3e337c3f8897358e6f8dadb375bac37d 45430 ros-jazzy-off-highway-premium-radar-sample_0.8.0-2025.05.23.13.38_amd64.buildinfo
+ d0c5106e9ee0650aed4750b0de47fc1d6da3d951f1542ab8502d1403cbd18dd1 292862 ros-jazzy-off-highway-premium-radar-sample_0.8.0-2025.05.23.13.38_amd64.deb
+Files:
+ 239beffe22764f4d794872ceb079bf58 4869196 debug optional ros-jazzy-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.05.23.13.38_amd64.ddeb
+ 91f145ff6e5db354d25a783708460ecd 45430 misc optional ros-jazzy-off-highway-premium-radar-sample_0.8.0-2025.05.23.13.38_amd64.buildinfo
+ b4ceb69097ae2a4b8024281075b40543 292862 misc optional ros-jazzy-off-highway-premium-radar-sample_0.8.0-2025.05.23.13.38_amd64.deb

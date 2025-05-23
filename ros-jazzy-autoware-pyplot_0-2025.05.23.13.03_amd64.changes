@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-pyplot
+Binary: ros-jazzy-autoware-pyplot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.23.13.03
+Distribution: noble
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-jazzy-autoware-pyplot - C++ interface for matplotlib based on pybind11
+Changes:
+ ros-jazzy-autoware-pyplot (0-2025.05.23.13.03) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_test_utils): add visualization (#9603 <https://github.com/autowarefoundation/autoware.universe/issues/9603>)
+   * Contributors: Fumiya Watanabe, Mamoru Sobue
+Checksums-Sha1:
+ cda8540f4272d6a1816b36833b0446a313f9b93c 11472 ros-jazzy-autoware-pyplot_0-2025.05.23.13.03_amd64.buildinfo
+ 42a9b72f16f5fa2f32c5403997c0b006c9edd6b0 157338 ros-jazzy-autoware-pyplot_0-2025.05.23.13.03_amd64.deb
+Checksums-Sha256:
+ ac92a98573897e654834c0f3abc52532f17e452820536950010a737bf5146766 11472 ros-jazzy-autoware-pyplot_0-2025.05.23.13.03_amd64.buildinfo
+ b2fff632121e09b7b3d91029cff97be83643657c8a9809397474b6b515180d44 157338 ros-jazzy-autoware-pyplot_0-2025.05.23.13.03_amd64.deb
+Files:
+ 0fe6d4f3586e1be3db5a80ea2884b336 11472 misc optional ros-jazzy-autoware-pyplot_0-2025.05.23.13.03_amd64.buildinfo
+ d687e7da14eba6ba1e0193c1be388c3b 157338 misc optional ros-jazzy-autoware-pyplot_0-2025.05.23.13.03_amd64.deb

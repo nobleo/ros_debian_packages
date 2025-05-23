@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Fri, 07 Feb 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-point-types
+Binary: ros-jazzy-autoware-point-types
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.2.0-2025.05.23.13.01
+Distribution: noble
+Urgency: high
+Maintainer: David Wong <david.wong@tier4.jp>
+Changed-By: David Wong <david.wong@tier4.jp>
+Description:
+ ros-jazzy-autoware-point-types - The point types definition to use point_cloud_msg_wrapper
+Changes:
+ ros-jazzy-autoware-point-types (0.2.0-2025.05.23.13.01) noble; urgency=high
+ .
+   * unify version to 0.1.0
+   * update changelog
+   * feat: port autoware_point_types from autoware.universe (#151 <https://github.com/autowarefoundation/autoware.core/issues/151>)
+     * feat: port autoware_point_types from universe
+     * chore: remove change log and reset version to 0.0.0
+     * add myself as maintainer
+     * docs: finish README.md
+     * style(pre-commit): autofix
+     * fix: fix pre-commit.ci error
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Yutaka Kondo, cyn-liu
+   * feat: port autoware_point_types from autoware.universe (#151 <https://github.com/autowarefoundation/autoware.core/issues/151>)
+     * feat: port autoware_point_types from universe
+     * chore: remove change log and reset version to 0.0.0
+     * add myself as maintainer
+     * docs: finish README.md
+     * style(pre-commit): autofix
+     * fix: fix pre-commit.ci error
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: cyn-liu
+Checksums-Sha1:
+ 1c4ec5aba5e42ef98d0859f15f3ac97f47236767 44793 ros-jazzy-autoware-point-types_0.2.0-2025.05.23.13.01_amd64.buildinfo
+ d4d63f4fba547a15bde461972fc6b80e65500d8c 8108 ros-jazzy-autoware-point-types_0.2.0-2025.05.23.13.01_amd64.deb
+Checksums-Sha256:
+ 72ebfae574e18e2b32de13e9efa7f0ef22f5b55127a44e3a93946f765829d4bc 44793 ros-jazzy-autoware-point-types_0.2.0-2025.05.23.13.01_amd64.buildinfo
+ 025d9b525b2337d87f8ed848c39f805cb84783fc044ff1ff51e19c977815f3ff 8108 ros-jazzy-autoware-point-types_0.2.0-2025.05.23.13.01_amd64.deb
+Files:
+ 7cf0d2f6a5236c7b82a92b5e4735ebac 44793 misc optional ros-jazzy-autoware-point-types_0.2.0-2025.05.23.13.01_amd64.buildinfo
+ 8d9ac4deca953d176105d3f92cd6f646 8108 misc optional ros-jazzy-autoware-point-types_0.2.0-2025.05.23.13.01_amd64.deb
