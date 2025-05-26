@@ -34,6 +34,7 @@ jobs:
           ROS_DISTRO: kilted
           DEB_DISTRO: noble
           ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
+          COLCON_DEFAULTS_FILE: ${{ github.workspace }}/colcon_kilted.yaml
           GITHUB_TOKEN: "${{ env.EFFECTIVE_GITHUB_TOKEN }}"
           REPOS_FILE: rolling.repos
           GIT_LFS: true
@@ -47,6 +48,7 @@ jobs:
           ROS_DISTRO: rolling
           DEB_DISTRO: noble
           ROSDEP_SOURCE: "yaml https://github.com/nobleo/ros_debian_packages/raw/main/rosdep/source.yaml"
+          COLCON_DEFAULTS_FILE: ${{ github.workspace }}/colcon_kilted.yaml
           GITHUB_TOKEN: "${{ env.EFFECTIVE_GITHUB_TOKEN }}"
           REPOS_FILE: rolling.repos
           GIT_LFS: true
