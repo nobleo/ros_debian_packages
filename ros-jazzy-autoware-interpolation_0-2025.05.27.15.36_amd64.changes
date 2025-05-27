@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-interpolation
+Binary: ros-jazzy-autoware-interpolation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.05.27.15.36
+Distribution: noble
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-jazzy-autoware-interpolation - The spline interpolation package
+Changes:
+ ros-jazzy-autoware-interpolation (0-2025.05.27.15.36) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * fix(autoware_interpolation): remove clang compiler error (#9711 <https://github.com/autowarefoundation/autoware.universe/issues/9711>)
+   * Contributors: Fumiya Watanabe, Ryuta Kambe
+Checksums-Sha1:
+ ee632d521fd427afe340b1055e56e4c639b8b059 700234 ros-jazzy-autoware-interpolation-dbgsym_0-2025.05.27.15.36_amd64.ddeb
+ 14049c80c2c016b31216d456258c24bb21230e8f 46214 ros-jazzy-autoware-interpolation_0-2025.05.27.15.36_amd64.buildinfo
+ e2b986ca0b4f5f5bbe02e4cb8ebca61c66a838de 31134 ros-jazzy-autoware-interpolation_0-2025.05.27.15.36_amd64.deb
+Checksums-Sha256:
+ 8b94e5eb676e98778110f5af6e77404fac47de369b7e1ab9db322dbc46b0343e 700234 ros-jazzy-autoware-interpolation-dbgsym_0-2025.05.27.15.36_amd64.ddeb
+ bff47d68a0eefc4fd76675638d41a27a4dff6c74dd9d73bead8bfe325fd329a3 46214 ros-jazzy-autoware-interpolation_0-2025.05.27.15.36_amd64.buildinfo
+ a229852ae942998630a3b8aff410d4b2a19d8e512edaa30205833d8f2834e81c 31134 ros-jazzy-autoware-interpolation_0-2025.05.27.15.36_amd64.deb
+Files:
+ 0f8cfc5fb1080e66ed3a7f5b5374abf5 700234 debug optional ros-jazzy-autoware-interpolation-dbgsym_0-2025.05.27.15.36_amd64.ddeb
+ 4a487caec5d12e069436984e053345ad 46214 misc optional ros-jazzy-autoware-interpolation_0-2025.05.27.15.36_amd64.buildinfo
+ be0b7d2660454c2c7523e715edaf48c2 31134 misc optional ros-jazzy-autoware-interpolation_0-2025.05.27.15.36_amd64.deb

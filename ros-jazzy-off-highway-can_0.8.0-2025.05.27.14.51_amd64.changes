@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-jazzy-off-highway-can
+Binary: ros-jazzy-off-highway-can
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.05.27.14.51
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-can - The off_highway_can package
+Changes:
+ ros-jazzy-off-highway-can (0.8.0-2025.05.27.14.51) noble; urgency=high
+ .
+   * Move test to emphasize external FOSS
+   * Add tests for encoding by round
+   * Replace truncation of physical value with round outside of FOSS
+     Minimizes the floating point error such that half
+     offset of resolution in tests is not needed
+     anymore.
+   * Contributors: Calin-Vasile Sopterean, Robin Petereit
+Checksums-Sha1:
+ 597bdd8ff1a0233e9a69c4b89671407c52ed9897 3094724 ros-jazzy-off-highway-can-dbgsym_0.8.0-2025.05.27.14.51_amd64.ddeb
+ a49244bf3498c3b01390d9f0ed0c744517facdac 18019 ros-jazzy-off-highway-can_0.8.0-2025.05.27.14.51_amd64.buildinfo
+ 219e8f5a00d6b4904da35657d25479e1e3d69e1d 153226 ros-jazzy-off-highway-can_0.8.0-2025.05.27.14.51_amd64.deb
+Checksums-Sha256:
+ d34aa0c90e92d4f926647b392f3e79121cb99710f342a6cd71831c46a82a0217 3094724 ros-jazzy-off-highway-can-dbgsym_0.8.0-2025.05.27.14.51_amd64.ddeb
+ 0e617a859b7918558a85ba6899a12cd58e2f647502265420c03a40d2069301fd 18019 ros-jazzy-off-highway-can_0.8.0-2025.05.27.14.51_amd64.buildinfo
+ 0fd6afac3e02399d25ceb7c8a601e0e961bbb3262ff79dae119c47096c3309c5 153226 ros-jazzy-off-highway-can_0.8.0-2025.05.27.14.51_amd64.deb
+Files:
+ e6907e81e3ab08b594dea21447605747 3094724 debug optional ros-jazzy-off-highway-can-dbgsym_0.8.0-2025.05.27.14.51_amd64.ddeb
+ d5071b35cf136e57e2d019f29d292a60 18019 misc optional ros-jazzy-off-highway-can_0.8.0-2025.05.27.14.51_amd64.buildinfo
+ 0fe50904b01cac5f2eaac0e9af7cb417 153226 misc optional ros-jazzy-off-highway-can_0.8.0-2025.05.27.14.51_amd64.deb
