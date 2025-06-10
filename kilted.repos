@@ -1,5 +1,10 @@
 ---
 repositories:
+  autoware_utils:
+    # Until: https://github.com/orgs/autowarefoundation/discussions/6212
+    type: git
+    url: https://github.com/autowarefoundation/autoware_utils.git
+    version: 1.4.2
   novatel_oem7_driver:
     # Until: https://github.com/novatel/novatel_oem7_driver/issues/99
     type: git
