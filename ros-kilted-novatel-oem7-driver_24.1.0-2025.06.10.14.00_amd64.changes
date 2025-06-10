@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Mon, 17 Mar 2025 00:00:00 -0000
+Source: ros-kilted-novatel-oem7-driver
+Binary: ros-kilted-novatel-oem7-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 24.1.0-2025.06.10.14.00
+Distribution: noble
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-kilted-novatel-oem7-driver - NovAtel Oem7 ROS Driver
+Changes:
+ ros-kilted-novatel-oem7-driver (24.1.0-2025.06.10.14.00) noble; urgency=high
+ .
+   Odometry Bug Fixes
+   Modifications:
+   * Odometry is no longer published when the receiver position type = None
+   * Similar Changes as Release 20.7.0 for Humble
+Checksums-Sha1:
+ 5ff06b14dff6da65780d929f587a520574a0ed90 16008988 ros-kilted-novatel-oem7-driver-dbgsym_24.1.0-2025.06.10.14.00_amd64.ddeb
+ 04399d3281653fd497306c122ebf1abb65ecae44 28372 ros-kilted-novatel-oem7-driver_24.1.0-2025.06.10.14.00_amd64.buildinfo
+ 9fa3e7c80c5b8819f17e2bbe67dbc80bc7ae71b2 695406 ros-kilted-novatel-oem7-driver_24.1.0-2025.06.10.14.00_amd64.deb
+Checksums-Sha256:
+ 5cdc6b903f920dc1317bc23aa4dfb3a6a427979a556828982ea755414a60b6e6 16008988 ros-kilted-novatel-oem7-driver-dbgsym_24.1.0-2025.06.10.14.00_amd64.ddeb
+ 7d03300c08e60cf83788ea5df44ae0019d37816a208d01750b63523d7ef8f72c 28372 ros-kilted-novatel-oem7-driver_24.1.0-2025.06.10.14.00_amd64.buildinfo
+ ef5c3c4fa92276953d3bb1bc1b51d99abd4ce45d68fa5fbeb9351e67533e60bc 695406 ros-kilted-novatel-oem7-driver_24.1.0-2025.06.10.14.00_amd64.deb
+Files:
+ 6438ae86496faab0a28698f454661541 16008988 debug optional ros-kilted-novatel-oem7-driver-dbgsym_24.1.0-2025.06.10.14.00_amd64.ddeb
+ b975b48f7ab5d89f4afd9887aa462fc2 28372 misc optional ros-kilted-novatel-oem7-driver_24.1.0-2025.06.10.14.00_amd64.buildinfo
+ 22ae06f6e41b0397d98ec79120b9d139 695406 misc optional ros-kilted-novatel-oem7-driver_24.1.0-2025.06.10.14.00_amd64.deb

@@ -1,3 +1,6 @@
+novatel_oem7_msgs:
+  ubuntu:
+  - ros-kilted-novatel-oem7-msgs
 tier4_control_msgs:
   ubuntu:
   - ros-kilted-tier4-control-msgs
@@ -34,6 +37,9 @@ tier4_system_msgs:
 tier4_v2x_msgs:
   ubuntu:
   - ros-kilted-tier4-v2x-msgs
+novatel_oem7_driver:
+  ubuntu:
+  - ros-kilted-novatel-oem7-driver
 tier4_api_msgs:
   ubuntu:
   - ros-kilted-tier4-api-msgs
