@@ -4,11 +4,15 @@ repositories:
   autoware_core:
     type: git
     url: https://github.com/autowarefoundation/autoware_core.git
+    version: 1.1.0
+  autoware_rviz_plugins:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_rviz_plugins.git
     version: main
   autoware_universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: main
+    version: 0.44.1
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
@@ -16,7 +20,7 @@ repositories:
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: tier4/universe
+    version: v0.47.0
   # As per: https://github.com/tier4/nebula/blob/main/build_depends.repos
   # Until: https://github.com/tier4/nebula/issues/267
   transport_drivers:
