@@ -1,10 +1,6 @@
 ---
 # Do not forget to add the packages of interest to the colcon_jazzy.yaml file
 repositories:
-  autoware_utils:
-    type: git
-    url: https://github.com/autowarefoundation/autoware_utils.git
-    version: feat/jazzy-buildable
   autoware_core:
     type: git
     url: https://github.com/autowarefoundation/autoware_core.git
