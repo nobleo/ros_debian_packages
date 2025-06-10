@@ -11,8 +11,8 @@ repositories:
     version: main
   autoware_universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 0.44.1
+    url: https://github.com/nobleo/autoware.universe.git
+    version: pr-10586-pr-10791
   managed_transform_buffer:
     type: git
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
