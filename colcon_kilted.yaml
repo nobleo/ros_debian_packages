@@ -1,5 +1,17 @@
 list:
   packages-up-to:
+    - autoware_utils
+    - autoware_utils_debug
+    - autoware_utils_diagnostics
+    - autoware_utils_geometry
+    - autoware_utils_logging
+    - autoware_utils_math
+    - autoware_utils_pcl
+    - autoware_utils_rclcpp
+    - autoware_utils_system
+    - autoware_utils_tf
+    - autoware_utils_uuid
+    - autoware_utils_visualization
     - tier4_control_msgs
     - tier4_debug_msgs
     - tier4_localization_msgs

@@ -13,6 +13,10 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
     version: 0.44.1
+  managed_transform_buffer:
+    type: git
+    url: https://github.com/autowarefoundation/managed_transform_buffer.git
+    version: 0.1.0
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
