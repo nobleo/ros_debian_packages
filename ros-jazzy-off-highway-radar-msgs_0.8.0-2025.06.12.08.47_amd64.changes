@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-jazzy-off-highway-radar-msgs
+Binary: ros-jazzy-off-highway-radar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.06.12.08.47
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-radar-msgs - The off_highway_radar_msgs package
+Changes:
+ ros-jazzy-off-highway-radar-msgs (0.8.0-2025.06.12.08.47) noble; urgency=high
+ .
+   * rosidl_default_generators is technically a <buildtool_depend> (#13)
+     rosidl_default_generators is technically a buildtool_depend
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ 6de5471d72351d21b659f55014ac9534fffaa1db 289780 ros-jazzy-off-highway-radar-msgs-dbgsym_0.8.0-2025.06.12.08.47_amd64.ddeb
+ be7857a1157e5b1e8cd779e2ec579e0a7b8792b1 15395 ros-jazzy-off-highway-radar-msgs_0.8.0-2025.06.12.08.47_amd64.buildinfo
+ 7c300573b6d383b4b15a82bfe4df11c254330707 89034 ros-jazzy-off-highway-radar-msgs_0.8.0-2025.06.12.08.47_amd64.deb
+Checksums-Sha256:
+ 9ccc9f6057884ef5e7d8dc8011f562444abcd613292ca1c5eb6465e0eae0740f 289780 ros-jazzy-off-highway-radar-msgs-dbgsym_0.8.0-2025.06.12.08.47_amd64.ddeb
+ 637d9c77485fbbf91af29453604ac1888f22c981bdf354b8de1d0f0608b0e3df 15395 ros-jazzy-off-highway-radar-msgs_0.8.0-2025.06.12.08.47_amd64.buildinfo
+ f4016f8c73ac571d17408dc0bb52430ad47fc63de0346eba1cd70a4a89d02577 89034 ros-jazzy-off-highway-radar-msgs_0.8.0-2025.06.12.08.47_amd64.deb
+Files:
+ 947ffdb9d1f66d1edec954b2c1e15436 289780 debug optional ros-jazzy-off-highway-radar-msgs-dbgsym_0.8.0-2025.06.12.08.47_amd64.ddeb
+ 1abac9184cef5049c8a2e3bda58fe0fa 15395 misc optional ros-jazzy-off-highway-radar-msgs_0.8.0-2025.06.12.08.47_amd64.buildinfo
+ c6e41a6e3c11916e51dfac93838f53b6 89034 misc optional ros-jazzy-off-highway-radar-msgs_0.8.0-2025.06.12.08.47_amd64.deb

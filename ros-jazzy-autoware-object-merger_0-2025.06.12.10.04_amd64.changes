@@ -1,0 +1,51 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-object-merger
+Binary: ros-jazzy-autoware-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.06.12.10.04
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-object-merger - The autoware_object_merger package
+Changes:
+ ros-jazzy-autoware-object-merger (0-2025.06.12.10.04) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_object_merger): tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9893 <https://github.com/autowarefoundation/autoware.universe/issues/9893>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_object_merger
+     Co-authored-by: Taekjin LEE <mailto:taekjin.lee@tier4.jp>
+   * fix(perception): fix perception docs (#9766 <https://github.com/autowarefoundation/autoware.universe/issues/9766>)
+     * fix: fix perception docs
+     * fix: fix missing parameter in schema
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * Update perception/autoware_object_merger/schema/data_association_matrix.schema.json
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     * style(pre-commit): autofix
+     * chore: seperate paramters for different nodes
+     ---------
+     Co-authored-by: Taekjin LEE <mailto:technolojin@gmail.com>
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * feat(autoware_object_merger, autoware_tracking_object_merger): enable anonymized node names to be configurable (#9733 <https://github.com/autowarefoundation/autoware.universe/issues/9733>)
+     feat: enable anonymized node names to be configurable
+   * Contributors: Fumiya Watanabe, Taekjin LEE, Vishal Chauhan, Yi-Hsiang Fang (Vivid)
+Checksums-Sha1:
+ 5d7bdf0f9ea788404165e501cdc35e308f3b8702 5436904 ros-jazzy-autoware-object-merger-dbgsym_0-2025.06.12.10.04_amd64.ddeb
+ 6f7107b41408cce19bd09583618c43e481efd320 46505 ros-jazzy-autoware-object-merger_0-2025.06.12.10.04_amd64.buildinfo
+ e02113dc095d23dca0ed7228c509a437c95497a1 300076 ros-jazzy-autoware-object-merger_0-2025.06.12.10.04_amd64.deb
+Checksums-Sha256:
+ 511d3448553f4b907b9e8096e0a3af6a8e313896d467b324328a9c4d97cc09ec 5436904 ros-jazzy-autoware-object-merger-dbgsym_0-2025.06.12.10.04_amd64.ddeb
+ de1c86e9bcafc2c1f9e66183c34c420b92e521f2872dde36e567a1480b0ba345 46505 ros-jazzy-autoware-object-merger_0-2025.06.12.10.04_amd64.buildinfo
+ 229a08ee7ad04e112f2115e9dbe0805bce24dbb8ec42b19f25b08e39bbe8e1d3 300076 ros-jazzy-autoware-object-merger_0-2025.06.12.10.04_amd64.deb
+Files:
+ b8d5f2eb58fc3b9b6eef9ace055df27a 5436904 debug optional ros-jazzy-autoware-object-merger-dbgsym_0-2025.06.12.10.04_amd64.ddeb
+ fde57489f991186ed428ef20b04eb893 46505 misc optional ros-jazzy-autoware-object-merger_0-2025.06.12.10.04_amd64.buildinfo
+ 00cb8393f546297823288bda3926c50b 300076 misc optional ros-jazzy-autoware-object-merger_0-2025.06.12.10.04_amd64.deb

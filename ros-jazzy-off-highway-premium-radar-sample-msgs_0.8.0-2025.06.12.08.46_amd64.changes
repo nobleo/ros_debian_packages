@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-jazzy-off-highway-premium-radar-sample-msgs
+Binary: ros-jazzy-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.06.12.08.46
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-jazzy-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-jazzy-off-highway-premium-radar-sample-msgs (0.8.0-2025.06.12.08.46) noble; urgency=high
+ .
+   * rosidl_default_generators is technically a <buildtool_depend> (#13)
+     rosidl_default_generators is technically a buildtool_depend
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ 3928ac780888f756aa22cd3a83929b3fd4b13c09 902158 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.06.12.08.46_amd64.ddeb
+ 45c2aba8d2c88a6e4218b4fe99f72deafdbbf104 15533 ros-jazzy-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.46_amd64.buildinfo
+ 754bc42864bc45087413aff6cb50b357fdc36d06 285040 ros-jazzy-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.46_amd64.deb
+Checksums-Sha256:
+ e9cb15ded21c5924146ec25649164a0e94dddc8d82a70bb59bf829b74dec7b6e 902158 ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.06.12.08.46_amd64.ddeb
+ 110122538efc32aa481c504e415750a4e85f4fe1c1d0347bf8820e47366e5beb 15533 ros-jazzy-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.46_amd64.buildinfo
+ ccadc690cddf9824caf40715094ca2b5a16fe8fac1ba564b9b110162295c603e 285040 ros-jazzy-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.46_amd64.deb
+Files:
+ 0c12ff2ee58c57572490e73672156587 902158 debug optional ros-jazzy-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.06.12.08.46_amd64.ddeb
+ 6f21616d4469e82af2a385af59566f83 15533 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.46_amd64.buildinfo
+ 4eb5307905cba482cd9004171a4bb081 285040 misc optional ros-jazzy-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.46_amd64.deb

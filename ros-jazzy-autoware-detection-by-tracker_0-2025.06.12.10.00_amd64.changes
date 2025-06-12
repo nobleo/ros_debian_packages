@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-detection-by-tracker
+Binary: ros-jazzy-autoware-detection-by-tracker
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.06.12.10.00
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-detection-by-tracker - The ROS 2 autoware_detection_by_tracker package
+Changes:
+ ros-jazzy-autoware-detection-by-tracker (0-2025.06.12.10.00) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in fil… (#9880 <https://github.com/autowarefoundation/autoware.universe/issues/9880>)
+     feat: tier4_debug_msgs changed to autoware_internal_debug_msgs in files perception/autoware_detection_by_tracker
+     Co-authored-by: Taekjin LEE <mailto:taekjin.lee@tier4.jp>
+   * Contributors: Fumiya Watanabe, Vishal Chauhan
+Checksums-Sha1:
+ 48a43cc25cd8281b09f3a58c576beb8dc888b980 5514732 ros-jazzy-autoware-detection-by-tracker-dbgsym_0-2025.06.12.10.00_amd64.ddeb
+ 901096c75b85c02752ac3023812f4ec03f6a5ef5 49896 ros-jazzy-autoware-detection-by-tracker_0-2025.06.12.10.00_amd64.buildinfo
+ d3b4e313fa6d07efd7c628a08af36a643a0f336e 299866 ros-jazzy-autoware-detection-by-tracker_0-2025.06.12.10.00_amd64.deb
+Checksums-Sha256:
+ ea55dc9f0c31f243113ccef187af8585af21617a35d8e75b51dc92d6b126aa69 5514732 ros-jazzy-autoware-detection-by-tracker-dbgsym_0-2025.06.12.10.00_amd64.ddeb
+ 3e85d74a395639534fa92080252eb49bd1976d535405f7d2ce0b31a57bec320f 49896 ros-jazzy-autoware-detection-by-tracker_0-2025.06.12.10.00_amd64.buildinfo
+ 33140e2d0f9715b08eedb19649d5e0bf9245ab013dc2a6b1cb58574f5761374f 299866 ros-jazzy-autoware-detection-by-tracker_0-2025.06.12.10.00_amd64.deb
+Files:
+ f2807adce767167eccb27ba77e3df27c 5514732 debug optional ros-jazzy-autoware-detection-by-tracker-dbgsym_0-2025.06.12.10.00_amd64.ddeb
+ 0f8bc0a5b744e257e07393244550e3dc 49896 misc optional ros-jazzy-autoware-detection-by-tracker_0-2025.06.12.10.00_amd64.buildinfo
+ 2dbf395c865463c023458ffad325a0f4 299866 misc optional ros-jazzy-autoware-detection-by-tracker_0-2025.06.12.10.00_amd64.deb

@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-component-interface-specs-universe
+Binary: ros-jazzy-autoware-component-interface-specs-universe
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.06.12.09.25
+Distribution: noble
+Urgency: high
+Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
+Changed-By: Takagi, Isamu <isamu.takagi@tier4.jp>
+Description:
+ ros-jazzy-autoware-component-interface-specs-universe - The autoware_component_interface_specs_universe package
+Changes:
+ ros-jazzy-autoware-component-interface-specs-universe (0-2025.06.12.09.25) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * feat(autoware_component_interface_specs_universe!): rename package (#9753 <https://github.com/autowarefoundation/autoware.universe/issues/9753>)
+   * Contributors: Fumiya Watanabe, Ryohsuke Mitsudome
+Checksums-Sha1:
+ 4a9a636ca95a4b56da4e4b65bdb1bf68aa39b1cb 18467 ros-jazzy-autoware-component-interface-specs-universe_0-2025.06.12.09.25_amd64.buildinfo
+ 434fef5a5fd8d5fd1c4300d8d9a370291d710da3 9530 ros-jazzy-autoware-component-interface-specs-universe_0-2025.06.12.09.25_amd64.deb
+Checksums-Sha256:
+ c20a6ac3ab2e495932dbca653150f61e69f6f26d834270ba8b01bfbffe90e824 18467 ros-jazzy-autoware-component-interface-specs-universe_0-2025.06.12.09.25_amd64.buildinfo
+ 4848de40e8927de9b641877594ac0663707783c5a3500f34fa8804418d8ef0cf 9530 ros-jazzy-autoware-component-interface-specs-universe_0-2025.06.12.09.25_amd64.deb
+Files:
+ 3912aa835bd5a23c09bb614cdc55b922 18467 misc optional ros-jazzy-autoware-component-interface-specs-universe_0-2025.06.12.09.25_amd64.buildinfo
+ 2fed0a17d201bd1d806f192142f8e8dc 9530 misc optional ros-jazzy-autoware-component-interface-specs-universe_0-2025.06.12.09.25_amd64.deb

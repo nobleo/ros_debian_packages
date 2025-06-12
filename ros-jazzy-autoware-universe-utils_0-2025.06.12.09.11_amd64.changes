@@ -1,0 +1,52 @@
+Format: 1.8
+Date: Wed, 29 Jan 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-universe-utils
+Binary: ros-jazzy-autoware-universe-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.06.12.09.11
+Distribution: noble
+Urgency: high
+Maintainer: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Changed-By: Takamasa Horibe <takamasa.horibe@tier4.jp>
+Description:
+ ros-jazzy-autoware-universe-utils - The autoware_universe_utils package
+Changes:
+ ros-jazzy-autoware-universe-utils (0-2025.06.12.09.11) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/bot/bump_version_base
+   * refactor(autoware_universe_utils): add missing 's' in the class of diagnostics_interface (#9777 <https://github.com/autowarefoundation/autoware.universe/issues/9777>)
+   * feat(behavior_path_planner): use autoware internal stamped messages (#9750 <https://github.com/autowarefoundation/autoware.universe/issues/9750>)
+     * feat(behavior_path_planner): use autoware internal stamped messages
+     * fix universe_utils
+     ---------
+   * feat!: move diagnostics_module from localization_util to unverse_utils (#9714 <https://github.com/autowarefoundation/autoware.universe/issues/9714>)
+     * feat!: move diagnostics_module from localization_util to unverse_utils
+     * remove diagnostics module from localization_util
+     * style(pre-commit): autofix
+     * minor fix in pose_initializer
+     * add test
+     * style(pre-commit): autofix
+     * remove unnecessary declaration
+     * module -> interface
+     * remove unnecessary equal expression
+     * revert the remove of template function
+     * style(pre-commit): autofix
+     * use overload instead
+     * include what you use -- test_diagnostics_interface.cpp
+     ---------
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * fix(autoware_universe_utils): fix bug in test (#9710 <https://github.com/autowarefoundation/autoware.universe/issues/9710>)
+   * Contributors: Fumiya Watanabe, Ryuta Kambe, Takayuki Murooka, kminoda
+Checksums-Sha1:
+ 44d8a28dd2051d802c6b5707e7c3f20ec6b4a186 4216254 ros-jazzy-autoware-universe-utils-dbgsym_0-2025.06.12.09.11_amd64.ddeb
+ 2c745f0e0cf00ce0052424181c5bd773edd5fc35 46287 ros-jazzy-autoware-universe-utils_0-2025.06.12.09.11_amd64.buildinfo
+ 5ae115f5a6b127a93301ac992412e04f55292bd0 323344 ros-jazzy-autoware-universe-utils_0-2025.06.12.09.11_amd64.deb
+Checksums-Sha256:
+ c0b5f7d80ef40cb9bd7783177e877d47da27e82ca6235d1e398b0bccc25aa95e 4216254 ros-jazzy-autoware-universe-utils-dbgsym_0-2025.06.12.09.11_amd64.ddeb
+ a4c7fd37f43ab024b94ae44dcc4a6b61fe0d0a1f39cf2bda2e8f237c20c9fb32 46287 ros-jazzy-autoware-universe-utils_0-2025.06.12.09.11_amd64.buildinfo
+ 4d0b53b4d6c3cd918e014edd401cfc29e48d3899c9ba040e0f717bda846d8561 323344 ros-jazzy-autoware-universe-utils_0-2025.06.12.09.11_amd64.deb
+Files:
+ 10b77a970be7394e54db9f683285b71f 4216254 debug optional ros-jazzy-autoware-universe-utils-dbgsym_0-2025.06.12.09.11_amd64.ddeb
+ a29104d67b9a6dc56fd9e77415898859 46287 misc optional ros-jazzy-autoware-universe-utils_0-2025.06.12.09.11_amd64.buildinfo
+ 5f3565b93c4ede2be3b74b44aea0fd42 323344 misc optional ros-jazzy-autoware-universe-utils_0-2025.06.12.09.11_amd64.deb

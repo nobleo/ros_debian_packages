@@ -1,0 +1,117 @@
+autoware_cuda_utils:
+  ubuntu:
+  - ros-jazzy-autoware-cuda-utils
+autoware_pcl_extensions:
+  ubuntu:
+  - ros-jazzy-autoware-pcl-extensions
+autoware_perception_rviz_plugin:
+  ubuntu:
+  - ros-jazzy-autoware-perception-rviz-plugin
+autoware_point_types:
+  ubuntu:
+  - ros-jazzy-autoware-point-types
+autoware_pyplot:
+  ubuntu:
+  - ros-jazzy-autoware-pyplot
+autoware_tensorrt_common:
+  ubuntu:
+  - ros-jazzy-autoware-tensorrt-common
+boost_io_context:
+  ubuntu:
+  - ros-jazzy-boost-io-context
+boost_tcp_driver:
+  ubuntu:
+  - ros-jazzy-boost-tcp-driver
+mussp:
+  ubuntu:
+  - ros-jazzy-mussp
+off_highway_can:
+  ubuntu:
+  - ros-jazzy-off-highway-can
+off_highway_premium_radar_sample_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-premium-radar-sample-msgs
+off_highway_radar_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-radar-msgs
+off_highway_uss_msgs:
+  ubuntu:
+  - ros-jazzy-off-highway-uss-msgs
+tier4_control_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-control-msgs
+tier4_debug_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-debug-msgs
+tier4_localization_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-localization-msgs
+tier4_perception_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-perception-msgs
+tier4_planning_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-planning-msgs
+tier4_system_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-system-msgs
+zenoh_bridge_ros2dds:
+  ubuntu:
+  - ros-jazzy-zenoh-bridge-ros2dds
+autoware_component_interface_utils:
+  ubuntu:
+  - ros-jazzy-autoware-component-interface-utils
+autoware_universe_utils:
+  ubuntu:
+  - ros-jazzy-autoware-universe-utils
+boost_udp_driver:
+  ubuntu:
+  - ros-jazzy-boost-udp-driver
+off_highway_premium_radar_sample:
+  ubuntu:
+  - ros-jazzy-off-highway-premium-radar-sample
+off_highway_radar:
+  ubuntu:
+  - ros-jazzy-off-highway-radar
+off_highway_uss:
+  ubuntu:
+  - ros-jazzy-off-highway-uss
+tier4_vehicle_msgs:
+  ubuntu:
+  - ros-jazzy-tier4-vehicle-msgs
+autoware_component_interface_specs_universe:
+  ubuntu:
+  - ros-jazzy-autoware-component-interface-specs-universe
+autoware_euclidean_cluster:
+  ubuntu:
+  - ros-jazzy-autoware-euclidean-cluster
+autoware_interpolation:
+  ubuntu:
+  - ros-jazzy-autoware-interpolation
+autoware_pointcloud_preprocessor:
+  ubuntu:
+  - ros-jazzy-autoware-pointcloud-preprocessor
+autoware_shape_estimation:
+  ubuntu:
+  - ros-jazzy-autoware-shape-estimation
+autoware_vehicle_info_utils:
+  ubuntu:
+  - ros-jazzy-autoware-vehicle-info-utils
+autoware_ground_segmentation:
+  ubuntu:
+  - ros-jazzy-autoware-ground-segmentation
+autoware_object_recognition_utils:
+  ubuntu:
+  - ros-jazzy-autoware-object-recognition-utils
+autoware_test_utils:
+  ubuntu:
+  - ros-jazzy-autoware-test-utils
+autoware_detected_object_feature_remover:
+  ubuntu:
+  - ros-jazzy-autoware-detected-object-feature-remover
+autoware_detection_by_tracker:
+  ubuntu:
+  - ros-jazzy-autoware-detection-by-tracker
+autoware_object_merger:
+  ubuntu:
+  - ros-jazzy-autoware-object-merger
