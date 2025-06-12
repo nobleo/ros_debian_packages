@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-sensor-drivers-examples
+Binary: ros-kilted-off-highway-sensor-drivers-examples
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.06.12.09.17
+Distribution: noble
+Urgency: high
+Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
+Changed-By: Sarah Huber <sarah.huber@de.bosch.com>
+Description:
+ ros-kilted-off-highway-sensor-drivers-examples - The off_highway_sensor_drivers_examples package
+Changes:
+ ros-kilted-off-highway-sensor-drivers-examples (0.8.0-2025.06.12.09.17) noble; urgency=high
+ .
+   * Fix path for checkout
+   * Checkout compatible pcl_ros version (#14)
+     Update README.md
+     Compatible pcl_ros versione with off_highway_sensor_drivers_examples
+   * Contributors: Jacopo Zecchi, Robin Petereit
+Checksums-Sha1:
+ 779e077f8a7bc07cddb722315ffa763dc7ea59dc 2282882 ros-kilted-off-highway-sensor-drivers-examples-dbgsym_0.8.0-2025.06.12.09.17_amd64.ddeb
+ 2e917b76ad278169853dde98619a58aabf3e3b4b 17695 ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.06.12.09.17_amd64.buildinfo
+ 3b03ae9df4d8384bc4edc85cca9f8359191c42b6 124762 ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.06.12.09.17_amd64.deb
+Checksums-Sha256:
+ d22ab02d2b21efc73f7e3f3a3dd8752957d1bf59da5b3050f0c9cf3399fb97dc 2282882 ros-kilted-off-highway-sensor-drivers-examples-dbgsym_0.8.0-2025.06.12.09.17_amd64.ddeb
+ 8f028ca4b6c81787bdadc3de150886b50f2b29763eaa0abd1bb17a6213e7b4d4 17695 ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.06.12.09.17_amd64.buildinfo
+ 9f824482058c89680fe98e967e4a25ec03744fce7d098fba0d1b835f08d5c821 124762 ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.06.12.09.17_amd64.deb
+Files:
+ a6203dd38c4a82693d696b3d3347316d 2282882 debug optional ros-kilted-off-highway-sensor-drivers-examples-dbgsym_0.8.0-2025.06.12.09.17_amd64.ddeb
+ 654f0d78229b27c429b392065123cea4 17695 misc optional ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.06.12.09.17_amd64.buildinfo
+ 587e0d381521566123745b78c4863a52 124762 misc optional ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.06.12.09.17_amd64.deb

@@ -1,6 +1,21 @@
 novatel_oem7_msgs:
   ubuntu:
   - ros-kilted-novatel-oem7-msgs
+off_highway_can:
+  ubuntu:
+  - ros-kilted-off-highway-can
+off_highway_general_purpose_radar_msgs:
+  ubuntu:
+  - ros-kilted-off-highway-general-purpose-radar-msgs
+off_highway_premium_radar_sample_msgs:
+  ubuntu:
+  - ros-kilted-off-highway-premium-radar-sample-msgs
+off_highway_radar_msgs:
+  ubuntu:
+  - ros-kilted-off-highway-radar-msgs
+off_highway_uss_msgs:
+  ubuntu:
+  - ros-kilted-off-highway-uss-msgs
 tier4_control_msgs:
   ubuntu:
   - ros-kilted-tier4-control-msgs
@@ -40,6 +55,18 @@ tier4_v2x_msgs:
 novatel_oem7_driver:
   ubuntu:
   - ros-kilted-novatel-oem7-driver
+off_highway_general_purpose_radar:
+  ubuntu:
+  - ros-kilted-off-highway-general-purpose-radar
+off_highway_premium_radar_sample:
+  ubuntu:
+  - ros-kilted-off-highway-premium-radar-sample
+off_highway_radar:
+  ubuntu:
+  - ros-kilted-off-highway-radar
+off_highway_uss:
+  ubuntu:
+  - ros-kilted-off-highway-uss
 tier4_api_msgs:
   ubuntu:
   - ros-kilted-tier4-api-msgs
@@ -49,6 +76,12 @@ tier4_hmi_msgs:
 tier4_vehicle_msgs:
   ubuntu:
   - ros-kilted-tier4-vehicle-msgs
+off_highway_sensor_drivers:
+  ubuntu:
+  - ros-kilted-off-highway-sensor-drivers
+off_highway_sensor_drivers_examples:
+  ubuntu:
+  - ros-kilted-off-highway-sensor-drivers-examples
 tier4_auto_msgs_converter:
   ubuntu:
   - ros-kilted-tier4-auto-msgs-converter

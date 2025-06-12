@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-premium-radar-sample-msgs
+Binary: ros-kilted-off-highway-premium-radar-sample-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.06.12.08.37
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-premium-radar-sample-msgs - The off_highway_premium_radar_sample_msgs package
+Changes:
+ ros-kilted-off-highway-premium-radar-sample-msgs (0.8.0-2025.06.12.08.37) noble; urgency=high
+ .
+   * rosidl_default_generators is technically a <buildtool_depend> (#13)
+     rosidl_default_generators is technically a buildtool_depend
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ 60b63d1724ed0b544f2185a606c5e06d113fbf02 2474588 ros-kilted-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.06.12.08.37_amd64.ddeb
+ 6e0d1eec369de5799bb6cec988d031994b8f384e 15036 ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.37_amd64.buildinfo
+ 32ae0d7f9dbbbacb4795b6d1302d043f9ed6ba49 287036 ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.37_amd64.deb
+Checksums-Sha256:
+ 059c75e29e9862c977d1c325a30a78f76dd449dc83ee881e8d27f01891a29546 2474588 ros-kilted-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.06.12.08.37_amd64.ddeb
+ 864d0606332aa729081a2c89bc0fb4867450952c5c61970f93648f5933be82a2 15036 ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.37_amd64.buildinfo
+ 50192a673f51b7108c898efccc15d6a86f69083c072543b4ce92f3bfbf57fd31 287036 ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.37_amd64.deb
+Files:
+ 3bf0316c8ec745805ebe1bc9ac667d29 2474588 debug optional ros-kilted-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.06.12.08.37_amd64.ddeb
+ e91530ebec18707f2891d941dc998370 15036 misc optional ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.37_amd64.buildinfo
+ b5ccb80c2aa4f3500e7ffc3629a40177 287036 misc optional ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.06.12.08.37_amd64.deb

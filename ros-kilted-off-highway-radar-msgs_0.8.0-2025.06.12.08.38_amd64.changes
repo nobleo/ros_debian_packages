@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-radar-msgs
+Binary: ros-kilted-off-highway-radar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.06.12.08.38
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-radar-msgs - The off_highway_radar_msgs package
+Changes:
+ ros-kilted-off-highway-radar-msgs (0.8.0-2025.06.12.08.38) noble; urgency=high
+ .
+   * rosidl_default_generators is technically a <buildtool_depend> (#13)
+     rosidl_default_generators is technically a buildtool_depend
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ 80fa5b9883c2aa6dcf153f794e755836e5cfb740 601694 ros-kilted-off-highway-radar-msgs-dbgsym_0.8.0-2025.06.12.08.38_amd64.ddeb
+ a1ec3daa6a323dc6026c4a4bec4a96e879cdb03a 14895 ros-kilted-off-highway-radar-msgs_0.8.0-2025.06.12.08.38_amd64.buildinfo
+ 67acf7c254d4905833029387e3d08bcdb97dfa7f 88868 ros-kilted-off-highway-radar-msgs_0.8.0-2025.06.12.08.38_amd64.deb
+Checksums-Sha256:
+ 70ba72157a651b303b61a294883712a1a86bf34bffba6324aa441d9cb409d393 601694 ros-kilted-off-highway-radar-msgs-dbgsym_0.8.0-2025.06.12.08.38_amd64.ddeb
+ 2d2ebd933037079cb6205a30195103bf83d262c174e00824618174a065d5c7e7 14895 ros-kilted-off-highway-radar-msgs_0.8.0-2025.06.12.08.38_amd64.buildinfo
+ 2e580cb6336d5da33bc48d1df5541cf278e363d66d6b0b3d5138582f36513c01 88868 ros-kilted-off-highway-radar-msgs_0.8.0-2025.06.12.08.38_amd64.deb
+Files:
+ 46e4bee8a87dd19186d1f027f4e39fe4 601694 debug optional ros-kilted-off-highway-radar-msgs-dbgsym_0.8.0-2025.06.12.08.38_amd64.ddeb
+ 8c72f54f29fc418e2ab54f711789bdd0 14895 misc optional ros-kilted-off-highway-radar-msgs_0.8.0-2025.06.12.08.38_amd64.buildinfo
+ d1f187f4fe7c6cbff04cd6d991f745c8 88868 misc optional ros-kilted-off-highway-radar-msgs_0.8.0-2025.06.12.08.38_amd64.deb
