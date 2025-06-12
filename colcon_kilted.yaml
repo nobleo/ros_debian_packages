@@ -1,6 +1,9 @@
 list:
   packages-up-to:
     - novatel_oem7_driver
+    - off_highway_premium_radar_sample
+    - off_highway_radar
+    - off_highway_uss
     - tier4_control_msgs
     - tier4_debug_msgs
     - tier4_localization_msgs
