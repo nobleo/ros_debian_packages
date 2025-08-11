@@ -12,7 +12,7 @@ repositories:
   autoware_universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: 0.45.0
+    version: ea3bc9ae62df95788b68223a35b53b767458f508
   managed_transform_buffer:
     type: git
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
