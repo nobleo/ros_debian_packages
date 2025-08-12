@@ -1,10 +1,26 @@
 ---
 repositories:
+  autoware_core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_core.git
+    version: 1.3.0
+  autoware_rviz_plugins:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_rviz_plugins.git
+    version: 0.1.0
+  autoware_universe:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: ea3bc9ae62df95788b68223a35b53b767458f508
   autoware_utils:
     # Until: https://github.com/orgs/autowarefoundation/discussions/6212
     type: git
     url: https://github.com/autowarefoundation/autoware_utils.git
     version: 1.4.2
+  managed_transform_buffer:
+    type: git
+    url: https://github.com/autowarefoundation/managed_transform_buffer.git
+    version: 0.1.0
   novatel_oem7_driver:
     # Until: https://github.com/novatel/novatel_oem7_driver/issues/99
     type: git
@@ -17,4 +33,18 @@ repositories:
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: tier4/universe
+    version: v0.51.0
+  # As per: https://github.com/tier4/nebula/blob/main/build_depends.repos
+  # Until: https://github.com/tier4/nebula/issues/267
+  transport_drivers:
+    type: git
+    url: https://github.com/mojomex/transport_drivers
+    version: feat-set-rmem
+  mussp:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: tier4/main
+  zenoh-plugin-ros2dds:
+    type: git
+    url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
+    version: main

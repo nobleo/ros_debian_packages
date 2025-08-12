@@ -1,25 +1,18 @@
 list:
   packages-up-to:
-    - autoware_utils
-    - autoware_utils_debug
-    - autoware_utils_diagnostics
-    - autoware_utils_geometry
-    - autoware_utils_logging
-    - autoware_utils_math
-    - autoware_utils_pcl
-    - autoware_utils_rclcpp
-    - autoware_utils_system
-    - autoware_utils_tf
-    - autoware_utils_uuid
-    - autoware_utils_visualization
+    - autoware_detected_object_feature_remover
+    - autoware_detection_by_tracker
+    - autoware_euclidean_cluster
+    - autoware_ground_segmentation
+    - autoware_ground_segmentation
+    - autoware_object_merger
+    - autoware_perception_rviz_plugin
+    - autoware_pointcloud_preprocessor
+    - autoware_shape_estimation
+    - boost_tcp_driver
+    - boost_udp_driver
     - novatel_oem7_driver
     - off_highway_premium_radar_sample
     - off_highway_radar
     - off_highway_uss
-    - tier4_control_msgs
-    - tier4_debug_msgs
-    - tier4_localization_msgs
-    - tier4_perception_msgs
-    - tier4_planning_msgs
-    - tier4_system_msgs
-    - tier4_vehicle_msgs
+    - zenoh_bridge_ros2dds
