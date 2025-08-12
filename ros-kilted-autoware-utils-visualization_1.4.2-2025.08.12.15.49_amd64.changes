@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-visualization
+Binary: ros-kilted-autoware-utils-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.08.12.15.49
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-visualization - The autoware_utils_visualization package
+Changes:
+ ros-kilted-autoware-utils-visualization (1.4.2-2025.08.12.15.49) noble; urgency=high
+Checksums-Sha1:
+ f3b14051149f03d96860e63287ae794c3e2e4ece 100736 ros-kilted-autoware-utils-visualization-dbgsym_1.4.2-2025.08.12.15.49_amd64.ddeb
+ 4db0706300af38e51455abba5a58cc51188380ac 17862 ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.buildinfo
+ 1d8fe1270bc59502fa1e0e4f5d9f80cd1e2e53de 15780 ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.deb
+Checksums-Sha256:
+ 833f8beef92c3920656bbfbc79cb0acafc3752a99cbc5dd7fca299feca793473 100736 ros-kilted-autoware-utils-visualization-dbgsym_1.4.2-2025.08.12.15.49_amd64.ddeb
+ e33a61cb3d79290a59addc26d55f51ea6acb9436d70b43dc0aa8edb85fe9c2fa 17862 ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.buildinfo
+ 6c335f9a8018f60c2deec47053de446d7a55db44f678d9f8e9186ea251ce0ece 15780 ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.deb
+Files:
+ 56d87d8c82c51171022653a6e12c1653 100736 debug optional ros-kilted-autoware-utils-visualization-dbgsym_1.4.2-2025.08.12.15.49_amd64.ddeb
+ 5ceed5d0a72d034993a826903b868f1e 17862 misc optional ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.buildinfo
+ 3989c1e8b98df78c7219506d77953581 15780 misc optional ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.deb

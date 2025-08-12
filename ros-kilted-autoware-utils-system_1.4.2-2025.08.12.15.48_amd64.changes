@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-system
+Binary: ros-kilted-autoware-utils-system
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.08.12.15.48
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-system - The autoware_utils_system package
+Changes:
+ ros-kilted-autoware-utils-system (1.4.2-2025.08.12.15.48) noble; urgency=high
+Checksums-Sha1:
+ a9e61ba394923e47dd909119dc29fb4a74d37f53 194364 ros-kilted-autoware-utils-system-dbgsym_1.4.2-2025.08.12.15.48_amd64.ddeb
+ e479eb5db00711f0815bd34ca2f0206e60916ee7 17561 ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.buildinfo
+ 0d34036ffae972bd595772c4edfcece0a532923c 14600 ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.deb
+Checksums-Sha256:
+ 726651e8c47515337ec6493e80e598ff59241cfaf24f244082712088fc826fc2 194364 ros-kilted-autoware-utils-system-dbgsym_1.4.2-2025.08.12.15.48_amd64.ddeb
+ 693c52b14960caa6868cf6af46b8d0b910a65fe9671af2974f8589dcaed2fc88 17561 ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.buildinfo
+ 3a08f7fb8b3f044484eeffe735c0ee7b77b1a1c0412d2f78aa87a42f03a7ca5c 14600 ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.deb
+Files:
+ 68149f37f2bb808f43fffb6cc9354c76 194364 debug optional ros-kilted-autoware-utils-system-dbgsym_1.4.2-2025.08.12.15.48_amd64.ddeb
+ 340be38309f8bf3a941a96ffbfffe3d9 17561 misc optional ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.buildinfo
+ d3eef2e196570080ad658a427a81c441 14600 misc optional ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.deb

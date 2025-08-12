@@ -1,4 +1,8 @@
 repositories:
+  autoware_utils:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_utils.git
+    version: 1.4.2
   novatel_oem7_driver:
     type: git
     url: https://github.com/novatel/novatel_oem7_driver.git
@@ -10,4 +14,4 @@ repositories:
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: 9b25c598a714bb2c66f447d2a75ca074d6583071
+    version: v0.51.0

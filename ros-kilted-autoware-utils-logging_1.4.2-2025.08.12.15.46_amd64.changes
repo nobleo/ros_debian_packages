@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-logging
+Binary: ros-kilted-autoware-utils-logging
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.08.12.15.46
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-logging - The autoware_utils_logging package
+Changes:
+ ros-kilted-autoware-utils-logging (1.4.2-2025.08.12.15.46) noble; urgency=high
+Checksums-Sha1:
+ 24b5ea9359910218fcb684c8b3d2834b53b49da5 416732 ros-kilted-autoware-utils-logging-dbgsym_1.4.2-2025.08.12.15.46_amd64.ddeb
+ cf9ee09f439156f084f49e48b90e9ee84e200b34 18556 ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.buildinfo
+ f5b69c28c205572eedec322b4b2c988981c9e837 29224 ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.deb
+Checksums-Sha256:
+ ac8ce445acdcc25b473749e7f0e79356c25b9ad1183ec87dc75d8437f98ccdd9 416732 ros-kilted-autoware-utils-logging-dbgsym_1.4.2-2025.08.12.15.46_amd64.ddeb
+ 3905cabae82a4d559c80048f8ebddfe9f220ca38d9ae63294d214f663bdba811 18556 ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.buildinfo
+ 70eceadc56d41f75e6a13746f312ab93b9cc60cd6627240d5bffe31f099cf7d5 29224 ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.deb
+Files:
+ 354327f880ab3405c3a08ed19a58abb3 416732 debug optional ros-kilted-autoware-utils-logging-dbgsym_1.4.2-2025.08.12.15.46_amd64.ddeb
+ ed943feb17d339cc2df98ddcd0346e21 18556 misc optional ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.buildinfo
+ 917632a7a95d940211f76af2a0a739dd 29224 misc optional ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.deb

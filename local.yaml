@@ -1,3 +1,24 @@
+autoware_utils_diagnostics:
+  ubuntu:
+  - ros-kilted-autoware-utils-diagnostics
+autoware_utils_logging:
+  ubuntu:
+  - ros-kilted-autoware-utils-logging
+autoware_utils_math:
+  ubuntu:
+  - ros-kilted-autoware-utils-math
+autoware_utils_rclcpp:
+  ubuntu:
+  - ros-kilted-autoware-utils-rclcpp
+autoware_utils_system:
+  ubuntu:
+  - ros-kilted-autoware-utils-system
+autoware_utils_uuid:
+  ubuntu:
+  - ros-kilted-autoware-utils-uuid
+autoware_utils_visualization:
+  ubuntu:
+  - ros-kilted-autoware-utils-visualization
 novatel_oem7_msgs:
   ubuntu:
   - ros-kilted-novatel-oem7-msgs
@@ -52,6 +73,12 @@ tier4_system_msgs:
 tier4_v2x_msgs:
   ubuntu:
   - ros-kilted-tier4-v2x-msgs
+autoware_utils_debug:
+  ubuntu:
+  - ros-kilted-autoware-utils-debug
+autoware_utils_geometry:
+  ubuntu:
+  - ros-kilted-autoware-utils-geometry
 novatel_oem7_driver:
   ubuntu:
   - ros-kilted-novatel-oem7-driver
@@ -76,6 +103,9 @@ tier4_hmi_msgs:
 tier4_vehicle_msgs:
   ubuntu:
   - ros-kilted-tier4-vehicle-msgs
+autoware_utils_tf:
+  ubuntu:
+  - ros-kilted-autoware-utils-tf
 off_highway_sensor_drivers:
   ubuntu:
   - ros-kilted-off-highway-sensor-drivers
@@ -85,3 +115,9 @@ off_highway_sensor_drivers_examples:
 tier4_auto_msgs_converter:
   ubuntu:
   - ros-kilted-tier4-auto-msgs-converter
+autoware_utils_pcl:
+  ubuntu:
+  - ros-kilted-autoware-utils-pcl
+autoware_utils:
+  ubuntu:
+  - ros-kilted-autoware-utils
