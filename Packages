@@ -1,556 +1,556 @@
 Package: ros-rolling-tier4-api-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.49
+Version: 0.51.0-2025.08.12.16.03
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-api-msgs
 Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
-Installed-Size: 1511
-Depends: ros-rolling-tier4-api-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.49)
-Filename: ./ros-rolling-tier4-api-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.49_amd64.ddeb
-Size: 1219282
-MD5sum: d30364217006db57f878ae9a4c8fc9b1
-SHA1: d203501307c343766f933790128b4e46472fc57c
-SHA256: 51e5b4f77849933f39b65f52de807edf080799eef2aba2e0ff655e2ddbbf4e35
-SHA512: e306a52f75f7bc439e9ad7cba120f582900b81897aff0d3924c8b4bf2e69220d17d4a30d445a5321be4d138017214289ff26fdab4ebeec746c9c576287014b21
+Installed-Size: 1514
+Depends: ros-rolling-tier4-api-msgs (= 0.51.0-2025.08.12.16.03)
+Filename: ./ros-rolling-tier4-api-msgs-dbgsym_0.51.0-2025.08.12.16.03_amd64.ddeb
+Size: 1219940
+MD5sum: e682de1f1123b5e494416943f2517811
+SHA1: ea6a0eb6ea6636919f0be8395cd0dcf3e890b2f0
+SHA256: 4663249614da1bb79bf91329fcac2d833275d7517c3414f70118a5378bc78f6c
+SHA512: 3ed3087900f2ce8ba72c9b6312f63294a77553ef64b29c6fbf531bbbbaa6fe7b3644a98c6387f318ad2a82bb4926eec58cfdf6b789aaaacf191fd2ec77611f9c
 Description: debug symbols for ros-rolling-tier4-api-msgs
-Build-Ids: 0071735b5095de3b1b56cb87e1663be7f7b6116b 03d0add1c0332349f69fbab265cb8b01953a0da2 13cf924ea2cfe7124fc7b88bdb5799775890c707 2831580d7570e124299b5cd475fb307645d0a5ea 40484dff6ba013122b1f6e6db4225dc31653ae48 48bff7c8092cf0a2b9230f0925b700eecb5dcb3b 74782f948a54643e84796dceaadd1a2212dfa310 9f733047cf07d74d48a0f942c2cc2b209c4c15ee bf00b7fe98acf6106ff638cae8501b16bc8ca831 c8c8a160a31f0248861b1ce9f305c6e03d7a53a2 db9671cecfa9f24f496999bc3ff70768d5b99679
+Build-Ids: 07e32a41477a934b50799ed9f654401f4504c08a 20095dcd53a2c7bd997104d245f7e3ed21e80c44 22bce0f07e369437536c9118ae154f62007be06e 36d3c8c266a4a25ed51aa118607625b739585d9c 45b210c900a6da5f1685d94082c205ff4804143c 48b0f66ccd636d0e224b7a42f6c9538540037e29 591e0841cd286ce28a6fb121dc0a6de071ae2cc6 5dfb56924ac5b104dcb1a0228080671d5a1fca07 6fb8d94b0bb6180b1fda13baa6d4329c4ddddd81 a2f63350f9531023dc9ffd75acdb8596ec9becb7 dc40a54700e2c61a97cc205b834291fa3c56cfb1
 
 Package: ros-rolling-tier4-api-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.49
+Version: 0.51.0-2025.08.12.16.03
 Priority: optional
 Section: misc
 Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
-Installed-Size: 1920
+Installed-Size: 1912
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-diagnostic-msgs, ros-rolling-geographic-msgs, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-tier4-planning-msgs, ros-rolling-tier4-system-msgs
-Filename: ./ros-rolling-tier4-api-msgs_0.41.0-7-g9b25c59-2025.06.12.08.49_amd64.deb
-Size: 148020
-MD5sum: 4a0b88930be0e9e9dd9574a7d35a8629
-SHA1: 5b8a370e72bb0489d839db4b0437aa20198ffa49
-SHA256: 6bb0541ecc3acb870f372e73143fed2ae18f4886c3a0cf6c7de0598f3079f105
-SHA512: eef12b9fd58d77784ca5de68f6894322700e35b0758c572d82f0f9c1b546512cb9d4c0bc6cb4d01923dfd412f2f9189f40f23ab2785764c7a37256d75c1b3b51
+Filename: ./ros-rolling-tier4-api-msgs_0.51.0-2025.08.12.16.03_amd64.deb
+Size: 147942
+MD5sum: a9d93a1d159d66dbdfefb201d2e10666
+SHA1: 1645003c94d911b53986c16beb1f6a0ca670ac02
+SHA256: d39e47f12fe3749b6cf4918c8c841e878a7933e45d1f2f185b928c3fc4f38764
+SHA512: 2cb7f073a337deda117af38f0a1db74a1b2b10a566711745ad8de771c7e910f4a26fe947905562d69339f7d60a9c21790dc78f0c9ad540a22e223e3fc5f4ab97
 Description: The tier4_api_msgs package
 
 Package: ros-rolling-tier4-auto-msgs-converter
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.53
+Version: 0.51.0-2025.08.12.16.07
 Priority: optional
 Section: misc
 Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
 Installed-Size: 65
 Depends: ros-rolling-autoware-perception-msgs, ros-rolling-autoware-planning-msgs, ros-rolling-autoware-system-msgs, ros-rolling-autoware-vehicle-msgs, ros-rolling-tier4-perception-msgs, ros-rolling-tier4-planning-msgs, ros-rolling-tier4-system-msgs, ros-rolling-tier4-vehicle-msgs
-Filename: ./ros-rolling-tier4-auto-msgs-converter_0.41.0-7-g9b25c59-2025.06.12.08.53_amd64.deb
-Size: 8832
-MD5sum: df95b16be560af67fb8b1bbde7e31549
-SHA1: 13e1ab2e5a35ae52a610cf3a6e8bfc1fcb5d7ae3
-SHA256: 144e3b8ceab3ed6e8c61e3c95b4d9c51f30490c56c96155f5d150058ad062161
-SHA512: 5e7a569c1bac03c561f0f944bfc6126efd145b9737870af5ed1e9b426524cd5f563013885ad826f20670182ef51990cd80f08a6cba4b6f1ef3e9a1faee79161e
+Filename: ./ros-rolling-tier4-auto-msgs-converter_0.51.0-2025.08.12.16.07_amd64.deb
+Size: 8824
+MD5sum: f0a6ab0a7d085eb655edfd5971474257
+SHA1: d1638a1fa15e8a9433ec0c1292db018f4836d30f
+SHA256: 8e92c85fc8c77b168f065750e086252c1ab4f5792f1ee0ce6b43c475c45051b4
+SHA512: 1b98ac78d9aa5c2aeaeb2eddec5d2886f61060dac335039eeccc0a826ca9b68292fa6b2a1fddf8edfcfe03767874ba7026c4c8bc0d05ec14385688d5e89692eb
 Description: The tier4_auto_msgs_converter package
 
 Package: ros-rolling-tier4-control-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.32
+Version: 0.51.0-2025.08.12.15.45
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-control-msgs
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 1595
-Depends: ros-rolling-tier4-control-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.32)
-Filename: ./ros-rolling-tier4-control-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.32_amd64.ddeb
-Size: 1255782
-MD5sum: 80c624066c16ef645b78957c7c75a5c3
-SHA1: 165bbdc3cbd10f27c04848e9894443a73944911f
-SHA256: eb8a6116e503c7d6dfe66b64f1489c9fd30f3f20a0a95728918472a8bb78fbc2
-SHA512: 8d90d551d18da7002274246522bad3ec0d8dabb346fdd319e1c11658824c5d29d2e8bc169047a07e4a4587506b70d8c1716692114e3afefa0aeafd51da59ef95
+Installed-Size: 1599
+Depends: ros-rolling-tier4-control-msgs (= 0.51.0-2025.08.12.15.45)
+Filename: ./ros-rolling-tier4-control-msgs-dbgsym_0.51.0-2025.08.12.15.45_amd64.ddeb
+Size: 1258760
+MD5sum: 91cbd9af4029481c29be9a4a98fa6a48
+SHA1: e7cd96c981dc285c4e2d14bae7cd6404e5dee5ff
+SHA256: 5f04c917ceafbe1aa3cf32f68d211d37ada402785c0aa7ad1b7b56ff8ce64b3a
+SHA512: 148bd1289c913c31ad5c7788dc1250249dcaa5291810341e639cf4d3f2f31173c693868f5cefc74ad6d91fed0923e66102bbe163397939bdfa71774ee9b1c51c
 Description: debug symbols for ros-rolling-tier4-control-msgs
-Build-Ids: 04d183855aae3ff5b8c5429a27a9d33692352229 2619f55af365b8fe57ec0b48f1cb57de4847c39e 4a7c0881f7c69893f319dc661155c9aa9d05be29 69df38c49c46625556d3bf4da47726bcdcd8ca3a 756dda2d88038f256cf314811c41fc7ff1069b6c 8784c21b028a07167f7bbb58d872386bfeb73c9a 9f97cd9cd7332bf3ca7fa22d022e99bb10c3ec24 b1cdd1dd91c0f2457739bfe528ca5238b58a33f1 bbde6e2f29daa7538544e92e8c8fc92a2fd917db e54d8068cb3f917635deb473540b8633fb4fab39 e8cc93e75f7aa8441dc1c22303360ebc3fbbd8ba
+Build-Ids: 0636e870af49667696b063b73717e6875428ddaf 5a70784778dad8e44f631704d8820196f1ea236e 7ef0f01675f8e035cf7161a2fd83d1ba7e7a8d2d 7ef32e377b6f2c5bdd2652e76006679b3f55264e 97f738b798a792a26530776157fd43fc945a2744 a049aee654424841f3b7914fa5bcaa1954465b60 b696ab7e90daf24811f2f15220895b82a9ad64a5 c9d92d081224382e5b7108b316aa098ac2af1e07 d17c3a0a57d7bc02c07bf5ed70db1fd4e5e79192 fa6de3f2555b315bed9ce09898c98f3ecf3421cd fd89c73bb9448eddf95eeba3a383f4e702a824d8
 
 Package: ros-rolling-tier4-control-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.32
+Version: 0.51.0-2025.08.12.15.45
 Priority: optional
 Section: misc
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 2097
+Installed-Size: 2089
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-autoware-common-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs
-Filename: ./ros-rolling-tier4-control-msgs_0.41.0-7-g9b25c59-2025.06.12.08.32_amd64.deb
-Size: 152138
-MD5sum: e0c581b5280e1094011f1d61376ea15b
-SHA1: b7760afccd89e73a6d2be48928a69afd4c71ee29
-SHA256: b4179b13051c525e4835aca023fd18350f24b4d2715b8f3e82ca0fc08d77f868
-SHA512: 0535d2dd48a2964e3c1c05170a604f1e4bc667fd21aee11ba98076b5aa06d093f2cf19c3e1843ec7c27801b4f9358975d1405db9ffe324d2eda8b7d226e81340
+Filename: ./ros-rolling-tier4-control-msgs_0.51.0-2025.08.12.15.45_amd64.deb
+Size: 151992
+MD5sum: 234016d9669a5aa835904df977f7ea36
+SHA1: a2a5535aa7d266df51545e05967cf5d66b3bf650
+SHA256: 732d815a0f148339cc8f3aa65cb44428d11699e64011c59d66247f12a6b5b46b
+SHA512: 09c5a83145689f1268000370768ae9b31dd5e9ebd72fcf555e0abf976169055128e14f4972623cdadc411dda44beb6882aca806c59d41a923c8d64d755141b8d
 Description: The tier4_control_msgs package
 
 Package: ros-rolling-tier4-debug-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.33
+Version: 0.51.0-2025.08.12.15.47
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-debug-msgs
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 1999
-Depends: ros-rolling-tier4-debug-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.33)
-Filename: ./ros-rolling-tier4-debug-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.33_amd64.ddeb
-Size: 1629874
-MD5sum: e3dab303475bccc4b128506695c5da01
-SHA1: cfd81d5db519b1a753da4f9ad358462e4e4424e2
-SHA256: 590987ddfa918373465fde78f614c899c6845f3a0f05fcc0c7fbde256bfb69dc
-SHA512: ed73c69993b297c535aaabc0aff70f63e368a832f4232694afe02a7390399f2dfe30872755d5d183d436bd45fc131603f5fce5ed7dab55b57ae57b6ebf912914
+Installed-Size: 2002
+Depends: ros-rolling-tier4-debug-msgs (= 0.51.0-2025.08.12.15.47)
+Filename: ./ros-rolling-tier4-debug-msgs-dbgsym_0.51.0-2025.08.12.15.47_amd64.ddeb
+Size: 1632110
+MD5sum: f399cb9b989995cb6dbbb7db6fd42618
+SHA1: 7984d62f7c9fdfe41e5d58efdede22e188071011
+SHA256: 8937d4a2f780ef1b88f14a320170aa4a5d4a817f14d570fdac74e490f05580f1
+SHA512: 65bcaf490150dc8ab6b974235fdf3a7331a0071d30c02e27d7b7c659f53ba2fa5cc31879397665b4ae70a6445cd8615904c010a78e0e2eb60d7fa3ae68bac3c4
 Description: debug symbols for ros-rolling-tier4-debug-msgs
-Build-Ids: 19c49c58d55d9d8e511c659e5c3b624a80b7ce7b 248b7bfbdbaa1ff1bb0b5dcfb15ca784c17b5331 445caa3a003c0ca346601725d59ba77e02cc35ce 556d8f61cd31aa5c9de732b42c0a1fd0c3aaaed0 5c4194caae5d21faf0e8ca7385079e3b85eab1ab 62352d1b9dc0873c63c78efb5f7b77020026c355 7c67c6c4561c51a889919479a3313211b5fbfd75 7d780b16b48d664aabfb93e3951825f4f475af41 85c484db212cf71c2679a01fb74607d4d09d971e 981f45314b98461c9c5aa748e3ca5b7a525774f4 e290a8f8cbf568da32b3f828c052aad2aa34f37f
+Build-Ids: 15c4be9f1afd62094784efe14554bf6bef051461 198422df01cf16169203236a2cd07cadff5a6704 26ee65def5d83c7ba27abe5162b09796ccd5754b 3f52914764f964b7b484ec406543662b7bf6f4a6 6ddf4c4db18fcb9ae61fb8283d366a54aa207799 a1af92cbb74542ffef5eb81e4da593ee4f5cb393 ab993524f38c922ab59f39e7c2637a08712cde7a ae575ed16e85079232ce4ae4e55a97935c96851b c3f816b9a94b9c7a5eaa07289ca467853839d0e9 d498f24f2ab435484b6d23b4addf26f14c88e67e e0e868c0e183f8380645b95a904356811a7c0fef
 
 Package: ros-rolling-tier4-debug-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.33
+Version: 0.51.0-2025.08.12.15.47
 Priority: optional
 Section: misc
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 2375
+Installed-Size: 2362
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime
-Filename: ./ros-rolling-tier4-debug-msgs_0.41.0-7-g9b25c59-2025.06.12.08.33_amd64.deb
-Size: 163574
-MD5sum: 228999c23b59ccf18b939d754d08d6d0
-SHA1: 2eb99abee633d2e116cf37d5453bb284a85d9834
-SHA256: 5dfb596f41bad6b17ab70fce8126bfb172f84cc0679bdd2a432ac943e8f4b851
-SHA512: b676c84e425202e9bb5562d4ea5002c79ca6683e4b85bad789fd5e4d7abdf10446f3640c68e33c8376fbb12a52e19e31c8e975e2c14a0b80768923c36a3dcd51
+Filename: ./ros-rolling-tier4-debug-msgs_0.51.0-2025.08.12.15.47_amd64.deb
+Size: 164230
+MD5sum: 2afbf14ef4b6a07adbc8dd2f46a52cae
+SHA1: bce69ed6ea7b61d0239a007d63a61cb655d6f1f1
+SHA256: 051f74fcd805abbea23d86f3765b131caa90f8375108c145d66a142d79fa8526
+SHA512: d6e836ba42a91ab410b8eed1e687b162c3349c9ebfc5cd7dc440f673f111508fba7499bb6314295d384e294ec4c861376b976da242fc7c5a850cfac0e0510f3d
 Description: The tier4_debug_msgs package
 
 Package: ros-rolling-tier4-external-api-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.35
+Version: 0.51.0-2025.08.12.15.48
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-external-api-msgs
 Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
-Installed-Size: 11607
-Depends: ros-rolling-tier4-external-api-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.35)
-Filename: ./ros-rolling-tier4-external-api-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.35_amd64.ddeb
-Size: 9157982
-MD5sum: 4bad1ec387650c68cb94451707838900
-SHA1: 62c54a4be8bb6398081b33a56dd2d9978aa9aba1
-SHA256: adb5a5ca797c3c36ca57a7935cb55d10a4a5ff807241ad77ca116cdb48fed9b2
-SHA512: e39af157e2ccb89d07d32d8858aad2debbdaa29491f32df4c990b16d6ff2968b3956e740a980fd2d39e5354f309f3613cd8d588583175c9885ad42205122a6ca
+Installed-Size: 12894
+Depends: ros-rolling-tier4-external-api-msgs (= 0.51.0-2025.08.12.15.48)
+Filename: ./ros-rolling-tier4-external-api-msgs-dbgsym_0.51.0-2025.08.12.15.48_amd64.ddeb
+Size: 10246182
+MD5sum: e18d1f20cacfcc6ec7d4e4dfcf2724ba
+SHA1: 7767e515a771dcc9eda63068eaf70971e8079413
+SHA256: 9082a27328b93e3ee78a15092222a83ae658952da99bbe8ba9ab9851436bcd68
+SHA512: 3f23c58e853ddb38bcdaf0061d4bd435fd4c1ff0411a5e543aaab06b484185eec6ab11c9a96fc0add612a7e18b4d70abefe1b66df3b4ffdc56f9f884883f987c
 Description: debug symbols for ros-rolling-tier4-external-api-msgs
-Build-Ids: 1925520922a1c2711d9a8563605dc4150d102df6 34cb251830ed8b2056a86558e483cbcccae089f4 4eee084f4c337bedcf060a150357af0790828589 685eac959fdd35bbb90c985a59d1b25654811425 783e206307cdf2f08f347d965029d42b5d5d1334 af3ed0aae729538ad96aabf515bbdec7299f68b8 b0cc3630e53ecbca204528ea986e76ae3bf27127 b3587c26b2730d0aa3a022d26bc26f7c0910f4a7 d6ea63434d63c599657edd8246c5580fd8a4545f e0212005dc29b35be5f1f289f57f2f5c584deebf e66b514abafdc4424dbaf0dfaaa8dceed78df1d3
+Build-Ids: 2bfd1b5c3f492ab15de3cc47a338b60faf311a88 3d298ee2f063e67e5abef8a2a37b8ae981beb543 50afb552aba7e8788dc84c5b1a2d658f1b51cc29 5a5d750b11a186e13b423670dbee6e31337b3c1d 5db01a759a14451bec748a354b2991e76ac7e2fc 741a3b3635f8648174fee4ca36ea557724bef72a 7e0b417b0eead6f37969858dbeffcceb66eabc8e 98099de1c2b2c248873438207c963a1d0d42b358 9c04b332a25086cb9791eec742d805bd519a10e2 aa7a51334ec218d2314f8b58a4f040434672dc42 f93144202f42228baa850c20af990d1541d5be56
 
 Package: ros-rolling-tier4-external-api-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.35
+Version: 0.51.0-2025.08.12.15.48
 Priority: optional
 Section: misc
 Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
-Installed-Size: 15437
+Installed-Size: 16914
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-diagnostic-msgs, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-unique-identifier-msgs
-Filename: ./ros-rolling-tier4-external-api-msgs_0.41.0-7-g9b25c59-2025.06.12.08.35_amd64.deb
-Size: 877028
-MD5sum: 893ac50900c61b43c2472f0584cfff76
-SHA1: 8ca5a8ef4d058224e01fcd77e244f03319fa6637
-SHA256: 2b59ba7037480563e592c57b6192e968125b9f2de3206b03da970a5f79355d03
-SHA512: a31ae1699d9c562eb764d5c4038b16a85c1347595a48aa78f4c070d1c7f95bf5955b14e12aa3654cceca2082cf71d7e525f0a794aba7a2ab4468858bb09cff11
+Filename: ./ros-rolling-tier4-external-api-msgs_0.51.0-2025.08.12.15.48_amd64.deb
+Size: 968352
+MD5sum: 122b144b895bd54a7fdabdeb6a406484
+SHA1: 76afc737dbcc07d1a956d34fc6e5f1515835c377
+SHA256: 4b71227e395b4ef88c3a8e0d18f952669d9eb611f54e3c145b776d8a74863aba
+SHA512: b7570913551f24b6740a469c191d014c0486625942390b1791bb84c196ae02d869b99ae22ed06e6bb2993764d36de02f460a269bbdd4ca4c0f557290436d06c9
 Description: The tier4_external_api_msgs package
 
 Package: ros-rolling-tier4-hmi-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.51
+Version: 0.51.0-2025.08.12.16.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-hmi-msgs
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
 Installed-Size: 750
-Depends: ros-rolling-tier4-hmi-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.51)
-Filename: ./ros-rolling-tier4-hmi-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.51_amd64.ddeb
-Size: 562862
-MD5sum: d6ffd40190b65af0e57f7830e3fb64b0
-SHA1: 7d23a8b3eef47f52e96463f3c3b2e6e6f97bebe5
-SHA256: 3f98c753c8e4468089ea4abaf645d501d1b6b49a0d7ddcf5fd9a0aa773dfee41
-SHA512: 39fece6b5bf6f53beac5c064b9a6b5f77fd9e1d1770c19ddf8fe4b5de63d7368ae5f17007b43bb7ea5d33676c41f8bca5dcf978888f6c1d6281c8cf80d1f1db2
+Depends: ros-rolling-tier4-hmi-msgs (= 0.51.0-2025.08.12.16.04)
+Filename: ./ros-rolling-tier4-hmi-msgs-dbgsym_0.51.0-2025.08.12.16.04_amd64.ddeb
+Size: 565344
+MD5sum: 05cf48fbd7a63ca4b6e7cc79c19f1020
+SHA1: fecc32e216bc10c3ce9fb120e0785b8a56726ea6
+SHA256: 1fe88f6ab8b8ceda480297ccd71ade25e7f21864e0604071ecc9aa8dc6490b4f
+SHA512: 178a23077a27c50a54928ed5437ea62ea0fbaffb84440be46cdadd639c70d42d207df03363397ed47481a419acdb628ae4c9fd0430a5abffb2b1d14f41b52a7d
 Description: debug symbols for ros-rolling-tier4-hmi-msgs
-Build-Ids: 0516f991dccc08bd650fdb29a0b28758a217e2bb 3761a05014be225566d61e3ed83ee31750ab9b93 4b4b4afb2449e2467782c8a67930c11d1ff4b6dc 4c4860ad6be78256cf9063ad6fbd07d111791b9f 6a30f8567574e5e713cdb9944180e390023c9aed 784556ae75a3cd301282d223ea5bc25673439d88 8ccf18cbf55a99557e30e254dbd9baca82b70694 a0e89e0951e7ca92dd71d1c45f9fbb89ac2fe013 aa112bfe88dcaf674f9637589cbf9e29ed8e8f25 e1b612d6e806ff9891d5220babc15a8062062c7f f952d425e427e32f2ab21625a9dfe9699f5c64ff
+Build-Ids: 40647d11f234f2e7016c208f09029af60a166510 4baae474f0569194572a747fe528ae1b12d69b94 7853aa94ca1124d8158c86a8c1c687170a5bc1eb 78e4c042836814032783f0fa224e9934af0287eb 7da8e062c1501ede9dd0beef31e9083f14314484 950f848fc60559f7e630389b19a5747bd5cee134 952af653e6c8910527c5a01474ab690cf33945cf a30c204f8379107243c42a25e3abe2e3ed367ff7 c6965b4d0d94837a71a213e54e3ff6226773a184 c8f465cfa574444fef66b0a090a06f30fed8905d d75f94b9f49d51a2696ab6a0e203493485acbea3
 
 Package: ros-rolling-tier4-hmi-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.51
+Version: 0.51.0-2025.08.12.16.04
 Priority: optional
 Section: misc
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
-Installed-Size: 1073
+Installed-Size: 1072
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime, ros-rolling-tier4-external-api-msgs
-Filename: ./ros-rolling-tier4-hmi-msgs_0.41.0-7-g9b25c59-2025.06.12.08.51_amd64.deb
-Size: 88128
-MD5sum: 9c720219b9699565f240cacd4f5041bb
-SHA1: ced92060e3e646e99d947361d53c60e48ee4acd5
-SHA256: 633e7f0c286353a38b492f4e6de46ae90908d008a9772dedcca43384177c6490
-SHA512: ded93a169376c9f60fbaec6bfef82d671308ea72444ab266bd068999986a742eb2926240cced5fd724a9c9e958c2ab51e23486784d0bd18a97a987b5216b7eb7
+Filename: ./ros-rolling-tier4-hmi-msgs_0.51.0-2025.08.12.16.04_amd64.deb
+Size: 88494
+MD5sum: 29a7974214c0fbb7d22a28c341d4172d
+SHA1: a0eb5e4288bb9d5fe4d00f848cfa3e3df92c1a3a
+SHA256: e4b639d894161dcef79a640f1af26f6d652c2b9fcf24fef823bbff548ce7484d
+SHA512: d21c175d257a2c35296e0f6e1130ab3ac2b61459888ae146f3422463a4b914236b1cad3ecd9c887f130dba62555823172e485fb607a22475f986ea3c797a54ab
 Description: The tier4_hmi_msgs package
 
 Package: ros-rolling-tier4-localization-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.38
+Version: 0.51.0-2025.08.12.15.51
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-localization-msgs
 Maintainer: Yamato Ando <yamato.ando@tier4.jp>
-Installed-Size: 929
-Depends: ros-rolling-tier4-localization-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.38)
-Filename: ./ros-rolling-tier4-localization-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.38_amd64.ddeb
-Size: 708678
-MD5sum: 5358239d978e2543893566f55946eca3
-SHA1: 6b6b26a85cf54b09f5bfb172bb5dbea75b9a685e
-SHA256: 73c108b9def853e90f6bacabd480eb902be8eac57ca1461c89643e785d7d1cfa
-SHA512: 6845a6431a2f6783dd498fdfb565fa40d437cb4fd8ae50d319bb12491f968fb470c23379fbd16eb02680e6b39fa84d8a14bfd3f65c35b5364ba8fa3763423417
+Installed-Size: 931
+Depends: ros-rolling-tier4-localization-msgs (= 0.51.0-2025.08.12.15.51)
+Filename: ./ros-rolling-tier4-localization-msgs-dbgsym_0.51.0-2025.08.12.15.51_amd64.ddeb
+Size: 710048
+MD5sum: fa5315d4db6aa4eb6136c5e74a85ada5
+SHA1: 1bb5918837f73024489af418c75df07b7d6a0fc5
+SHA256: b154075ea71bd0fcaec94ea3db592ece1a9ac230d668a7e780f9f1568e2383db
+SHA512: d8e2607f7d27254779a251f53b54b838e75bd9a4c28fd7237545fb9da81393bc8f3d83c07068e133f5c0864f4362ad1bc80228c54d55208910ef9774f5bf3e99
 Description: debug symbols for ros-rolling-tier4-localization-msgs
-Build-Ids: 0ae79a6bda9b7be5acffa10b2fa29e3ff5257012 233fbcbb76eb81cda03539dee20cbfce43c84d85 30bb940586566b95518b99c93b6158b7d8587c49 6c9d40ede33baf67a56cef8886bcfb3bb94c9793 71b95efa6444ebb55b5387f250c9eb46f9e27c84 7da4ac85eb2ad5223d61f2b599c8f98f9fe6813b 8e9444fcc5588f49975ec68b4ced5c58fc201487 8ff4fe1e4e830de43dab4462ad0a0e2b9f78d669 907a7df0ef588ea0a5ca8a8f25b15cb930cb1174 e0156b43f7d8217d25620992616928b839f5fc72 fa0628803e9ab91d27941c413a1be941e14e23c2
+Build-Ids: 066961df05921fcf203b79e821a24204ff4d5976 0a70e0f12609b30d84a679c16d299cb37455beaf 0afd67a3517b1894dee9d10068180061a5873615 34b404567e9ed1fcf347c90aebcf794a23541693 7a0208f36a3870091003f34e2342a17f63643e39 86627289b925da358da50f2e1f3ced514743c1b5 9cd785264ba86863081da24045ea634002e709d4 a20c8afe32088af71e73f194b9c834effafaab42 ab4e52ddc63d4fb19ac30bdc9115fad0aa366f57 eb6b5510c41c2bd1a61131a7a8e96b4fe0b58b14 ef8fe08e92fffd5e2604e67e8d58748449122e09
 
 Package: ros-rolling-tier4-localization-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.38
+Version: 0.51.0-2025.08.12.15.51
 Priority: optional
 Section: misc
 Maintainer: Yamato Ando <yamato.ando@tier4.jp>
-Installed-Size: 1279
+Installed-Size: 1275
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-autoware-common-msgs, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime
-Filename: ./ros-rolling-tier4-localization-msgs_0.41.0-7-g9b25c59-2025.06.12.08.38_amd64.deb
-Size: 105372
-MD5sum: 3177e9dd718fd4b43a8aeebaccfcbb13
-SHA1: 10dd26c9b00f8568e7356659d414a692ea6b1410
-SHA256: 12ae3431fbfbaa18da3aaf2794150c4712370fd702918549de417e45f24ae552
-SHA512: b90f3467d7d977feae1c3717b9392f7a3b78cd60bf0db7093f3580f1a612a56096d5fb779dc62db78e56c65799f120558b2ff76c321b3666d3b675d3bc4d9ca2
+Filename: ./ros-rolling-tier4-localization-msgs_0.51.0-2025.08.12.15.51_amd64.deb
+Size: 106024
+MD5sum: d0c2a5f2963236f8e3e797c1efc9fa66
+SHA1: 0ca3585cb8d56869430ff3852b54289eb9e5f4a5
+SHA256: 0ac5737718ba01d79aec42aad15bde37e158ad1f8abd7903d3730f3b94d5d959
+SHA512: bb1d6585ad6d555516b30be989caf9f3337018f9fe5fb75f9fa0eba0d1d7b2bb081f100f5db7d9dd8d673480a010f43584ef49f265c6c7181d3c8865e177aeaf
 Description: The tier4_localization_msgs package
 
 Package: ros-rolling-tier4-map-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.39
+Version: 0.51.0-2025.08.12.15.52
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-map-msgs
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
 Installed-Size: 287
-Depends: ros-rolling-tier4-map-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.39)
-Filename: ./ros-rolling-tier4-map-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.39_amd64.ddeb
-Size: 194654
-MD5sum: 19c81624ec1891dbc2ae3c2914043fda
-SHA1: 34c9ec7d7977752d7f7aa05a90ec876112f585ac
-SHA256: c8962f171a7afe289e7b72d8c04ca246ca2284e0c5344ea2b7d91f40f241ddaf
-SHA512: 6f373360f4eb8e8134922681065eedabf4a7dd0a6e7af7f8f0976ab93eacdc73d19555872ee0825abbe5ae4f98a71971bcad5ebea2c6acdfdc7a650b27b6406f
+Depends: ros-rolling-tier4-map-msgs (= 0.51.0-2025.08.12.15.52)
+Filename: ./ros-rolling-tier4-map-msgs-dbgsym_0.51.0-2025.08.12.15.52_amd64.ddeb
+Size: 195028
+MD5sum: cc63be2e1cf21a5d0d31f981afb917e6
+SHA1: da1e55a3f4b45b288e08b7aa5ec8dae931d5b421
+SHA256: 78ba6a0fb2cc53b2e5e4617bde9d0286e34fc8ebed936ecceb4b4115e8b469c8
+SHA512: 269a1dcd93dacfeb2e8945c272590a1793b6e3d0fd48b973e995149208d0192046c3801290fa91caff82ae848f3f42d395886fbb49a2190154a4b470c2de193a
 Description: debug symbols for ros-rolling-tier4-map-msgs
-Build-Ids: 1a782ab40e01f15f8ed97fb508d7da41e4ffcbbc 2c2ce5ac39a1a28a20df978c751748ba38728229 33f7f118bf0665a123da8ffac664886ea05fd88c 3f2a568a51f1b504d71040b57d7af19eb7ea7d05 40c74223b3a3daeb95a104d19b7bd17bd9987292 4181d4aac963468b41648de53daa7e0225e724c7 7a1eaafd1c6d9aa6ebe556e0acaf064a13109050 7b7fe825160b4c639643ab1a2edfe2ce0266cdde d38250c3eb8ad42c781e13634319786d99a9f6e1 f0fb566cd4fbd076a20ecb5b9d25ac860e5d782e f4a7da5a439f7b6cb4119e2b2fd27cb2da158afd
+Build-Ids: 089c0524f62f4607182a28ca10cbbc5264993e88 0a8db13ae7ce98f4080709f47e1f292168321d12 2cde60a255458e40f7b300f893336d8d155f026e 33595d4e0504d87f224464c6f7579fc1f457cfd8 3ed6bb0789e1a274d045649feb74a5cda600995a 614b7f77cfda03ad6480250ec5e45e23fdb879da 8bf99be267bf3e2d4f8ee1d1d36c7f77fb6749de be6164e3a96896d457f1716bf44a1aa2d9f8e01e d801f43eb407fc8521d8989700d460fb9f610268 da177a0ab5cf09e77136a5ba3cf77ab2c658b3b8 fe78bfa2fa1c34b0a3bb81dcae0f1ab1dae9d581
 
 Package: ros-rolling-tier4-map-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.39
+Version: 0.51.0-2025.08.12.15.52
 Priority: optional
 Section: misc
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
 Installed-Size: 453
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-geographic-msgs, ros-rolling-rosidl-default-runtime
-Filename: ./ros-rolling-tier4-map-msgs_0.41.0-7-g9b25c59-2025.06.12.08.39_amd64.deb
-Size: 43960
-MD5sum: 4951d1644e2b10dfca9d0fdbdaf2465c
-SHA1: d5d35435f42a5852c09a0be46d17f312bb81f928
-SHA256: 50a0a4a3a56734c8f30f5c93e2966760e1aada24db7bd839e3219894a0ceb02c
-SHA512: 6c129fc3163351751677e3e1f1ddb0d833267d5513beb9e25a08ee352d0f00153918ab3adcd20bf65f753953a7d996d4a81c9d544fcfeba6fd67b112e5d057db
+Filename: ./ros-rolling-tier4-map-msgs_0.51.0-2025.08.12.15.52_amd64.deb
+Size: 43878
+MD5sum: fddc90c5bcfa226f4e341651e2b203f5
+SHA1: b79ce02ff87c0203a7e4e7526f6d7d5a6aac71a9
+SHA256: 1421a458a347e03d55e096409012bbfb2957168c670de83d364b5df1ce4bdc70
+SHA512: 74e29e2b30de28974ae64984d33c8fc412fdb7509abf02e85e009725ee50506de04b01c6b26b24ccbc3507e18dde91e3c5f994808322ff9e70f4afdd68339ff0
 Description: The tier4_map_msgs package
 
 Package: ros-rolling-tier4-metric-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.40
+Version: 0.51.0-2025.08.12.15.53
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-metric-msgs
 Maintainer: Temkei Kem <temkei.kem@tier4.jp>
-Installed-Size: 429
-Depends: ros-rolling-tier4-metric-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.40)
-Filename: ./ros-rolling-tier4-metric-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.40_amd64.ddeb
-Size: 321732
-MD5sum: 6a314fd37b2136fd2cc9e615e84ae03d
-SHA1: f2f76ec31a1ce67a0e3b6de3ebdabcc8b1af38fc
-SHA256: 1db61cc559125f4ac9d42d5bb7cfa8aa3643e67ecef47874539ccca78f2b85c2
-SHA512: 31f273c86d7d5430ea5ba3cebec83717e92c6a66587ebba89e94e6ec4bd749f715b388dc92d8e0edc3269cb5b122150b8d25bc49b2bfe0f1ee87aa6e91e76de9
+Installed-Size: 430
+Depends: ros-rolling-tier4-metric-msgs (= 0.51.0-2025.08.12.15.53)
+Filename: ./ros-rolling-tier4-metric-msgs-dbgsym_0.51.0-2025.08.12.15.53_amd64.ddeb
+Size: 322502
+MD5sum: 1c802ff4e2d9518750707f8945558eaa
+SHA1: 3086676330ca642da96c93c38358da59ffe5ddb6
+SHA256: ddedc14f85f380861f30d0e40a62c0a6a1717be9232a821bb50f800aff974243
+SHA512: bcf0d64a705fd2b620925fcfe667c0dba650f305ec2ab2e1055bc2b45cd9a57660153b65dd70a57ac0c076f3f434e6a552762a7d2d5154e616f91e0fd01aa918
 Description: debug symbols for ros-rolling-tier4-metric-msgs
-Build-Ids: 0943af5302f064c02bbc38e84d367f63f57a381f 0ca78d50007287825b6953867f166a4704bff938 2cf812987ff71e34cbecc53ca04834e3117b70a6 53390a951c48283b88a4327bf99040100f08e6ab 81a735482304ddf60cb663a2687b1055ecd22a78 a51450f0e59d40d88ab5dfa2d6fdf974d1e06b8a a95d85a775e6a5248b7648bce640c048b17982cb b27ad65f59365826d9c8204ff1c87894361ad645 e7ce65542201ef1846424eac6f5a5f49598c9111 eede5d85f23e000853eb90149ada2396ad6f3b7e f7a30d569ceeacf4f7df7286846539a3058cf4e6
+Build-Ids: 0b1f037ec3d04c68c6ff5145941c267711d2fa9b 1863a5f4e5f7633e8a1c25b298def6f79b029e3e 249c9628e12c8bd9c9a9a4cfbd26f5cecd808bde 3c5c71662172de7dea7b9252d7a3e85d2d077327 515cef3fb395fb319468fd718dd218e9af34b2d3 5d7e9d68f2b71067778a4a22bc6ddadcd3845c9e 6886452bc581108101598580ad52cbfeb470c126 a321f683e5a13e40c3685697548d246df6d33d4e c4476e9c8437fe3e48ab0b22afb6e159e8d1414a cc04768be5a26abc1cee25ff8379410797f32688 cec1a8693d491dc6d94a899abcb03c4845cd91ca
 
 Package: ros-rolling-tier4-metric-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.40
+Version: 0.51.0-2025.08.12.15.53
 Priority: optional
 Section: misc
 Maintainer: Temkei Kem <temkei.kem@tier4.jp>
-Installed-Size: 552
+Installed-Size: 555
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime
-Filename: ./ros-rolling-tier4-metric-msgs_0.41.0-7-g9b25c59-2025.06.12.08.40_amd64.deb
-Size: 56518
-MD5sum: 8c54dedff7a59858796ea2bd958a636d
-SHA1: f8005a8cd870d2e27f8a9571ba3c1c67195775cb
-SHA256: 54875296af5bc6db1adfc53303dd97823f8951113c22f184fd4a726f5635ab07
-SHA512: 6fd597ea8c03f62556b41b6b57d1cbc62baecaffbc5f883bba96c0173ac529d02a1653ba2b400edaa24fd50628ee2e4fbe285a99c2e8de000ca2e52a4ef2e21c
+Filename: ./ros-rolling-tier4-metric-msgs_0.51.0-2025.08.12.15.53_amd64.deb
+Size: 56860
+MD5sum: 400d4ebb29fd52e64d9b7b49bd9b2da2
+SHA1: 364a114791c1725533cc0fe3ba5de73a6b2e1dba
+SHA256: 0c29b5bee47b59530428aed1e4694fed00d81f0cb05de103a17c0635daa6a847
+SHA512: b3e56a074cbc93d75add293015f9cb5292ba82f1be5277340eb6a00dd1ba2b8db84fe7bad75a44c6a04de5f18c15bce17ba3627321e1d28bd41cf834ecb0b846
 Description: The tier4_metric_msgs package
 
 Package: ros-rolling-tier4-perception-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.41
+Version: 0.51.0-2025.08.12.15.54
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-perception-msgs
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 2141
-Depends: ros-rolling-tier4-perception-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.41)
-Filename: ./ros-rolling-tier4-perception-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.41_amd64.ddeb
-Size: 1776380
-MD5sum: 7a4f21de815307ec738d924bd1cc9f09
-SHA1: 650e4d888aaa6279f9b499a387f76ae503451988
-SHA256: 30e7a34c667d8c1be992b9d26885730a3853f7f21f9a1c0813d90f8fa688c24a
-SHA512: 4e33bef2063b57c88d9c88f43187c417708eca2b38cf1bf442783e86cf62db2a8237d21b927e609411fdd18512dbdd49b59fbea2ae25a39ec6fb13d7ec7e7775
+Installed-Size: 2147
+Depends: ros-rolling-tier4-perception-msgs (= 0.51.0-2025.08.12.15.54)
+Filename: ./ros-rolling-tier4-perception-msgs-dbgsym_0.51.0-2025.08.12.15.54_amd64.ddeb
+Size: 1779058
+MD5sum: 576d927b077d2730bae2a7565dc4459e
+SHA1: 7ef96a97c7135ef5e74fd5056f2a508014598581
+SHA256: 92bd80c953f4cddd52b5339d791caefcb640b97439b82c70634b98ae054facb1
+SHA512: d4883ad92fc56c7e6819ef6fc9670d238f702d273dab059f92d6c904f7fae6ab6511c76367f302708209e8102911c282c92b0d8ab6b99d1dea17278a61c05f8e
 Description: debug symbols for ros-rolling-tier4-perception-msgs
-Build-Ids: 0dfa40b03ff45cdc835cfd5bfc763c2cc5be4171 1540d5f9b721671e28a90a878aa2901185bbed6b 15abeac28f1e5c21d5b2deaf7860459b0b036e10 421c4ed9bb6fc01d022f9e3e04c730887a26edac 96da89095621cfce1e46d80c6e413b0eb377fe4a a6c9f0141c06f33719a2fb3fb26d88e4ae098e8a a79ba505eb05c9d437c75f925381537855f1b206 ac38ff2108734f77439822d024a6a97967c0f1c2 c0c839a73254e5e59af785444b7268774a48538b c9dcc38f72b5e1662abbbb98d667503eaa4bc4e0 d869f0c650d104034c9536edfebcb8bfc60aceec
+Build-Ids: 40231c89d5eba15d65f3a6de4990d8633ce2c515 5c0c192a09e11976e4fcc2d6a0b8b56b48fe0c3f 837376b61fd506e95e5e636157b8cda230908fc0 a9f8bd47f6858e56253320937e8912971518e50d bdcb12a9d4e90d0a5c6868e3c53ff04f515e582b c6418de75b6767f36fd91237b70beb847aa3eab7 d8aae363c7dc2289c241af4edbb90e83422dcc57 e6f3b9cb49eb8b8e0f927ec48b9082dc763f439f eb9b308d760118fc37b7cafd3e395307eae9bffd fa77b3c2eb1531bc520b7fea6db3314f953360d9 ffde63d9e6ef076fbc45000806da0638bf09b0e3
 
 Package: ros-rolling-tier4-perception-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.41
+Version: 0.51.0-2025.08.12.15.54
 Priority: optional
 Section: misc
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 2473
+Installed-Size: 2476
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-autoware-perception-msgs, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-unique-identifier-msgs
-Filename: ./ros-rolling-tier4-perception-msgs_0.41.0-7-g9b25c59-2025.06.12.08.41_amd64.deb
-Size: 181844
-MD5sum: b3405b59c42294ee8eb6730a7401148a
-SHA1: f2d86db76cedd5194acdf4291f04fd29c3991f75
-SHA256: a8c722d72aa507e28a4ae4075c9a4d85f53cfd6aaaab9931f6213bc2baeb1e91
-SHA512: 9e46a32793d4d5e2fdeeae688a91751e427a08fa9c96936829c5d20c4fa50f2ed56ea1b843ce20ae0e9e847f19a6d64bbecc0d670a8fac83ec8d7fa1206a96d4
+Filename: ./ros-rolling-tier4-perception-msgs_0.51.0-2025.08.12.15.54_amd64.deb
+Size: 182552
+MD5sum: 1f16e8655bc28f92610695d56a98f647
+SHA1: 56973079927db587c707bf3aac4ee5d1a6fa2998
+SHA256: 91fea4c0cb9fa9ed384fe932ee8d7aae6ed9d502050905c8ab55d3788d60eff2
+SHA512: 2f08afdb15add988d3d6aaa231de948f69a60db73135c9687e2bbfd946f6a13943a903371a463976c07e26f437c1a78f3810fc790e85271f7d9cd56ac5186574
 Description: The tier4_perception_msgs package
 
 Package: ros-rolling-tier4-planning-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.42
+Version: 0.51.0-2025.08.12.15.55
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-planning-msgs
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 5633
-Depends: ros-rolling-tier4-planning-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.42)
-Filename: ./ros-rolling-tier4-planning-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.42_amd64.ddeb
-Size: 4651552
-MD5sum: ef68c9c0a0d03689b1a329ae9ead30c4
-SHA1: 1d274fb1937713a6895fc5685ca0bd5c776c343b
-SHA256: 74f0d75e4b4ee71704bb02e033146d5bd1243d75d49f0e4435fbf9f3cbe5ebae
-SHA512: 6df253c278e2253536b29025341c6f6c5e8b8a1d4182021acfacb0cd75ff6c804a246f15d9cf2fc8fa16ebee4d59307f9946a011e421dbfdf79bfea2a63d9c80
+Installed-Size: 5652
+Depends: ros-rolling-tier4-planning-msgs (= 0.51.0-2025.08.12.15.55)
+Filename: ./ros-rolling-tier4-planning-msgs-dbgsym_0.51.0-2025.08.12.15.55_amd64.ddeb
+Size: 4665432
+MD5sum: 98979f3bba4ee26fb34a84b82f27ceba
+SHA1: 1a36e1d0f43004f403e7bd2f660d7dea895430e3
+SHA256: 85b0bd4047ce25d1eb782e784985ad0708689cb84c36f38f53d8103605997313
+SHA512: 0abcb0e4659e0eb8b4acf96eaea62d8beca37c6c36cd231d6f349963e0216a0b2d150fe48c7dcb82d68088416282b56071b7dba97697c08bf04941796d5ed007
 Description: debug symbols for ros-rolling-tier4-planning-msgs
-Build-Ids: 01cb570afb43751f1fc1ca5ba965a0d9efe6f8b0 02114d650cfa722694d067511867871c8c8dbe08 09eacf56a41ad842be3befc0370026a29c29b5ae 33f4261aaa19c5c61f855278d174515a8b1ba402 4a4801462e819408a56ab5982008d275cb9dc782 8fd6f7049ea4912796ec216138fe7ce4ff25b11b aa20d91070d0525d3e3a2479a7784e597bf65e28 bd6c1663b350b4b37e9918ed6a150e931eaf034e d88da4699067dcfc270e8f00f7daf9eb29e4113d dca1d8f23fedfa9e314863f8ada485e19378e042 f013cea60edfbe4247f43fdd7db6c918da83f1de
+Build-Ids: 0ad45e9f5700b501e045e46b54e6b3f4d31f54a6 0cfcb82ace417534cd50f7ac509fc2df43996aba 1cd3a2cbb980e8120dbe883bb86da6072e41aa28 2bedec668b28178eea8f8d2d48f0d3bc5e58d24c 3279a985e67a0ecfef7ff9893408912125d78182 3b56b63b39dc8f3c5b78ee682576b09a162c8229 7fd414f47742313bb74118f6d216e8b3598835e4 a562a100a035351bd778db8b23fe1230ad5446af c2d60dcf2ca2fcfed11bf3f9f3b48ae9197ae6f1 d37fdf15f3ecf64f462f210c382239833cdf7ec1 e652e03e3db1243c62da5ea81377e91a62d2fd93
 
 Package: ros-rolling-tier4-planning-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.42
+Version: 0.51.0-2025.08.12.15.55
 Priority: optional
 Section: misc
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 6715
+Installed-Size: 6704
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-autoware-common-msgs, ros-rolling-autoware-perception-msgs, ros-rolling-autoware-planning-msgs, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-nav-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-unique-identifier-msgs
-Filename: ./ros-rolling-tier4-planning-msgs_0.41.0-7-g9b25c59-2025.06.12.08.42_amd64.deb
-Size: 448048
-MD5sum: 5a2b38445fd56b6390f1f34a8bc6f295
-SHA1: 24ee8ff98a5ea0ef5bb7241af367a36fae261f3c
-SHA256: 6f2180b466dc8e109e7c494ae5490bfd238b530687d7b0da26aac692869df4bd
-SHA512: 1a6f7ec1402569edac5d7cbabe6ab6971e70c8bc9be90796871fa841801c0c53a972c747ca56449c47563e04387c335cae54e0c46928c1a341d2f72cfe69dffe
+Filename: ./ros-rolling-tier4-planning-msgs_0.51.0-2025.08.12.15.55_amd64.deb
+Size: 448974
+MD5sum: d7f2b162de2751bf2b00436a26b9a799
+SHA1: b19f485e3214c40a49d379e83be8d3a7e77cf141
+SHA256: 0cd630d0e74463cb2149c5cdb09e9185a21c588d19cd5513daceac72e02b955c
+SHA512: 49335f1783d7210b3b55102ab7d1f7e040cb341629acd4ac883b1b4a69f570b029a20dc85aa4acf47df9a47e3fa28d89a52d346f865f3f207f8d1ead844b6f9a
 Description: The tier4_planning_msgs package
 
 Package: ros-rolling-tier4-rtc-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.44
+Version: 0.51.0-2025.08.12.15.58
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-rtc-msgs
 Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
-Installed-Size: 1950
-Depends: ros-rolling-tier4-rtc-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.44)
-Filename: ./ros-rolling-tier4-rtc-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.44_amd64.ddeb
-Size: 1542660
-MD5sum: 39077e9b4d42c9395ad77dff15a35f64
-SHA1: 0fa3a5ef6cd6c69afdf414620e7b87600119abf5
-SHA256: 3a9aee43c950ec3f93280f3e09ded7ac958e195eda1ed45005334c731c9d65d1
-SHA512: 149d55e237d0bdbb1cd5a851032196161a09ef59170b7371f42eb30732331aa394b4f2e70da4a654ed3169734273ebd2bcaf3fd6bdc7e05f11e432889130f370
+Installed-Size: 1957
+Depends: ros-rolling-tier4-rtc-msgs (= 0.51.0-2025.08.12.15.58)
+Filename: ./ros-rolling-tier4-rtc-msgs-dbgsym_0.51.0-2025.08.12.15.58_amd64.ddeb
+Size: 1547146
+MD5sum: 4e127f81ac841746f081e93ed8b254e9
+SHA1: 4f4c6799c38d26fc35818898f6035138e0344b8a
+SHA256: 2621977c90e94e7094963e3f8b1f24e70a04eaf078405f544177e8f2c8155082
+SHA512: 13b93fde2a1f6b25a05732aad0a32c3c19bd9e4299eebef7cebda9ee4d7a8628c7e741e3576fbce70ca1f6559b5047797c890858ed22c5ef572e0c74af9162d0
 Description: debug symbols for ros-rolling-tier4-rtc-msgs
-Build-Ids: 15f53dc3e477ee7ba8e24174dbdc7fb05146b5a4 4c461177ed7a7ff5ef52d4acbc994c5a63799fed 7da67282e2aceeaa145770d9e64babbb7c3e6b84 addc3ea9a9a6bf7a19afb34f9c2436b49c3e1a4c b5a02368bac62b993b799f5b9d095327ddd97079 bb5acb1da937a510ef20e588785773d6ed3da360 c532827f5af8ff5cebcce420f5d54cc020d4e729 c576e2c97cbef0612dfda8288d91c29aa85750ef eea25668f5c3c1b37ac952d8f5d125b0771b5151 f861eba6a1ebe85dd935f73d988c27e7c28bb53a fb85c3e8f8acafd363c0601435b6c10af291897a
+Build-Ids: 143ce3f8ece2e18a87c040578c6a7b161249bef1 42622c11469433cac6191158645f8fc9a52218bb 4e7df71d8dafdc109d923201273263f33f5b4cf6 5228c2ea8e14bdc93ff1ef861c27193bb6ccff51 8396058513fe86adf02f2b799e724aa6ccbee978 85f24a21cdc1ce15bcf4548459028849fae0a6d7 a723ff55c2b27105a6dac1485bb9ec2a5e7c0948 d1bcddf7035cf8329570b24e2774688bcee47854 d76bd645cfb342626956afd2bfcd2a0db5fb3255 e67a5b37858721be6f9b237081ba3191253003f4 fa152e2c38e2aa1c767dc938a2d63707f4d94d29
 
 Package: ros-rolling-tier4-rtc-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.44
+Version: 0.51.0-2025.08.12.15.58
 Priority: optional
 Section: misc
 Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
-Installed-Size: 2658
+Installed-Size: 2659
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime, ros-rolling-unique-identifier-msgs
-Filename: ./ros-rolling-tier4-rtc-msgs_0.41.0-7-g9b25c59-2025.06.12.08.44_amd64.deb
-Size: 186032
-MD5sum: 6d76c4bc98ca9d16435bc786b5d80161
-SHA1: 103abffadd783858e8549e4e132607ff194b47c9
-SHA256: 42a3045cfb2899b1c7cb7083cce0baf59257e50bc94f06b02dcaf502e92c3562
-SHA512: 18b633416e83ac97b357f63d605d95ceef37b8f5dbe01d0bde7572cd775dc5940698e2cb331613eb417ab7f8f09caac256f4c95ee583c42bda1567a8954e37a3
+Filename: ./ros-rolling-tier4-rtc-msgs_0.51.0-2025.08.12.15.58_amd64.deb
+Size: 186418
+MD5sum: 50f4f77a74ea286004f09c20594e7604
+SHA1: feb55cf4bae533213d7c20aeddd29c3fde5e8a8e
+SHA256: 9c41e99e3b59c8823b2f1c9a9e2ea48176736a379535f64ac0ed778d4611955f
+SHA512: 9c6c5d67e218c0b4456e81540bf6050cdc1370d5759fc291f224ed468b8771544cf160769b9520f7bddc468f52812bf5075958c5ec53c3bf96b152baeab2c930
 Description: The tier4_rtc_msgs package
 
 Package: ros-rolling-tier4-simulation-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.45
+Version: 0.51.0-2025.08.12.15.59
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-simulation-msgs
 Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
-Installed-Size: 899
-Depends: ros-rolling-tier4-simulation-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.45)
-Filename: ./ros-rolling-tier4-simulation-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.45_amd64.ddeb
-Size: 694832
-MD5sum: fc5ea6f47df8077aea7ae160797d7f4b
-SHA1: 4d69cd0e1ffc0ca10910636b64dd6b050df2365f
-SHA256: abe28355601546738077f619592f417f3c2c793ba5b37174b1123357ee20d651
-SHA512: c68d8c5b59052342bf542dbbe66829bd7254156c747598e83d9bc1d3d8e9c5e48076cedade9aae399301eb3e082f8b54d8d88a45109741fb01548466926c8d0e
+Installed-Size: 901
+Depends: ros-rolling-tier4-simulation-msgs (= 0.51.0-2025.08.12.15.59)
+Filename: ./ros-rolling-tier4-simulation-msgs-dbgsym_0.51.0-2025.08.12.15.59_amd64.ddeb
+Size: 695932
+MD5sum: b48210ae23a1fcf4f325df14c757f2c8
+SHA1: 11d2432b5b1c0b6b00da9246b982ada811e0c3c2
+SHA256: ff95b75e7290bea215c0d3afada72cd5a10361418dc64784b313474170ae94c1
+SHA512: 7b5132c92dedffe865942d194bcfe603267ff9be0b926538f6458c32fa920c73ad77bafaa4a086409a525e78ba42e645788881b4f7245711ac11fec333ec4aa9
 Description: debug symbols for ros-rolling-tier4-simulation-msgs
-Build-Ids: 229c526b405034801a3c22556162c04f0d86780b 38e87015b3bd3416391b462d4073ba524d46ae16 3c5abab09dc021bc56dada652a5e67165533a0ee 416fcabacc425ce2ab5d0a74133c2ea78c6f7144 4cdcfa7bbd4db6e90ae341bc00cd8f5899d6761b 7ea4dbb507ccf930454df6f02db66f2564f6c992 8314bc2f83ad2790859577939884d1407c6ccac0 a83d4eb4c5938a7899156fdf0bdfe9fae5a3797f a9563b660cd74f336909156324ff01efbac01e7b d2ebdb38b7f469e432955928a0f7b82f8e69190e d9ad0fecd1ca421918330edd66a513ac7fc269f1
+Build-Ids: 0c5b359ab91cfa4d47ff78d5cf4ef0ad2ed8b634 1e222734e25da34bd094bcc2111072cbb40411cf 293791be05e7a731985fe9925670682f56766b1b 3b096961e9b04fcbcb7d3b506422e455317d5d5a 4e7491ef39eadbac9663067ffef4167511b67a7c a431afd8b24980bb45c3f3aac8667a6a62ec88ac a8cdba333a67cb23b25469a5c3fe439fc7ace823 bb5c14ff9f42b924ba861e5219c83fe6a315bea3 cf4078a04a7f7098617de8df678421bb5f628be6 f5fce636d6d589b2688e7c15ddac11f80a6a9eb1 fca81260b5f63e518e6c45d6ce1ac302691609c1
 
 Package: ros-rolling-tier4-simulation-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.45
+Version: 0.51.0-2025.08.12.15.59
 Priority: optional
 Section: misc
 Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
-Installed-Size: 1186
+Installed-Size: 1182
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-autoware-perception-msgs, ros-rolling-builtin-interfaces, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-unique-identifier-msgs
-Filename: ./ros-rolling-tier4-simulation-msgs_0.41.0-7-g9b25c59-2025.06.12.08.45_amd64.deb
-Size: 100746
-MD5sum: 47cacbd37e6999d9223535b6c34cdd72
-SHA1: 49f60147afb2323a3583e80a6484e73b6f9aaa00
-SHA256: b7a251c9bd9368220bd8bf698123d6321885228b3749b76c0aaa761fd04a9d3a
-SHA512: d2d9658d617b49588ebe7c77e735a76b7cf4357f0582f4371399cd3bf9b9ef088d95528e73b694f77515f006ecd202ac2b0852053093cfc79a5a6fc45f95f4fc
+Filename: ./ros-rolling-tier4-simulation-msgs_0.51.0-2025.08.12.15.59_amd64.deb
+Size: 100866
+MD5sum: 9bce94df28aa19d5fabc05e08cb32c00
+SHA1: 581505f30a59115b68f1f92b5a3eea40a51f7b02
+SHA256: d43ce8cd7abb1f5f4d007c8a6b148285a19e28cc238a43bf2be4a32e9411bf7c
+SHA512: 7248f7125a29980224ff0226605b5fb5a871ad732a076b739083953ab9ba86b52c8ae0f930450da5202412a3f378505dbe75e32b72806e4ff1cd397de28e120a
 Description: The tier4_simulation_msgs package
 
 Package: ros-rolling-tier4-system-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.46
+Version: 0.51.0-2025.08.12.16.00
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-system-msgs
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 5417
-Depends: ros-rolling-tier4-system-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.46)
-Filename: ./ros-rolling-tier4-system-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.46_amd64.ddeb
-Size: 4401862
-MD5sum: f7cf81fc4fcc4d5230b5709949f7405e
-SHA1: 3ef8ec8beccccfb986f25f2ae91da64738245092
-SHA256: dbb5655d008490155a40f82bc2c103256bfb76dfdc8875e58c6181a51933ee0d
-SHA512: 272484e4779dc708db49aab0b651ad6b5821bab2958ac91328feb743a0bc0bf238aafe39719db147c9b648d2ccc01a5bebc9ed9a69f6421362fc6dff9c0ce284
+Installed-Size: 5019
+Depends: ros-rolling-tier4-system-msgs (= 0.51.0-2025.08.12.16.00)
+Filename: ./ros-rolling-tier4-system-msgs-dbgsym_0.51.0-2025.08.12.16.00_amd64.ddeb
+Size: 4041010
+MD5sum: 794568ad07356706e0e468e6573eeca4
+SHA1: 968ee34f10b13b513666b487d65a55ee1c0810f5
+SHA256: fc8fd8bf74ce0da038cd8bc5f0a0418fd2b99e46b01e29e3753d5a7b364c34e3
+SHA512: 7250805b0fd90c55b9f66ad977b4d924a31fd16ae21fcff29b04e57d14b413e960c5ef523f07e0b64a7eb5bef0947e847a0aceade7e1611c873418678c392857
 Description: debug symbols for ros-rolling-tier4-system-msgs
-Build-Ids: 0d15b26e7c41d85be04e18ebedd1421abce80f14 229e5b0f6a929d52c839887b2acdc64bf4f39138 380c11d8695152d16692bac18c3e943ab5c1a074 53423a190cd03259da105144386cf5b9021bdf12 81d7d8821848a93677ce9a11d61dbf0ecf3dfbfa 86335f037f1c76998faa04d8132db056fd58f567 a92b328206b74611a2c513ffdbf91a9b78b5a89c b11dc76b3322346a92d1d1aa76f9edbc8f3efa29 b5fa2bfe1d27f2f293c757b643e835e809824527 c38056ce34fe9a0a5b0a7e5e7256e2ee9aee3b21 c51ad5c3d14e362a31c1e14a79e56bd95f63b092
+Build-Ids: 273880d761b29251ddf3446dfd4811da6c453ede 544ffec0e30c1c7699328a73e47844a7618fd777 554dedb173f6f612e97aa843af45c359bcfbc039 5d11bbbcbdad6ef885a50d6df7bd4bafce2b4231 892cce291b4486e42498803266be4f7712350aa9 a9bae87fe7826eac3ca2bea826181da999ca32c9 afc3da47378faeeafcad8de1505a37e2a7ac1978 d77740efeb87afc1831d9ea49a7cd6e07f9b056b de9e8d65b64a0549cd2839c7d75a7b130917aed3 e003ac4afb98a6a5c4c44417a34309eeea4e4f1b f08919cbc1738f1f92425e62e7a38665d79adddd
 
 Package: ros-rolling-tier4-system-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.46
+Version: 0.51.0-2025.08.12.16.00
 Priority: optional
 Section: misc
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 6700
+Installed-Size: 6387
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-autoware-common-msgs, ros-rolling-builtin-interfaces, ros-rolling-diagnostic-msgs, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs
-Filename: ./ros-rolling-tier4-system-msgs_0.41.0-7-g9b25c59-2025.06.12.08.46_amd64.deb
-Size: 417944
-MD5sum: 64e0c7d424aa2f9dcdfd28e3a5548977
-SHA1: 7e442b047e9d94d270961e794071eefd8cc267e3
-SHA256: 3e994fd239d308d77f0d3b875e3ec41b1949d1078ac3ee028b6745239905977d
-SHA512: 3eb834a36eafc60c28a0c42c2801da73f2e68a1b1bf5a7d5333181f1d2b8a0b108ba51258e41eab55584b4ff6c82ce06fdba050c1858ea7ac62e36c06f970a5f
+Filename: ./ros-rolling-tier4-system-msgs_0.51.0-2025.08.12.16.00_amd64.deb
+Size: 395842
+MD5sum: 0f75b67592ca290975da2fed149e6559
+SHA1: e96e355aa5da6be68705d667e57f40b807020ad6
+SHA256: 86b4f5e3ab64840e053975b38a72ce13c0a98bd4f42583b8d8219d34adc0844f
+SHA512: ebc829c115418475a369e9a255fc15f2f8562fa82a94abd00979b6a9d7d566d2a1c16286be47a58fd4f40d46e0c6fd629e43a6c5f34bbeafbecb25a2fcdec8e0
 Description: The tier4_system_msgs package
 
 Package: ros-rolling-tier4-v2x-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.48
+Version: 0.51.0-2025.08.12.16.02
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-v2x-msgs
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 854
-Depends: ros-rolling-tier4-v2x-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.48)
-Filename: ./ros-rolling-tier4-v2x-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.48_amd64.ddeb
-Size: 681822
-MD5sum: bffc8a5b672e26e7dc3fbb26cc88379e
-SHA1: 5264fd929d65813ffb0335b5cd2f6bf4ab822c83
-SHA256: 9cce00ba7c29861fac4013e5b8002b11415f5ee020845e31e0b9be1fa7fb1e6c
-SHA512: ccb6a5cd227bd06167973353bc46ec746c67ae4b578a04c51deb4767b9bca688ff28cb2cb9a62036f5725a87aa9463b3aa18430db48d7fd7afffbe0210390011
+Installed-Size: 856
+Depends: ros-rolling-tier4-v2x-msgs (= 0.51.0-2025.08.12.16.02)
+Filename: ./ros-rolling-tier4-v2x-msgs-dbgsym_0.51.0-2025.08.12.16.02_amd64.ddeb
+Size: 682684
+MD5sum: 0c87e20fa54ddd9c12170cd8b1b9e302
+SHA1: 0d0c2911e06e937fb055f41107fb94bf328d4368
+SHA256: 79dca995d553ec76a5c7b118b2b78ae74e1f11aa6ba17db25685b4604098a3a1
+SHA512: 66ee6002b878831896144e18a4467b1434d5101eb275eef21f3c6f0bde55cc5dc2534afe8498c622e461e120145d778290d887f28f48a94477e5e41aa5108473
 Description: debug symbols for ros-rolling-tier4-v2x-msgs
-Build-Ids: 036fd41600175483364310c42be49342b86871c9 0d6f83653c11318cd8cda42226384c135c444851 56b6987bc2771e0ce506babb118f4c8fe9c6983d 67bcb8da1f625e3a937a234443ffce11032f9ee2 73b4bf650e7421ebbf0b8985ecd29c8a34293719 797c989269179504aed22d7752a7f19a96793160 7cb198ea5f6a19b729c3a8ea907d7530d1bf010e 9b5e774c37cb4ed9886a6a30889b4a8dee3f65c3 c64566b4c7c8a785e01081d601c529b8d8dc6c76 ee979c3546dd7f00259d0c42b7e8b91ec4407252 fa99dec5135124fd90d3a0027723b08803ca25f0
+Build-Ids: 250d467e7fedd69ba4d647f3640f8c97e8d21202 4dfc227d5ccb1564186ed4ea18d63a5acdbf03be 6a0101095f58736e7d0e2e90aeec6c8616504160 72035f92e05fbf1a04317b1152b8df3fb2cbfee1 7816a495f2a53079cd1808a19bf1352b1a5be58d 80d23ee0dca1dc873804a0af481420d2af497088 945719dfae36da09f35854cd6ff6ae8f85965248 9727721c1138ccb83e117042545c9804044bd9d3 e96d8f24fd7daae3b56f2cc7b9c8e3f59529ba95 f9eb6a17f3f8d2474c7cc20bb5f1100ead416263 fe1326faee50cb5cab7531ae51b0607edb8367e7
 
 Package: ros-rolling-tier4-v2x-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.48
+Version: 0.51.0-2025.08.12.16.02
 Priority: optional
 Section: misc
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 1021
+Installed-Size: 1024
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-rolling-fastcdr, ros-rolling-builtin-interfaces, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs
-Filename: ./ros-rolling-tier4-v2x-msgs_0.41.0-7-g9b25c59-2025.06.12.08.48_amd64.deb
-Size: 90174
-MD5sum: 929b802338ea247347f7755fb531cb90
-SHA1: 0eb1d200ca1b54e0d7ae25f9f43a16323cd68439
-SHA256: 4ae6782c05b768b709f8c9c6853b62e61d16c15cccf311962c78aaf995994997
-SHA512: bccd4ff849c1ebda40d0326e14ee4182ceafca6f21a0dabb18c7ad1d9e67bdd590fff6e1eadeb18a2e871e10bccc01913fc3dea05a2a1fa7b0a38041f474d998
+Filename: ./ros-rolling-tier4-v2x-msgs_0.51.0-2025.08.12.16.02_amd64.deb
+Size: 90450
+MD5sum: c964f964805797a8ec9143c6d2b6c8df
+SHA1: 060c940d9e5bf2b302825bf84d05c9665bbf74dd
+SHA256: 60894b3820d8d104bf27ea9c8b5f67e9d73bf4dd5b23f5fca2e5cddaf65b687e
+SHA512: b34c32ba89f408d3efe679878eda559341d0aac67e87a27283fe6db016e856b0f9df7a044f97bd4356f53cad4759737892ea6db6ad035f3b390b54523c06869c
 Description: The tier4_v2x_msgs package
 
 Package: ros-rolling-tier4-vehicle-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.52
+Version: 0.51.0-2025.08.12.16.05
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-rolling-tier4-vehicle-msgs
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 1557
-Depends: ros-rolling-tier4-vehicle-msgs (= 0.41.0-7-g9b25c59-2025.06.12.08.52)
-Filename: ./ros-rolling-tier4-vehicle-msgs-dbgsym_0.41.0-7-g9b25c59-2025.06.12.08.52_amd64.ddeb
-Size: 1223700
-MD5sum: 61e014dea85a5926c22a80a24e1cefc6
-SHA1: 14a6a43a405da4541c59c9ecf9d360a24f60d3a7
-SHA256: 562f5460106c17a2549033045d9778e086aa5ccc145f761354ba01c711905358
-SHA512: bd80e0275717726052a5ce8fb8cc42cfa7f8e761e766ec33450bae82f2f5c22009bdbf889f0b916860933dd6a6473c9ce2a780ebc1d30ec0a30d7c97631c6efd
+Installed-Size: 1559
+Depends: ros-rolling-tier4-vehicle-msgs (= 0.51.0-2025.08.12.16.05)
+Filename: ./ros-rolling-tier4-vehicle-msgs-dbgsym_0.51.0-2025.08.12.16.05_amd64.ddeb
+Size: 1226060
+MD5sum: 11898c063968f87a03b88565c07d9f1f
+SHA1: e769c8056f8cb54d3278fe954d6dd9fb7e3b08b4
+SHA256: 059d363739c52fa374137b672e4f36fa7a3202847a8e92ed226e1613415e5ee9
+SHA512: 56e05a349fd66b310c97a902bd5e78f3123639f1fb9987d05e90761c426f6b94d11b0fce725d1fc8479b2f89e0ddb5c31d560c0eb335f6b305d1fde50c2aac85
 Description: debug symbols for ros-rolling-tier4-vehicle-msgs
-Build-Ids: 15e23c57205c5f89fe55b3773e27b597274facd9 24685c22bab59c1464294c57437ef1f3189424b4 24b498e2821bdab294e9181ff1fe477e38186743 38d6d4aa91675e4849b962512339746711c83496 39e91155c24d8f5fb2d560ddf44e5369c751206f 7e27b7fa746f86377d862f2b2cf58e2f9aba6b31 a597e83de83db0355fd08161770dd4390310484a aeacd371712f00ab64a26d304ec38a539f2b61eb b0784bdb6495dd3aab540c0298249a341ac7abf6 b46cb56f3108442b61cc5b38a5102dd8bae754b2 bdbd910dee27ab8590f048c64c386d541322d6d4
+Build-Ids: 1bc47f956e71395d8133065f54a7228791f66491 2ad42e2d78934df409f311226c22dfbc7edc6301 3bd8074cc649a7c766829cc326cc8e19f4785fb7 401cb93fe60df9302bd95774032aba6682e8f569 55317e7ed67ee5c9b1bf1627748fd3460e4ded68 8a88656cc4255f9df46897e97dda116ac946d128 9ff03a881290a0c63cb804203f5978a23e5d398d a98a4124d4dba5d6cbf1120344b1161bc26f6f90 b643dcae3356c694c3715c0e5709f1fa00148cd5 d89634fe6c563890c9e2b1b8c754f4a39d532694 e99075039d70a03a84d9db8b6b7065dd58a1154c
 
 Package: ros-rolling-tier4-vehicle-msgs
 Architecture: amd64
-Version: 0.41.0-7-g9b25c59-2025.06.12.08.52
+Version: 0.51.0-2025.08.12.16.05
 Priority: optional
 Section: misc
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 2043
+Installed-Size: 2037
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-rolling-fastcdr, ros-rolling-geometry-msgs, ros-rolling-rosidl-default-runtime, ros-rolling-std-msgs, ros-rolling-tier4-control-msgs
-Filename: ./ros-rolling-tier4-vehicle-msgs_0.41.0-7-g9b25c59-2025.06.12.08.52_amd64.deb
-Size: 146926
-MD5sum: 515d61a85bf87bd0c954a71e14c25cac
-SHA1: a63a59b81307c5751cf5ba92b6b157bbe660ad96
-SHA256: a6dad4e9704511db3179bf3f44086bac455346340d41e6daad87b955b30b4d02
-SHA512: 6741fef0d5b3c6dff41678bdb5ce9ae7a99d163e0b5300c16e5401a1a2269637c60d0d0e48c58c1db8a308a39fb612065b4846da1586377fde12fff86be34e8d
+Filename: ./ros-rolling-tier4-vehicle-msgs_0.51.0-2025.08.12.16.05_amd64.deb
+Size: 146914
+MD5sum: 63598b58bd73832000fb301ab825ae60
+SHA1: 8614fbbacf44a258d2e4a718b2258ec01f160b95
+SHA256: e8766c56287d5230410ac49f5fad0134282eef2efe26fddf31e4315caf82c857
+SHA512: 8e32b116a42ffe9cbe87bdf5e5a8a15ce47384534bca16b442c9a3d503669c2e0568c3da8f930f85ae9ad00408c300022de2d3bd8f8844f524edd919eec288f0
 Description: The tier4_vehicle_msgs package
 
