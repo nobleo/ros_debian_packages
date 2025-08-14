@@ -8,11 +8,11 @@ repositories:
   autoware_rviz_plugins:
     type: git
     url: https://github.com/autowarefoundation/autoware_rviz_plugins.git
-    version: 0.1.0
+    version: 0.2.0
   autoware_universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: ea3bc9ae62df95788b68223a35b53b767458f508
+    url: https://github.com/autowarefoundation/autoware_universe.git
+    version: 0.47.0
   managed_transform_buffer:
     type: git
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
