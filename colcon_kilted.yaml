@@ -12,6 +12,8 @@ list:
     - autoware_utils_tf
     - autoware_utils_uuid
     - autoware_utils_visualization
+    - boost_tcp_driver
+    - boost_udp_driver
     - novatel_oem7_driver
     - off_highway_premium_radar_sample
     - off_highway_radar
