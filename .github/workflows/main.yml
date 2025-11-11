@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: '13 2 * * *'  # Every day at 02:13 UTC
+    - cron: '13 2 * * 0'  # Every Sunday at 02:13 UTC
 
 env:  # Only set the github token on the main branch on push events. Otherwise only build is verified but no binaries pushed
   EFFECTIVE_GITHUB_TOKEN: ${{ (github.event_name != 'schedule' && github.ref == 'refs/heads/main') && secrets.GITHUB_TOKEN || '' }}
