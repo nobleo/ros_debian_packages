@@ -1,1318 +1,1318 @@
 Package: ros-kilted-autoware-utils-debug
 Architecture: amd64
-Version: 1.4.2-2025.08.12.16.16
+Version: 1.4.2-2025.11.11.11.52
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
-Installed-Size: 2019
+Installed-Size: 2020
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-autoware-internal-debug-msgs, ros-kilted-autoware-internal-msgs, ros-kilted-autoware-utils-system, ros-kilted-diagnostic-msgs, ros-kilted-rclcpp
-Filename: ./ros-kilted-autoware-utils-debug_1.4.2-2025.08.12.16.16_amd64.deb
-Size: 437988
-MD5sum: 855b746ee9890b1b2feecd4bb12fc608
-SHA1: 86083e8b67695037247a403aa907867bab306dee
-SHA256: 2bef2500c773f6f5a1fbb62851d280df1f9f60f68ec3b0e9008fb868899dff1a
-SHA512: 5e26ca89e424b45b96eeb29c086d0fd235b33ab0fd60ef84304b9153eb6fd4f7b873f4778f19bc214986c68c33e1ecb643d09174c08cf148b565aef13b80355c
+Filename: ./ros-kilted-autoware-utils-debug_1.4.2-2025.11.11.11.52_amd64.deb
+Size: 438220
+MD5sum: 55f505f52824e30336c0562cef046948
+SHA1: 13eccaa3829abb9c7d0c73bf7ad9dbf92acb5a6f
+SHA256: 28fb9ebb5dec292c73bfee7d538edc7aa0c786fe0bcf6a4de6342a1a6985b7ae
+SHA512: b4099f68e0b6131fdece7a6c444beda565ebf39f0984d411fa510ab5f60f9eac6ff954e896e5260c30aa79cdfcbcc4494066cd9bfdc3b4af2f6a8b0dd3ffad5b
 Description: The autoware_utils_debug package
 
 Package: ros-kilted-autoware-utils-diagnostics-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.45
+Version: 1.4.2-2025.11.11.11.20
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-autoware-utils-diagnostics
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 809
-Depends: ros-kilted-autoware-utils-diagnostics (= 1.4.2-2025.08.12.15.45)
-Filename: ./ros-kilted-autoware-utils-diagnostics-dbgsym_1.4.2-2025.08.12.15.45_amd64.ddeb
-Size: 754260
-MD5sum: ba8472ac8c0181ce9f9261b73ebbc0aa
-SHA1: 3e7c0b4fd759ccf06438fe4bb733eee6eaf0ceb4
-SHA256: 1f9dfc49a114e82be86d21e79f85ca6c6430d2b7f33b22d068755f5e822f70d8
-SHA512: d0c266a89325876ab3b341c44e61496351222389f44605b408927cb924cbbbc5ccd322b3b10affa67a3d4d0c83dbf6ff832171aed199843dd489ccae3ad68885
+Depends: ros-kilted-autoware-utils-diagnostics (= 1.4.2-2025.11.11.11.20)
+Filename: ./ros-kilted-autoware-utils-diagnostics-dbgsym_1.4.2-2025.11.11.11.20_amd64.ddeb
+Size: 754962
+MD5sum: 1cba499c36aa0f82b5c91763626c24a2
+SHA1: e804a71062b336baf54900ee1d9f043919c9aa38
+SHA256: 793fc5697c3a29216b1504f0c9e81d0046b884a03b5ee443b15435c8e5080575
+SHA512: 8b17aa5aeeabab9cb798ea8a144b82fa24dbb664b037f1ce7fcf9fba305c5623c1a4c711cc75582324fae2b1bfe1ffba20eab0d83c3d9d386b420b4e91d63a57
 Description: debug symbols for ros-kilted-autoware-utils-diagnostics
-Build-Ids: 91736fc5677fc26e87eaae4bf16ca7f0c616c377
+Build-Ids: d739273bc3ac8bbe7bade1feddc9b216cbd1d468
 
 Package: ros-kilted-autoware-utils-diagnostics
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.45
+Version: 1.4.2-2025.11.11.11.20
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 192
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-diagnostic-msgs, ros-kilted-rclcpp
-Filename: ./ros-kilted-autoware-utils-diagnostics_1.4.2-2025.08.12.15.45_amd64.deb
-Size: 51554
-MD5sum: bfe02c7c5c0c84d124ae9481cb914534
-SHA1: 7f68ff243fc91f2b4d822ce56da485dc5488043a
-SHA256: b4815d5255538d1d09626f913f3e3fd2242f900ee63fdc8bcbed46ba8ec2db39
-SHA512: dcf5d96bb335d9eae8f4173af051c75ab1bd1a765d9473609c22d6a9c7864e855842e6ea4046d3118c370579c6972f0cd680ebcabc96a144df374fe30e1d2ad5
+Filename: ./ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.11.11.20_amd64.deb
+Size: 51544
+MD5sum: a2f38a4c0735d66217290a9eabfe50b7
+SHA1: 689153a6d8d598c6c63dbc9564395a85b3bb1547
+SHA256: f08fa330f262e5dcc62428eaafa424170e243ffcc12cf60c749709f383d520d3
+SHA512: c37af95d61ddf087e97817ad965495b9722900833dcb78fdaf419596a89edff40ec443e0fff25258089c3278afb03c411606f2118d4df932e3db1536e44f1f75
 Description: The autoware_utils_diagnostics package
 
 Package: ros-kilted-autoware-utils-geometry-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.4.2-2025.08.12.16.17
+Version: 1.4.2-2025.11.11.11.53
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-autoware-utils-geometry
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 2763
-Depends: ros-kilted-autoware-utils-geometry (= 1.4.2-2025.08.12.16.17)
-Filename: ./ros-kilted-autoware-utils-geometry-dbgsym_1.4.2-2025.08.12.16.17_amd64.ddeb
-Size: 2713192
-MD5sum: 18767eca9a2377ab373b9e7af579ad2a
-SHA1: 3638582cc01f8ba0be22dd6e8b0d4a117f35adb0
-SHA256: 743218657e464d2d89f6e737dcd695ca7c1c919b90a65499341ecf0e0c9afb4c
-SHA512: 41d98801b6181486166fdc2ebe597b78998a2903a3f3bbfd4b8300a95f768f387f5d657b1ef65d5635ab0a86efbf151bcd9bbf8125cf228856dd6d4842adb1ae
+Depends: ros-kilted-autoware-utils-geometry (= 1.4.2-2025.11.11.11.53)
+Filename: ./ros-kilted-autoware-utils-geometry-dbgsym_1.4.2-2025.11.11.11.53_amd64.ddeb
+Size: 2713186
+MD5sum: f934a85cc19eb985cb7507404f927738
+SHA1: bf9995ba8e921fda9fae487eeafb41f8bfe42867
+SHA256: afb6500b3664282d5958b5a13495299e057c48b7114376cec563bedf19a1fa05
+SHA512: 4d21013417166e5b0dc23d8763edbb984c9f594038174fececf290380b6d804c9eff65e9d2f24c4ce17b7f203e833065f095ce247d1ed07a9777e43609c0599a
 Description: debug symbols for ros-kilted-autoware-utils-geometry
-Build-Ids: 2903194c64ddb7c298d39e99619a1e55257ccfb4
+Build-Ids: 7b8923c4597cb1fe1091dd9bc724e0db91f9a7db
 
 Package: ros-kilted-autoware-utils-geometry
 Architecture: amd64
-Version: 1.4.2-2025.08.12.16.17
+Version: 1.4.2-2025.11.11.11.53
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 396
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), liborocos-kdl1.5 (>= 1.5.1), libstdc++6 (>= 13.1), libboost-system-dev, ros-kilted-autoware-internal-planning-msgs, ros-kilted-autoware-utils-math, ros-kilted-tf2, ros-kilted-tf2-eigen, ros-kilted-tf2-geometry-msgs
-Filename: ./ros-kilted-autoware-utils-geometry_1.4.2-2025.08.12.16.17_amd64.deb
-Size: 130842
-MD5sum: f9af508a169d824c9e04834299cb1f42
-SHA1: 7492f8cacf3af5ee71d40f1aa54626bf44a1a571
-SHA256: 7d160041681cf60df72eae478f32a63ee087994834eb468c472c26bc306ee9a0
-SHA512: a19767d90e40b9bb3c793284501c3ac7f74974bd1f2b05a9225e3b6600275d2477a7e2a967152e205bba955e8020826db715d1f9c6042a0d6ad76f12187bebc0
+Filename: ./ros-kilted-autoware-utils-geometry_1.4.2-2025.11.11.11.53_amd64.deb
+Size: 130834
+MD5sum: 008eb017611987da9fc958cf4855d65a
+SHA1: b7ad7c937041ccc9664c1e5321cbfbb51c5e4162
+SHA256: 519023aacf3a7bd85ba1a79abdbfcb93b11adb62fe324bde8b1420a7a73cf817
+SHA512: 26144d6bb4e7e48e3637608a3dd1a8cb21d3a2768cfccbbc987dc15ee6aa148392a441c9f6d91bb7af6f05d70742314da256dec4f4bbe72a6a9a21f11cf5d8f6
 Description: The autoware_utils_geometry package
 
 Package: ros-kilted-autoware-utils-logging-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.46
+Version: 1.4.2-2025.11.11.11.21
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-autoware-utils-logging
 Maintainer: Jian Kang <egon.kang@autocore.ai>
-Installed-Size: 448
-Depends: ros-kilted-autoware-utils-logging (= 1.4.2-2025.08.12.15.46)
-Filename: ./ros-kilted-autoware-utils-logging-dbgsym_1.4.2-2025.08.12.15.46_amd64.ddeb
-Size: 416732
-MD5sum: 354327f880ab3405c3a08ed19a58abb3
-SHA1: 24b5ea9359910218fcb684c8b3d2834b53b49da5
-SHA256: ac8ce445acdcc25b473749e7f0e79356c25b9ad1183ec87dc75d8437f98ccdd9
-SHA512: 97d854de0f8548cae1e244cfb4bc957fb400dd628434226a883d65d7f27692d15c3702f6de10dc31571c74efe6c382a4cd11a752911d8ab87fe495f2e854e295
+Installed-Size: 449
+Depends: ros-kilted-autoware-utils-logging (= 1.4.2-2025.11.11.11.21)
+Filename: ./ros-kilted-autoware-utils-logging-dbgsym_1.4.2-2025.11.11.11.21_amd64.ddeb
+Size: 417156
+MD5sum: e4f40e9aef6a492d919954c6e66fc7a1
+SHA1: 9cd706fe36309826fa25c1137a572be37df5f6bd
+SHA256: f3b869adba9be7cd4b588e25a8436d52285440771cb9d392c344b6d2c1e9e0f7
+SHA512: 8f5d8ee16226cde77434f36003df17cdd67b12e55231172cded815d7e7d3ea131f041bf0e3b05fe6076bcfb9242b04c0ecfe586c5900e07c8465aec284f188f9
 Description: debug symbols for ros-kilted-autoware-utils-logging
-Build-Ids: 75d3483a01c51f901cff94a251f323914628bb9c
+Build-Ids: dc5d9b5bf998adcafcfd06b6c73c6b58a4482bf9
 
 Package: ros-kilted-autoware-utils-logging
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.46
+Version: 1.4.2-2025.11.11.11.21
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 138
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-logging-demo, ros-kilted-rclcpp
-Filename: ./ros-kilted-autoware-utils-logging_1.4.2-2025.08.12.15.46_amd64.deb
+Filename: ./ros-kilted-autoware-utils-logging_1.4.2-2025.11.11.11.21_amd64.deb
 Size: 29224
-MD5sum: 917632a7a95d940211f76af2a0a739dd
-SHA1: f5b69c28c205572eedec322b4b2c988981c9e837
-SHA256: 70eceadc56d41f75e6a13746f312ab93b9cc60cd6627240d5bffe31f099cf7d5
-SHA512: f8cf6d6547728403e8d374eeb31cf8153586dd06f80e7f60eb3726a553453970da49cd965cfe21fe0b43e561ba340833395db2dfeec749778868553db9856106
+MD5sum: 16a3f156b06f29f5d45fb3d7a0050ac6
+SHA1: a04de05c99ea9a7d87a0347a5c119b234749d854
+SHA256: e8e0366b875fcee59c76689584d97b09284e0bbeaf3c41c8b58e0100b7ab54eb
+SHA512: d5975e989bcf7cbc7b2924c71c2bb385d3aab8737c9c1632b847e0ed68561779bc5abd42d67c030a4e3ddb28ac07f60c3650f43e386c9b2bda3f3c277d3ad0a7
 Description: The autoware_utils_logging package
 
 Package: ros-kilted-autoware-utils-math-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.47
+Version: 1.4.2-2025.11.11.11.22
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-autoware-utils-math
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 21
-Depends: ros-kilted-autoware-utils-math (= 1.4.2-2025.08.12.15.47)
-Filename: ./ros-kilted-autoware-utils-math-dbgsym_1.4.2-2025.08.12.15.47_amd64.ddeb
-Size: 7122
-MD5sum: 44ecf5d10bbae2610975b846269edb31
-SHA1: ce4d313b454a3147d2e1f40401c64785447c13df
-SHA256: 6657aa8351c614e9bf09884cdbfb342d12f929d6a6c8f43dddec41f722e3d58d
-SHA512: a4b374397b0f2aa19478e6e2f5fddfcfc5ddca7fa5c2990257f26c8d12a2e8b1e24e583e30ecb92ac107c69947bd1c47bd9a76a81c3b46e18b90c68621e9d5c3
+Depends: ros-kilted-autoware-utils-math (= 1.4.2-2025.11.11.11.22)
+Filename: ./ros-kilted-autoware-utils-math-dbgsym_1.4.2-2025.11.11.11.22_amd64.ddeb
+Size: 7130
+MD5sum: 9117ead3366a7e9fce96e788db1c7865
+SHA1: dffc7d888bae8fa4ffc54f70392115faa03ef673
+SHA256: 3f645979fe9029e7a5510b886001f2bb3f7baf4844de6bd2f3793f61a93f8094
+SHA512: 0c26fa4dd09bd82fe23fdbe7a1902cdb56b43dd36c05efbb289b97d95da774c1b167746fd75308779b1a1150e5876e1cf0f04b28f5b3a45b8722400aaec8aacd
 Description: debug symbols for ros-kilted-autoware-utils-math
-Build-Ids: 918035e1ed58d05ae01e8a2959e540e57e6bbdb1
+Build-Ids: 17e823a462da82e913a77ad5a7dd43f91dd367e4
 
 Package: ros-kilted-autoware-utils-math
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.47
+Version: 1.4.2-2025.11.11.11.22
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 211
 Depends: libc6 (>= 2.2.5)
-Filename: ./ros-kilted-autoware-utils-math_1.4.2-2025.08.12.15.47_amd64.deb
-Size: 109456
-MD5sum: 9ff9b411fee2c8fd452b7dfd137214e7
-SHA1: dc7fb378db2f403de3331c448818e6200e1b5fa7
-SHA256: 26c29804cb390ac9c0a0c8f818849eeea14c2f8d9222ce5cb9b0ac2c76903183
-SHA512: bf348274c13d8924d5b7375a528df88ce9ca0b7ac0b3f0a3d687b2e437fb91f6f3eb7a0df6fea9d96b8194b640136332451f80529f0d2e7be7b8d08900618e09
+Filename: ./ros-kilted-autoware-utils-math_1.4.2-2025.11.11.11.22_amd64.deb
+Size: 109408
+MD5sum: 1bc60584d7cea2496a7a2bde159c85fd
+SHA1: 546fe1062576bdb22d99e2d61b7bd264a9aa2638
+SHA256: 19126840495dd3a59e774418ef52f7cc0c1300130918c27c6b68896cc06ae720
+SHA512: a38ce12d06baefbd9a0892d7b5df920f0aa6d70bd0b996725d8852c2d1082c2e56854c5ced57bcadfa80081388167c3fa1fac78cbe30787b6c97dc070b388a57
 Description: The autoware_utils_math package
 
 Package: ros-kilted-autoware-utils-pcl
 Architecture: amd64
-Version: 1.4.2-2025.08.12.16.41
+Version: 1.4.2-2025.11.11.12.17
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 55
 Depends: ros-kilted-autoware-utils-tf, ros-kilted-pcl-conversions, ros-kilted-pcl-ros
-Filename: ./ros-kilted-autoware-utils-pcl_1.4.2-2025.08.12.16.41_amd64.deb
-Size: 8014
-MD5sum: e81ae4b57a4aae907ea36e91687d0ceb
-SHA1: 2b6f90f4c6dab07e353922cc4990d4d93b1daa15
-SHA256: a49f42c482953cca21373a926f315d898c6662ceaadf40511a6f500adeae8081
-SHA512: d1e931ba59922d0580fb4598fc73b8b9a0237f188a5503a304b51b2d53172f1427856c89012253b6396d44cc4d728637deb0df7f742186e0c9c3c163cf416f0e
+Filename: ./ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.deb
+Size: 8008
+MD5sum: 656e3f940e20ac6b72995c5597aa1482
+SHA1: 23ecbe12c546a58399f76a6d00dba9518df9649b
+SHA256: 3b136c42cf6e78afb7f036926eff3987a0ecbd9c00a6315c069289164be61cc1
+SHA512: dcdec645294018d15e88fe3258b49abc70d8b7b68fdf69342d07e6321ea831aac3797fe33e5f17dc7a890ff44b51cc99f871eec42d603ee1a04dcc42f41a8dcd
 Description: The autoware_utils_pcl package
 
 Package: ros-kilted-autoware-utils-rclcpp
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.47
+Version: 1.4.2-2025.11.11.11.23
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 61
 Depends: ros-kilted-rclcpp
-Filename: ./ros-kilted-autoware-utils-rclcpp_1.4.2-2025.08.12.15.47_amd64.deb
-Size: 8954
-MD5sum: 9cb4e60a1da367b8ae43ee57a05c2942
-SHA1: d827dd88afd9f59aea8ce9dc8bcd5c5c731fc4fe
-SHA256: fc42f2cbae536cc5ced1c8adddf264188ad016366529699490cd2824930aa0af
-SHA512: 48ca6e8add0ddf7cd0b089c777615a1e06d7a647b5978fc0e5cb450e28140402055875e828c21dfc18bb2ddd959864e0fdca206be7e5d3492b479cf4895e87b9
+Filename: ./ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.deb
+Size: 8944
+MD5sum: 57dba6bb4939b555a57de9c2c1b1e981
+SHA1: 21ae8421e30a75f87427d49cd75797ec1d666253
+SHA256: a223b1d7648d8d35f996b5457a64559585f8a1c8cd16f5d25825d033ff8d7151
+SHA512: c72f428d18092044b73c4825339906ffc72190a855a0520307382c6fa976f6a646c3151f45c21b03a500fd5463c704193cada6241fd7b88be524d6ecf731284c
 Description: The autoware_utils_rclcpp package
 
 Package: ros-kilted-autoware-utils-system-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.48
+Version: 1.4.2-2025.11.11.11.23
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-autoware-utils-system
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 207
-Depends: ros-kilted-autoware-utils-system (= 1.4.2-2025.08.12.15.48)
-Filename: ./ros-kilted-autoware-utils-system-dbgsym_1.4.2-2025.08.12.15.48_amd64.ddeb
-Size: 194364
-MD5sum: 68149f37f2bb808f43fffb6cc9354c76
-SHA1: a9e61ba394923e47dd909119dc29fb4a74d37f53
-SHA256: 726651e8c47515337ec6493e80e598ff59241cfaf24f244082712088fc826fc2
-SHA512: bfe682ceef995e52da5cf08c42f030ed23cdb58164161ca7948fda0dedff581fa8163e28140504ced8369131cb483be75402b956d20bc39fc28438b33e8536dc
+Depends: ros-kilted-autoware-utils-system (= 1.4.2-2025.11.11.11.23)
+Filename: ./ros-kilted-autoware-utils-system-dbgsym_1.4.2-2025.11.11.11.23_amd64.ddeb
+Size: 194838
+MD5sum: 87ecf980844a8699c7b5783ff8c821ba
+SHA1: 4d18e8fe9bae8fcaf3e03087ccd29b76f8550464
+SHA256: f8f90b8833e52bff09836e555df0b201298bd62db94a41ade779d67ff404f745
+SHA512: e13bf92ed7d9e2a0a761f700a7ddb0d575f052fd9950d583919e2106b94598272908b85a0c3d581f9a5901fbff361962546e94e2d750526a12132ba6f130c4bc
 Description: debug symbols for ros-kilted-autoware-utils-system
-Build-Ids: d5d71ce565c124fa79300afca3820e969e52f49f
+Build-Ids: d1c1f6eb6e2b907c570ea373332161acc7ff2b10
 
 Package: ros-kilted-autoware-utils-system
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.48
+Version: 1.4.2-2025.11.11.11.23
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 86
 Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1)
-Filename: ./ros-kilted-autoware-utils-system_1.4.2-2025.08.12.15.48_amd64.deb
+Filename: ./ros-kilted-autoware-utils-system_1.4.2-2025.11.11.11.23_amd64.deb
 Size: 14600
-MD5sum: d3eef2e196570080ad658a427a81c441
-SHA1: 0d34036ffae972bd595772c4edfcece0a532923c
-SHA256: 3a08f7fb8b3f044484eeffe735c0ee7b77b1a1c0412d2f78aa87a42f03a7ca5c
-SHA512: b86389253754f35867a1936891c4232c026d774f504b45baf235d4444afcd030b61945d150142b15cc46e6b663ee80bb2cd2ae94512ec57fa0554147cdcb469b
+MD5sum: 2bb353edfc1532173fe43d9db24fdf21
+SHA1: 99d15c1add3b4cce95472570073d5bbeeb04ce06
+SHA256: 83d65424224793e6444409b1176ef180f006960697a787311657dda09ae4ed11
+SHA512: c29a53a47917bd90752b702f562c4ee5b11b87b53c48c552b12a76e7c031ef93444c159f5aaa7d00dfa67d84e65b274cd2bf4df377400950caee2afab4910ee9
 Description: The autoware_utils_system package
 
 Package: ros-kilted-autoware-utils-tf
 Architecture: amd64
-Version: 1.4.2-2025.08.12.16.37
+Version: 1.4.2-2025.11.11.12.13
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 55
 Depends: ros-kilted-autoware-utils-geometry, ros-kilted-geometry-msgs, ros-kilted-rclcpp, ros-kilted-tf2-ros
-Filename: ./ros-kilted-autoware-utils-tf_1.4.2-2025.08.12.16.37_amd64.deb
-Size: 7924
-MD5sum: 94bd760a99cf8111699a132ea386345d
-SHA1: 44cf8aebb80f586af511d6b2f3db7223c427b4d6
-SHA256: e3bb3090c79b082290d91fc09346b3f8c36aab984179b32de5ef03f0cff6c24d
-SHA512: afb989e01cc59164f55ba51cf920f9ef435d95d6ab9001c18a95fbdda1184937f94918cf94bbf89c1086ae28d270958a5bb2e6f6e2f59d2e4a353f66ed988213
+Filename: ./ros-kilted-autoware-utils-tf_1.4.2-2025.11.11.12.13_amd64.deb
+Size: 7918
+MD5sum: 7a903f81f6bed368b7cecdb94cbc263d
+SHA1: 0716a501056427d821ba134fa3d1d67621b813fb
+SHA256: accae9b803367e6809f483522231de359d0a36babeb1cf1453f1a871c2740cc4
+SHA512: 1d0e78204d3a21137f6cfed9627047f06d517f08061aee4c19104724b60ff819e2e5ca5be059b4171c36556b29fdcc390248c6bb0a83e79daa08bb5504a68f76
 Description: The autoware_utils_tf package
 
 Package: ros-kilted-autoware-utils-uuid
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.49
+Version: 1.4.2-2025.11.11.11.24
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 53
 Depends: libboost-system-dev, ros-kilted-unique-identifier-msgs
-Filename: ./ros-kilted-autoware-utils-uuid_1.4.2-2025.08.12.15.49_amd64.deb
-Size: 7404
-MD5sum: caedc54b2ad9528156076c399c49ad22
-SHA1: 32e57d8b20557abb2dfe9e99b1dba60c456140a3
-SHA256: ceb745bd11177cf3b50df29c5902af636097e45f2a46515baac8470b16970fc7
-SHA512: e98bb75b3ad824388d1ddb1a78e06c0fae1e654d67a92e41288e821e4c37c37fb948d0670209194e964b6b01e72eebdaf5d4f932489fd99f739c06a3af21ac12
+Filename: ./ros-kilted-autoware-utils-uuid_1.4.2-2025.11.11.11.24_amd64.deb
+Size: 7394
+MD5sum: dae05489ff2b55d5a67360ae0773931f
+SHA1: a882700505a30329b50f66eef9dc0613d3aaa702
+SHA256: 75cd87722d608633f7f62bff48df78e58a159bc195bc61780aeed2640df8d91e
+SHA512: 4b82578c6597c89990b3e3df82413b3cbe388c6f55a949fc8f76e70bd6b6eacafc3287060255bf0f5ca652c1f7e26fcb8fb688f207d01f2e687a816df3edd17c
 Description: The autoware_utils_uuid package
 
 Package: ros-kilted-autoware-utils-visualization-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.49
+Version: 1.4.2-2025.11.11.11.25
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-autoware-utils-visualization
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 116
-Depends: ros-kilted-autoware-utils-visualization (= 1.4.2-2025.08.12.15.49)
-Filename: ./ros-kilted-autoware-utils-visualization-dbgsym_1.4.2-2025.08.12.15.49_amd64.ddeb
-Size: 100736
-MD5sum: 56d87d8c82c51171022653a6e12c1653
-SHA1: f3b14051149f03d96860e63287ae794c3e2e4ece
-SHA256: 833f8beef92c3920656bbfbc79cb0acafc3752a99cbc5dd7fca299feca793473
-SHA512: 1ef35cdebda27083f231be3b033576fc06a740a957a98b20866bcd7806eceed3207416d1310892abbe7d64e49294c54d2383d5d7c0be1204832c064c6de630a2
+Depends: ros-kilted-autoware-utils-visualization (= 1.4.2-2025.11.11.11.25)
+Filename: ./ros-kilted-autoware-utils-visualization-dbgsym_1.4.2-2025.11.11.11.25_amd64.ddeb
+Size: 100684
+MD5sum: c2ccf08ee7520bd678519fba983b4800
+SHA1: 645b771736a03343eee24a09714fdf50566495d1
+SHA256: 1477ead1a3983f0f8aabc7ff5d22486966fdf4fef3a8a6c1404c65711a70a0e5
+SHA512: 285e3b3850f916cce7337ad4935a02be93049bdf9dde81f6c4cd0019006142560faf733a26ea061746cdd8d59376a0891134aebd49f4b9bffbed743547ffe364
 Description: debug symbols for ros-kilted-autoware-utils-visualization
-Build-Ids: 4f194b9ebd5a66ac15c0f18fa63b59da89f3cb5a
+Build-Ids: c3fc7bec5567ada0bbff87ec8670a7957a61a976
 
 Package: ros-kilted-autoware-utils-visualization
 Architecture: amd64
-Version: 1.4.2-2025.08.12.15.49
+Version: 1.4.2-2025.11.11.11.25
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 87
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-kilted-rclcpp, ros-kilted-visualization-msgs
-Filename: ./ros-kilted-autoware-utils-visualization_1.4.2-2025.08.12.15.49_amd64.deb
-Size: 15780
-MD5sum: 3989c1e8b98df78c7219506d77953581
-SHA1: 1d8fe1270bc59502fa1e0e4f5d9f80cd1e2e53de
-SHA256: 6c335f9a8018f60c2deec47053de446d7a55db44f678d9f8e9186ea251ce0ece
-SHA512: 288e1197ec38c3972f827ff8337e77c3348c539ad2af671166c99ddf670aeded16e6a17632ac6f60c57b1b630456a0f2d1a050fa435bd599936fb96526eb9661
+Filename: ./ros-kilted-autoware-utils-visualization_1.4.2-2025.11.11.11.25_amd64.deb
+Size: 15782
+MD5sum: a2b4c75354edcd2151eebee270984ab8
+SHA1: 7d1142bc71b3855e8410b2b9e61cd707df501d55
+SHA256: 85448af1720ed399dda828e41013a9022a85f1eac4c2e5b77970ca884c922dbd
+SHA512: 22ff20b418dfb454864e125cfce0c0fbc0e8639928f8e9b7e4c6894f7d2fa4f4d3e69263972cd35619654a5a9aae649dcdc94ef7d4af12321cd8fb48aa683566
 Description: The autoware_utils_visualization package
 
 Package: ros-kilted-autoware-utils
 Architecture: amd64
-Version: 1.4.2-2025.08.12.16.43
+Version: 1.4.2-2025.11.11.12.19
 Priority: optional
 Section: misc
 Maintainer: Jian Kang <egon.kang@autocore.ai>
 Installed-Size: 103
 Depends: ros-kilted-autoware-internal-debug-msgs, ros-kilted-autoware-internal-msgs, ros-kilted-autoware-internal-planning-msgs, ros-kilted-autoware-perception-msgs, ros-kilted-autoware-planning-msgs, ros-kilted-autoware-utils-debug, ros-kilted-autoware-utils-diagnostics, ros-kilted-autoware-utils-geometry, ros-kilted-autoware-utils-logging, ros-kilted-autoware-utils-math, ros-kilted-autoware-utils-pcl, ros-kilted-autoware-utils-rclcpp, ros-kilted-autoware-utils-system, ros-kilted-autoware-utils-tf, ros-kilted-autoware-utils-uuid, ros-kilted-autoware-utils-visualization
-Filename: ./ros-kilted-autoware-utils_1.4.2-2025.08.12.16.43_amd64.deb
+Filename: ./ros-kilted-autoware-utils_1.4.2-2025.11.11.12.19_amd64.deb
 Size: 11382
-MD5sum: 0f770544a36889105037f479614593ff
-SHA1: 254cd76e620b575cb9486deb5162737c3e789344
-SHA256: de689177b335aaa30fa92a549595bf90a02074ef0145378b49cab56c386aca99
-SHA512: 67ee6f002a77475e3923c3af8a9c6a61234f09716c256ee0cf72e90ec18a55700ab1b70abda8bd3d7b1e330ab183622a9d27e0011a5f44614aa3568ae842e338
+MD5sum: 64e39ed25c56f0f16a59d8cf847d1688
+SHA1: 4db84c6f2b7545b5e537647fc443123c48858485
+SHA256: b9bf1334301d1895f3999aab9eab6fe0f1cc257ca04e2c3894e31876e0d1cd61
+SHA512: afaee89b36b2c66ec6ca19d13e64922b1364ce8dafe71f1dab406d9251457343037ef422dd3c4ff74feb42f69af76f8a10dbe3714001f144be9d8a4dc4f0ab75
 Description: The autoware_utils package
 
 Package: ros-kilted-novatel-oem7-driver-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 24.1.0-2025.08.12.16.19
+Version: 24.2.0-2025.11.11.11.55
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-novatel-oem7-driver
 Maintainer: NovAtel Support <support.novatel@hexagon.com>
-Installed-Size: 18374
-Depends: ros-kilted-novatel-oem7-driver (= 24.1.0-2025.08.12.16.19)
-Filename: ./ros-kilted-novatel-oem7-driver-dbgsym_24.1.0-2025.08.12.16.19_amd64.ddeb
-Size: 16086190
-MD5sum: a7f2c1876dec9c019b6cfaa9b27692e5
-SHA1: b86a1b704e28dcea5c4a84b213a87a0ccefa5f2f
-SHA256: 7a07db29d3bfacadd382321dd5e8a1cb0985b6f929b0f647383cdac7b10a74e4
-SHA512: e06f0086d17fb72c64814506a3ac48a01bb162c27dc573c7cdb285c455421f64e4c50356a2bf5a6cb51feb2af4fe629d5e96a0d87f97e6b247aae5358ca52505
+Installed-Size: 18382
+Depends: ros-kilted-novatel-oem7-driver (= 24.2.0-2025.11.11.11.55)
+Filename: ./ros-kilted-novatel-oem7-driver-dbgsym_24.2.0-2025.11.11.11.55_amd64.ddeb
+Size: 16098244
+MD5sum: 47287190f28090091e52866bc19cf729
+SHA1: 083d9744b97dc95963c601587fef9361adafb4a4
+SHA256: 3a6f1153eb856ebe44fd5006af95405e32eeede21b33cf04918d176869a8ee66
+SHA512: be78ca3827894755112c147f0009f272f1fe4e7b2cc29b6c81d4e77ae45cfb4e6ed1bb0529b7b9c587bd0b5b83fd647bd728c77adbf4ef810212a151ca87b3c6
 Description: debug symbols for ros-kilted-novatel-oem7-driver
-Build-Ids: 1aca12ba0c0d56628ba134601cea35aa3208e0a7 5ed82addd9dd72d387e180a9d5435990c8d7e763
+Build-Ids: 528f54b47eba05911dca159900e7efaabff46d14 7727653a18427c4eb92f40efcefe0835497af875
 
 Package: ros-kilted-novatel-oem7-driver
 Architecture: amd64
-Version: 24.1.0-2025.08.12.16.19
+Version: 24.2.0-2025.11.11.11.55
 Priority: optional
 Section: misc
 Maintainer: NovAtel Support <support.novatel@hexagon.com>
 Installed-Size: 3658
-Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.40), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libboost-all-dev, libgeographiclib-dev, ros-kilted-gps-msgs, ros-kilted-nav-msgs, ros-kilted-nmea-msgs, ros-kilted-novatel-oem7-msgs, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-tf2-geometry-msgs
-Filename: ./ros-kilted-novatel-oem7-driver_24.1.0-2025.08.12.16.19_amd64.deb
-Size: 697334
-MD5sum: 2df45ba990eaff80dce8cfa2fa58dae5
-SHA1: 8e594c0aa2acf65dc416e2763eaf8561a6dfdca0
-SHA256: 682395b53ff41a046f75c4f4e3171671297d3f06b017369e51a82773db352ff1
-SHA512: 690f7d54feeb0313b684d38e7aa0646c10e84c75a49c46a4bd83c1dc8908c367e07f8f1b66623de4b03a978e1e5524ab8d1948d43dd65a9917b1f7c75f3c5ea1
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libgeographiclib26 (>= 1.40), libstdc++6 (>= 13.1), libtinyxml2-10 (>= 10.0.0), libgeographiclib-dev, ros-kilted-gps-msgs, ros-kilted-nav-msgs, ros-kilted-nmea-msgs, ros-kilted-novatel-oem7-msgs, ros-kilted-pluginlib, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-tf2-geometry-msgs
+Filename: ./ros-kilted-novatel-oem7-driver_24.2.0-2025.11.11.11.55_amd64.deb
+Size: 697252
+MD5sum: 7a1efa352873805a4845acd5513078f0
+SHA1: a08c3fdee9a2086c4ec017f1de3876733039cf79
+SHA256: 6fe138279e25d71b67a05bc592471dcee1e6bd327da1270a356472fe11e6d8eb
+SHA512: 095b7bd667738936ac18490bfa7f84ca3ec7728a10501fb07d60a7429b91cb3c60c1d654fff4a30cbca182b9a7f64d844d75007c34ebdd812eedda2d3b3cbd44
 Homepage: http://www.novatel.com
 Description: NovAtel Oem7 ROS Driver
 
 Package: ros-kilted-novatel-oem7-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 24.1.0-2025.08.12.15.50
+Version: 24.2.0-2025.11.11.11.26
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-novatel-oem7-msgs
 Maintainer: NovAtel Support <support.novatel@hexagon.com>
-Installed-Size: 5239
-Depends: ros-kilted-novatel-oem7-msgs (= 24.1.0-2025.08.12.15.50)
-Filename: ./ros-kilted-novatel-oem7-msgs-dbgsym_24.1.0-2025.08.12.15.50_amd64.ddeb
-Size: 4239946
-MD5sum: 5b658cd54236889e635195551117f1c2
-SHA1: dafd01271ad698a71896872096f397dffef0b137
-SHA256: 6365f44cc94a3b8c5f3c80991c7826c82ae5e7b3539076d3fade552afab177d6
-SHA512: 0f138ea7502e9ea2a2983162edade8a6f1462f6fa0b3c0f3ef7cbdf65c380360c62ccab48dbfcf5f6705321623ba7c21bd4271860d028573764bb89bb4cdb5b7
+Installed-Size: 5246
+Depends: ros-kilted-novatel-oem7-msgs (= 24.2.0-2025.11.11.11.26)
+Filename: ./ros-kilted-novatel-oem7-msgs-dbgsym_24.2.0-2025.11.11.11.26_amd64.ddeb
+Size: 4250858
+MD5sum: 991d83aa647d2a887a78f60811cb5c21
+SHA1: 09c90c4b36cda7d9e20427b1101ac033262161fd
+SHA256: 44afb735f47498a787dcb5436bb3514fd3499cf60339b8f6019a4d458bd52b7d
+SHA512: 6656c733a3092c7f4c199572b2c1eac7231f7581625463edb6da704de8846cda2d69f140741471cadcd6a061e977d07c77ef723ae493dbd35682078db5ba1d2a
 Description: debug symbols for ros-kilted-novatel-oem7-msgs
-Build-Ids: 0005c8e338adf971ce18ba630dd92c92260bc3de 0d7afb2dca83bac74091ff3046b3a670f198a579 118558e1e9e97d86a97dd335b92a2533d1ba864a 18300bb494dcd986aeb9ca2c10893df5caadd6da 20e195496e9e60c76af755362b41ad5d2d849231 24a867ec50146a9ebd2e49ed18306b8e7402390c 520a20e1e9cc5972cace5ccd2cd8af04ae155b49 5a20b39f2a54bf99d6d07c4a781fe70b68ce7301 6716edb6b61f98e376725946a95f6b1d8000399c 8bb0ca40bcd12d510ec0a334c1e194a6414a7e6a b220e40a0ed7bb0d0cb47fde78ff91572ef7458a
+Build-Ids: 05eb8bb17c575dc216aa3b7c689c97718842cd0b 1291d44131f54e18c44be11e3ef4682a1b0582d5 149870783e790babf053c2cc76c6208df2792096 45e686ee2e9e6984821a0e11dc0a730595d19ad2 4ec79b6634ce2c57bb1a005d58b55fc3304e789a 6101ea60ea22aa3f9687704b0ab95a9e71152d8f 6796bfa7e014a4fa253975824a34bc18664564c2 7e2c49e4b932a0ce3b31e6f029f0f3051e69c01f c392a310ce2eb90486087004a988aa92b02ba6a3 c824954567349afb4c24d24e4df9730b1c852659 ff1dfb70659fd2d69dc3c19f631abe12cc4e3697
 
 Package: ros-kilted-novatel-oem7-msgs
 Architecture: amd64
-Version: 24.1.0-2025.08.12.15.50
+Version: 24.2.0-2025.11.11.11.26
 Priority: optional
 Section: misc
 Maintainer: NovAtel Support <support.novatel@hexagon.com>
-Installed-Size: 7970
+Installed-Size: 7977
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-novatel-oem7-msgs_24.1.0-2025.08.12.15.50_amd64.deb
-Size: 481662
-MD5sum: 86ccb798d8dc3796dd99157aa17837d0
-SHA1: 364e4f4945ff63fd0994279d0318aecfdfb3b24e
-SHA256: ce8bcfe3ac1dfc69dc544fb844e45794e60c49aa92c6effc5fa596e638b2af05
-SHA512: 76b847ea22da155e3ce12a674ef6b1413ad5a452e8201589ecb6c3ed3fcc8b3dc7d8dc3954abd905b8dcdd12203145380cdfe135235959235849ad717bc4fef8
+Filename: ./ros-kilted-novatel-oem7-msgs_24.2.0-2025.11.11.11.26_amd64.deb
+Size: 483678
+MD5sum: 8fcc8799ff98f0b084409098f72b2c92
+SHA1: 493cb73a6b890a39fb3e76abf30dda3a3c954056
+SHA256: 55983ee8319ccf75f2536be01902380e958284255575bd38a209baed0d66a278
+SHA512: dbd4e02b022c07bcd53b644a24190b4df2297af0c4e14c9b9f9c83f83b1239d958c86ecb5530bbef4cab1d9f9158844bba36c8ea248987d571801b4376258473
 Homepage: http://www.novatel.com
 Description: Messages for NovAtel Oem7 family of receivers.
 
 Package: ros-kilted-off-highway-can-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.53
+Version: 0.8.0-2025.11.11.11.28
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-can
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 3737
-Depends: ros-kilted-off-highway-can (= 0.8.0-2025.08.12.15.53)
-Filename: ./ros-kilted-off-highway-can-dbgsym_0.8.0-2025.08.12.15.53_amd64.ddeb
-Size: 3162128
-MD5sum: 3781dafd2c0e7465cb716c9b45a7e88a
-SHA1: 8bc7f0ebc344336fdb21e89809f7db78e8540741
-SHA256: 862b3684997d34fb89f45c271bc053d70faa18336885ff10e046c79bd4b61f8a
-SHA512: 5dcc42f5e4854bf4aac76e663fa1f8e032d5f03cbd35058c6de1f2704280e7a5adfe5923fc0c52fbc84516c078233bd0b18bb2e4de8e3037b3b135da9716b7be
+Installed-Size: 3739
+Depends: ros-kilted-off-highway-can (= 0.8.0-2025.11.11.11.28)
+Filename: ./ros-kilted-off-highway-can-dbgsym_0.8.0-2025.11.11.11.28_amd64.ddeb
+Size: 3164024
+MD5sum: c1e3052ee23ada763ebb10ecc392cf4c
+SHA1: 43737f2f6ce6348c4e09115f3444259cd9294b15
+SHA256: 3edb9a797f7326504296ef46f62d229504ecdfed45addaf3b014f39d71bffc89
+SHA512: a05dacc66135cb592c96b514795ca7e84e6afbd33764a07a4b7d8842e563a19e9f595c67058b71177f71c125825e1caebec2f06675a6ca16b64777c69147d9e1
 Description: debug symbols for ros-kilted-off-highway-can
-Build-Ids: a005ad804536529b87714e68571277fa760af8a5
+Build-Ids: e55b3fd24a19a101ab1fa03ddbad23aeec969e85
 
 Package: ros-kilted-off-highway-can
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.53
+Version: 0.8.0-2025.11.11.11.28
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 820
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-can-msgs, ros-kilted-diagnostic-updater, ros-kilted-rclcpp, ros-kilted-ros2-socketcan-msgs
-Filename: ./ros-kilted-off-highway-can_0.8.0-2025.08.12.15.53_amd64.deb
-Size: 153520
-MD5sum: 48dc81f3cf304478599f6c077add3031
-SHA1: 99adde0e8883cb6d60c2b476784cf3a775b178b1
-SHA256: c620eb2d487dc27cab1740f5832c63ed6d9d21df2f9afa2f6e02fbc278ced41a
-SHA512: 7f3614b7f9e9e5b552ee88afa24fc498506439b285a3f0c171162f64b91e053633df4beef995a63ed5c0b38548521cb0a44ac8978c2863cf5336ee2608f238b1
+Filename: ./ros-kilted-off-highway-can_0.8.0-2025.11.11.11.28_amd64.deb
+Size: 153524
+MD5sum: ece8ebdcc14bbecb529df53a9fc43ebd
+SHA1: d91a8a31c09b3c08c3b1b50362c96089d4382588
+SHA256: ecb9e115ce43855f6d67bbaa94b6b00cb175dea646ea233e5624bf943157319f
+SHA512: 05ba402e007f8e3d200a61303d107415a7274bfb816f7de5f09adb87c0fff8656c037d10403f54429bfa845f40d0000306a8a01dd269cbf064548a8918fc0271
 Description: The off_highway_can package
 
 Package: ros-kilted-off-highway-general-purpose-radar-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.23
+Version: 0.8.0-2025.11.11.11.59
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-general-purpose-radar
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 2864
-Depends: ros-kilted-off-highway-general-purpose-radar (= 0.8.0-2025.08.12.16.23)
-Filename: ./ros-kilted-off-highway-general-purpose-radar-dbgsym_0.8.0-2025.08.12.16.23_amd64.ddeb
-Size: 2687506
-MD5sum: 3599eb332f75b80bc3b468bebba1066f
-SHA1: 6538bd5ccd803abf1d80ea33bb3ecbaefef2f7d1
-SHA256: 5d84d029f8fb1ec8015b2a0a876b8b0c905ba910f1b4671882d39dc55b19bb2e
-SHA512: 1374bdd61b8156858241a09aa2db0120a7fd3a424414a6245662a04d645a6bd6bc28f9556ee6fa1701c866bd4ce95aaca03616cc088db6497451539344496bdf
+Installed-Size: 2865
+Depends: ros-kilted-off-highway-general-purpose-radar (= 0.8.0-2025.11.11.11.59)
+Filename: ./ros-kilted-off-highway-general-purpose-radar-dbgsym_0.8.0-2025.11.11.11.59_amd64.ddeb
+Size: 2689394
+MD5sum: c88236f8dc344f42a47fee4f1593002c
+SHA1: 1065fbe3dc08110ef96ed8cd827ca904c0c4c35c
+SHA256: 0fe31d26a03dce54126286c54cfded7d59d860f33cd20e4b1373259d3ee9962d
+SHA512: 67fce0b619026431b884852689eb3319c02de82c40e9641fd660a234f51f7ce64a0b638d64fec79bd2620273250361ffd5b3217766e127df91904897345b0f80
 Description: debug symbols for ros-kilted-off-highway-general-purpose-radar
-Build-Ids: 24147723ca5e0c0dfa4afd8b5495c5a5d7c48e34 95dba98d6db4771750a343a523e063bcb8e2f0dd
+Build-Ids: 0752bda2d43de7f7a7f03ed3a8418958190f04e4 edafce52b587b20df6c8558b94295c3d158d721e
 
 Package: ros-kilted-off-highway-general-purpose-radar-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.54
+Version: 0.8.0-2025.11.11.11.29
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-general-purpose-radar-msgs
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 758
-Depends: ros-kilted-off-highway-general-purpose-radar-msgs (= 0.8.0-2025.08.12.15.54)
-Filename: ./ros-kilted-off-highway-general-purpose-radar-msgs-dbgsym_0.8.0-2025.08.12.15.54_amd64.ddeb
-Size: 586070
-MD5sum: cfd6a4ca25be17b06b5dcbb1d58df934
-SHA1: 5515c7fc7985dddd8b1411424d022b5551c80b87
-SHA256: 58eca25f584ece626cc0923f22312d5074f40dd691de4a66151700b5ff4bb72a
-SHA512: c8f87536e22ca8f1bcbb82cd6aa52acb04b8d32e059372e796ebee2cbfc8e77a2d0e2fd5eda6be8fa167e0092d0598c15588a07b1e4b2bb7253d6375c1042b80
+Installed-Size: 760
+Depends: ros-kilted-off-highway-general-purpose-radar-msgs (= 0.8.0-2025.11.11.11.29)
+Filename: ./ros-kilted-off-highway-general-purpose-radar-msgs-dbgsym_0.8.0-2025.11.11.11.29_amd64.ddeb
+Size: 586472
+MD5sum: d7cb7d185b940fd0880241a8b56b9c2a
+SHA1: 1d03ef748f25bcdd5ae814aef1654ae3d7ca4c18
+SHA256: ee828a44c1e210c073179b9ad5efef8bca817646c18e84776bf273b27f9b91ff
+SHA512: 127e15438579af9de9f3cb53666c2905c47dee337a60387ba9306feb3b4bca957994005c9f8e1a0cb1c39a991fc6dd1d0d1513027b8868fa5693b40686d9850e
 Description: debug symbols for ros-kilted-off-highway-general-purpose-radar-msgs
-Build-Ids: 22056d4fbcb68e4c78d1bac14ccebe38144d4354 2c8858c8de113d3e9148d6a625979eb07ef9e453 69804140e55b4187a00c8d1a941483bb6485b56f 744c3e121364d8240ba899d96bd7154ccf37ca8b a29d6cd229dc719210b191f0055bd5fea08d25a0 a51bfa8e360faac975053f3d1295b687eac11fce c328e047f68748de91dfe978955095b6c1b7503b cf4fbc861811c179397acf768a6ec589bfe69546 e85e8f2454864d1ab642f398d645eba6cb7ce54d e9b70679df5c1e33212a2227437401af843940d2 f3bb10fa32e21fde616c640052a993bdc92d9a9d
+Build-Ids: 074e603bc09ee8ba02eff9ad2d2d3752fe7788e1 1d7fc6360333d029ceb1639e42877431ef21e6b9 2a6fc08e0261c995ae705b6d744ec7029580df92 3274d489808aa7640f3a1e3d0bf799cdd68a0fde 56d5dea12adc58d75379196a97d459b83dc1fdcf 68a9f7ff29b364b44672d2ac6620bb65a7196ebe 863d14dcd80c5b5858ab763f082e309ed385ead3 8b425d454d8962a468eff098bb995c62195f460b b2615a263b6731e3d625cdc50ea29cede7cd2c60 b422e3d1bbac1a7ce1e9ba0e5309420b6e048d8e f3f4c4bcb7f016aad726dd99945c76237cd9f578
 
 Package: ros-kilted-off-highway-general-purpose-radar-msgs
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.54
+Version: 0.8.0-2025.11.11.11.29
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 1119
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.08.12.15.54_amd64.deb
-Size: 84550
-MD5sum: e9ec2178e201782d04c0331d693f62b4
-SHA1: cf7563e431c028e9fbccdab59d251f27cbcf591f
-SHA256: c71123447691569dd1176b3c72d3b2b605b4eb0cb9baccff9ce41500262c2ddb
-SHA512: b57635b6b3fc9f6e5e58e3b0c8c29688a6c40e25d85db8a7a01ea2263290e7227e5fea1e98a165520cef5857fc3ff1f64ac28d6b8c616afb412f929b8681431c
+Filename: ./ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.11.11.29_amd64.deb
+Size: 84998
+MD5sum: 191b115ca96c387090a31b4c4a100695
+SHA1: 96024ad9ffd3acad41aacc7a1fe71039b0f85b80
+SHA256: 2caaed22277453caf204a9c3fdb21ec97947edb56b447590afe2d15a93ed66b2
+SHA512: 918336395f77ac6461929a2e0094d45fb75b0e13fbd753347e568bd69a309f93f62335b2e26b23debbfed7303547848650dcea8033b55ef12df9ad87ae18eee7
 Description: The off_highway_general_purpose_radar_msgs package
 
 Package: ros-kilted-off-highway-general-purpose-radar
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.23
+Version: 0.8.0-2025.11.11.11.59
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 537
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libpcl-common1.14, libpcl-dev, ros-kilted-can-msgs, ros-kilted-off-highway-can, ros-kilted-off-highway-general-purpose-radar-msgs, ros-kilted-pcl-conversions, ros-kilted-pcl-ros, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs
-Filename: ./ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.08.12.16.23_amd64.deb
+Filename: ./ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.deb
 Size: 151276
-MD5sum: 560b1eb0dd58c21d540f6eac79e28b87
-SHA1: ff2d58c75095514825675bdf0a6886471951161c
-SHA256: f41817e7aa5351f7622b1d0132909226b2576f2db721703b4e332f4cb2cbccf1
-SHA512: 5e63a73c718bf95ffe65c487b7ccb70fcf8be6e1ebc63652ac93fe4584703a359b7ea13997134ce4e079ffd9977564b124717cea337a5291c16221738822926d
+MD5sum: fae51751bab2e84a29dfe4bc880c85e7
+SHA1: a53eff30db0c752d0d6b30b502f4a2d06db67156
+SHA256: 1c22a0e258b574598e3cdff36864a4cc97e59bd60db110f9786db013159acab1
+SHA512: 5aa4d7ca13459c04c6eebbae0be77dd12cdc058fbd2956eff85f3127e9d4d78cd6c8a62eb7d61f56321caec44b2e9ccd8c2a65428388b58dee88fd10dbe67edc
 Description: The off_highway_general_purpose_radar package
 
 Package: ros-kilted-off-highway-premium-radar-sample-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.26
+Version: 0.8.0-2025.11.11.12.01
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-premium-radar-sample
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 6688
-Depends: ros-kilted-off-highway-premium-radar-sample (= 0.8.0-2025.08.12.16.26)
-Filename: ./ros-kilted-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.08.12.16.26_amd64.ddeb
-Size: 5988448
-MD5sum: 3afdd42356eada187368a767a4f1d173
-SHA1: 0ac2d48d138a4f8ff0127abf35b1e8b93a73893a
-SHA256: 75826c522d721955c9414689cdefffe27283fd21710ae3ae4f8de52554f76408
-SHA512: fc62db1fbcdf42d5ba82669dade7511e878d7f2c6db95ba6d4a1a291c60aa77dcd52be1ccad972da9821fc63850fc41599a1236eb19754156d866917add70406
+Installed-Size: 6689
+Depends: ros-kilted-off-highway-premium-radar-sample (= 0.8.0-2025.11.11.12.01)
+Filename: ./ros-kilted-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.11.11.12.01_amd64.ddeb
+Size: 5989544
+MD5sum: d350c7425c238d9f6762fc89666194f4
+SHA1: 3dcae082357ce0ac8e9d69f25a71dfdbc30e5ed7
+SHA256: bb724d4bbd2b6c3157a69b185f3fe283619891caceec0800a29e6442eccee250
+SHA512: 8a8f0d7e8b4174cd322a89fd9fc30f9aae37c96d88b19527534524142eecd4043a41c9104188258feb463f2a86ea4b1cd58270784a7e909fe84626104b23744f
 Description: debug symbols for ros-kilted-off-highway-premium-radar-sample
-Build-Ids: 81f60d06fcce62563188bb855113112dd5911139 ebe21b7fe2a439e7bf8017d47019e95425092afb
+Build-Ids: 0e74b3a2af87238689d637c98b03dc000b9cd108 3a3011628edde0ab4f45b9567d05c832043ed21a
 
 Package: ros-kilted-off-highway-premium-radar-sample-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.55
+Version: 0.8.0-2025.11.11.11.30
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-premium-radar-sample-msgs
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 3148
-Depends: ros-kilted-off-highway-premium-radar-sample-msgs (= 0.8.0-2025.08.12.15.55)
-Filename: ./ros-kilted-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.08.12.15.55_amd64.ddeb
-Size: 2474428
-MD5sum: ee0a5eb70dfac6a422e26aa80a39af7b
-SHA1: 8e94f3c18e5a633d0cd6e731bb4b2eb0d1ddb07f
-SHA256: b99e49fbaba824d7d88adce268b74df523f889cb258cd7e6879c844266df9d15
-SHA512: cacb25e1b39c0dd0953f0872a5fd6a92695303a28e4a06086e6f973ef2647fd226765013dc03e472849d36ee7df7b1c0becd2276f2b0f5cadf3b2c391727142b
+Installed-Size: 3151
+Depends: ros-kilted-off-highway-premium-radar-sample-msgs (= 0.8.0-2025.11.11.11.30)
+Filename: ./ros-kilted-off-highway-premium-radar-sample-msgs-dbgsym_0.8.0-2025.11.11.11.30_amd64.ddeb
+Size: 2476596
+MD5sum: e33d27393eceda84f416066ae8c4c422
+SHA1: 80cd1166f3e49a0e91df7d6193c3bc3749fee123
+SHA256: 6d507ee26cd8cd1fcd577b33372fb1acd868668cc3409a3351a4152d9eab4241
+SHA512: d9b927a868129b86fd971c8c96ed3f8678f023923f6c5acd7ae8603d42802ff24a1288931749ff802d1db46d351e9c4025c02c9ed70d0d74c3ae9f293931be00
 Description: debug symbols for ros-kilted-off-highway-premium-radar-sample-msgs
-Build-Ids: 1bc23cb8ca4301c539073b791dfcd9a648808cf0 379e90a0db0ec3f312d5ce39eeba747ae5fdad86 441fb290ee801ab61f82b815c54b4fe08727f3ff 5081f9c0691654c2d96aea016d8cb0fd31d30a99 7470d707cdc0e0cc47de20a24add80af86499841 7baad4eb4c0857c900242768c73e8b26646102a3 9a5c930863c7e3eedabb0cfa8d10e52e3b1e02c6 a481bab5918a2ca65cb0a76c1a3e4a27cecce05a b9c86a9018b5d1fa853cf45262fa27d664e52f16 fa0138786af7d825cf29876a31364a34f78fd8f2 fab9dc1a2b0ba2c2165b387d95dad075223d789f
+Build-Ids: 255fed0980108e895ea7ea4357356237cb672cef 2ffa4a0ebf3cd49824e03b836ff4a5f4954f3ae2 3167485a3d8d8cb35a3f3230c19493f666555724 57318aacef5e9e5eb7fa9e3ff8c32a48426ce343 7967cd6a8e74a8f641e545bfa5935752a0484da7 7dad3f746c75b1771474d40c988252e634bdbaf8 9af20cbba4a4e9b3489a010e834a4a93ef14ceb4 a8c9555faadf2524b772487902087b742ab7b00d c0cc0c19068bf4abd14773c9f5bf07124a7b0792 ccf1e3783f96d6b16170f77946a305179bd91dae e111675e22518b34243790d9a16a7e10e56dc653
 
 Package: ros-kilted-off-highway-premium-radar-sample-msgs
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.55
+Version: 0.8.0-2025.11.11.11.30
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 4593
+Installed-Size: 4592
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.08.12.15.55_amd64.deb
-Size: 287062
-MD5sum: e4418a7c53182d5c49b36d0a20a48750
-SHA1: f2c502f0f3223db1a39adc4f25d77db9abed449b
-SHA256: 61fe1b2ba6ac0eed63b1499e19f3785b24351e2c080441115542b89b217f028a
-SHA512: c76a93e0fbab94211eb4f7d5e904f40ff70e61ed4dac8b81ea98f53b5fd8d0345e34e82b92d19f60cf09f8482e78833ac8475df42389527f3f353499eacc5982
+Filename: ./ros-kilted-off-highway-premium-radar-sample-msgs_0.8.0-2025.11.11.11.30_amd64.deb
+Size: 287122
+MD5sum: fdb8ef474c7d6b5765ab337f656973d3
+SHA1: 35534c6463911f2ed88c1d2b160b176e0bcf5a9e
+SHA256: b812af84445d4823bc236b461ddb6c22a2de1acc46b8af9814c2734248b5971b
+SHA512: 38b670ad86a4d02d0b5652839d221e8ccdc7466e348262d5c3339c59db270f128a198cb95cf6eb6a437c4e3e1ed01abe7ebcc03fc1909b5342d4e8c315da1061
 Description: The off_highway_premium_radar_sample_msgs package
 
 Package: ros-kilted-off-highway-premium-radar-sample
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.26
+Version: 0.8.0-2025.11.11.12.01
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 1329
 Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libasio-dev, libpcl-common1.14, libpcl-dev, ros-kilted-diagnostic-updater, ros-kilted-io-context, ros-kilted-off-highway-premium-radar-sample-msgs, ros-kilted-pcl-conversions, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-tf2, ros-kilted-tf2-geometry-msgs
-Filename: ./ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.08.12.16.26_amd64.deb
-Size: 291816
-MD5sum: 65700e8c4165a2493d7a3830bdf1fc69
-SHA1: 4a4f779e726809f946e7cec8267773355fcf3fe4
-SHA256: 3451dd959c58aa5764ab66ee4148eae4b91e91d1b72604252383f060e9cb83cf
-SHA512: 701dcc85d22fdbd14f7fb510d10565235632b81ffa66e7b35129496d6f05da7bc5879d2a86b5b82d4e78a53b4275428b605cebe500493b12d39296ba466d8cdb
+Filename: ./ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.11.12.01_amd64.deb
+Size: 291810
+MD5sum: 7836cb34e5eaf5bc3fd025e8eee1d9ac
+SHA1: 81683a29f1ab0ca27508c3bcc9f405b4ffeb12a1
+SHA256: 1f71f5a148bc2a71661c0f25471a7de7231e42c2c5ba645c2533a4ff8da7ba2d
+SHA512: 83d59a1248bdb5f54c066674e8e9c5d87fd00df7441417dcaacd53c6eefe5ce7d2a18eb04c3e9efac7efefca2336d38f3063f5a2a9499b75b6982fe2b5e42463
 Description: The off_highway_premium_radar_sample package
 
 Package: ros-kilted-off-highway-radar-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.28
+Version: 0.8.0-2025.11.11.12.04
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-radar
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 4923
-Depends: ros-kilted-off-highway-radar (= 0.8.0-2025.08.12.16.28)
-Filename: ./ros-kilted-off-highway-radar-dbgsym_0.8.0-2025.08.12.16.28_amd64.ddeb
-Size: 4352662
-MD5sum: 176e9df8160cb86d8a48ac1ba33a877f
-SHA1: 9c0f6416c313bb775ab687df6338ddac0c7b92e7
-SHA256: 229edf38f9e4166504d2796edde9a2e7c8ecffcaa033956441865b0f3c9b97ac
-SHA512: 793e779485f3e409b4ae7c39218879ab23b333408681d7d9ca381e247b93e8ca2825ca3852bc16bff8f3e4754df01310dc0c46f17489b298f1a708b303927412
+Installed-Size: 4928
+Depends: ros-kilted-off-highway-radar (= 0.8.0-2025.11.11.12.04)
+Filename: ./ros-kilted-off-highway-radar-dbgsym_0.8.0-2025.11.11.12.04_amd64.ddeb
+Size: 4339168
+MD5sum: f7a8c6ed44c8dcf4969f64a21fb46d67
+SHA1: 091efd03257bff7e68d724b9c6c16e549e4dfcd9
+SHA256: e8c35e86299c9d7545fe07a925c3b2ccc533465c3e3df94506783357798f280c
+SHA512: e9f4b8cfb14f5429bf23de9da244e85b9655f967d07128f1ca5ab77b3cb588658d20be325b61f07e0f21456c7c5660011e9c44d0c52808b49edb4aed8d744e0f
 Description: debug symbols for ros-kilted-off-highway-radar
-Build-Ids: 182b5c9d897f7a659d6b7bd01c1f4e43dc3a8925 1867c29b3f7c2eb168f5a973f5452eb28734a00f f9396db2c0ff7be0d07d6b13bf8a8c641ac3855c
+Build-Ids: 1f9dca52ccac16bce56cb52ca26af92ce2d6be8a 727f83056a4c191020d2af29ab830c7929af0e16 e1e6c3bab2760ca4c726f322fc523a45011dfb77
 
 Package: ros-kilted-off-highway-radar-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.56
+Version: 0.8.0-2025.11.11.11.32
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-radar-msgs
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 770
-Depends: ros-kilted-off-highway-radar-msgs (= 0.8.0-2025.08.12.15.56)
-Filename: ./ros-kilted-off-highway-radar-msgs-dbgsym_0.8.0-2025.08.12.15.56_amd64.ddeb
-Size: 602250
-MD5sum: 643a61fe94ecb41832eff4dc0db4d65b
-SHA1: 7dc84c9bd28ab3bce83bae33a482b484593823f1
-SHA256: 1b0c8fa4a914b86dcdc39aa0e802adf4203c577bf549f4553c1ecdb67aeaa4e4
-SHA512: 121433fb0f290a74b57985e0e75eff506996773f2a411f8dde1462848826b1bf2c89f6f0394ee8a1d7d64a40e420ec93bb83375a9f12d7e35152eba008013ad5
+Installed-Size: 769
+Depends: ros-kilted-off-highway-radar-msgs (= 0.8.0-2025.11.11.11.32)
+Filename: ./ros-kilted-off-highway-radar-msgs-dbgsym_0.8.0-2025.11.11.11.32_amd64.ddeb
+Size: 602074
+MD5sum: bc5deefdb7fc1b648895e2db799bf9dc
+SHA1: b979dfbb1a991bee0618504c30d8542f3f98c3ec
+SHA256: 31998567089065332aeb13471dd617505f495346852ab42b5c8f3563562bd5fd
+SHA512: d0558c03ceadb04f45002557694e2e00ab89993d28972db01f3a78c4f6d0a38dfbf5760e906f1c7643f7773b087e91eff36c22441f9398b8c5e75a4911678480
 Description: debug symbols for ros-kilted-off-highway-radar-msgs
-Build-Ids: 1a0ba98a119f40de6fa84d7bb6cd93e474d77ed7 1fa1c4a7443329fcb18e506b4430bafebaac823a 3de08454215ccf3cd9e9b4d7620f06dcad154c8a 77df26ce22d81b7b0205231164b7cd0f0f2c5182 8c96d41f5df990834f0c05a3adf4d87cdfd5515b 9aff1c79bdee57bafa1975777b4b5b0aad163ccf a6eff852ba557d43d091e98be35d36ef09ba66e7 a78a40556703aa36c0fe9361407784d1cc02d47b ac813ff223f70ceb67616d3d2d9d638b01bb30ed d23db2310c6b615815f70070cc1c5488b2f0847f fcc07572e8828b92dbf2d9be2339fb9ba76b761d
+Build-Ids: 35376f14bbf027b8fa98ccf512dffbb665d1264d 4ea6ea4affe03fa3b080aac8aed7757864a63156 6e7473057d2ae0b3c099c122fd32bd3387061f4d b08ead209c79853cd882a89c5cf43500ec650ed8 b6386075bdca90bddb5a018540f8d7ce2f26e434 b657522eaaa1ba91f17653c593a6b43858a87085 c186b0020dd2656a1e2294f0874739cbc1a52824 cf934d8486202606d9e484b1be6146a7141bce56 da9ffb514a0df8043756a7a7c428a9bf8e314556 e4fb136b9bf1a3967f64710de88f064251204e09 edd5d7cabdf958b802b9931407e0e961cbef02cb
 
 Package: ros-kilted-off-highway-radar-msgs
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.56
+Version: 0.8.0-2025.11.11.11.32
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 1098
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-off-highway-radar-msgs_0.8.0-2025.08.12.15.56_amd64.deb
-Size: 88866
-MD5sum: 620984daaa077a86a0287e3afb338d62
-SHA1: 95711f0cc0d0858229b277ec2b0bf9e34f5a5aba
-SHA256: 84c8e89b70cf7ffcbe6a8fc822848f5e9f042269621fc05e85190b68d2e99445
-SHA512: 4cb40ea9fe47702ac5a91bac064d12e69babff1bd8311d95a72ddbd0d3c6bf8f0dd24485995012ad0433556a212f15d38109ae5b6a3dedff7e268352708f4ca2
+Filename: ./ros-kilted-off-highway-radar-msgs_0.8.0-2025.11.11.11.32_amd64.deb
+Size: 89442
+MD5sum: 8dac0e5861dd2c7d12cded37ac6fffc8
+SHA1: 7aee7e4b11ff27aadb72157a126fd8525af764ba
+SHA256: fd9bbbd5551c01e2f84298e4865ee951b7de9a824f1b0a5002d59b6666a7ce39
+SHA512: ee4738084872df28fc14dec7fa59bf305a5c26187f0a01c46e3e9d914878d41f94ff1e615f57a1f53b987028b2e58f5eac474b22127b0b22c55965103c0f2c8b
 Description: The off_highway_radar_msgs package
 
 Package: ros-kilted-off-highway-radar
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.28
+Version: 0.8.0-2025.11.11.12.04
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 922
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libpcl-common1.14, libpcl-dev, ros-kilted-can-msgs, ros-kilted-off-highway-can, ros-kilted-off-highway-radar-msgs, ros-kilted-pcl-conversions, ros-kilted-pcl-ros, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs
-Filename: ./ros-kilted-off-highway-radar_0.8.0-2025.08.12.16.28_amd64.deb
-Size: 214340
-MD5sum: aabc6dec552022d359e98e3d07ef626b
-SHA1: 318d8c087ddf35160e26f37afd1238867a565c25
-SHA256: a4f1ac89f30e80d272104aa6a67d919ece33b816f3ff0ca55df2a5b89d410462
-SHA512: f1a1cb550a814249e7c678349ad63357cf9c736f6099a61f93e9c49100df3243290b6b0a7fe8414b59337fa31a8293b6719a94177ff02c4d028bb58f59dc135b
+Filename: ./ros-kilted-off-highway-radar_0.8.0-2025.11.11.12.04_amd64.deb
+Size: 214354
+MD5sum: b0007d489ffc8037172e21a7dc14a7ab
+SHA1: cb69969e84f4f2188040634c57c0b0ca607a5561
+SHA256: 336dbeef02e7ca9cad5a09b91afd2a4e452d4fc4637f7626427de1a08686b00d
+SHA512: 9b0acee3b78373952170174738f1ae7b673471f1636be68c7e27dc62fe40d1d0565040fd5b161eda072219b96743a0e442eb4c6df5ea80020db715946668f004
 Description: The off_highway_radar package
 
 Package: ros-kilted-off-highway-sensor-drivers-examples-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.39
+Version: 0.8.0-2025.11.11.12.15
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-sensor-drivers-examples
 Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
-Installed-Size: 2641
-Depends: ros-kilted-off-highway-sensor-drivers-examples (= 0.8.0-2025.08.12.16.39)
-Filename: ./ros-kilted-off-highway-sensor-drivers-examples-dbgsym_0.8.0-2025.08.12.16.39_amd64.ddeb
-Size: 2293550
-MD5sum: 3e48e41afccab03fe50d5c2629baa0e1
-SHA1: e58572358ebb8caba63ec6bdb7140f5e87b44fda
-SHA256: f54bbccf4b1c68246e0f772905ae77ec87fad4ea46d4edf5e822edb48262a5a9
-SHA512: 755711df572c5b151053c17ea7a9f5f67dc796ac51b50b51b391f34503f514b7ff3fc822cae10e7b55606897d99ad080b002cab513021713fdd07edf023e9aa0
+Installed-Size: 2642
+Depends: ros-kilted-off-highway-sensor-drivers-examples (= 0.8.0-2025.11.11.12.15)
+Filename: ./ros-kilted-off-highway-sensor-drivers-examples-dbgsym_0.8.0-2025.11.11.12.15_amd64.ddeb
+Size: 2294254
+MD5sum: 43260115e50348ca453224fe5c21bf57
+SHA1: 880d07277569838f41ba17b59241d60ab64a5ead
+SHA256: 00a199faf5fe0bc8996daa3bc56524f54955b1c4c36a9cc750c36749a37abbb0
+SHA512: 3b33635017f0f3b59985ab059aef0361c339e549a6fc0f9066cf78fe87bee9cd5f0ea802b6438138f10142d67c501e2479117e40081a50c6c7d4bbf75c23c6aa
 Description: debug symbols for ros-kilted-off-highway-sensor-drivers-examples
-Build-Ids: 8e94c32ae1c34e3a8ccb5cbe21f0d4f182affe04 db44c24fb829f361919e48c13cf9e4704f81a169
+Build-Ids: 12196b968516331753acbaac18d4df5a2f4116b8 2f9ccb2d9e837c3522ea98455f22dedb9016793e
 
 Package: ros-kilted-off-highway-sensor-drivers-examples
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.39
+Version: 0.8.0-2025.11.11.12.15
 Priority: optional
 Section: misc
 Maintainer: Sarah Huber <sarah.huber@de.bosch.com>
 Installed-Size: 586
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), ros-kilted-geometry-msgs, ros-kilted-nav-msgs, ros-kilted-off-highway-premium-radar-sample, ros-kilted-off-highway-radar, ros-kilted-pcl-ros, ros-kilted-rclcpp, ros-kilted-rclcpp-components
-Filename: ./ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.08.12.16.39_amd64.deb
-Size: 124490
-MD5sum: 005a7593b71b4620a8be1937c1e97d09
-SHA1: 3e29b0ad92d1ab9717d483ae506bfd98b826adc1
-SHA256: 94e14d8a7dbc3fed458d45bb0e89bc0f1703201fe690d030f2d7abba183967fd
-SHA512: cdfdbc3ce8ce269b28e0fa49dbfc80e800f01eaf3b1745da52d2814c64c86cbd4b6a351b75c8e4ca49f51eb54e246463633082abb3266ccbdd599266679ec79d
+Filename: ./ros-kilted-off-highway-sensor-drivers-examples_0.8.0-2025.11.11.12.15_amd64.deb
+Size: 124520
+MD5sum: b13a2b90ab8be233cde1b862fa795eb3
+SHA1: 1020101a7dddd5b7c3505ef6101c4b89ea303bf7
+SHA256: f64d709c39d736014f128af76c17b84e057931f3cf2d2d49719f807320ed8dce
+SHA512: 364b02cc4e486ea59c049be2820dd0d22c558484eccc8e21932650cf474523dcdb421a8fef33f3b6d52c3773b5d4e4cbc61b0a36ccb354e6ed612baaa886edde
 Description: The off_highway_sensor_drivers_examples package
 
 Package: ros-kilted-off-highway-sensor-drivers
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.38
+Version: 0.8.0-2025.11.11.12.14
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 42
 Depends: ros-kilted-off-highway-can, ros-kilted-off-highway-general-purpose-radar, ros-kilted-off-highway-general-purpose-radar-msgs, ros-kilted-off-highway-premium-radar-sample, ros-kilted-off-highway-premium-radar-sample-msgs, ros-kilted-off-highway-radar, ros-kilted-off-highway-radar-msgs, ros-kilted-off-highway-uss, ros-kilted-off-highway-uss-msgs
-Filename: ./ros-kilted-off-highway-sensor-drivers_0.8.0-2025.08.12.16.38_amd64.deb
-Size: 5342
-MD5sum: c01dd1554c7b1abdeae1a7de9383d959
-SHA1: cc0bc9b3766a857e3fc68d05050e679a99fc10a5
-SHA256: 777d0f6323935484330dd108f2cd3156412e9b9ccb39009c4058023c791ceb23
-SHA512: 3714ea6bda726aacccd095fe24e0283b538dfb75c2dcabcc4d1cecc19fa4d9c689343a16de04c1567ba1da5e034cf203823f3d497729a6b07ea50e7075ec9114
+Filename: ./ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.11.12.14_amd64.deb
+Size: 5332
+MD5sum: dced00f0acf725aff0723cf733be650b
+SHA1: 073be2029dcc9ab2a3748bfc78619eccc3c15f88
+SHA256: f1a1fcd9d301c74047c18d66447f99306fcb21ea56effeca053373e74384b7f3
+SHA512: 4699b2b5413146dc93f47a82b689f3182d3b432f26a35971d324b0a4eb557ea88598703c0f8c7a83479f1695fb38b3164412ce95b7da5b51f2ee5b8920e61027
 Description: The off_highway_sensor_drivers package
 
 Package: ros-kilted-off-highway-uss-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.31
+Version: 0.8.0-2025.11.11.12.07
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-uss
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 5461
-Depends: ros-kilted-off-highway-uss (= 0.8.0-2025.08.12.16.31)
-Filename: ./ros-kilted-off-highway-uss-dbgsym_0.8.0-2025.08.12.16.31_amd64.ddeb
-Size: 4829652
-MD5sum: 933ad14f0a9056a5d899ff9ff0dd7736
-SHA1: ee53739e6a1edd99392deedd9ce0fb12421be1f9
-SHA256: a52f8b48d1fffe61cbfbc1d85bcd30cb0e75e08a867b7b0487f3c9daa7638d57
-SHA512: 830f74ccbe626a2c2f06d1e78c4c587c2a6bcd2508c0f058376313e49e89e34948c2b748035a11b45f08b6c77f1a0d2fede1c9d732f2419135a475e18b69e7d1
+Installed-Size: 5464
+Depends: ros-kilted-off-highway-uss (= 0.8.0-2025.11.11.12.07)
+Filename: ./ros-kilted-off-highway-uss-dbgsym_0.8.0-2025.11.11.12.07_amd64.ddeb
+Size: 4826524
+MD5sum: f9d8a6482cb405f26d1ac1067d5f35a4
+SHA1: 6293cd0ee20841c7f54eaa6194803c5b57e63b4a
+SHA256: 04d497d5b4a1bc4b863b8f6e43484d01763aed0f325d6ee2a8fea4f46fd5e70a
+SHA512: d19bd255ffc6080908b588d0bd310ea6360e6ee94da0ff77f17bb937d4750b8ad42f64ae41089ea3510d0ff1ddb8730f3c68cfedffd325c4eead6849a64ac34f
 Description: debug symbols for ros-kilted-off-highway-uss
-Build-Ids: 3a29e7bf0364590464e7c25a96da541a8d204680 41a15258d736d86d4bc360cbfd45cacd16ad5cfa 8aefadf8fe970f76a59047ba3a00ccf894c1b4fb
+Build-Ids: 9a2c868e4abd87b91d472ec03b8251a8b81cfa36 ee338328ddd078bf5a3d4ebea9e51a729ab6545f f0f785a34572d5a62408d163e10fee3b3bf0b83e
 
 Package: ros-kilted-off-highway-uss-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.57
+Version: 0.8.0-2025.11.11.11.33
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-off-highway-uss-msgs
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
-Installed-Size: 992
-Depends: ros-kilted-off-highway-uss-msgs (= 0.8.0-2025.08.12.15.57)
-Filename: ./ros-kilted-off-highway-uss-msgs-dbgsym_0.8.0-2025.08.12.15.57_amd64.ddeb
-Size: 793358
-MD5sum: bf47dbdf33035fbc3b122a7a67ad13c4
-SHA1: fc1e04146e758ba507db8b12f8c57e87aac0b314
-SHA256: 29c281013db85904f8fb32119b5038d0ed3d2a453e1862af38c504679f697571
-SHA512: df7031162ac30c324714ff8d0ddcfb7959e5bc0c8853240dd5d3ae1e003add46967ef163d7c4ae0e6a6b549be93edb95c286a9fc099d9ebe6e51dc7ac6852677
+Installed-Size: 993
+Depends: ros-kilted-off-highway-uss-msgs (= 0.8.0-2025.11.11.11.33)
+Filename: ./ros-kilted-off-highway-uss-msgs-dbgsym_0.8.0-2025.11.11.11.33_amd64.ddeb
+Size: 793662
+MD5sum: fb09ddbc84f6296fb5a95a4ff7e687a8
+SHA1: 9bdbbc743cc2cff4d58cb1f07deb65f305ee57ad
+SHA256: c5f46bef850e96ff5a1c51f5e9d3868477ba0cdaf8eb612b84dbeb0347973e8a
+SHA512: c2749ddcd97f5f5ffc64d736b6143586a5b9b2bdc13d5d05423e116f30a72895374fb7eda871fd18f68dd9fdff87c29714bbd80d0f039e814167dbceebd574b3
 Description: debug symbols for ros-kilted-off-highway-uss-msgs
-Build-Ids: 13dea61e690f6bd6e839eaf17a70e7ff837a1256 2e71eed2b16be5e57d5ec552424983e3e428f8c8 348415124ff5b5c4f1d9db28c540e2e658facb7a 3faf0f743212e782dac6236060b38444bb7bcb61 605842f219db170dd7399180144e86f2da3d5e47 849099744e769a02b84a7b94c464226dccb8cfe6 872b9c65adcbe1139bd9872a987652eadd065f5d bc031325f91b2e6af81b31048721f51b0f2b15e9 d22319c31c407f0c6ccf28e53ba2ac9126202c1a d6c8be6afbd2eb80994ae76e4e979389f5574882 f3c3326961ee1cae4ad376bbf246b825cd8190c6
+Build-Ids: 0894b69ab0b1ed83bf6194067b54a840978e16a2 0e9e1972a6e218d37e3ec1e083ebc51e19d70f65 26bc5dad1fc9ebc957934948b02c9573f2e27e8c 45e4f9b4180dbb1ed8533307c68491a4b9f4b74e 8140f1ecb136286c8946a4c97d9d0cc06107a549 926a11538a483e2f0264f5fe0f2ba707daae17ea 9e678039ec6648fb471d58e1c5c45ef332a8fddd d7a3e246612872465482a70bdbb2a5a50efeb449 e1b416cef2c8137fab664d0c37a0bf0a1e1d1bd3 e469f13cbf4aeeac445e2a3aa0226b41ddc47627 fad7a1daa8e3eddb950c8d5d457e2ecf26efd64a
 
 Package: ros-kilted-off-highway-uss-msgs
 Architecture: amd64
-Version: 0.8.0-2025.08.12.15.57
+Version: 0.8.0-2025.11.11.11.33
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 1269
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-off-highway-uss-msgs_0.8.0-2025.08.12.15.57_amd64.deb
-Size: 102794
-MD5sum: 847904bb339eafcf5f5c3d12426c3fc5
-SHA1: c040cfa96ba240810b50231017854e33f14d1404
-SHA256: 8083fdd7d6546662117cbd9ed53c41aa118378c02fba8ccb969c0f8b970437d9
-SHA512: 711052046e8a06275d1dab36de0ecd2636ab0bad300f00396387294477945fc4a6d0e70d68e83eed497df9627c6dd41784737b594b84c2d782cf1cd3aa8ad8c2
+Filename: ./ros-kilted-off-highway-uss-msgs_0.8.0-2025.11.11.11.33_amd64.deb
+Size: 103114
+MD5sum: 65ae7847419053695a44a28eaa005c18
+SHA1: 0806af1f9cacb57963dc9d79e34eddcaebef8d0b
+SHA256: 6003160106832d435597d6418991df60bd76b08c939d5ba5e466df3876e31055
+SHA512: 24eb8712909d3d919d7c091511863f5be85068a4c4262ab2946063d03094d464cd616cb2f0e4335ed103b14efbef4b5736a5fd0cfc3028879ffe34039febcebf
 Description: The off_highway_uss_msgs package
 
 Package: ros-kilted-off-highway-uss
 Architecture: amd64
-Version: 0.8.0-2025.08.12.16.31
+Version: 0.8.0-2025.11.11.12.07
 Priority: optional
 Section: misc
 Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
 Installed-Size: 1023
 Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 13.1), libpcl-common1.14, libpcl-dev, ros-kilted-can-msgs, ros-kilted-off-highway-can, ros-kilted-off-highway-uss-msgs, ros-kilted-pcl-conversions, ros-kilted-pcl-ros, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs
-Filename: ./ros-kilted-off-highway-uss_0.8.0-2025.08.12.16.31_amd64.deb
-Size: 232026
-MD5sum: b7ec25fefc41d76221621412758f37a5
-SHA1: 60d6c07608b181538f9c6ef6afd97b92b3733d48
-SHA256: fc5dd520f142e111060bde9c8ea3a0e5445bad81e135727396c5fc19bf302d35
-SHA512: a001e2c9a7837b3483c1c7fc13fee37293a76ea0d7bfddcaa2bdcca7c12c8e640cb5a25786ce111202f8448c910a1d9b90e95f0699a4ced5eb403c17a6578671
+Filename: ./ros-kilted-off-highway-uss_0.8.0-2025.11.11.12.07_amd64.deb
+Size: 232040
+MD5sum: 62012ab6e6eccc866c71f5212159f2b1
+SHA1: c8ed6ff3f7c6f12e09185fd4591b6e7ac22ce524
+SHA256: 641d593a70ebe436d9a5aba0587d11ffa074108d15acd39e75c43f2b2f771157
+SHA512: e7398c19e570bb83c3d4ddb84b6e26fac7160bc90b045c8baabfc9c1e8da0a13698d2f8d7963c0689c32b69c8aabcb852a73fa7c9d265613faa6d29be8f29379
 Description: The off_highway_uss package
 
 Package: ros-kilted-tier4-api-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.33
+Version: 0.57.0-2025.11.11.12.09
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-api-msgs
 Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
-Installed-Size: 1511
-Depends: ros-kilted-tier4-api-msgs (= 0.51.0-2025.08.12.16.33)
-Filename: ./ros-kilted-tier4-api-msgs-dbgsym_0.51.0-2025.08.12.16.33_amd64.ddeb
-Size: 1219060
-MD5sum: 820e6fb4c808ed1a48f8a5641026b680
-SHA1: d79f6730d940ef910513748b1e0a854d46816c03
-SHA256: 9449e4a6472760e9397af701460f0d4c5137f6de315767faf991715a850fd5a9
-SHA512: b3deac99a8b09974fc4630630e8f58994a74484a1d14c416a04bd25c003b6ce59dee8fdbc95cbc742fadfcbaee6d4dc72318f426bcb56b02a5942fbef09fb891
+Installed-Size: 1512
+Depends: ros-kilted-tier4-api-msgs (= 0.57.0-2025.11.11.12.09)
+Filename: ./ros-kilted-tier4-api-msgs-dbgsym_0.57.0-2025.11.11.12.09_amd64.ddeb
+Size: 1218844
+MD5sum: ed2ac6ca1d77a183e27d64fbac1fed6b
+SHA1: 1e01ea0f54ac864dbb909ed74033f0264f6cb818
+SHA256: d7f593aad03977fc72faea931159ef05d253d9be2566b19f5ef712a556f18b14
+SHA512: eab5ca4a4c13ed1514184598b41d0549918c15376ff6f12d749688a2cd0de76438edc89d604df717ad0434e4e3ddb9e03ab5c6a3d5af53c9ae1b96e01eb81244
 Description: debug symbols for ros-kilted-tier4-api-msgs
-Build-Ids: 0b9a3b562bd2ae72d09e9f94c669a151a54ccfc1 1bbe5aebceaaa8d3ff1b03e53b98b4c1a93f4dfd 27255463b25232e80c1efbd9be5446d878a2fbf1 2b0f312f5bf835f1b1cd172e7bd6e87bfd294af2 31386df59cf4e9a48e0b32b572abee25893daaf7 49fa586e6a8fc08f5f706f3063ce710d0464af4e 579b33f3bd35758a9ef963d9255158689d87fd42 8c618f9934cd0e1818f7517b37682b22bdd67814 8e948ed7a6707fc2b679c35316ef61ba04d27b60 e5c862739a35461b30d07ada8d27dd2fc5a63901 fb728ae5b2915d042296fadc1a1b8a5c9bed54dc
+Build-Ids: 186cbde704061d10d6cddad38fec8c38d5d17488 2803895826a71553ed0ccf320d277205f79c0fdb 66c5d98dbf886b1d82303978dce4ed487e90e3b6 6845da31b34770ce9e5d23a597172c2699b1076d 76f497d048b1b0674fa5b83fd0d3ed813ccad4f1 83d58a956f784e4123202269665120c0835b4821 89754ee3a64d0cba6cc375ceed6e6f2913c831be 9374ccc82f1da57c5a0cd6bb19cda3588d846fa1 bc05edb3497effde1eff479018691438025f2800 dc17710b402ce2719ed49a01928bb263704f1cb0 f92c6105867781cf03c1c2d7886907b3f0943048
 
 Package: ros-kilted-tier4-api-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.33
+Version: 0.57.0-2025.11.11.12.09
 Priority: optional
 Section: misc
 Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
 Installed-Size: 1920
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-diagnostic-msgs, ros-kilted-geographic-msgs, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs, ros-kilted-tier4-planning-msgs, ros-kilted-tier4-system-msgs
-Filename: ./ros-kilted-tier4-api-msgs_0.51.0-2025.08.12.16.33_amd64.deb
-Size: 147738
-MD5sum: d0d22e36994fbc833d6ffd705f90ce15
-SHA1: be049a8c54754fd64551c4b99b73e0909f0a155e
-SHA256: 7cb89e5b57ca0e3671c5c41035ada53c92dfa649b3dcaa51b62a54562055d039
-SHA512: 20344788ce7a091951e5a1373fcadb5c3794f8e3b3dd54b468a61d817da2582c5b4d59baa6733f4c3e7269f6411ab7f7cde39e507312339875a2f8deab9749a6
+Filename: ./ros-kilted-tier4-api-msgs_0.57.0-2025.11.11.12.09_amd64.deb
+Size: 147916
+MD5sum: e6a19458999385794f6dcb2ea7943d36
+SHA1: ca8975280088abb365f863ea85c11ab0fb45fcd7
+SHA256: 69faf6cd4b641cf3b4966991332d5438edd9f9cca82a5e0e56dc9d8a75ef1746
+SHA512: 9a5108be17695941b808d998eb0572887e85ca79e3ee192055b38ec2ce40a71edda472f09419ff5ecfec79d339b02f32f89b106e9d637898bd21db82baa56e34
 Description: The tier4_api_msgs package
 
 Package: ros-kilted-tier4-auto-msgs-converter
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.40
+Version: 0.57.0-2025.11.11.12.16
 Priority: optional
 Section: misc
 Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
 Installed-Size: 65
 Depends: ros-kilted-autoware-perception-msgs, ros-kilted-autoware-planning-msgs, ros-kilted-autoware-system-msgs, ros-kilted-autoware-vehicle-msgs, ros-kilted-tier4-perception-msgs, ros-kilted-tier4-planning-msgs, ros-kilted-tier4-system-msgs, ros-kilted-tier4-vehicle-msgs
-Filename: ./ros-kilted-tier4-auto-msgs-converter_0.51.0-2025.08.12.16.40_amd64.deb
-Size: 8778
-MD5sum: 760dc5a26225f6c2ab1b8a4b5993660f
-SHA1: fd85d81858dcc6bea144bc48f41163c4039f4cd6
-SHA256: c5ab0dc2a66f26ba20a7d34d82a5020c05e7d661667221195a67ae6766c3c473
-SHA512: 78d4651f42b4c1b06fe47be90fdd63c3c8a71ee87def2e12005be37e5d34c8a3a742f66f2b759d76579b00ea9941e4d2329f08b36d47b3e1dfc74805c876a3d7
+Filename: ./ros-kilted-tier4-auto-msgs-converter_0.57.0-2025.11.11.12.16_amd64.deb
+Size: 8764
+MD5sum: cc9be7d21f8e09ffb6fea6ce7916c7c0
+SHA1: 74e2c682f22a1f3ef36510b1a80b6ef234a0fc14
+SHA256: 57fa11a6f5f34bd53e590d9121c2cc53b63a2170c5df1a772b5a6da4b812d75e
+SHA512: ccbf2c76f50e96678fffad5e44af5575107282db9beffabacb462eba29749c5667471ef5194c3291e0a3ca591e55f02d5e2842dbcad1ebcc7ec71a03f9a500cb
 Description: The tier4_auto_msgs_converter package
 
 Package: ros-kilted-tier4-control-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.15.58
+Version: 0.57.0-2025.11.11.11.34
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-control-msgs
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 1595
-Depends: ros-kilted-tier4-control-msgs (= 0.51.0-2025.08.12.15.58)
-Filename: ./ros-kilted-tier4-control-msgs-dbgsym_0.51.0-2025.08.12.15.58_amd64.ddeb
-Size: 1255042
-MD5sum: 5e3b69bd642bb44fb0667bb67a326867
-SHA1: d2ae68da44db2f8428d740bdbb20dc67066180f4
-SHA256: 9f4d3f5dd3ab378c1a7273cab22a57f094c0d2512aa5cb1a1be877405883c278
-SHA512: 901473a8706f97ee8ffe9e039e4d98fa3714ac6e4e605313a9e5f51a3f6fa02e7ffb52ce6b6f68171c4f6917eb3a437e47ef1548e0e5fc0b475bd443b4d8c283
+Installed-Size: 1597
+Depends: ros-kilted-tier4-control-msgs (= 0.57.0-2025.11.11.11.34)
+Filename: ./ros-kilted-tier4-control-msgs-dbgsym_0.57.0-2025.11.11.11.34_amd64.ddeb
+Size: 1256566
+MD5sum: 1021301ebb953221e7c3a43e7f3716bc
+SHA1: 37c60ec0486d997f5aba612d60b93cdb60f51600
+SHA256: 4f9648b39400a8b74a38069a538e46b190b4b143f535d9d6014a76673e5d0443
+SHA512: 096d5ac42c5087d8ba33aefa14a4f9fa5eb89f7c55bd57cd7f33b4432cc12490e35f555b040852aff10550d3e16f3a7320656ee37d09e62312c0291f9b733186
 Description: debug symbols for ros-kilted-tier4-control-msgs
-Build-Ids: 1e8bdb938f55b6b8dd1bda5389c46bebf80467c1 23c611ed98f221495359d75abe44907d0bba1969 46541631772d54f765fac35eae88d5b2e1e8ca0a 793597478bd59ba3d0d9dfe21e4f275315cb5350 a07eba8b760169112568e1c1dca3e22dd7286704 bb2ed545afe6694cd679238bac21ff4d7dcf7582 c1703808a8e2ebdc441432ccce0f8b37da5e415d d58f4755d227a03d22779c1344152886f5a62aa9 e9215046c8b96c3872e42575af6b3440e08d3cee ea096efac2d2af19ca8ed9fe9bb6608762028544 f34d7c4d76a40fe3758993302ae94f0d9e7b92cf
+Build-Ids: 163651b3d54f87abf13f743adacd324fdf74b76c 3400e875358e6b9cdf901ab1bc722cd110ec5f26 5373483b9aa1ed4d63967193a0a592e020a705a0 5543a0a44b4d899799e243e4efd359100eacf957 5eb725e86409d8deea5f2dee5f46d98a539e3062 8c103371a6ff7dff2dcf015c3bd4cfff84707aad a91883119efe1f67786574182d451764c6a88af3 b38dd012e0a2c3942eb2c99ca8cae9f36c1b5758 dc79a15d581c080e353fe99ad80bef2f68b906dc f167fa971481990fdea73279a84e681679da6b3d f37a31848ccf0214acc64c9fcdc995d7af84094b
 
 Package: ros-kilted-tier4-control-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.15.58
+Version: 0.57.0-2025.11.11.11.34
 Priority: optional
 Section: misc
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
 Installed-Size: 2097
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-autoware-common-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-tier4-control-msgs_0.51.0-2025.08.12.15.58_amd64.deb
-Size: 152138
-MD5sum: 17b080c38da3f45fc61dc973c8599461
-SHA1: 361dd500ede55ff1e9985c4ad7b159d732759f71
-SHA256: c818995a7df356210f61bb0d1f04811f727a321b593042f181961fb696947982
-SHA512: c7cf4dbfe5d45ac58575b569a8c7d1ddb2e69b9ff8b7f15ebd69d39cd72c587923254462ce3ad8f7853f6900ea10da9556b04786d155c1dc0e86f720e69e1a98
+Filename: ./ros-kilted-tier4-control-msgs_0.57.0-2025.11.11.11.34_amd64.deb
+Size: 152488
+MD5sum: 1e396877ab96b71cc9c1130ee4a3a6aa
+SHA1: c71209a5b36427027ff59a3c4fe500b920c637bf
+SHA256: 113a5bc9212c326a6147e9954c0d3abc31597471980e9c5bfe211d793415f855
+SHA512: ec475843917f806f211a7afb4cbcf532ba84601a747bc0aeac1b9b83d9f4d63604f71a4dd93078766facd6eabb14eab513d014ecd384fc2355f8846374c1da18
 Description: The tier4_control_msgs package
 
 Package: ros-kilted-tier4-debug-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.00
+Version: 0.57.0-2025.11.11.11.35
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-debug-msgs
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 1999
-Depends: ros-kilted-tier4-debug-msgs (= 0.51.0-2025.08.12.16.00)
-Filename: ./ros-kilted-tier4-debug-msgs-dbgsym_0.51.0-2025.08.12.16.00_amd64.ddeb
-Size: 1628856
-MD5sum: 26e49b9cd0ac0b150d94cf163ef3b1b1
-SHA1: 47f6e7c31e6c5e2c588a8bfb31ed38ca658fe143
-SHA256: 47cc2be94e20cab66299458c10f5803796ce4623a3e2f6dc1ca66e0eea964e19
-SHA512: aa5edc4429c856ed5b7bac8a6403e27f1365604abfa386a435f4713f73c2860587b0c68b90f458e32a59acfc6bd415ba0058f0b9ec9b36b642fc102765a7ac2c
+Installed-Size: 2000
+Depends: ros-kilted-tier4-debug-msgs (= 0.57.0-2025.11.11.11.35)
+Filename: ./ros-kilted-tier4-debug-msgs-dbgsym_0.57.0-2025.11.11.11.35_amd64.ddeb
+Size: 1630222
+MD5sum: 5cfeb9478876abe2bbb80179000d0f23
+SHA1: 9fb6f682a8f7ef13bb4c1c67da4a11c768127d35
+SHA256: 4511d59f07c8422c3f3053b838a5ad5163814c478394a74471a7bf2b9bca3bc9
+SHA512: 7ed346a5c1d730602675c24ef562f148a82b7fe7b75eff1e9931592cf0dc8467f858ac381cb8ef81c81dced8b67f7fe7c8b7fa920de77a19f78f8dec002dc520
 Description: debug symbols for ros-kilted-tier4-debug-msgs
-Build-Ids: 203f6cf933043b3727450b3d3e5d888997a1cfc3 29f86842cf39f332b812987894339cf93d1e4e42 51303d4fe540d9ce37029a5d99ae4e74a16fbdf2 5bae30b836d22f5fa1e3494828aa0076ead77bdf 5c34e885bd2fbb26de74b2cf2be5cd978df09900 694d214503a0a42df35f2e22c024ba4c8c3376fc 7a8cd1d16ae7767611f041d53bed4b9232d7188c 8a031b2a636febc6d375660487c8682cbf7d78e8 ac82ed19d5ccfed0d104f68f95c690571ada73c9 d3e74c186395a8f0c5a82bc92759dc9e281b7d95 d6555f4f8e529e77ab3f680841f7a0e1db27cf42
+Build-Ids: 0e46405eabe46ebf9d2ccb7a96666eb1a255875f 0e49b9f2bf8132a6e05d7c9a343b701231b71de0 0e6546c76b135ea3e78ddf782908e8a2cc7e3603 25afbf30cfce0d80817ca279e2858067d16d0ab3 4aef518c9fae9af9575dcba512c94dec365df196 57e3b1181eeb0610e60594b330ee0e48cc25196b 5d252c5b53bc8fa3e7e750305c587bb25c56f256 7b0b3cb7960081c0b120b6782176a24a1615b952 8206d4dee6ee171001c73d4cdcd7823b3206ff0f af54d57ed8ed111b53f3104779ed95615f2ce55f ecc31b4624bf620a54a481ade5cd7a19bc72e97a
 
 Package: ros-kilted-tier4-debug-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.00
+Version: 0.57.0-2025.11.11.11.35
 Priority: optional
 Section: misc
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
 Installed-Size: 2375
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-runtime
-Filename: ./ros-kilted-tier4-debug-msgs_0.51.0-2025.08.12.16.00_amd64.deb
-Size: 163124
-MD5sum: 82c0bab176074fc4df0a09a71335855a
-SHA1: 0efe7fe4c5f9a294889cc0ac6b2ea4d073a2c800
-SHA256: 155483b079665d455c6ec160a88fe873cb357289397da8785dc3747a5df2a336
-SHA512: 9069eaab4f40bbc26c7cd9e35feec6d72b410175130d09458b8f813df1b68273ff3f3661ca3ae6dd06019066472b210f891dc2cc8d8fd8dcfa0fc07ee60daf28
+Filename: ./ros-kilted-tier4-debug-msgs_0.57.0-2025.11.11.11.35_amd64.deb
+Size: 163786
+MD5sum: cfbc7b33e2ef5e077cb12c6bafe3cf89
+SHA1: f1293051c1bd44166c08bdef3c62dd3ac9e64e03
+SHA256: e7f2fcdc11b96f53dcd0647803a613b9ca013beffcdf5a1addb9df46a58f9114
+SHA512: 5b439921814cf80540e037b85cb16bbffb883e633e7494bb6abea4465627e4df7b7388868b36c76780beab27a9ec1477233bded86efa43b97e11b745ac0a5d7b
 Description: The tier4_debug_msgs package
 
 Package: ros-kilted-tier4-external-api-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.01
+Version: 0.57.0-2025.11.11.11.37
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-external-api-msgs
 Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
-Installed-Size: 12856
-Depends: ros-kilted-tier4-external-api-msgs (= 0.51.0-2025.08.12.16.01)
-Filename: ./ros-kilted-tier4-external-api-msgs-dbgsym_0.51.0-2025.08.12.16.01_amd64.ddeb
-Size: 10196326
-MD5sum: 9533b361614ec490d8d111934833a23b
-SHA1: c92a1f4f52d57971c3d074521e5fbd90713f172e
-SHA256: 4e08f4618678adabb03c5d6ccf456b28d21660a09dca7c50c0fb3799c9ecd465
-SHA512: 175b6fa7279ef35fb2e62cee76987f419effdfe8ce7f204789efe68635e72ef5879c73798e79942c1e54b331ddce4408fdad0924e07455546d90352efaa007c9
+Installed-Size: 13269
+Depends: ros-kilted-tier4-external-api-msgs (= 0.57.0-2025.11.11.11.37)
+Filename: ./ros-kilted-tier4-external-api-msgs-dbgsym_0.57.0-2025.11.11.11.37_amd64.ddeb
+Size: 10528740
+MD5sum: e2f5b63e45f158a11d1ffe02aaac892b
+SHA1: 2389f35795d2295941acee2d30742630c957ce93
+SHA256: cae50279c00724d942b0b51e94c31b4c242411ee80cbb48857ecfb5e25613657
+SHA512: b9aa36e53ab3993469b35ddf05face74933990483750dab3f4c51abc8a1de222f0567ab1a44f230bcf53a3fd9a3910273bcd78c0f6e73c545d8da342f0b3b5ad
 Description: debug symbols for ros-kilted-tier4-external-api-msgs
-Build-Ids: 134f28250164f20ff0f5a11ee78600467a3e1b33 338a4f8f117413b8e0083fb4d26c44501c973f89 36bf35beab1444a587ba603e40b786619d6861a2 4e041273ff3d41afb0aa6dde2bb16e14acf11ff7 540b8287213f19d2585a04f965ae194bbdb06046 868ded7a8ce72fe0008338b30c48d588fdfb7a8f 876fba2f8e7e6416a32f2719282f520834afb1f9 96f67de3d484616de4bd5773c5126f527866ac96 cc65ae716865ca3a14b656ac649f1a3381a139ef d276a4245a82f767407394f32bcad73d08f96091 eccece07c47d1a25fd144393e6ffc31738cb2b3f
+Build-Ids: 27b176f0dea2676520be01f42cfe6e0d18a60689 4ef23e1e42c9dc0f6032286c18667259a07c278e 83888e5e833bd0011e54c8b87570151bd29927ad 8ce46eaf115baf4130caebea4aa109ec35e1c4a4 9b83178d050bd650f9800557b395fdc9f126840e a77d50c9a0a3cb279b44be29a50b448c32d0dc68 a80f2482f0097eeaf6dd4fbe392aa536b00d741e e0415603a04cd2bdbeac507dbbff7768b37af675 e2816c37ca06edff877ef4fa62713f68538d618c f5936541031f9b3325e90b8ea9de5f536a50b05e fb149b727c2a05bdad51652411665887ce252148
 
 Package: ros-kilted-tier4-external-api-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.01
+Version: 0.57.0-2025.11.11.11.37
 Priority: optional
 Section: misc
 Maintainer: Takagi, Isamu <isamu.takagi@tier4.jp>
-Installed-Size: 16945
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-diagnostic-msgs, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-unique-identifier-msgs
-Filename: ./ros-kilted-tier4-external-api-msgs_0.51.0-2025.08.12.16.01_amd64.deb
-Size: 966402
-MD5sum: d81053ffb79b89eed3b6408ebc0efad9
-SHA1: f47483835d4676ba0fa99af5bb1712a32b69d16b
-SHA256: e466112d49121827faeeb0fe930233497025195949fc77fdfb844fd0ba25bcf5
-SHA512: 8e03ff09a086d9b09393d97a80a92efa3cc52cd83b185aa84470a67e9dd9c458ff554eb68ef49445aea4c38f9c65091033f0227a01df2c8637e63ad1102e0645
+Installed-Size: 17488
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-autoware-common-msgs, ros-kilted-builtin-interfaces, ros-kilted-diagnostic-msgs, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-unique-identifier-msgs
+Filename: ./ros-kilted-tier4-external-api-msgs_0.57.0-2025.11.11.11.37_amd64.deb
+Size: 996928
+MD5sum: 5eb05adaff9697161e3e41d5460866d9
+SHA1: 6c4813dff3c819d6fb139ad68a4aa93bbb605103
+SHA256: dff2abe9d35fcf484fe08066162fa44de996a27f376e7808c1afecc9948e3318
+SHA512: 959f8ecd901b4b3683007cc09540ee81ee931bbd2f17075518cb943872477b7842ec7bee6a59d23fc1a005aac85108fe3fc9a6be211cdeb73def3397f8ab9a71
 Description: The tier4_external_api_msgs package
 
 Package: ros-kilted-tier4-hmi-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.35
+Version: 0.57.0-2025.11.11.12.11
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-hmi-msgs
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
-Installed-Size: 750
-Depends: ros-kilted-tier4-hmi-msgs (= 0.51.0-2025.08.12.16.35)
-Filename: ./ros-kilted-tier4-hmi-msgs-dbgsym_0.51.0-2025.08.12.16.35_amd64.ddeb
-Size: 562326
-MD5sum: ab0a573fcc721a7f8554ea63f98c1b3b
-SHA1: 9f321559acd1d770c69e21951f1d77e8d033a693
-SHA256: 9ae7596c70d9e8b2db0db90a3601b1bebd33cdc8971dcbe0d82fd90adcfed89f
-SHA512: 6ca2fd2666ec96b1ea8a65e3aa3b09549c7b68b5118075c29f13b5967b20a534a791ba8a9b20ee9bbd39f8bf804b7d993fe3c68c9d184d7d9c1d06c20de63bd1
+Installed-Size: 751
+Depends: ros-kilted-tier4-hmi-msgs (= 0.57.0-2025.11.11.12.11)
+Filename: ./ros-kilted-tier4-hmi-msgs-dbgsym_0.57.0-2025.11.11.12.11_amd64.ddeb
+Size: 563510
+MD5sum: df83bb4f9763fa0235bf79b51f331150
+SHA1: 9458cd21b1da085352aad4a0bbb8ace399d6411f
+SHA256: 31052ac2f8668d01df3422f94b366add7b7baea8a25b1fc291d1b8b8c300ec67
+SHA512: e78cc0715caa3c9a6edec5b6c3c821ecb73d8e5860834b5ae6da7296ad67ba4f71882c4492ab652de919073579b7a5726197f19f216190636f466691ea182e82
 Description: debug symbols for ros-kilted-tier4-hmi-msgs
-Build-Ids: 02431ea97488862e629f7887ba3178f78cdf01ea 04a4bd9470b6b95a70a32a940bb868bf6f5f17e2 063ec5729bf9a3d6d9b17224e80f5a698e026688 0f77ab94ccb8163100e05399143c0655a758e46d 161ed41af7d1bd1d491198ceb42e02a225d00c09 590cabc068379c351f9e8ba14aed9a2a4e2ac098 5bed5b1192f304f2efd8aecd6d74515ddb5e1fdb 693a3174f2abe32d9b361c8daf2cb9578d6bf6bb 8d86a4e4ac6903501e837a0b7e00abed6e47207b a7208448b85f360aa33364308780d2f37fe8affc feb70661a9f3df97a3c47034a95d6e9383019627
+Build-Ids: 017fb9a48365765b876a2cf2eb13d24377332feb 45c7d6710590225c01fea48c09b5b7fe8ed69419 86e26aa246c6ef036476226ff071be27b17b169d ab8a6c9ec71c73103c17428401b13700ae640642 c1edbe8daf12b495b030b8376d9a43a22fcdde86 c2f640e24ec791d476bee3d5a6f087333e6918dd c5af7448360baf6f468f30b088f8a94c9e2c858e dfa322a8c2fb5a0f9c538fe7c090a3a1286829b8 f285bf9f9a5b1d16a8d2767a93a0e3f02b4e6bc2 f411836484ad4a49d070ee47870aefce6d6b7c16 fc1c960d4428b6cd216be1384dbcb155a6863b7d
 
 Package: ros-kilted-tier4-hmi-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.35
+Version: 0.57.0-2025.11.11.12.11
 Priority: optional
 Section: misc
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
 Installed-Size: 1073
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-runtime, ros-kilted-tier4-external-api-msgs
-Filename: ./ros-kilted-tier4-hmi-msgs_0.51.0-2025.08.12.16.35_amd64.deb
-Size: 88192
-MD5sum: 8e407277ede1c0389d73289beff19dd2
-SHA1: 49027db6058bc30437e26b523673554f6a30f4e9
-SHA256: 6d7a583a99c03fa3350116cca08f3847ad16d6dcf0d287bdb744cb96f928f963
-SHA512: d6fcaf0f411d578e49231442ff0cc1f042772125c93a2944469e6e964c70abe857a492cc8bb333cb0a6d3ceb1720e024c9dd51dcb248ffdd83ae9db82010d36e
+Filename: ./ros-kilted-tier4-hmi-msgs_0.57.0-2025.11.11.12.11_amd64.deb
+Size: 88810
+MD5sum: 4cd55747949f1080b0d9a0ba77d8524d
+SHA1: 1431b18f6212bb13da85f5582706bf5cea6ceea2
+SHA256: e70fd3567c3aa909b3a91350d1fe6c8cee57f8da1ddcefb4375e9ff14aed0bc5
+SHA512: efe4762eb6ff5d670a906258e7e3c00f9d54b42c9ba026dbda86c923a7a40a9572c1347f1413e29d4e6943a99f7c569978db64e31648a80b62625d15812c769d
 Description: The tier4_hmi_msgs package
 
 Package: ros-kilted-tier4-localization-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.05
+Version: 0.57.0-2025.11.11.11.40
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-localization-msgs
 Maintainer: Yamato Ando <yamato.ando@tier4.jp>
-Installed-Size: 928
-Depends: ros-kilted-tier4-localization-msgs (= 0.51.0-2025.08.12.16.05)
-Filename: ./ros-kilted-tier4-localization-msgs-dbgsym_0.51.0-2025.08.12.16.05_amd64.ddeb
-Size: 708370
-MD5sum: f381ac642d09e259cc32fd3e35085348
-SHA1: 159733987c0964c9fe57fbbda56ce5d65a64fc3d
-SHA256: 2fda12c447bf579c26510a79aa28e5d19c84d1ad33633800d964e689e83af5b8
-SHA512: 5b813236963e86ce64f4d85984f9659d170b0129e8b7ffd641a00635edec29127e2e65e7585ef5c23b78cf4683ebe8f77146ef48733e6506789aad07e93781ce
+Installed-Size: 931
+Depends: ros-kilted-tier4-localization-msgs (= 0.57.0-2025.11.11.11.40)
+Filename: ./ros-kilted-tier4-localization-msgs-dbgsym_0.57.0-2025.11.11.11.40_amd64.ddeb
+Size: 709958
+MD5sum: 0ad8c4b1fde637e78ca7a0e869ab14eb
+SHA1: 909458c35eb34a88de45bd32b38518d53a50640a
+SHA256: 40d3417dadde3bb5929e303fcffe17a7011eb29f7b655b8a80f63b6372bd76e4
+SHA512: 9dc3f9adcd6830212a09c1806d00a4514426354162d42e5291832084281484539d125c6f359b284c507351989d453da431f39df7da703d50a5cd8924a74b2f4f
 Description: debug symbols for ros-kilted-tier4-localization-msgs
-Build-Ids: 17d9f11061305175e20be7c7e073d9626de722ce 32acb13f1b36a2730d0b8302accd804d0a1307fd 3c522cc4de9aebfefb847fdd3174296972eccb06 3f275f483353a3b7d36b9462aece873605a68f3d 676cfa959a603424c191d53d39cc439f011a1875 77a64ce049463372aebcd6ceea9f53889082efba 8f8489f7b6e56690807ff73fb60449d9268869be a0b8caf3fa36043c43e7c1fd8cd6cb03311c212e d273079ef213d256af052606e32318b51b90fd1b d2b91c3252c0b5fed8c2be54ffcaf8b7af233bd5 e2b51124d78de12dafb3a34790e28770f094a3fb
+Build-Ids: 15bf0a40396c9fa5520eeb72413bf7a11f57bc50 37c0101d617932f0bd487a136e6bcbbcee988905 3956121f6cf742858873d456a01e766406169b32 3b8b1982c17e85fe50ecc11787bac518edfb817f 51e574a43d9ccb4b82f6bc4d1be2a307f5b2ca02 5740ebf53cbf062ddaea75153d5d699ac21dc154 7197c33a2c96c0a2c5b189d7444efe2abb1b849d 74418264397ddb5970534e38b38e807637f8e1ab bc000a8a5c40c9c021e5c269577990bc8fb0e541 cbc7669220ed24726d19eac2ef2db130f03f7a63 f0c654f8bddec53d254f2d5bd74a00efcc1a82d2
 
 Package: ros-kilted-tier4-localization-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.05
+Version: 0.57.0-2025.11.11.11.40
 Priority: optional
 Section: misc
 Maintainer: Yamato Ando <yamato.ando@tier4.jp>
 Installed-Size: 1279
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-autoware-common-msgs, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime
-Filename: ./ros-kilted-tier4-localization-msgs_0.51.0-2025.08.12.16.05_amd64.deb
-Size: 105352
-MD5sum: b67c35d0cd802b965469405d004b044b
-SHA1: c3e2752eed723932dd038f498a9177181cd3c4e3
-SHA256: 5a70d91a0add756fc393fb03c91c83f0020bd039df2fbfe1ee8e64252480ee8b
-SHA512: 8a05510925a5796d40befd0585accfedfa4d28b6599d868650c43923b8b67308d0cb8e9c77bb0766bcb2050fea02483193318a9921148349678eac2652258909
+Filename: ./ros-kilted-tier4-localization-msgs_0.57.0-2025.11.11.11.40_amd64.deb
+Size: 106220
+MD5sum: 2b871a50a9dfb33e2fa9a0831644254a
+SHA1: c8619560096d6ef64c4ea24316cd88eedf5bfa7f
+SHA256: a635e36658b9989515ceb07507c67f49773a148d07e3f1430ad60d1cef538ce5
+SHA512: 7507cfa9ea9d7a7712dbc215ec8219b67074d6d363f0d858730786ab061a14d7d9f2e69c113927f0d1105c1a6f4a2b7615eed3e0b9c826de444ec3455b2310b7
 Description: The tier4_localization_msgs package
 
 Package: ros-kilted-tier4-map-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.06
+Version: 0.57.0-2025.11.11.11.41
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-map-msgs
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
-Installed-Size: 287
-Depends: ros-kilted-tier4-map-msgs (= 0.51.0-2025.08.12.16.06)
-Filename: ./ros-kilted-tier4-map-msgs-dbgsym_0.51.0-2025.08.12.16.06_amd64.ddeb
-Size: 194638
-MD5sum: c0f5d6aca8de364abd1b951761f438b5
-SHA1: db3fbce97944db0da004edf781a437f49bb7c11e
-SHA256: 03e7e02d3a52cd69bf8691c3872f8b6158eccddf703ed72b03c3983e2a1915f8
-SHA512: 3a32d934c802989d8a0204e815ff316806607ae86d7509831d5c93d84f40637f06e812654408b8663e652b9eee08fe0d28674c22bb3890cbfa8b309e72471bd0
+Installed-Size: 286
+Depends: ros-kilted-tier4-map-msgs (= 0.57.0-2025.11.11.11.41)
+Filename: ./ros-kilted-tier4-map-msgs-dbgsym_0.57.0-2025.11.11.11.41_amd64.ddeb
+Size: 194774
+MD5sum: 95fa3ee879b967c05434a54059a04388
+SHA1: b7f8d3a1b0e3342e13be5a539baf5f0271e3fb86
+SHA256: 316708bbe7986ca008ae5f52c61e4f09a118c9f577c6036ebe1d68848cd2da0b
+SHA512: 67c1181823a6d89ccbc4eb89ff168b2cb9310d2a75a38029752ee9daa669cfc07a4bf2a78100984501ddb704396475aa52591dc94f757a132309e95d67d4dd7d
 Description: debug symbols for ros-kilted-tier4-map-msgs
-Build-Ids: 0995fd277b8d75a9078a75348c9320a630d6a2b0 0ce9ce185c036092dfcbeb58b1d4a0ab47389e43 32e4ffd7bf5bfabb93875dd84b12c3e439638259 404ad10838352452a89b894fc6732e4031414279 66394a5fc5a6043aae77497ad94ccbc0af2bcc04 71791ae764bbd1e594050f494c21040538a35a6a 8f1691aae52b25828baa205b4deaa7207fc9e4a1 b4a4a2e10ced8b56c426df8bdd99b131c4373cf0 b7a3617c34a04a1f5908ccb8373f3f05a2fff9a9 bd70e794ff24c4b9e4119bb78f17aa9f38f287fc e07f261e82ffe59935251ceddf3d74cdbb8b6d2f
+Build-Ids: 88a9413ef291b6635ba0a2bd197440411f66e47b 8deb108765916b08ffbf2d9fff25171cb369e866 9713b0e259ce38ce4d33f61b93fbcc7e9372ad14 9ebbb926153fe45b84223f9aad822b40af440129 a0a9a82f684f8e61362d3259b23c8e9b29c8e468 a3864b265cf44f39aeac4b98dd078bc9c9858789 d246835bd1b3033b9189c05fb07e1c60e0438348 e92f7e174cf0f0fd85f8e3ca00bff7833181af0c e9b1d60aabdac9cb0505bdf2b3c1294813da8ad7 f49012334bf7c93503717d21c17499287ebcd22c f82d78ec3c719edc18d2d5c12c8c4416362babce
 
 Package: ros-kilted-tier4-map-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.06
+Version: 0.57.0-2025.11.11.11.41
 Priority: optional
 Section: misc
 Maintainer: Kah Hooi Tan <kahhooi.tan@tier4.jp>
 Installed-Size: 459
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-geographic-msgs, ros-kilted-rosidl-default-runtime
-Filename: ./ros-kilted-tier4-map-msgs_0.51.0-2025.08.12.16.06_amd64.deb
-Size: 44430
-MD5sum: fe1d11387bb256df2c4f9497bc66392a
-SHA1: 0ddc937e3e7d22f7b8484e208d92f41b27a62457
-SHA256: aee6c2a3407d21f81237b63a1aeb60bea5161724081889c0a5bbbe21c2b840d6
-SHA512: 566e92919ce3f6910280dbf696796c60fbdb41ad9596321dca033671d71e520416f2059c1c3561407225fb20347d4a3d76fdeb52be55ad34510c59d3a6e747b7
+Filename: ./ros-kilted-tier4-map-msgs_0.57.0-2025.11.11.11.41_amd64.deb
+Size: 44340
+MD5sum: 71057de571aff291e68bda9c65a5c161
+SHA1: 33210f15d9ee6561658652c8fbfc9bca021c23dc
+SHA256: 6a3336b38a12df9847e7183785e498a40d658e9f6ab1e0c921ff5bc7e448a990
+SHA512: 26527c90845fd155d81602f96fb533aeb0468c818d3496a979302fbd1a958de3d82e6cac1c2084ebd0c8a6947241eee44169f133ecc6798a5135aab02cc6895a
 Description: The tier4_map_msgs package
 
 Package: ros-kilted-tier4-metric-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.06
+Version: 0.57.0-2025.11.11.11.42
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-metric-msgs
 Maintainer: Temkei Kem <temkei.kem@tier4.jp>
-Installed-Size: 429
-Depends: ros-kilted-tier4-metric-msgs (= 0.51.0-2025.08.12.16.06)
-Filename: ./ros-kilted-tier4-metric-msgs-dbgsym_0.51.0-2025.08.12.16.06_amd64.ddeb
-Size: 321282
-MD5sum: d8f6c1fd56b21404aba59637f4f851ae
-SHA1: 32e19cb7d05b3efe9d82ed591acc2f61e6ba3a78
-SHA256: 79b47bb0c6b2dc944c1f6cb19fffba2cf7351bea4a4afdcb6fff0fefc5868dea
-SHA512: d296a740370d94695faa0151ea7dc8ae83542b676e016b2c21606174d484c24c2dbc48c069d1764ac2f832985ea637a223666869cc14034d3475e4acea1b0480
+Installed-Size: 430
+Depends: ros-kilted-tier4-metric-msgs (= 0.57.0-2025.11.11.11.42)
+Filename: ./ros-kilted-tier4-metric-msgs-dbgsym_0.57.0-2025.11.11.11.42_amd64.ddeb
+Size: 321680
+MD5sum: d19df6741d7722a71e042b712d3cb0c6
+SHA1: 3e7801ea682330a136b573ae0d4280b37b06edcd
+SHA256: 00c6a3e8d877fb66f650c018c45dcece18971fbf0e1e1fd93ea904fafb39d17f
+SHA512: 52e87e63421552b4a57b64625a17a0d0dda26e97c64ad8c513dca04f0e43c3f634935c3f7e6e13567fa82c7b042d8bdd466e137c7c0712d28f0e4ca2eba5c774
 Description: debug symbols for ros-kilted-tier4-metric-msgs
-Build-Ids: 0cbde0999aa0e9486ba8fafe572a45ace9e111a6 1353e7a7640796807c560b9dcd621a666fd63a5f 3166f9e3900ca7d115ee30561c49dfc85321485b 34b1977c1c2a75379e661152ec9e94e196d274fd 4a51e744d8cad7b1ff4a51642c0dff0953f9f572 65c082d3d427ffe3e9c8478822dbac1936083b5b a206716ce9f198e622209c6a6d38ed47fb121821 c58a67e4b5df95a6cb7e3aa6490992ca29d78818 d871f9fe0248043cb23627078886dbb0d6cf4afb e671796c9952ebe2da3552f1a15af49c6e76d66b fb8e5eacfaac05a02f07cb444d6ab88c23b23ebf
+Build-Ids: 18cd3fe065e27a22762e75c78d819930b07c771d 28fb874ef9296634b80daa030bc6df70787965a4 5e2b2c2efb233100a7d9bd237050b19a59a315d9 7c79814b7a96fb35ef7c34ad478332c280ecde59 7e9561ea9342b28970b77cb38d56bf2057b4a3d4 86bf3fa48ad14c51fe9e076b2862aebe6de83989 8d3c0d8ac9312410864aaf3ee325eb42a2f29cbf a5afd1789e0e5999a4de5c98a9623b1d52a1a3d7 bb348572402fe569f34d49710a51a8c4aa3d2fe4 c3cc12967bb2df523a89a5c0c6556e2dd349d0ec fecdff91a70c846b43b97a7601ce5c7834a59c52
 
 Package: ros-kilted-tier4-metric-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.06
+Version: 0.57.0-2025.11.11.11.42
 Priority: optional
 Section: misc
 Maintainer: Temkei Kem <temkei.kem@tier4.jp>
-Installed-Size: 539
+Installed-Size: 556
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-runtime
-Filename: ./ros-kilted-tier4-metric-msgs_0.51.0-2025.08.12.16.06_amd64.deb
-Size: 55730
-MD5sum: a7bab7f33bef9ae150cef383a094893c
-SHA1: 87dfb4a071bf0ab541d1db1f457f29bf1dc9833b
-SHA256: 85ae0a3859b169db8d9960586e9130577d39036e8a9cf783b4ff21ded4a88a79
-SHA512: cf7433514ee3a6feb8dbc3c0dc935e46f5b6259dd82d9e68df95e9cdf145daee27a40bef7c4867a238621d46308cf7c40cf39175ea79f354a3438691676d6063
+Filename: ./ros-kilted-tier4-metric-msgs_0.57.0-2025.11.11.11.42_amd64.deb
+Size: 56798
+MD5sum: d37f61de80f0b3ad05df1f1a0bb0d162
+SHA1: b64c39d4777f8fb4385fb7eef9ed49cd89d5c7ce
+SHA256: c8f10a0263a0610f4e1751c808f752125bb2f7368e62866c04ef099c57796ccd
+SHA512: 6bc5fa96f582e83c680fd785cd6ecd770bf556587862e388ad100d861f61b45688b5d9b188a0ef39617d6cc372b1895972c51bfe4c5a90533f2f56915bf700c8
 Description: The tier4_metric_msgs package
 
 Package: ros-kilted-tier4-perception-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.07
+Version: 0.57.0-2025.11.11.11.43
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-perception-msgs
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 2142
-Depends: ros-kilted-tier4-perception-msgs (= 0.51.0-2025.08.12.16.07)
-Filename: ./ros-kilted-tier4-perception-msgs-dbgsym_0.51.0-2025.08.12.16.07_amd64.ddeb
-Size: 1775750
-MD5sum: 14886cc89a929fe93367ca6235364b9d
-SHA1: 11cacd84787fd62310b1ab9731e738cc8656beba
-SHA256: b8d866218eb4cebd36fb8f7b99cff5ed6c5a3d7476d5071997ed128559124688
-SHA512: e21d6f3e7e4d20bbc786ecdd22698a4ff7df18cbe4f9225569b82ff988bf54c52f731853b122121cf151a283ae99ee4d350ece2aa2d43348fd999870cbb66c64
+Installed-Size: 2147
+Depends: ros-kilted-tier4-perception-msgs (= 0.57.0-2025.11.11.11.43)
+Filename: ./ros-kilted-tier4-perception-msgs-dbgsym_0.57.0-2025.11.11.11.43_amd64.ddeb
+Size: 1777462
+MD5sum: 33dc5f73dabf6ebda2746a89936ef0c6
+SHA1: a342a46c9b461c3f79b0ff9a6149c30efc63e4c4
+SHA256: 150da3655e386dc3b16d07db4598f958acd3ae0bd2bfe23ea7f3c1dcde095aa1
+SHA512: 68a28a9fff7e0a161046a04a3d1b111416a747e57d59756552e7e8d544055e92f862c7fff59b3f2f3df3ce1c03e9fb3f7b546183f62f8e866a999075220a5d71
 Description: debug symbols for ros-kilted-tier4-perception-msgs
-Build-Ids: 19d5a451b4d0bab39f58b44333a747c13cf51405 64246badc3679ca89d450582dc6b9e2787d289b4 7c26cf04b1382cd4d7e2fc6491accbd85dba33d0 90460ebaf0b5481933f819c553000e1340534596 92b1bf0ab9725b0b1ecd3e263549c577fd481613 9a9e7636e9664a6eb8be1e1e73143aeb2e722d32 a09da823d037e4b167534f80c34b46c5c24634d7 a76ea2bdc96eb7f4e89bd04def8dcf3ba35a3bfd b38d676c89dd237ac2dd54e2cb8101718aa661be f1e99b760c5e73935da94a7b51327dd74ac0a202 f5e6d833427199af121251e8def8d6cf537b7f85
+Build-Ids: 00bed0261de4c5a43edb2ad02d71edc17cb39a42 3932003551b1bfdd3614018b1de4efba758de65e 5d4e65457047af15d5e3d31fa7ac9455e8d0d7c5 6e13dc29ff0b0c0602610939a35783da8be71a02 9f47b3d021afa8f63334e8cd697909dd1b334196 a2ce2100da49969ebd0922912522f1c027573740 ba360e77a391dd6b47103494ff1b84b65c73998f c3dfaee0f7c35572f9ec72bd84fc929809f8acdb e899fed58842d177a515dd81d3eea9da1fdae9c6 f2d04c5c79694130eb8950dbbd72ef47f065479b ff5818ec4b4a197f87b9e3105a3e8a22961c53da
 
 Package: ros-kilted-tier4-perception-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.07
+Version: 0.57.0-2025.11.11.11.43
 Priority: optional
 Section: misc
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 2473
+Installed-Size: 2481
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-autoware-perception-msgs, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-sensor-msgs, ros-kilted-std-msgs, ros-kilted-unique-identifier-msgs
-Filename: ./ros-kilted-tier4-perception-msgs_0.51.0-2025.08.12.16.07_amd64.deb
-Size: 181916
-MD5sum: dbe98c9fe1c7257cedf979ce87dffa52
-SHA1: ad48bf6f2a3f7966b22f9f1ca9d53ef02434ada8
-SHA256: cbfab318069f269c62115fb41f3946e79aaec7382ec48ed9b47314e6525b11e3
-SHA512: 095a953bab293cd880067700c3c93b0e60064ed4cab15915c9c18d13f2bcfcc22739eaf6482e3b2270d8ac353a370cb37ae6ac1f0aa3f82d0fb7fe951bf099ff
+Filename: ./ros-kilted-tier4-perception-msgs_0.57.0-2025.11.11.11.43_amd64.deb
+Size: 183214
+MD5sum: e46bac3eb5e833b429d768a0db8c2a47
+SHA1: 3efa7c092aa267f5a2ae52a1c0336d1b48d783dc
+SHA256: a0a0a0700a8a7404d974499c23565d06ce811ac297b55ad5104c3dec1f4f5239
+SHA512: e35d0f257434cb7373e4d3e5d7bd6b942e1eca6e5a17a021b672e2187f7ead1bee0b3e60835a4adba3d151c52109dfdc3e4067083457dbfeaf40afcaba0ef78c
 Description: The tier4_perception_msgs package
 
 Package: ros-kilted-tier4-planning-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.09
+Version: 0.57.0-2025.11.11.11.44
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-planning-msgs
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 5632
-Depends: ros-kilted-tier4-planning-msgs (= 0.51.0-2025.08.12.16.09)
-Filename: ./ros-kilted-tier4-planning-msgs-dbgsym_0.51.0-2025.08.12.16.09_amd64.ddeb
-Size: 4650836
-MD5sum: e95b29cca62391be2b0afad2473b48a8
-SHA1: 490ac3b1a3cfbfea00e404dc997b1e1fbb1ac95d
-SHA256: 8c7972f78095e8ce578a53e980cbf55d9e2ab5c58cfd9722d4f3a64417c9d4ac
-SHA512: 4b71cc5d6c57fc6f0559aa440ea55ecc71afadf26d39a7a75c71f453d6b967d689d3d81b035c0d320e285fe6f066b941c5d6cf7f076c057774ab97b763d2bb4b
+Installed-Size: 5651
+Depends: ros-kilted-tier4-planning-msgs (= 0.57.0-2025.11.11.11.44)
+Filename: ./ros-kilted-tier4-planning-msgs-dbgsym_0.57.0-2025.11.11.11.44_amd64.ddeb
+Size: 4664210
+MD5sum: 618c114548aa72235e30484b3238f995
+SHA1: 2e7070d304b91f907e159f8fb81e4c90074822eb
+SHA256: 12becd9c9300f44a3dd0e20adda0d15ace97392d4ea3fe6c68d4f636cab490bc
+SHA512: e6a9cdb3caff8447ebcd9dbe83fd5927473d704d606ff2c442cccfb4df7d15056ae2a59657381957cfd98e52701b287f3ef0bafb55ad81f57151626b0d614969
 Description: debug symbols for ros-kilted-tier4-planning-msgs
-Build-Ids: 257ca034ce91eb5428a765537432801b0954cfbf 341c0788000f8614b9b8a73293b80b72e12941aa 50f856fe4f8d717fc632857bd29738761d9e9da3 7e07b26c756867086181a803e44d8c7c1233e676 958f6dd548e44a0f7d57b64b9e0858c559d70339 a4f03b1c6fd3ce5cd282dfffc34317eb479372ef b364dd0b68942e4d0f7f36ccaa48788f1d665346 bcc3f4208734a2d7995f00c691fc98d0f8335ec8 c5e1347a4632811e321254f013bd2467e4bf0f77 cce913326aab4534f659c5fabaabb9fb78b542fc effdc70b421029e5b1885af5f71a16a41541f74c
+Build-Ids: 087d21fe84fd544aaaad1258679ad1dbfe34a3d1 1d0a0a13a76bd9b8af0e05a20fd30e4945a3363f 4006dca075693022f676c924bc0a185cdc7fcfd0 6c3b34891904fcb379e9d1d4478338c84f97004b 860a428c4a05bb4504871ebe566f172aa1c2e51e 8cc49f0f29c156d5fbe2f734a21397b520835302 8e2c189db56f9a4563763b18971be096482aa82e 9629d28e0bb297666843acf313d088d3197d3d19 a34a438a56ec14330bddbe94831f6a8791b3e63c e1066a41d4d54a435af113875fc92d4611f2d63e f474468d6e0a0ffa618aec28e9be50a20cde97df
 
 Package: ros-kilted-tier4-planning-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.09
+Version: 0.57.0-2025.11.11.11.44
 Priority: optional
 Section: misc
 Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
-Installed-Size: 6715
+Installed-Size: 6723
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-autoware-common-msgs, ros-kilted-autoware-perception-msgs, ros-kilted-autoware-planning-msgs, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-nav-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs, ros-kilted-unique-identifier-msgs
-Filename: ./ros-kilted-tier4-planning-msgs_0.51.0-2025.08.12.16.09_amd64.deb
-Size: 448532
-MD5sum: f3a7233b987ae7bd1df48c2d5b393d6d
-SHA1: d1c6d9604b70e28ad05cf2ccceb996b62e846b11
-SHA256: cadcc0c7df4b991aec333ccfdc446117951e88f5fe4bafa5c33cfbc6326be870
-SHA512: c40205d7f7f23203d37b90a14746281d02cb7dfc565f389cba26b4061165dae7c3192037e1f6630a116e00f296ebd4d333defa398e846cc2504ed4ab2c3ec73c
+Filename: ./ros-kilted-tier4-planning-msgs_0.57.0-2025.11.11.11.44_amd64.deb
+Size: 449940
+MD5sum: 635ad7f23925483ffe8eeb942203311d
+SHA1: a31c699899b288f7f897876e0b3eba74506dbd45
+SHA256: 4a35b74be2e4d74e9a83eac5708eb6af6886fdb66854be97fe87c4d18ccbd408
+SHA512: aa83458f1a52c28160fa4e4dd6d6d6a124a245bce6c22c94d65caa87fd1bef96787019865ca16af9b4b7d32600096e4b2d74713a461cf75e749d483bd66f17d6
 Description: The tier4_planning_msgs package
 
 Package: ros-kilted-tier4-rtc-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.11
+Version: 0.57.0-2025.11.11.11.47
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-rtc-msgs
 Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
-Installed-Size: 1951
-Depends: ros-kilted-tier4-rtc-msgs (= 0.51.0-2025.08.12.16.11)
-Filename: ./ros-kilted-tier4-rtc-msgs-dbgsym_0.51.0-2025.08.12.16.11_amd64.ddeb
-Size: 1542452
-MD5sum: 3cc634b853e35d8a4a76bf7b1c8403e2
-SHA1: f6cfb397c892cf9e4062cdf10980256b13590b4e
-SHA256: 02adb0849765d21a51068ee74cf70a36f7a894da86ae030e4c8b98dd77a363ee
-SHA512: 9e355e15419db31d31bfef895854e43a0c561658d09642d930748b976d1c78b1fc1f98daaf545e1e5dd1e6876523854b38c3a24d594cacb5de9ea2c414077e84
+Installed-Size: 1955
+Depends: ros-kilted-tier4-rtc-msgs (= 0.57.0-2025.11.11.11.47)
+Filename: ./ros-kilted-tier4-rtc-msgs-dbgsym_0.57.0-2025.11.11.11.47_amd64.ddeb
+Size: 1545246
+MD5sum: 2fd584f3ff165958a72a41e66f05939b
+SHA1: 0431db1aee79db48d59055060130c1008c4b064e
+SHA256: 4033c18c17b93ee1f365879615722c96cee46ceb5898ec553e608c4bc1ca3560
+SHA512: 6003ba3301fe0eea1e77aa6fe79c488e7b6a55363ce4186bc9047a879b6ba3d32104a4ca65cdfb610ddcbac953e0e36fe58229a0df989e1e4984b25336309afe
 Description: debug symbols for ros-kilted-tier4-rtc-msgs
-Build-Ids: 15957fb5d6504fc9139eae7ff69c648ffaf7ef7f 25f08edd40246fcdec40030f108a536e1121831c 4923896997c3a448cdbbf7a4e472d353f18fdc6f 7e0e551c1b25c516e41276edc85baadc32075f3d 89f8dacb9e0e6b2282cecaad37dc797e16fdcaa0 9128e78087fe8852746d1b80484cfafe43d9a96a 9ee8b0389b0b5ecd326a3c799c7d1f883e193678 c9feb4b2971b5e9dc8fbb399f95bc7220193305e d841d083a50cb91eaa740d1d41d6206aba9bde14 e9e25c3860456361361d948161abe0b3a8366c1d f4cdccae907269d866da5be0bc02f27233380591
+Build-Ids: 2681e264e7165970bfbf4d7acd992bb3509f5191 290dea91d6a64adbb80e85969adb0956f3e7570e 2a7581856852ac78498d6bbfc4b948d8d46fe2c8 4e64f6744f03fbf85348bad3e2f92c29b9f462ac 6085ab33c06dccf5418479ff5d8af8a6a3d3c66c 7eb3ac738f8565802288fa821d3b46bf942dbf1b 963391a79d88ab6acb1b2dd7dc4300dd1d50ab1d b0591051ebab42ddfa2d58dd3328902984f3e1fb c7b184044221b7a820b219ff4c3c994879157c2e c8e3c8fcb4fa969973d3c85ac3cf246961229551 e488cc88b9058eb2a3a59b63af027aed453da5b0
 
 Package: ros-kilted-tier4-rtc-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.11
+Version: 0.57.0-2025.11.11.11.47
 Priority: optional
 Section: misc
 Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
-Installed-Size: 2658
+Installed-Size: 2663
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-runtime, ros-kilted-unique-identifier-msgs
-Filename: ./ros-kilted-tier4-rtc-msgs_0.51.0-2025.08.12.16.11_amd64.deb
-Size: 186102
-MD5sum: 8e65bcb660f88860f7054d70a5aa9a5b
-SHA1: 9de4ba52d26f35cf14a4f14c89e87ac942de6492
-SHA256: adfbe96a637159890ef25282e8d46f95f4d85763168996e7874224e4ff2f6986
-SHA512: b4be7fd52537b77d32d2e03946cb9a891611eae8030d5e0b573839d90c6d9edc2f142ef96e77f8b3e3f538211540329d2696d8770d2d30632836ba93cd187e0e
+Filename: ./ros-kilted-tier4-rtc-msgs_0.57.0-2025.11.11.11.47_amd64.deb
+Size: 186894
+MD5sum: 4d9e387756cd6f8d89242168936ce98d
+SHA1: bd31bb4b206b347546fdfe87b13122f1d6951dba
+SHA256: bc180fe2752076f4a8d3d9057fb7c1b2b665add66e11b75873dc057869292fdd
+SHA512: fc8716403a9fa0285ac73b221941b7caf5dee54e148d8a83f9c0f3a83ef2b0cb794d8b9228c9f5e3987a3a37f717c455d2341a910cd0fd3776c89591a1034529
 Description: The tier4_rtc_msgs package
 
 Package: ros-kilted-tier4-simulation-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.12
+Version: 0.57.0-2025.11.11.11.48
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-simulation-msgs
 Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
-Installed-Size: 899
-Depends: ros-kilted-tier4-simulation-msgs (= 0.51.0-2025.08.12.16.12)
-Filename: ./ros-kilted-tier4-simulation-msgs-dbgsym_0.51.0-2025.08.12.16.12_amd64.ddeb
-Size: 694600
-MD5sum: 02a57f6ab6c721adbbe797b9708e59dc
-SHA1: 5b387e62fe61129733ef02da986c8c2fcdf30436
-SHA256: bd40e5de03e90d917182457932d624c7abab042716c078ee3798f396e8ca8a4f
-SHA512: 137bdef8b9755c7827a06f1ec1db72c57afe7cc172aabb12182be2708d28bd9ba1138b6e57a7b768c4334921bb53712b4c709cbcf1138a59f00a09a4b4323d4f
+Installed-Size: 900
+Depends: ros-kilted-tier4-simulation-msgs (= 0.57.0-2025.11.11.11.48)
+Filename: ./ros-kilted-tier4-simulation-msgs-dbgsym_0.57.0-2025.11.11.11.48_amd64.ddeb
+Size: 695284
+MD5sum: 23bc77b915703f2f113441704ba5a006
+SHA1: 12daa4188747c78c170ed6d9eaf0ca836d6ee9d8
+SHA256: 0315e2b62ee5e0db99ce8d92f9bb1fdffa74c52c35b8e7effabc1d86433f3003
+SHA512: 6b1c8cfcb390146e377934bd1ef6b5619af0ceedce71f4eb7b30192536c1b4304b68fe03c409647d5ed943ed9653b1821cc963b4df98fafc871f9b2314165bf0
 Description: debug symbols for ros-kilted-tier4-simulation-msgs
-Build-Ids: 0474533ac15a6eef3a019825f3a35abe5c768fc9 0c9585e84cbad4c5920f80d3e2bc925d40b53cef 2f3d5196d76ea5cda396e0c42630db5e16c2a4ef 3d1c722022bd84912b081556e3d4446dccb844e7 51d4e117c005c3f5aa129a6eb93086a6bb416d6d 6a4f428b85a01152df5309fc93aa98c8498ecc9c 7e952b8a375d4c52eb468f08bd50339ac1f8dc75 80a147ae61f6559b94a6175ed750bc8b1a8012d2 90d82fead1b4aba90629510ec646ca0aad1ebf16 935e25a383ce926a585ca7221a49e0d26544849c aa50f15af6fb0c7d03cc73365df8fb1bc4634abe
+Build-Ids: 12694ed4dc3e908418fb8be84eead8c7119bcbb8 19bc8baf96d3448dcc05ba9c48a7e37fe67c84e8 1aae134532d0ad3b3d1b4811109edf69f367e8b9 573866855dd0ee793b17353b23f3eafb7415d2ce 73a4d8fa22174e332abdb7e2cc9684d568443264 a1c027dc96e655a8b905eca953cff53bb09a9184 a964e3f43736ceb4f0b06a792ce34d2d24f7fd11 c8f8c83ce59f1dede9fb3cc4e181f564cb41a049 d1a8fad643f76dc696a7fdf7cd718949ac7d7d37 e4c54136a39620ede96f236d4de3021d078a09a3 f31e15c9736c9317217c3f508d614946c511eca8
 
 Package: ros-kilted-tier4-simulation-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.12
+Version: 0.57.0-2025.11.11.11.48
 Priority: optional
 Section: misc
 Maintainer: Kyoichi Sugahara <kyoichi.sugahara@tier4.jp>
-Installed-Size: 1186
+Installed-Size: 1188
 Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-autoware-perception-msgs, ros-kilted-builtin-interfaces, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs, ros-kilted-unique-identifier-msgs
-Filename: ./ros-kilted-tier4-simulation-msgs_0.51.0-2025.08.12.16.12_amd64.deb
-Size: 100776
-MD5sum: 958878b9c168f4aae2f387b094e10f08
-SHA1: 589cd6883f25f58b0128edc6f44af358395edd48
-SHA256: 0c7408670dff3b196fb371cb60ea1b4acbd56c8de257137aefc3e6fa4004195f
-SHA512: 3d8a29cc3698c17914d4f7e202d6f91715e97a3fee59631642d9b5a7832169a45faa9cea58c14aafe1124f2d4769045471324ce4134183cf4d3c6a09a5997c06
+Filename: ./ros-kilted-tier4-simulation-msgs_0.57.0-2025.11.11.11.48_amd64.deb
+Size: 101244
+MD5sum: fdde058a60303febd0b8e5bdf8a98c9d
+SHA1: 436b796809614362bb72aae51e0f00a98e4630e9
+SHA256: 831de70f8154af74587554ae4b33130c748a28e41008d0a4e2f43b60c1f6e46f
+SHA512: 3f2a55e6b62a397ed1ebe3d7e53645943940b63b58633f3414a7790ab2e47c5f7a92025f4ce290a920babddfec44f6eae4892e361d5a0264535b184ebc3b8fc0
 Description: The tier4_simulation_msgs package
 
 Package: ros-kilted-tier4-system-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.13
+Version: 0.57.0-2025.11.11.11.49
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-system-msgs
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 5004
-Depends: ros-kilted-tier4-system-msgs (= 0.51.0-2025.08.12.16.13)
-Filename: ./ros-kilted-tier4-system-msgs-dbgsym_0.51.0-2025.08.12.16.13_amd64.ddeb
-Size: 4026074
-MD5sum: 2650a6cfba7e8fab608322922ce3d2eb
-SHA1: 7ba0c3d3c94fc34446b6a15eff33afc1b476a4a5
-SHA256: dcde18257d108d0493eb338c0d56f991defd53366aab5822ec74f0f9ec386be9
-SHA512: cc190b44ddbffdd68a3304764b2d9c185c4da31c77fcee5af9df980a6221e17a69f4bab26621ddc2fa080bf84a113fd269572ab728058ef6587e563b167a709f
+Installed-Size: 5015
+Depends: ros-kilted-tier4-system-msgs (= 0.57.0-2025.11.11.11.49)
+Filename: ./ros-kilted-tier4-system-msgs-dbgsym_0.57.0-2025.11.11.11.49_amd64.ddeb
+Size: 4039636
+MD5sum: 184ec9406aeaff3413fbf30216debd65
+SHA1: 295681898839574c8eca10a586f8be5ee8f2f323
+SHA256: b8f2b8d29689388cc3ac9567bc422b0c89f3a906945755a3a77bb3fc4a201ee1
+SHA512: 20f4a64bbc4de55d8fc781f691130ed232e44c9958efecf4e418b7207df0053796d698810ddb5fc5300d2dacf43f79661af3e2bafb4a6d734d8db0b15c094351
 Description: debug symbols for ros-kilted-tier4-system-msgs
-Build-Ids: 0337d4948ec50829cb88bd11ba837de339b88fdf 384443398ed6c38bb3bcfce9f66b07fe0965ff87 9a62fe7efe3d69ca5ceb3d690f151f3f8f906d96 a00aad781c0e459f45759c24b0cd9497e0172be7 b03927dfb6f3eef8a3e48c1aa5cb9634320cd515 b0d4ee406576fd8c543b9529280963581fe81b97 b43e6a8b0a936e8f218274626f428203a9ff2ce1 b7d4a52092d526b2015b6877b4dd931f7a1932e5 b9bafbfdaac35ea49c39a0b02eb1604a6bb5d49d f3d2ad466ec9c8cd9ca80fcbcd658dde5044a5d8 fa667c114ba66618c034123b108ddc6f8e379fa9
+Build-Ids: 17ea891dd9830138c1b2eecf18f8797e24b0468b 245439d73031841f3afce9baa22faf779f1372aa 2ef075cf069cae8fd126cc042ea0310b612ef950 3fb8a0476148536802bca8caac0c6441fc64c056 3ff48fd80553b8d6cc8fa11a363ca37e7d2115e5 426990c22a71adea79a8f61cc7393fdb8b6d58fd 61e8e6065e4bfaadb4cd8fe9f310fb6fa29e6125 65d27c73f605e18f435fb2df606152a03246f8ff 85e73af35331f8e3cbd30cecb4177184ca87e5d3 a23675997ed8cc15125b91230003329d8c7136ad ac5ddc7c1f83de0b2abb20afae02b05fe32e17b8
 
 Package: ros-kilted-tier4-system-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.13
+Version: 0.57.0-2025.11.11.11.49
 Priority: optional
 Section: misc
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 6395
+Installed-Size: 6407
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-autoware-common-msgs, ros-kilted-builtin-interfaces, ros-kilted-diagnostic-msgs, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-tier4-system-msgs_0.51.0-2025.08.12.16.13_amd64.deb
-Size: 393760
-MD5sum: e6c0f9589fba745927e204d55c60bdf4
-SHA1: bb8afed75df018002a2d0285a889823343ffcd74
-SHA256: 9436488bbf581a0994569ee8fd4061a965ded9af9a9a9db0110ab7a0f70adc78
-SHA512: 8ee47f31c9285de5736079da1537f34244bd94263662047d0f9e6976ba2f06841e089e9566f8f028e8f501c53f72b3d7e0719ecc68b9b69ed663c61dbc0bee9d
+Filename: ./ros-kilted-tier4-system-msgs_0.57.0-2025.11.11.11.49_amd64.deb
+Size: 396324
+MD5sum: 4c65f69302ef972cd75791a122f7657b
+SHA1: a57005745e080719831fd20a2ed69d254e4bb8bc
+SHA256: ec75620338740059d89833dcc691faa753168e1c2bffb691224c0c4be849799f
+SHA512: 3a98580bc35fceb186aa46eba4c106112d694b73f51f4f2f8ef5f3aa702f6e6ef0de67750d0d53d621720adfe621f8bbdc6e5042f699c6a0e0671f23ad88c52e
 Description: The tier4_system_msgs package
 
 Package: ros-kilted-tier4-v2x-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.15
+Version: 0.57.0-2025.11.11.11.51
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-v2x-msgs
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 853
-Depends: ros-kilted-tier4-v2x-msgs (= 0.51.0-2025.08.12.16.15)
-Filename: ./ros-kilted-tier4-v2x-msgs-dbgsym_0.51.0-2025.08.12.16.15_amd64.ddeb
-Size: 680360
-MD5sum: 3e2b18e8e31e2e03e47908025d909faa
-SHA1: 65dd264e8bc607461e635022254915356ea50ea8
-SHA256: 4ac062a983b44fa883df8d1eb71e990e82b80b57848f35fe351d30fbab8a1869
-SHA512: 0535f912c13cf058d8570fea6b20ead19f29443431ba2722d3814dd278d8abd21ecb36a429b213a4648a442c4c3cd5783dfa99d337fe800cb5d2a0bfe752f87b
+Installed-Size: 856
+Depends: ros-kilted-tier4-v2x-msgs (= 0.57.0-2025.11.11.11.51)
+Filename: ./ros-kilted-tier4-v2x-msgs-dbgsym_0.57.0-2025.11.11.11.51_amd64.ddeb
+Size: 682824
+MD5sum: 98fd9db10f38a2f38e0938ab9cd92223
+SHA1: 53f942c64aea8a5558cb588575e9a7f4770f4fb1
+SHA256: 6e2b7c0f9c70eb362a4a7647716edce0466c49958f93c03f4ed54a25f49bcf66
+SHA512: 3234cf67a9f22ddfc3fed0c02ae2a958ca780d1c52cc55d66914d5727364ec73e840c550b2f6713b570f88ac2d5938ac3bb9646dd9b1e093fc41bdbbf846b82d
 Description: debug symbols for ros-kilted-tier4-v2x-msgs
-Build-Ids: 0c98199b8a3d24f3b85701251dfa3884360c30c6 20e2843e107de918e407a38b81df4563013c8eca 233c26c1d3a34b9a3165883e965f0cce61341dba 496afd5924c1d4121e5a7f2bba0d9db2a7205c44 503ae7e17b1f383c3a8dbef1e52d19fd58bef2f8 6552804c24ab37448c31fb72f2be27d98abfe63f 9bf99814f71bee27393fd5375b14c363d1ffc4f0 a51b42073ba7b0d88e86cc42e39f9c519aefc8cb a534d2b13e77525bf0d3bea66c252b7252e6269f cdcf56853ce83c592d1d55185e9cb417ceebb67a ee6b5658cb1b2494b84a3c55d861369922b40868
+Build-Ids: 02c21c45013ba9df77374418a391c8365da564e0 1cba1b7a5e9579a35035e6b60c54455f72f084df 35d05fe65bacfe09f36c496acc00a35c213a6f6b 3da922aa7ee3115120d628ec279ed90881341e4b 742b654282f7b44921aaac64df325d82e8bfce82 86940a554b5a917dd4e6ea1e5aaf2ab1e817993c 91d7bcef112f06d0133179f1792e06fa9624584f bd073d8c5f3fa9ca7f69bf5bc6f61be074d5e94f cc8710f228a6ddd3c028f1052a2202211487487e d42ab8f9f983b19fc3c31169f7a59f1cb32affd1 f05f05e70ca2e4e3d2f487bd48bce4f616f99b12
 
 Package: ros-kilted-tier4-v2x-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.15
+Version: 0.57.0-2025.11.11.11.51
 Priority: optional
 Section: misc
 Maintainer: Ryohsuke Mitsudome <ryohsuke.mitsudome@tier4.jp>
-Installed-Size: 1021
+Installed-Size: 1025
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 11), ros-kilted-fastcdr, ros-kilted-builtin-interfaces, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs
-Filename: ./ros-kilted-tier4-v2x-msgs_0.51.0-2025.08.12.16.15_amd64.deb
-Size: 90158
-MD5sum: 75434575fb28e9f69f55f4f185a9c5e8
-SHA1: 241e3af2f5c5b6c2c90e7e38f8a66a1c19df75c5
-SHA256: a4b6d60f4d27d386c763dfbccdb9085549575072501f85adc10b869b8145b458
-SHA512: eb3d4fd3f30ded10647209f173b39c1644834d9d1d6efc1946f9924dc510f22257be25ab689a92d082dd305470f452b579351c3773c7c9b57f6223d4e5b00233
+Filename: ./ros-kilted-tier4-v2x-msgs_0.57.0-2025.11.11.11.51_amd64.deb
+Size: 90554
+MD5sum: d24ec846aec25169733031cee8be50c3
+SHA1: 0b2186d9431d38a0a9e1de65086ba8de4a9ee754
+SHA256: a29124e221f0815b345dc83308418342b0075dcff966701000eb997bca72b399
+SHA512: eaab8b2d4edc5a36a4f6a898cd968fb78fa86221105f2490f9593b1123c144891cb5e2a5bf8d1e30ba0073fa45976739fc067d06616579a10fd7a125781765f2
 Description: The tier4_v2x_msgs package
 
 Package: ros-kilted-tier4-vehicle-msgs-dbgsym
 Package-Type: ddeb
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.36
+Version: 0.57.0-2025.11.11.12.12
 Auto-Built-Package: debug-symbols
 Priority: optional
 Section: debug
 Source: ros-kilted-tier4-vehicle-msgs
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 1558
-Depends: ros-kilted-tier4-vehicle-msgs (= 0.51.0-2025.08.12.16.36)
-Filename: ./ros-kilted-tier4-vehicle-msgs-dbgsym_0.51.0-2025.08.12.16.36_amd64.ddeb
-Size: 1223346
-MD5sum: dcd9b652a6fbd327ffb7e8e59cbf4600
-SHA1: 61ce2db821be61a6f59cb1644330d3603cc9bee6
-SHA256: 19c376638c84c330284b47209bec6bd5cc0edad086d3afa34c4854f91177e92e
-SHA512: caa3a85d1c76ed3dad7c0d785f484de586efd7d2f19e74958c2311f051e4dc213c6d24c4d5700b3874f7620dc56db5e434d7620696eb1a13672e6449ceecd5e9
+Installed-Size: 1557
+Depends: ros-kilted-tier4-vehicle-msgs (= 0.57.0-2025.11.11.12.12)
+Filename: ./ros-kilted-tier4-vehicle-msgs-dbgsym_0.57.0-2025.11.11.12.12_amd64.ddeb
+Size: 1224558
+MD5sum: ac986c0de052a22e3f4a65dc35e1123c
+SHA1: 7445fcf02cc5fb61154b47e3bf4754ac24445f18
+SHA256: d23460ec2fd7fe3227278fff8ba3b3bc6aa923e557981039e28455301e715c74
+SHA512: cc099c92210b180bc87e5addd3ebda54ff5d984dfc05532cd6df95dc4d2f97dd9b0351d0cdd99279a29f32a40effc05f678a7d996d60102ad431c9732cff178a
 Description: debug symbols for ros-kilted-tier4-vehicle-msgs
-Build-Ids: 023501459cdd76ae2f0641187764fac45a9d0c8d 0c0f837500c29784e52cbbff0215154093521b3c 16de55aec7035aba688d68aca86c33638d043673 19eccb0463e64a99f6c9c915531c17fce7c60d5e 22337f44d9206f5d435a10cbfdf7d2ac45698f03 504808e2a0a8dc54c4752b5eba9e49273df60668 6738aa2161455456442e6a4b7a59abdd6c46b45b e410b61a38753182f0a89692f26bae90a7e99dfb ebfb5e1efc7cfb385c952c27a1eacd890861b318 f899c6ea2fba71b4dea77af95ffae0ce3374fcec fc5ca7c2c0224276b8790f9a732b8a0d452173fa
+Build-Ids: 027a8cd6576fee234366edec3538183c70a470f6 0ef32a33a77b87622a974d94b66f83e862f56944 28a2f745b2e457819219f05833d26f49995fa026 35cdb2aa87eeb94eb0a2881dbb06a10208b7f54a 76df2841fbf06b2465f48f85a553355f862abca8 76ebbc87ff643a5732cc1b2cf331cdfc0290754a 90820306519d2f67050bb27c76e773f91bf17c31 a17a3bb8e5098bc10df92df203ac96b6dd25f1dc bf32c0e1ff03d3bca0cca13c8f0fbef3fafbd629 d38917706a74641532af6b8cf66d05d47dca9712 da9f62fc9fb5664bcf6a70fe9846b85b6bfba92f
 
 Package: ros-kilted-tier4-vehicle-msgs
 Architecture: amd64
-Version: 0.51.0-2025.08.12.16.36
+Version: 0.57.0-2025.11.11.12.12
 Priority: optional
 Section: misc
 Maintainer: Takamasa Horibe <horibe.takamasa@gmail.com>
-Installed-Size: 2043
+Installed-Size: 2044
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libpython3.12t64 (>= 3.12.1), libstdc++6 (>= 5.2), ros-kilted-fastcdr, ros-kilted-geometry-msgs, ros-kilted-rosidl-default-runtime, ros-kilted-std-msgs, ros-kilted-tier4-control-msgs
-Filename: ./ros-kilted-tier4-vehicle-msgs_0.51.0-2025.08.12.16.36_amd64.deb
-Size: 146892
-MD5sum: ffe931f299039a5f6aa03d6895407bb6
-SHA1: db4fd2beb9ff825c50bc648e2d995bce7432f53e
-SHA256: ad052c02c1119e450b981104b27f4492b0e85b44f110a871522a3c57ec32ece8
-SHA512: 4d62d845d7f6161fd6f75e3d3262e2eeb33300fccc28351540e1a1aa19a804b29c34d3f210beebe99653f6fd160f269420b3bbbe6ef178f46347fb4301c2a596
+Filename: ./ros-kilted-tier4-vehicle-msgs_0.57.0-2025.11.11.12.12_amd64.deb
+Size: 147112
+MD5sum: ab33bc092bae47ce85eeddd7c967bd66
+SHA1: e9b0c2cb55b0c810b9cfdda0eafcef2b68c10d9d
+SHA256: a3b3e869fda84cbb285f289749bca67c57762854895fb61f3d959287a3dc71ef
+SHA512: 1696acfd74442beb8f01e93ff64aaa467d2185a24c9d30c623958a24a0f5fd565e4e0b4d2e01baa6f40f69e7c0fb59a7559df8118eb71ef20a3a41fa3433b7a4
 Description: The tier4_vehicle_msgs package
 

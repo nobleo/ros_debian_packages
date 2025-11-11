@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-general-purpose-radar
+Binary: ros-kilted-off-highway-general-purpose-radar
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.11.11.11.59
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-general-purpose-radar - The off_highway_general_purpose_radar package
+Changes:
+ ros-kilted-off-highway-general-purpose-radar (0.8.0-2025.11.11.11.59) noble; urgency=high
+ .
+   * Replace truncation of physical value with round outside of FOSS
+     Minimizes the floating point error such that half
+     offset of resolution in tests is not needed
+     anymore.
+   * Do not force warnings as errors for General Purpose Radar (#12)
+     Fixup of #11.
+   * Contributors: Robin Petereit, Tim Clephas
+Checksums-Sha1:
+ 1065fbe3dc08110ef96ed8cd827ca904c0c4c35c 2689394 ros-kilted-off-highway-general-purpose-radar-dbgsym_0.8.0-2025.11.11.11.59_amd64.ddeb
+ eedbf4da55d7ba2dcb1bbc6b0bd3106c8575bc81 46708 ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.buildinfo
+ a53eff30db0c752d0d6b30b502f4a2d06db67156 151276 ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.deb
+Checksums-Sha256:
+ 0fe31d26a03dce54126286c54cfded7d59d860f33cd20e4b1373259d3ee9962d 2689394 ros-kilted-off-highway-general-purpose-radar-dbgsym_0.8.0-2025.11.11.11.59_amd64.ddeb
+ dcd05f5630c227b1e925ea014150477cf8b1402094678b8b72c1473699cf5730 46708 ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.buildinfo
+ 1c22a0e258b574598e3cdff36864a4cc97e59bd60db110f9786db013159acab1 151276 ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.deb
+Files:
+ c88236f8dc344f42a47fee4f1593002c 2689394 debug optional ros-kilted-off-highway-general-purpose-radar-dbgsym_0.8.0-2025.11.11.11.59_amd64.ddeb
+ 495e53109871bb87aa2b84abd2b80222 46708 misc optional ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.buildinfo
+ fae51751bab2e84a29dfe4bc880c85e7 151276 misc optional ros-kilted-off-highway-general-purpose-radar_0.8.0-2025.11.11.11.59_amd64.deb

@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-pcl
+Binary: ros-kilted-autoware-utils-pcl
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.11.12.17
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-pcl - The autoware_utils_pcl package
+Changes:
+ ros-kilted-autoware-utils-pcl (1.4.2-2025.11.11.12.17) noble; urgency=high
+Checksums-Sha1:
+ d8d00beee96cc753e8cbb81cbf197d9c6bc7bd46 45994 ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.buildinfo
+ 23ecbe12c546a58399f76a6d00dba9518df9649b 8008 ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.deb
+Checksums-Sha256:
+ 52fe417ceca92efe2f2ef83821142ebb91184dee0132d164b6a16df12c3683f8 45994 ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.buildinfo
+ 3b136c42cf6e78afb7f036926eff3987a0ecbd9c00a6315c069289164be61cc1 8008 ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.deb
+Files:
+ 23a62e38f15c59f363e8eb2328eb82a3 45994 misc optional ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.buildinfo
+ 656e3f940e20ac6b72995c5597aa1482 8008 misc optional ros-kilted-autoware-utils-pcl_1.4.2-2025.11.11.12.17_amd64.deb

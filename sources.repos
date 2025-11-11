@@ -6,7 +6,7 @@ repositories:
   novatel_oem7_driver:
     type: git
     url: https://github.com/novatel/novatel_oem7_driver.git
-    version: 037cfaca1acf7573a26cb29507fcf33ddc7e17c4
+    version: d135477443cce2e3ca66289a4e15577f699b5ec5
   off_highway_sensor_drivers:
     type: git
     url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
@@ -14,4 +14,4 @@ repositories:
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: v0.51.0
+    version: b9c385197baf1a2e77f088bea46e7287cd3ec367

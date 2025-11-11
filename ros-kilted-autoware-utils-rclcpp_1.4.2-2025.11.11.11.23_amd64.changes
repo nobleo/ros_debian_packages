@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-rclcpp
+Binary: ros-kilted-autoware-utils-rclcpp
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.11.11.23
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-rclcpp - The autoware_utils_rclcpp package
+Changes:
+ ros-kilted-autoware-utils-rclcpp (1.4.2-2025.11.11.11.23) noble; urgency=high
+Checksums-Sha1:
+ 27339aba84c63db155f2b3a668339a6989eee730 17221 ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.buildinfo
+ 21ae8421e30a75f87427d49cd75797ec1d666253 8944 ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.deb
+Checksums-Sha256:
+ b89016bcf9c93e4f9921b69b3882d0a7e9630a86db7e222290f93ff6ca72d09e 17221 ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.buildinfo
+ a223b1d7648d8d35f996b5457a64559585f8a1c8cd16f5d25825d033ff8d7151 8944 ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.deb
+Files:
+ b53d464bbf8d6e366a6db79309de26f0 17221 misc optional ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.buildinfo
+ 57dba6bb4939b555a57de9c2c1b1e981 8944 misc optional ros-kilted-autoware-utils-rclcpp_1.4.2-2025.11.11.11.23_amd64.deb
