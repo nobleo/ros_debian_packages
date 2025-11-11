@@ -17,10 +17,6 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/managed_transform_buffer.git
     version: 0.1.0
-  off_highway_sensor_drivers:
-    type: git
-    url: https://github.com/bosch-engineering/off_highway_sensor_drivers.git
-    version: 0.8.0
   tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
