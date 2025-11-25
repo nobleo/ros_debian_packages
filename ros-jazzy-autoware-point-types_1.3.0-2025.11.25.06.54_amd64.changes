@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 23 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-point-types
+Binary: ros-jazzy-autoware-point-types
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.11.25.06.54
+Distribution: noble
+Urgency: high
+Maintainer: David Wong <david.wong@tier4.jp>
+Changed-By: David Wong <david.wong@tier4.jp>
+Description:
+ ros-jazzy-autoware-point-types - The point types definition to use point_cloud_msg_wrapper
+Changes:
+ ros-jazzy-autoware-point-types (1.3.0-2025.11.25.06.54) noble; urgency=high
+ .
+   * fix: to be consistent version in all package.xml(s)
+   * chore: bump up version to 1.1.0 (#462 <https://github.com/autowarefoundation/autoware_core/issues/462>) (#464 <https://github.com/autowarefoundation/autoware_core/issues/464>)
+   * Contributors: Yutaka Kondo, github-actions
+Checksums-Sha1:
+ be9480327a357fae1ac272beb8d5ea18ffa51c51 44803 ros-jazzy-autoware-point-types_1.3.0-2025.11.25.06.54_amd64.buildinfo
+ df430f42933a6cb7f1d6967911e0890717081e3c 9650 ros-jazzy-autoware-point-types_1.3.0-2025.11.25.06.54_amd64.deb
+Checksums-Sha256:
+ c05df9322163afa264f000bfaa0ada1f226416b88a26c0cfe5dd30912ff0b419 44803 ros-jazzy-autoware-point-types_1.3.0-2025.11.25.06.54_amd64.buildinfo
+ fb975a949053b69abac524c9b2e13a142f6e97209ed00215af6a90096933623d 9650 ros-jazzy-autoware-point-types_1.3.0-2025.11.25.06.54_amd64.deb
+Files:
+ e0468568f812b66c693bf5c80f8160d2 44803 misc optional ros-jazzy-autoware-point-types_1.3.0-2025.11.25.06.54_amd64.buildinfo
+ 7b6bf66bbfeee4ced2ab7b75ad7af9fb 9650 misc optional ros-jazzy-autoware-point-types_1.3.0-2025.11.25.06.54_amd64.deb

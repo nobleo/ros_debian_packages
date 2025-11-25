@@ -1,0 +1,56 @@
+Format: 1.8
+Date: Thu, 22 May 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-pointcloud-preprocessor
+Binary: ros-jazzy-autoware-pointcloud-preprocessor
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.11.25.07.30
+Distribution: noble
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-jazzy-autoware-pointcloud-preprocessor - The ROS 2 autoware_pointcloud_preprocessor package
+Changes:
+ ros-jazzy-autoware-pointcloud-preprocessor (0-2025.11.25.07.30) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/notbot/bump_version_base
+   * fix(autoware_pointcloud_preprocessor): combine_cloud_handler always set XYZIRC (#10617 <https://github.com/autowarefoundation/autoware_universe/issues/10617>)
+     always set XYZIRC
+   * feat(ring_outlier_filter): update filtering parameter and process (#10537 <https://github.com/autowarefoundation/autoware_universe/issues/10537>)
+   * feat(autoware_pointcloud_preprocessor): templated version of the pointcloud concatenation (#10298 <https://github.com/autowarefoundation/autoware_universe/issues/10298>)
+     * feat: refactored the concat into a templated design to allow cuda implementations and extend it to radars
+     * fix: moved the concat cpp for consistency and component loading
+     * chore: removed unused dep
+     * fix: missing virtual destructor
+     * fix: fixed missing dep
+     * chore: removed unused var
+     * chore: refactored the cloud handler
+     * chore: updated documentation
+     * fix: fixed rebase error
+     * chore: removed commented include
+     * chore: removed another rebase error induced print
+     * fix: and yet another rebase induced error
+     * chore: changed method name
+     * chore: removing key from dict for peace of mind
+     * chore: reimplemented latest changes in the base branch
+     * chore: missed dep
+     * chore: spell
+     * chore: removed explicit template instantiation since clang tidy reported it was being done implicitly and thus redundant
+     * chore: added documentation regarding why allocation is done right after publishing
+     * chore: replaced at for extract+mapped
+     * chore: moved format_timestamp into its own file
+     ---------
+   * Contributors: Kento Yabuuchi, Kenzo Lobos Tsunekawa, Kotaro Uetake, TaikiYamada4
+Checksums-Sha1:
+ 62c00f89435087fbbe43b28b153f78b7b4d37c60 39706570 ros-jazzy-autoware-pointcloud-preprocessor-dbgsym_0-2025.11.25.07.30_amd64.ddeb
+ 2990fdaa540d583f1bd6e1b6e6db6e806f3ea041 54889 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.11.25.07.30_amd64.buildinfo
+ 5c7360aa8d1a2e5b1d9d34b0c68615adf3348766 1045486 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.11.25.07.30_amd64.deb
+Checksums-Sha256:
+ 56ecd0f0f14c7daaf8c47336d68d8318aa7aa26e4bc334d9eeb290a721571b1d 39706570 ros-jazzy-autoware-pointcloud-preprocessor-dbgsym_0-2025.11.25.07.30_amd64.ddeb
+ 4de680a32d70cc0213d55584c845cd58f0acade7670870d59763b09b8409b614 54889 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.11.25.07.30_amd64.buildinfo
+ e5497d377a1e07c1613b8da4e9da5c6d0fbfc7e3fc4ab16050497254b8782001 1045486 ros-jazzy-autoware-pointcloud-preprocessor_0-2025.11.25.07.30_amd64.deb
+Files:
+ 523872dd025060c6b9e90a46d4868d61 39706570 debug optional ros-jazzy-autoware-pointcloud-preprocessor-dbgsym_0-2025.11.25.07.30_amd64.ddeb
+ da0d92800f0285bf61cfe2b92f87166e 54889 misc optional ros-jazzy-autoware-pointcloud-preprocessor_0-2025.11.25.07.30_amd64.buildinfo
+ abb8f302023b06b3d4f80c99a3590b01 1045486 misc optional ros-jazzy-autoware-pointcloud-preprocessor_0-2025.11.25.07.30_amd64.deb

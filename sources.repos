@@ -1,0 +1,33 @@
+repositories:
+  autoware_core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_core.git
+    version: 1.3.0
+  autoware_rviz_plugins:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_rviz_plugins.git
+    version: 0.1.0
+  autoware_universe:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: ea3bc9ae62df95788b68223a35b53b767458f508
+  managed_transform_buffer:
+    type: git
+    url: https://github.com/autowarefoundation/managed_transform_buffer.git
+    version: 0.1.0
+  mussp:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: c79e98fd5e658f4f90c06d93472faa977bc873b9
+  tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: 73c642f3b96e112df94675ad0e7dc4a66e797e2e
+  transport_drivers:
+    type: git
+    url: https://github.com/mojomex/transport_drivers
+    version: 86b9aae8555dbb4a3103c21475d7f5e2d49981ab
+  zenoh-plugin-ros2dds:
+    type: git
+    url: https://github.com/eclipse-zenoh/zenoh-plugin-ros2dds
+    version: 592422b10c4fe52ab0d5a4123a5f4462fc955001

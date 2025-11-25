@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Mon, 23 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-interpolation
+Binary: ros-jazzy-autoware-interpolation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.11.25.06.47
+Distribution: noble
+Urgency: high
+Maintainer: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Changed-By: Fumiya Watanabe <fumiya.watanabe@tier4.jp>
+Description:
+ ros-jazzy-autoware-interpolation - The spline interpolation package
+Changes:
+ ros-jazzy-autoware-interpolation (1.3.0-2025.11.25.06.47) noble; urgency=high
+ .
+   * fix: to be consistent version in all package.xml(s)
+   * chore: no longer support ROS 2 Galactic (#492 <https://github.com/autowarefoundation/autoware_core/issues/492>)
+   * fix: tf2 uses hpp headers in rolling (and is backported) (#483 <https://github.com/autowarefoundation/autoware_core/issues/483>)
+     * tf2 uses hpp headers in rolling (and is backported)
+     * fixup! tf2 uses hpp headers in rolling (and is backported)
+     ---------
+   * chore: bump up version to 1.1.0 (#462 <https://github.com/autowarefoundation/autoware_core/issues/462>) (#464 <https://github.com/autowarefoundation/autoware_core/issues/464>)
+   * refactor(interpolation): use autoware_utils_* instead of autoware_utils (#382 <https://github.com/autowarefoundation/autoware_core/issues/382>)
+     feat(interpolation): use split autoware utils
+   * fix(autoware_path_optimizer): incorrect application of input velocity due to badly mapping output trajectory to input trajectory (#355 <https://github.com/autowarefoundation/autoware_core/issues/355>)
+     * changes to avoid improper mapping
+     * Update common/autoware_motion_utils/include/autoware/motion_utils/trajectory/trajectory.hpp
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+     ---------
+     Co-authored-by: Yutaka Kondo <mailto:yutaka.kondo@youtalk.jp>
+   * Contributors: Arjun Jagdish Ram, Takagi, Isamu, Tim Clephas, Yutaka Kondo, github-actions
+Checksums-Sha1:
+ d69a5a6dad4e41c43d0a1f75d4a14963555e2a5c 698570 ros-jazzy-autoware-interpolation-dbgsym_1.3.0-2025.11.25.06.47_amd64.ddeb
+ c8b6e325173ed4439dd90d9eeffba7747c020990 19863 ros-jazzy-autoware-interpolation_1.3.0-2025.11.25.06.47_amd64.buildinfo
+ af3a09bff566044f8528292cf12637ccf45ac00d 31168 ros-jazzy-autoware-interpolation_1.3.0-2025.11.25.06.47_amd64.deb
+Checksums-Sha256:
+ f3af4aed482582a2655fc013f12bfdfa0fa6c211786569f116997c7f68186551 698570 ros-jazzy-autoware-interpolation-dbgsym_1.3.0-2025.11.25.06.47_amd64.ddeb
+ a701df822b0011d2a147d6149bec7a18ddae891be797c03e77e63f9ce9c28e36 19863 ros-jazzy-autoware-interpolation_1.3.0-2025.11.25.06.47_amd64.buildinfo
+ 0c430ae4f15b33c8afdf3409daf64d6b8b360040c84249277fea7aca076984d4 31168 ros-jazzy-autoware-interpolation_1.3.0-2025.11.25.06.47_amd64.deb
+Files:
+ e9821d6eab855a6f1f705a61c44f46ee 698570 debug optional ros-jazzy-autoware-interpolation-dbgsym_1.3.0-2025.11.25.06.47_amd64.ddeb
+ a0feb41b8524da931ebebdff1d6a1717 19863 misc optional ros-jazzy-autoware-interpolation_1.3.0-2025.11.25.06.47_amd64.buildinfo
+ b205c0539a8bb49f845ff0813e93de03 31168 misc optional ros-jazzy-autoware-interpolation_1.3.0-2025.11.25.06.47_amd64.deb

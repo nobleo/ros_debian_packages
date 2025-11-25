@@ -1,0 +1,77 @@
+Format: 1.8
+Date: Mon, 23 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-pyplot
+Binary: ros-jazzy-autoware-pyplot
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.11.25.06.56
+Distribution: noble
+Urgency: high
+Maintainer: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Changed-By: Mamoru Sobue <mamoru.sobue@tier4.jp>
+Description:
+ ros-jazzy-autoware-pyplot - C++ interface for matplotlib based on pybind11
+Changes:
+ ros-jazzy-autoware-pyplot (1.3.0-2025.11.25.06.56) noble; urgency=high
+ .
+   * fix: to be consistent version in all package.xml(s)
+   * feat: support ROS 2 Jazzy (#487 <https://github.com/autowarefoundation/autoware_core/issues/487>)
+     * fix ekf_localizer
+     * fix lanelet2_map_loader_node
+     * MUST REVERT
+     * fix pybind
+     * fix depend
+     * add buildtool
+     * remove
+     * revert
+     * find_package
+     * wip
+     * remove embed
+     * find python_cmake_module
+     * public
+     * remove ament_cmake_python
+     * fix autoware_trajectory
+     * add .lcovrc
+     * fix egm
+     * use char*
+     * use global
+     * namespace
+     * string view
+     * clock
+     * version
+     * wait
+     * fix egm2008-1
+     * typo
+     * fixing
+     * fix egm2008-1
+     * MUST REVERT
+     * fix egm2008-1
+     * fix twist_with_covariance
+     * Revert "MUST REVERT"
+     This reverts commit 93b7a57f99dccf571a01120132348460dbfa336e.
+     * namespace
+     * fix qos
+     * revert some
+     * comment
+     * Revert "MUST REVERT"
+     This reverts commit 7a680a796a875ba1dabc7e714eaea663d1e5c676.
+     * fix dungling pointer
+     * fix memory alignment
+     * ignored
+     * spellcheck
+     ---------
+   * chore: bump up version to 1.1.0 (#462 <https://github.com/autowarefoundation/autoware_core/issues/462>) (#464 <https://github.com/autowarefoundation/autoware_core/issues/464>)
+   * feat(trajectory): add API description, nomenclature, illustration, rename functions to align with nomenclature (#292 <https://github.com/autowarefoundation/autoware_core/issues/292>)
+     * feat(trajectory): add API description, nomenclature, illustration, rename functions to align with nomenclature
+     * resurrect get_internal_base
+     ---------
+   * Contributors: Mamoru Sobue, Yutaka Kondo, github-actions
+Checksums-Sha1:
+ 6a307d571fdd7ab2fa009049021b000cbc1d107f 14061 ros-jazzy-autoware-pyplot_1.3.0-2025.11.25.06.56_amd64.buildinfo
+ 1988fd524717ce42b7dced2c93dde99fcad4a6fe 161998 ros-jazzy-autoware-pyplot_1.3.0-2025.11.25.06.56_amd64.deb
+Checksums-Sha256:
+ e4274ed8b52cebb04a2614f6de11f13c894694e117ab8708baa15f35b071e33a 14061 ros-jazzy-autoware-pyplot_1.3.0-2025.11.25.06.56_amd64.buildinfo
+ dc8844c86a7ca80e56df4baf659c871df9320fc323f532dd07e64a4a43836404 161998 ros-jazzy-autoware-pyplot_1.3.0-2025.11.25.06.56_amd64.deb
+Files:
+ 9d353964349a458703f7966fd6683205 14061 misc optional ros-jazzy-autoware-pyplot_1.3.0-2025.11.25.06.56_amd64.buildinfo
+ 14f377c81cca408d8d73a5a78e6069a1 161998 misc optional ros-jazzy-autoware-pyplot_1.3.0-2025.11.25.06.56_amd64.deb

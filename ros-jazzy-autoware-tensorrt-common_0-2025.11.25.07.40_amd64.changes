@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Thu, 22 May 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-tensorrt-common
+Binary: ros-jazzy-autoware-tensorrt-common
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.11.25.07.40
+Distribution: noble
+Urgency: high
+Maintainer: Dan Umeda <dan.umeda@tier4.jp>
+Changed-By: Dan Umeda <dan.umeda@tier4.jp>
+Description:
+ ros-jazzy-autoware-tensorrt-common - tensorrt utility wrapper
+Changes:
+ ros-jazzy-autoware-tensorrt-common (0-2025.11.25.07.40) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/notbot/bump_version_base
+   * chore: perception code owner update (#10645 <https://github.com/autowarefoundation/autoware_universe/issues/10645>)
+     * chore: update maintainers in multiple perception packages
+     * Revert "chore: update maintainers in multiple perception packages"
+     This reverts commit f2838c33d6cd82bd032039e2a12b9cb8ba6eb584.
+     * chore: update maintainers in multiple perception packages
+     * chore: add Kok Seang Tan as maintainer in multiple perception packages
+     ---------
+   * perf(autoware_tensorrt_common): set cudaSetDeviceFlags explicitly (#10523 <https://github.com/autowarefoundation/autoware_universe/issues/10523>)
+     * Synchronize CUDA stream by blocking instead of spin
+     * Use blocking-sync in BEVFusion
+     * Call cudaSetDeviceFlags in tensorrt_common
+   * Contributors: Taekjin LEE, TaikiYamada4, prime number
+Checksums-Sha1:
+ a282b4aeab17738155e4cc0031b0c45de33349ae 17244 ros-jazzy-autoware-tensorrt-common_0-2025.11.25.07.40_amd64.buildinfo
+ eaca972b0fe2848e8fdcb08687865c0afebc3737 3010 ros-jazzy-autoware-tensorrt-common_0-2025.11.25.07.40_amd64.deb
+Checksums-Sha256:
+ 4f3368d824f8a47da954d1404818b5dfd6932430ef3bb3fede31988fa8053c86 17244 ros-jazzy-autoware-tensorrt-common_0-2025.11.25.07.40_amd64.buildinfo
+ 1c265ee52703aee9a590daffa981d9164d1a36ae22ddc0bf05a8c6520e1039e8 3010 ros-jazzy-autoware-tensorrt-common_0-2025.11.25.07.40_amd64.deb
+Files:
+ 054b29ca9420c02d9cbd8da9a2e9dd90 17244 misc optional ros-jazzy-autoware-tensorrt-common_0-2025.11.25.07.40_amd64.buildinfo
+ 22ccf851168157fedbac75237da0c931 3010 misc optional ros-jazzy-autoware-tensorrt-common_0-2025.11.25.07.40_amd64.deb

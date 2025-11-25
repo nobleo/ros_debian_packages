@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 22 May 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-ground-segmentation
+Binary: ros-jazzy-autoware-ground-segmentation
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.11.25.07.50
+Distribution: noble
+Urgency: high
+Maintainer: amc-nu <abrahammonrroy@yahoo.com>
+Changed-By: amc-nu <abrahammonrroy@yahoo.com>
+Description:
+ ros-jazzy-autoware-ground-segmentation - The ROS 2 autoware_ground_segmentation package
+Changes:
+ ros-jazzy-autoware-ground-segmentation (0-2025.11.25.07.50) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/notbot/bump_version_base
+   * fix(autoware_ground_segmentation): correct slope threshold global to local (#10666 <https://github.com/autowarefoundation/autoware_universe/issues/10666>)
+     * fix(grid_ground_filter): correct slope threshold global to local
+     * Update perception/autoware_ground_segmentation/src/scan_ground_filter/grid_ground_filter.cpp
+     Co-authored-by: badai nguyen  <mailto:94814556+badai-nguyen@users.noreply.github.com>
+     * Update grid_ground_filter.cpp
+     * fix(grid_ground_filter): update slope threshold from global to local
+     ---------
+     Co-authored-by: badai nguyen <mailto:94814556+badai-nguyen@users.noreply.github.com>
+   * chore: perception code owner update (#10645 <https://github.com/autowarefoundation/autoware_universe/issues/10645>)
+     * chore: update maintainers in multiple perception packages
+     * Revert "chore: update maintainers in multiple perception packages"
+     This reverts commit f2838c33d6cd82bd032039e2a12b9cb8ba6eb584.
+     * chore: update maintainers in multiple perception packages
+     * chore: add Kok Seang Tan as maintainer in multiple perception packages
+     ---------
+   * docs(autoware_ground_segmentation): move parameter table to respective README (#10500 <https://github.com/autowarefoundation/autoware_universe/issues/10500>)
+   * Contributors: Ryohsuke Mitsudome, Taekjin LEE, TaikiYamada4
+Checksums-Sha1:
+ 8f5f9bb76cc4270a58a7ff45c154bba34e4a7db1 8644378 ros-jazzy-autoware-ground-segmentation-dbgsym_0-2025.11.25.07.50_amd64.ddeb
+ 53da89c6e47e8857f49a109f5a316f37d7b40d71 54383 ros-jazzy-autoware-ground-segmentation_0-2025.11.25.07.50_amd64.buildinfo
+ 70dfc33732ab8c68c8819aed22bc9ce44190182f 817192 ros-jazzy-autoware-ground-segmentation_0-2025.11.25.07.50_amd64.deb
+Checksums-Sha256:
+ 2b1ba4ddce8cdc87de1e5dccec415c2f0d12f76066d048287c63cc672cc1392f 8644378 ros-jazzy-autoware-ground-segmentation-dbgsym_0-2025.11.25.07.50_amd64.ddeb
+ 7e9fc97f4885dc619553e1b2623efbe25a14aa28e8e56fcef78f5e8d778013d9 54383 ros-jazzy-autoware-ground-segmentation_0-2025.11.25.07.50_amd64.buildinfo
+ a732c3fc92311b48e4be31f3aa327bc139f60c2b78a8f5e6bd8a7b6e1f4a48aa 817192 ros-jazzy-autoware-ground-segmentation_0-2025.11.25.07.50_amd64.deb
+Files:
+ d14bdac44f03a862022d004d7be2a27c 8644378 debug optional ros-jazzy-autoware-ground-segmentation-dbgsym_0-2025.11.25.07.50_amd64.ddeb
+ 522ece5ee3619739375b69c7a8d31a1e 54383 misc optional ros-jazzy-autoware-ground-segmentation_0-2025.11.25.07.50_amd64.buildinfo
+ 239e72e3ff0741ca68d345c4938d0abf 817192 misc optional ros-jazzy-autoware-ground-segmentation_0-2025.11.25.07.50_amd64.deb

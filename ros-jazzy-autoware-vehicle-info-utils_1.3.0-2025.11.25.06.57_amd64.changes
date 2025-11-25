@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 23 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-vehicle-info-utils
+Binary: ros-jazzy-autoware-vehicle-info-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.11.25.06.57
+Distribution: noble
+Urgency: high
+Maintainer: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Changed-By: Taiki Tanaka <taiki.tanaka@tier4.jp>
+Description:
+ ros-jazzy-autoware-vehicle-info-utils - The autoware_vehicle_info_utils package
+Changes:
+ ros-jazzy-autoware-vehicle-info-utils (1.3.0-2025.11.25.06.57) noble; urgency=high
+ .
+   * fix: to be consistent version in all package.xml(s)
+   * feat(vehicle_info_utils): customizable margins to vehicle footprint (#471 <https://github.com/autowarefoundation/autoware_core/issues/471>)
+   * chore: bump up version to 1.1.0 (#462 <https://github.com/autowarefoundation/autoware_core/issues/462>) (#464 <https://github.com/autowarefoundation/autoware_core/issues/464>)
+   * refactor(autoware_vehicle_info_utils): rewrite using modern C++ without API breakage (#343 <https://github.com/autowarefoundation/autoware_core/issues/343>)
+   * Contributors: Yutaka Kondo, Zulfaqar Azmi, github-actions
+Checksums-Sha1:
+ 6be42cb605ecf4cf417f75db739f02c2b899edf1 338210 ros-jazzy-autoware-vehicle-info-utils-dbgsym_1.3.0-2025.11.25.06.57_amd64.ddeb
+ e10669dec37775e003b251ee9c5a86bb35296ada 46840 ros-jazzy-autoware-vehicle-info-utils_1.3.0-2025.11.25.06.57_amd64.buildinfo
+ 8f5b75b75d818d92d927623ef9eb587d2241895c 22526 ros-jazzy-autoware-vehicle-info-utils_1.3.0-2025.11.25.06.57_amd64.deb
+Checksums-Sha256:
+ 583ac7f4231afd58e6e2793bd6f071e3008a67a9e45d77d3d4c9f3506ec9cd78 338210 ros-jazzy-autoware-vehicle-info-utils-dbgsym_1.3.0-2025.11.25.06.57_amd64.ddeb
+ 74aaa7058dbecda11dfbfb48373620e96a6a14dce21878d9314454ccf1075c1b 46840 ros-jazzy-autoware-vehicle-info-utils_1.3.0-2025.11.25.06.57_amd64.buildinfo
+ 791dc89c20ca2364c4428977fd79ee404dfa6f29a622cfba4172d1b3162a1a73 22526 ros-jazzy-autoware-vehicle-info-utils_1.3.0-2025.11.25.06.57_amd64.deb
+Files:
+ 07bd8ee708451071828a2572d74b527b 338210 debug optional ros-jazzy-autoware-vehicle-info-utils-dbgsym_1.3.0-2025.11.25.06.57_amd64.ddeb
+ a04827a8a111a8da02ff7e6d7c70db81 46840 misc optional ros-jazzy-autoware-vehicle-info-utils_1.3.0-2025.11.25.06.57_amd64.buildinfo
+ dd9aa89be1dfab0bbb0333f7b1000cde 22526 misc optional ros-jazzy-autoware-vehicle-info-utils_1.3.0-2025.11.25.06.57_amd64.deb

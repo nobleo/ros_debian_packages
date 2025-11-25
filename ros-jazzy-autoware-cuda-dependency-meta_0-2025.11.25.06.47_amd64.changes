@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 22 May 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-cuda-dependency-meta
+Binary: ros-jazzy-autoware-cuda-dependency-meta
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.11.25.06.47
+Distribution: noble
+Urgency: high
+Maintainer: Esteve Fernandez <esteve.fernandez@tier4.jp>
+Changed-By: Esteve Fernandez <esteve.fernandez@tier4.jp>
+Description:
+ ros-jazzy-autoware-cuda-dependency-meta - Virtual package that provides an empty cuda stub package
+Changes:
+ ros-jazzy-autoware-cuda-dependency-meta (0-2025.11.25.06.47) noble; urgency=high
+Checksums-Sha1:
+ c73c7af7bef0784cc209f2272fc692aa6d9e4643 9495 ros-jazzy-autoware-cuda-dependency-meta_0-2025.11.25.06.47_amd64.buildinfo
+ 6a3758e610ff6ebb0d866733800eefda4b9462d4 5114 ros-jazzy-autoware-cuda-dependency-meta_0-2025.11.25.06.47_amd64.deb
+Checksums-Sha256:
+ be7a87434a93290ddd6310a717b0e32ee3e9ce51f21be00139395051b4df653e 9495 ros-jazzy-autoware-cuda-dependency-meta_0-2025.11.25.06.47_amd64.buildinfo
+ 06acb829890f84a40ef9a9e07f9d7f7e9292bb99cfc1aeab743c4e97df0ead6f 5114 ros-jazzy-autoware-cuda-dependency-meta_0-2025.11.25.06.47_amd64.deb
+Files:
+ 04bd6e6e2d35de50b4a1764dd199cca3 9495 misc optional ros-jazzy-autoware-cuda-dependency-meta_0-2025.11.25.06.47_amd64.buildinfo
+ 831b3aa624290fbba6f4f669bd1f2464 5114 misc optional ros-jazzy-autoware-cuda-dependency-meta_0-2025.11.25.06.47_amd64.deb

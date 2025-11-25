@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 22 May 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-object-merger
+Binary: ros-jazzy-autoware-object-merger
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.11.25.07.54
+Distribution: noble
+Urgency: high
+Maintainer: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Changed-By: Yukihiro Saito <yukihiro.saito@tier4.jp>
+Description:
+ ros-jazzy-autoware-object-merger - The autoware_object_merger package
+Changes:
+ ros-jazzy-autoware-object-merger (0-2025.11.25.07.54) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/notbot/bump_version_base
+   * chore: perception code owner update (#10645 <https://github.com/autowarefoundation/autoware_universe/issues/10645>)
+     * chore: update maintainers in multiple perception packages
+     * Revert "chore: update maintainers in multiple perception packages"
+     This reverts commit f2838c33d6cd82bd032039e2a12b9cb8ba6eb584.
+     * chore: update maintainers in multiple perception packages
+     * chore: add Kok Seang Tan as maintainer in multiple perception packages
+     ---------
+   * Contributors: Taekjin LEE, TaikiYamada4
+Checksums-Sha1:
+ efbc0d75eb5cf819ac2204387bd69e67715f6804 5519108 ros-jazzy-autoware-object-merger-dbgsym_0-2025.11.25.07.54_amd64.ddeb
+ da699ba2684ffb52a0d0302ced06222de15f86e0 46949 ros-jazzy-autoware-object-merger_0-2025.11.25.07.54_amd64.buildinfo
+ 9f339b782c9bd8fc63f6dbe56e98d1d02a10489d 305530 ros-jazzy-autoware-object-merger_0-2025.11.25.07.54_amd64.deb
+Checksums-Sha256:
+ d2d8a43e7a150cbe762c187646b071fdf4dc2359e2dd535a1da9c44d642f7eef 5519108 ros-jazzy-autoware-object-merger-dbgsym_0-2025.11.25.07.54_amd64.ddeb
+ cd37b62b5cfe7dd6d6d2df5c86eba52aac2b588134f0f2c0837be3cb1dbdde13 46949 ros-jazzy-autoware-object-merger_0-2025.11.25.07.54_amd64.buildinfo
+ 6d50f3ca6ac0c020a7e168a210e15002588c2f3ad3303bb58b9374096e01453f 305530 ros-jazzy-autoware-object-merger_0-2025.11.25.07.54_amd64.deb
+Files:
+ adafcf90019d40655e338e175567539b 5519108 debug optional ros-jazzy-autoware-object-merger-dbgsym_0-2025.11.25.07.54_amd64.ddeb
+ 2528cf4d841317dce22ee7105d5c0698 46949 misc optional ros-jazzy-autoware-object-merger_0-2025.11.25.07.54_amd64.buildinfo
+ dc881fbf3820d023bc5b93b5fe8641da 305530 misc optional ros-jazzy-autoware-object-merger_0-2025.11.25.07.54_amd64.deb

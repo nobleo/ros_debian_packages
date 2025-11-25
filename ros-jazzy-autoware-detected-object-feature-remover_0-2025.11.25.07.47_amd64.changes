@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Thu, 22 May 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-detected-object-feature-remover
+Binary: ros-jazzy-autoware-detected-object-feature-remover
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0-2025.11.25.07.47
+Distribution: noble
+Urgency: high
+Maintainer: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Changed-By: Tomoya Kimura <tomoya.kimura@tier4.jp>
+Description:
+ ros-jazzy-autoware-detected-object-feature-remover - The autoware_detected_object_feature_remover package
+Changes:
+ ros-jazzy-autoware-detected-object-feature-remover (0-2025.11.25.07.47) noble; urgency=high
+ .
+   * Merge remote-tracking branch 'origin/main' into tmp/notbot/bump_version_base
+   * chore: perception code owner update (#10645 <https://github.com/autowarefoundation/autoware_universe/issues/10645>)
+     * chore: update maintainers in multiple perception packages
+     * Revert "chore: update maintainers in multiple perception packages"
+     This reverts commit f2838c33d6cd82bd032039e2a12b9cb8ba6eb584.
+     * chore: update maintainers in multiple perception packages
+     * chore: add Kok Seang Tan as maintainer in multiple perception packages
+     ---------
+   * Contributors: Taekjin LEE, TaikiYamada4
+Checksums-Sha1:
+ 4032e0910553cbe44346f7e750c6f46de28b6b59 2103106 ros-jazzy-autoware-detected-object-feature-remover-dbgsym_0-2025.11.25.07.47_amd64.ddeb
+ b53e8e318411c4ba8dbf129990f737316f78e26a 49999 ros-jazzy-autoware-detected-object-feature-remover_0-2025.11.25.07.47_amd64.buildinfo
+ 9b6dd3eee7b29755d97bb4ba7d84fac2fe79d334 135734 ros-jazzy-autoware-detected-object-feature-remover_0-2025.11.25.07.47_amd64.deb
+Checksums-Sha256:
+ 27eaef1f0301ebedc847f5791ec37406c0d6882c3d0aa87b882abfcbdb60ad59 2103106 ros-jazzy-autoware-detected-object-feature-remover-dbgsym_0-2025.11.25.07.47_amd64.ddeb
+ 61903897f64b521c1c367ea692902f6e5abaa2fa2874739bfffb4c5526fc5e03 49999 ros-jazzy-autoware-detected-object-feature-remover_0-2025.11.25.07.47_amd64.buildinfo
+ 265a94ee79211d24673b9ed09f6a4473ee096eacd4df4799a56d502ab8b78aef 135734 ros-jazzy-autoware-detected-object-feature-remover_0-2025.11.25.07.47_amd64.deb
+Files:
+ 199adf691b716804b972fcde472c22f4 2103106 debug optional ros-jazzy-autoware-detected-object-feature-remover-dbgsym_0-2025.11.25.07.47_amd64.ddeb
+ 3b2d481b430926345eb0a4ed34f37e5b 49999 misc optional ros-jazzy-autoware-detected-object-feature-remover_0-2025.11.25.07.47_amd64.buildinfo
+ 3380766070b6fa1d5afad7902e75d0fd 135734 misc optional ros-jazzy-autoware-detected-object-feature-remover_0-2025.11.25.07.47_amd64.deb

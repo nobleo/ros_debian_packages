@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sat, 28 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-perception-rviz-plugin
+Binary: ros-jazzy-autoware-perception-rviz-plugin
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.1.0-2025.11.25.06.52
+Distribution: noble
+Urgency: high
+Maintainer: Apex.AI, Inc. <opensource@apex.ai>
+Changed-By: Apex.AI, Inc. <opensource@apex.ai>
+Description:
+ ros-jazzy-autoware-perception-rviz-plugin - Contains plugins to visualize object detection outputs
+Changes:
+ ros-jazzy-autoware-perception-rviz-plugin (0.1.0-2025.11.25.06.52) noble; urgency=high
+ .
+   * feat: port autoware_perception_rviz_plugin from Autoware Universe (#6 <https://github.com/autowarefoundation/autoware_rviz_plugins/issues/6>)
+     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+   * Contributors: Ryohsuke Mitsudome
+Checksums-Sha1:
+ ca18fa0e412ca94bd9ba66ce71cf2995859129d9 8655614 ros-jazzy-autoware-perception-rviz-plugin-dbgsym_0.1.0-2025.11.25.06.52_amd64.ddeb
+ d94f46fe25e78b7ea407029ed4d729db99e01480 26449 ros-jazzy-autoware-perception-rviz-plugin_0.1.0-2025.11.25.06.52_amd64.buildinfo
+ 005b5ed7b6468d9defdc755bd754ba2be61183af 245428 ros-jazzy-autoware-perception-rviz-plugin_0.1.0-2025.11.25.06.52_amd64.deb
+Checksums-Sha256:
+ a465f8baf5e583c8ca4d3eb9ca7c5f7a7f67c8981b904a3f86ffd65461e5bd55 8655614 ros-jazzy-autoware-perception-rviz-plugin-dbgsym_0.1.0-2025.11.25.06.52_amd64.ddeb
+ 4984a61f92302c13d230b5b4dc61bdc70bb66da7f718034add0ae78a5ba85f20 26449 ros-jazzy-autoware-perception-rviz-plugin_0.1.0-2025.11.25.06.52_amd64.buildinfo
+ b7ba6033f02dfb135a86fa2c6b85f99d80d5c533e6cd2b8a785dc01b083c5f9c 245428 ros-jazzy-autoware-perception-rviz-plugin_0.1.0-2025.11.25.06.52_amd64.deb
+Files:
+ 41e3d11e06d983fb3af15240cacc5102 8655614 debug optional ros-jazzy-autoware-perception-rviz-plugin-dbgsym_0.1.0-2025.11.25.06.52_amd64.ddeb
+ 7a37f3455c67d05b54c44b61a0ed1a11 26449 misc optional ros-jazzy-autoware-perception-rviz-plugin_0.1.0-2025.11.25.06.52_amd64.buildinfo
+ 54a79fee895fb64fe366cb3164d55364 245428 misc optional ros-jazzy-autoware-perception-rviz-plugin_0.1.0-2025.11.25.06.52_amd64.deb

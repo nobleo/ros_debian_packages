@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 23 Jun 2025 00:00:00 -0000
+Source: ros-jazzy-autoware-object-recognition-utils
+Binary: ros-jazzy-autoware-object-recognition-utils
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.3.0-2025.11.25.07.27
+Distribution: noble
+Urgency: high
+Maintainer: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Changed-By: Takayuki Murooka <takayuki.murooka@tier4.jp>
+Description:
+ ros-jazzy-autoware-object-recognition-utils - The autoware_object_recognition_utils package
+Changes:
+ ros-jazzy-autoware-object-recognition-utils (1.3.0-2025.11.25.07.27) noble; urgency=high
+ .
+   * fix: to be consistent version in all package.xml(s)
+   * chore: no longer support ROS 2 Galactic (#492 <https://github.com/autowarefoundation/autoware_core/issues/492>)
+   * refactor(autoware_obect_recognition_utils): rewrite using modern C++ without API breakage (#396 <https://github.com/autowarefoundation/autoware_core/issues/396>)
+   * chore: bump up version to 1.1.0 (#462 <https://github.com/autowarefoundation/autoware_core/issues/462>) (#464 <https://github.com/autowarefoundation/autoware_core/issues/464>)
+   * refactor(autoware_object_recognition_utils): use autoware_utils_* instead of autoware_utils (#385 <https://github.com/autowarefoundation/autoware_core/issues/385>)
+     use autoware_utils_*
+   * Contributors: Yutaka Kondo, github-actions
+Checksums-Sha1:
+ aba841e94da1ff089acf500ca4195b2e4b501e7e 176392 ros-jazzy-autoware-object-recognition-utils-dbgsym_1.3.0-2025.11.25.07.27_amd64.ddeb
+ 6ba0f747e5ff8092dbce2bbb94d985da3e00e753 45806 ros-jazzy-autoware-object-recognition-utils_1.3.0-2025.11.25.07.27_amd64.buildinfo
+ 69d81da605cc570294939b887be5b1d191bcb813 22616 ros-jazzy-autoware-object-recognition-utils_1.3.0-2025.11.25.07.27_amd64.deb
+Checksums-Sha256:
+ d74cdd3f97a449e51b47e6596abca313768bc998388e19d088db2559cde81274 176392 ros-jazzy-autoware-object-recognition-utils-dbgsym_1.3.0-2025.11.25.07.27_amd64.ddeb
+ 1cb604969861a86188289b867a4a49e6bf4f364ead4e6d782a0f2e5b64bd3152 45806 ros-jazzy-autoware-object-recognition-utils_1.3.0-2025.11.25.07.27_amd64.buildinfo
+ c29aa5136567e9fcc0ae856e2d5946ac0fd41d4f5361709558abfdc7d59e5706 22616 ros-jazzy-autoware-object-recognition-utils_1.3.0-2025.11.25.07.27_amd64.deb
+Files:
+ c826f63d363a73fd16e7cc1901e57907 176392 debug optional ros-jazzy-autoware-object-recognition-utils-dbgsym_1.3.0-2025.11.25.07.27_amd64.ddeb
+ 96b930c79a8990f4f28ab5bcba807bf4 45806 misc optional ros-jazzy-autoware-object-recognition-utils_1.3.0-2025.11.25.07.27_amd64.buildinfo
+ 6d3a57db6edbc7251d25c1f87fcbb647 22616 misc optional ros-jazzy-autoware-object-recognition-utils_1.3.0-2025.11.25.07.27_amd64.deb
