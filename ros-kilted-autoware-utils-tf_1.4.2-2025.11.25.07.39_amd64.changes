@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-tf
+Binary: ros-kilted-autoware-utils-tf
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.25.07.39
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-tf - The autoware_utils_tf package
+Changes:
+ ros-kilted-autoware-utils-tf (1.4.2-2025.11.25.07.39) noble; urgency=high
+Checksums-Sha1:
+ 06c4839b8c7a365142755e4b98d7c6da5826e824 19882 ros-kilted-autoware-utils-tf_1.4.2-2025.11.25.07.39_amd64.buildinfo
+ 4274e21f85ca951169a50aa9a2765206cd8a67c1 7934 ros-kilted-autoware-utils-tf_1.4.2-2025.11.25.07.39_amd64.deb
+Checksums-Sha256:
+ 1bb94875a6b21af543a6d70ad887f2f4a5375e75c8a68f7ed4e81bbee346c312 19882 ros-kilted-autoware-utils-tf_1.4.2-2025.11.25.07.39_amd64.buildinfo
+ ee43eab7ca52982e064de27e8554c7fe3148d98ca44ac3f55d863dc18a03812f 7934 ros-kilted-autoware-utils-tf_1.4.2-2025.11.25.07.39_amd64.deb
+Files:
+ 7418d14727b2e3a12e348c84819bc2ad 19882 misc optional ros-kilted-autoware-utils-tf_1.4.2-2025.11.25.07.39_amd64.buildinfo
+ eefb9c5a7d1c3a777b57644b5fb0e73c 7934 misc optional ros-kilted-autoware-utils-tf_1.4.2-2025.11.25.07.39_amd64.deb

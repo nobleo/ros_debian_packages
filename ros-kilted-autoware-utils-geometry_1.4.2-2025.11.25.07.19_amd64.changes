@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-geometry
+Binary: ros-kilted-autoware-utils-geometry
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.25.07.19
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-geometry - The autoware_utils_geometry package
+Changes:
+ ros-kilted-autoware-utils-geometry (1.4.2-2025.11.25.07.19) noble; urgency=high
+ .
+   * fix: include tf2/convert.hpp instead of tf2/convert.h (#67 <https://github.com/autowarefoundation/autoware_utils/issues/67>)
+   * Contributors: Takagi, Isamu
+Checksums-Sha1:
+ d11420938f66ca82d60a8fa30fffec8ac873e5dc 2713100 ros-kilted-autoware-utils-geometry-dbgsym_1.4.2-2025.11.25.07.19_amd64.ddeb
+ 3eac93fcf8742f7d9d9a83933ba4c88ba27361a4 19868 ros-kilted-autoware-utils-geometry_1.4.2-2025.11.25.07.19_amd64.buildinfo
+ b6f003423e530afdfbfab3fbfbdfef25856dacbb 130844 ros-kilted-autoware-utils-geometry_1.4.2-2025.11.25.07.19_amd64.deb
+Checksums-Sha256:
+ f28a7e79b50a211863dc1d471a1aba3021f4a508a68109250aaab7060c92e726 2713100 ros-kilted-autoware-utils-geometry-dbgsym_1.4.2-2025.11.25.07.19_amd64.ddeb
+ 8ee2d59db47c79684ac60df94b4483d8f0adcee0a68580cacbbb971d761ba894 19868 ros-kilted-autoware-utils-geometry_1.4.2-2025.11.25.07.19_amd64.buildinfo
+ 1f1d24c8731e3b9d5fa186a9875c35d4b3e5b3281a124cf9f4b17cb57c8fad27 130844 ros-kilted-autoware-utils-geometry_1.4.2-2025.11.25.07.19_amd64.deb
+Files:
+ 586717a7ef935079ec98ceb6a3ad951c 2713100 debug optional ros-kilted-autoware-utils-geometry-dbgsym_1.4.2-2025.11.25.07.19_amd64.ddeb
+ b2c575a6d0dfb705f60ba38fa28fce5f 19868 misc optional ros-kilted-autoware-utils-geometry_1.4.2-2025.11.25.07.19_amd64.buildinfo
+ bcbae83162156316724243fe74c7f11a 130844 misc optional ros-kilted-autoware-utils-geometry_1.4.2-2025.11.25.07.19_amd64.deb

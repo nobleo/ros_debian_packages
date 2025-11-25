@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-uuid
+Binary: ros-kilted-autoware-utils-uuid
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.25.06.49
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-uuid - The autoware_utils_uuid package
+Changes:
+ ros-kilted-autoware-utils-uuid (1.4.2-2025.11.25.06.49) noble; urgency=high
+Checksums-Sha1:
+ 0f23fc1da957b13693f40f6d67c5617bb2df86aa 14691 ros-kilted-autoware-utils-uuid_1.4.2-2025.11.25.06.49_amd64.buildinfo
+ 709c60e232493def5f6d1125982ab96dfe0645e0 7392 ros-kilted-autoware-utils-uuid_1.4.2-2025.11.25.06.49_amd64.deb
+Checksums-Sha256:
+ 4b698dd88098e01444070bc1fa97bc43b927dc3adf42276c6ebfe8028c1d906a 14691 ros-kilted-autoware-utils-uuid_1.4.2-2025.11.25.06.49_amd64.buildinfo
+ 286413e4a7476a57b08d6c639cdc4d580097aad56fcb5365905f8bc8408092ab 7392 ros-kilted-autoware-utils-uuid_1.4.2-2025.11.25.06.49_amd64.deb
+Files:
+ f20e8aa61c1e0c9d906f4983bd39efde 14691 misc optional ros-kilted-autoware-utils-uuid_1.4.2-2025.11.25.06.49_amd64.buildinfo
+ 8a56fb3239cc8419c00ef162f824efe6 7392 misc optional ros-kilted-autoware-utils-uuid_1.4.2-2025.11.25.06.49_amd64.deb

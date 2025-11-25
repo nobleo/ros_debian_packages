@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Tue, 09 Sep 2025 00:00:00 -0000
+Source: ros-kilted-novatel-oem7-driver
+Binary: ros-kilted-novatel-oem7-driver
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 24.2.0-1-g4e946cb-2025.11.25.07.21
+Distribution: noble
+Urgency: high
+Maintainer: NovAtel Support <support.novatel@hexagon.com>
+Changed-By: NovAtel Support <support.novatel@hexagon.com>
+Description:
+ ros-kilted-novatel-oem7-driver - NovAtel Oem7 ROS Driver
+Changes:
+ ros-kilted-novatel-oem7-driver (24.2.0-1-g4e946cb-2025.11.25.07.21) noble; urgency=high
+ .
+   Documentation Release and ROS2 Fixes
+   Features:
+   * ROS2 Documentation Release
+   Modifications:
+   * RAWIMUSX and /imu/data_raw topic duplicate publishing bug fix
+   * Decrease Boost dependency to only headers (#98 <https://github.com/novatel/novatel_oem7_driver/pull/98>)
+   * Update tf2_ros to hpp headers (#104 <https://github.com/novatel/novatel_oem7_driver/pull/104>)
+   * Similar Changes as Release 20.8.0 for Humble
+Checksums-Sha1:
+ 5961c90f5468256d68667aa9e9413f2718717b3f 16094000 ros-kilted-novatel-oem7-driver-dbgsym_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.ddeb
+ cb025e42a065a3302fefc86c17743521a7bd9508 21203 ros-kilted-novatel-oem7-driver_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.buildinfo
+ 278d404d46c8d4201ea5afb197da2812a6945d94 697266 ros-kilted-novatel-oem7-driver_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.deb
+Checksums-Sha256:
+ ecf4945863672b6b7a52c2c202b0498ff236f12a7f82528b5b916b802bb96574 16094000 ros-kilted-novatel-oem7-driver-dbgsym_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.ddeb
+ 4e02ec2f454d9cf33c484d91a2b16eaa4b639bd67404e2c0250378fc3191a25a 21203 ros-kilted-novatel-oem7-driver_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.buildinfo
+ 17cc871d35ed64e1ca1ab172611d9a95c295ced1e5f6cf38937f89145e3557a5 697266 ros-kilted-novatel-oem7-driver_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.deb
+Files:
+ a1f3a4337b6fae758f7d1e9d15ce54d4 16094000 debug optional ros-kilted-novatel-oem7-driver-dbgsym_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.ddeb
+ 6dbbc2e04a7cc5b26bed2b48c78a9d5f 21203 misc optional ros-kilted-novatel-oem7-driver_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.buildinfo
+ 286def90d77e0397745b1448ebada88f 697266 misc optional ros-kilted-novatel-oem7-driver_24.2.0-1-g4e946cb-2025.11.25.07.21_amd64.deb

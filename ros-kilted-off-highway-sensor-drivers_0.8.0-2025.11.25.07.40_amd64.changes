@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-sensor-drivers
+Binary: ros-kilted-off-highway-sensor-drivers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.11.25.07.40
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-sensor-drivers - The off_highway_sensor_drivers package
+Changes:
+ ros-kilted-off-highway-sensor-drivers (0.8.0-2025.11.25.07.40) noble; urgency=high
+Checksums-Sha1:
+ 71a1cac44b17bf64d602188a7915f8757ab723f8 9519 ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.25.07.40_amd64.buildinfo
+ a336f6babca05baad4161448ea6bcaac51b7fae8 5342 ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.25.07.40_amd64.deb
+Checksums-Sha256:
+ 458bdd40073d1838a00c7503da60c243b4aeb228ae64be84757e65d73e19c66c 9519 ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.25.07.40_amd64.buildinfo
+ 9e2f6d4095991f6376cc4390d64ff233b834104ab1a5091499abed30a8d1d524 5342 ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.25.07.40_amd64.deb
+Files:
+ a168d37b2903511e792e9a47704739b1 9519 misc optional ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.25.07.40_amd64.buildinfo
+ 7ca6a1fd1cd2ad28098d3a50672b2086 5342 misc optional ros-kilted-off-highway-sensor-drivers_0.8.0-2025.11.25.07.40_amd64.deb

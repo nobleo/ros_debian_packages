@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-debug
+Binary: ros-kilted-autoware-utils-debug
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.25.07.18
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-debug - The autoware_utils_debug package
+Changes:
+ ros-kilted-autoware-utils-debug (1.4.2-2025.11.25.07.18) noble; urgency=high
+Checksums-Sha1:
+ 0ec88b528e2291c8b6485f68b1c65cb4b0e60972 18598 ros-kilted-autoware-utils-debug_1.4.2-2025.11.25.07.18_amd64.buildinfo
+ dab04b09858008d6649fb8c62e312ecdb0d086b4 438218 ros-kilted-autoware-utils-debug_1.4.2-2025.11.25.07.18_amd64.deb
+Checksums-Sha256:
+ f4be437360fda6ede0df826cf9b808f161529733ea8acb73671f40705b2a096b 18598 ros-kilted-autoware-utils-debug_1.4.2-2025.11.25.07.18_amd64.buildinfo
+ 4406c1fac8f8148649ed9fbbf0b34b1e051668dc139d396382ae41f6e63a66fe 438218 ros-kilted-autoware-utils-debug_1.4.2-2025.11.25.07.18_amd64.deb
+Files:
+ 89aa557e796590476fd5db7444e635a4 18598 misc optional ros-kilted-autoware-utils-debug_1.4.2-2025.11.25.07.18_amd64.buildinfo
+ 9090650cd5e821f5235dfde32f6edf8b 438218 misc optional ros-kilted-autoware-utils-debug_1.4.2-2025.11.25.07.18_amd64.deb

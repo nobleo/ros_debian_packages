@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-can
+Binary: ros-kilted-off-highway-can
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.11.25.06.53
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-can - The off_highway_can package
+Changes:
+ ros-kilted-off-highway-can (0.8.0-2025.11.25.06.53) noble; urgency=high
+ .
+   * Move test to emphasize external FOSS
+   * Add tests for encoding by round
+   * Replace truncation of physical value with round outside of FOSS
+     Minimizes the floating point error such that half
+     offset of resolution in tests is not needed
+     anymore.
+   * Contributors: Calin-Vasile Sopterean, Robin Petereit
+Checksums-Sha1:
+ 05ac43c4014fdc71da35926e81dad30992dac50c 3164062 ros-kilted-off-highway-can-dbgsym_0.8.0-2025.11.25.06.53_amd64.ddeb
+ 6c04ee1c92992a2465ce762192f428fc83258c3b 17886 ros-kilted-off-highway-can_0.8.0-2025.11.25.06.53_amd64.buildinfo
+ 1697f38bcfdfad1733b6bfb879f82927bf7301c8 153522 ros-kilted-off-highway-can_0.8.0-2025.11.25.06.53_amd64.deb
+Checksums-Sha256:
+ 12c62b1fbbc68bd90b735172c5900cf1cd3f8f7b76334220c1c737b4f9c07a7f 3164062 ros-kilted-off-highway-can-dbgsym_0.8.0-2025.11.25.06.53_amd64.ddeb
+ 90a6bcf8d4b5076e75214ba61a8c1104ac88cd8fe5061f7f49bae8358e88e895 17886 ros-kilted-off-highway-can_0.8.0-2025.11.25.06.53_amd64.buildinfo
+ ec728fe7e40a52ec5a287e4512e5fad92eb766a34f2717326b21aba7ce4afeda 153522 ros-kilted-off-highway-can_0.8.0-2025.11.25.06.53_amd64.deb
+Files:
+ 3b497bf0fbc9117c95a6ea3dd45f137b 3164062 debug optional ros-kilted-off-highway-can-dbgsym_0.8.0-2025.11.25.06.53_amd64.ddeb
+ 1e9057e665ffe3a9d0bca6708be7ea45 17886 misc optional ros-kilted-off-highway-can_0.8.0-2025.11.25.06.53_amd64.buildinfo
+ 937f6f9dc54744948704a6adc7064198 153522 misc optional ros-kilted-off-highway-can_0.8.0-2025.11.25.06.53_amd64.deb

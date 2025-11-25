@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-general-purpose-radar-msgs
+Binary: ros-kilted-off-highway-general-purpose-radar-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.11.25.06.54
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-general-purpose-radar-msgs - The off_highway_general_purpose_radar_msgs package
+Changes:
+ ros-kilted-off-highway-general-purpose-radar-msgs (0.8.0-2025.11.25.06.54) noble; urgency=high
+ .
+   * rosidl_default_generators is technically a <buildtool_depend> (#13)
+     rosidl_default_generators is technically a buildtool_depend
+   * Do not force warnings as errors for General Purpose Radar (#12)
+     Fixup of #11.
+   * Contributors: Tim Clephas
+Checksums-Sha1:
+ d2ebe0831ca33a3688de6ebe369be86fd1c3ec73 586172 ros-kilted-off-highway-general-purpose-radar-msgs-dbgsym_0.8.0-2025.11.25.06.54_amd64.ddeb
+ 5979afd7717c98897a5aba67cae23f93ffcec45e 15029 ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.25.06.54_amd64.buildinfo
+ 650f7bb890ab519172cd7dda740cdc9cd6547978 84992 ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.25.06.54_amd64.deb
+Checksums-Sha256:
+ 9b086e6a9bf3667ccadcd8a049074e659d196459a3482c33e267594cb927990b 586172 ros-kilted-off-highway-general-purpose-radar-msgs-dbgsym_0.8.0-2025.11.25.06.54_amd64.ddeb
+ e90303e56686d9ca86c6727a3af3a1ac8dbd495d66ab405379a45ff1a446f683 15029 ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.25.06.54_amd64.buildinfo
+ 0ed2f8f01f616440b2eb4e67148af76f56a909b86398ecccb742c9916ce17948 84992 ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.25.06.54_amd64.deb
+Files:
+ 495786d8b4561ecaa920d387096c7ce8 586172 debug optional ros-kilted-off-highway-general-purpose-radar-msgs-dbgsym_0.8.0-2025.11.25.06.54_amd64.ddeb
+ 6bd76d45ffca92ce99420eb231cc7b68 15029 misc optional ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.25.06.54_amd64.buildinfo
+ 2a7b3de245546bee57e661c10ffd693b 84992 misc optional ros-kilted-off-highway-general-purpose-radar-msgs_0.8.0-2025.11.25.06.54_amd64.deb

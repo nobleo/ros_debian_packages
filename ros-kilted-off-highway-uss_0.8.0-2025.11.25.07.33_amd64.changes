@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-uss
+Binary: ros-kilted-off-highway-uss
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.11.25.07.33
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-uss - The off_highway_uss package
+Changes:
+ ros-kilted-off-highway-uss (0.8.0-2025.11.25.07.33) noble; urgency=high
+Checksums-Sha1:
+ b7d7f92b54747b020d9a761130701cc8cfdb33d0 4789312 ros-kilted-off-highway-uss-dbgsym_0.8.0-2025.11.25.07.33_amd64.ddeb
+ 8898cb64f3ee100c5419d5b8a031ce3ec4abdd44 46490 ros-kilted-off-highway-uss_0.8.0-2025.11.25.07.33_amd64.buildinfo
+ 4964c256a2414fa6eedc9714479f6516b23be418 232042 ros-kilted-off-highway-uss_0.8.0-2025.11.25.07.33_amd64.deb
+Checksums-Sha256:
+ 04f344dcff825b75d510b1691682e28c1127f0a52a61111ed040ec2af1f27d3f 4789312 ros-kilted-off-highway-uss-dbgsym_0.8.0-2025.11.25.07.33_amd64.ddeb
+ 4620b00c52a868c6d66e21d6d0fa7dab9873e4b7515c60f18a462cae07168bad 46490 ros-kilted-off-highway-uss_0.8.0-2025.11.25.07.33_amd64.buildinfo
+ 22399dbc0c866c76a7ac32e028242da25b169bfc468abcaf20d268ee751b0961 232042 ros-kilted-off-highway-uss_0.8.0-2025.11.25.07.33_amd64.deb
+Files:
+ c008f8e790718f5c795729d88e2b9531 4789312 debug optional ros-kilted-off-highway-uss-dbgsym_0.8.0-2025.11.25.07.33_amd64.ddeb
+ d3e4e533e1e3d62a77a3624b8f348004 46490 misc optional ros-kilted-off-highway-uss_0.8.0-2025.11.25.07.33_amd64.buildinfo
+ 9d6c6b661332712f200877788ba3cfd6 232042 misc optional ros-kilted-off-highway-uss_0.8.0-2025.11.25.07.33_amd64.deb

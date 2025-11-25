@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-diagnostics
+Binary: ros-kilted-autoware-utils-diagnostics
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.25.06.45
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-diagnostics - The autoware_utils_diagnostics package
+Changes:
+ ros-kilted-autoware-utils-diagnostics (1.4.2-2025.11.25.06.45) noble; urgency=high
+Checksums-Sha1:
+ 8b8cc60f2341c8f4a77313f7835fdab343b103a3 754986 ros-kilted-autoware-utils-diagnostics-dbgsym_1.4.2-2025.11.25.06.45_amd64.ddeb
+ 004657bb49d1303240306f585e7cf02f5ae7b2e8 18310 ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.25.06.45_amd64.buildinfo
+ 820ca60056d8fb89d89ca1122e71ff5e74e3578f 51556 ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.25.06.45_amd64.deb
+Checksums-Sha256:
+ f6176b6e22b22763868423f7b5a29f2412d1514784e4a795b6ff615e07110712 754986 ros-kilted-autoware-utils-diagnostics-dbgsym_1.4.2-2025.11.25.06.45_amd64.ddeb
+ ef8039a9e8349848c3414f286bcb9d297c83fdc80b1579c93a61a023ef7b4ea2 18310 ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.25.06.45_amd64.buildinfo
+ d1eb00dfcdbb41832001a6b45ee6a3e455af6342621dc38e5fd5becd2d2db087 51556 ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.25.06.45_amd64.deb
+Files:
+ d0d1ad25cbe8769c1b73cb60a34a5318 754986 debug optional ros-kilted-autoware-utils-diagnostics-dbgsym_1.4.2-2025.11.25.06.45_amd64.ddeb
+ 429707f5a72fd51efa676f7fc959537c 18310 misc optional ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.25.06.45_amd64.buildinfo
+ 01310a952543589e96e2d485212bd2a3 51556 misc optional ros-kilted-autoware-utils-diagnostics_1.4.2-2025.11.25.06.45_amd64.deb

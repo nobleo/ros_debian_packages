@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-kilted-autoware-utils-math
+Binary: ros-kilted-autoware-utils-math
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.4.2-2025.11.25.06.47
+Distribution: noble
+Urgency: high
+Maintainer: Jian Kang <egon.kang@autocore.ai>
+Changed-By: Jian Kang <egon.kang@autocore.ai>
+Description:
+ ros-kilted-autoware-utils-math - The autoware_utils_math package
+Changes:
+ ros-kilted-autoware-utils-math (1.4.2-2025.11.25.06.47) noble; urgency=high
+Checksums-Sha1:
+ dfbb8b99eb11ce1fd126abd53d6ef1c78fa1f6e9 7142 ros-kilted-autoware-utils-math-dbgsym_1.4.2-2025.11.25.06.47_amd64.ddeb
+ efd4866687664690b5029968221a29ce9f3d35ea 11276 ros-kilted-autoware-utils-math_1.4.2-2025.11.25.06.47_amd64.buildinfo
+ a36d2d726bde9ce15395e781a07e064d33d3bb08 109446 ros-kilted-autoware-utils-math_1.4.2-2025.11.25.06.47_amd64.deb
+Checksums-Sha256:
+ a6ec60037a60ea7c423fcf4534ad9128522c6d9ddeaa8c6222b5947a9226921d 7142 ros-kilted-autoware-utils-math-dbgsym_1.4.2-2025.11.25.06.47_amd64.ddeb
+ e930a1a83f0bf99204a7470cdffc934d703f25f4a120143d53cdcbeda3e1b4f4 11276 ros-kilted-autoware-utils-math_1.4.2-2025.11.25.06.47_amd64.buildinfo
+ 1c6aa0391f49b30196cff8f57319f4fd2980e430a3136b7ec49e5a41f468ee95 109446 ros-kilted-autoware-utils-math_1.4.2-2025.11.25.06.47_amd64.deb
+Files:
+ 092d8e61af8b12728c55aa36a0a6877a 7142 debug optional ros-kilted-autoware-utils-math-dbgsym_1.4.2-2025.11.25.06.47_amd64.ddeb
+ 7bf7ac61ca67c11c9f9df1e702e45750 11276 misc optional ros-kilted-autoware-utils-math_1.4.2-2025.11.25.06.47_amd64.buildinfo
+ ca63f2e6862c1e8b3f7bbe9a9b41981a 109446 misc optional ros-kilted-autoware-utils-math_1.4.2-2025.11.25.06.47_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Mon, 24 Mar 2025 00:00:00 -0000
+Source: ros-kilted-off-highway-premium-radar-sample
+Binary: ros-kilted-off-highway-premium-radar-sample
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-2025.11.25.07.27
+Distribution: noble
+Urgency: high
+Maintainer: Robin Petereit <robin.petereit@de.bosch.com>
+Changed-By: Robin Petereit <robin.petereit@de.bosch.com>
+Description:
+ ros-kilted-off-highway-premium-radar-sample - The off_highway_premium_radar_sample package
+Changes:
+ ros-kilted-off-highway-premium-radar-sample (0.8.0-2025.11.25.07.27) noble; urgency=high
+Checksums-Sha1:
+ 3bdaacbe77613641e6db49c25cc034ef5626469d 5989484 ros-kilted-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.11.25.07.27_amd64.ddeb
+ 3b3fe375cfa812314242d2366c257be7ea03078d 45118 ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.25.07.27_amd64.buildinfo
+ ef7fdc74eb6da06702b3d93e4032b46167fa3840 291816 ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.25.07.27_amd64.deb
+Checksums-Sha256:
+ 76701a6303c518178f774d33c8f9ed2a422c502bf6b0f959d868dac4b36ae96b 5989484 ros-kilted-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.11.25.07.27_amd64.ddeb
+ 746b6d583402a6985a8a28f6e38f61d49a58362abd41b16a74475bbe572baae8 45118 ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.25.07.27_amd64.buildinfo
+ 60d5ea875013a368c58fb6ddf5eb8e0304923644b824630521868d411c628ff6 291816 ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.25.07.27_amd64.deb
+Files:
+ f95efea6e531e0ac8423656721c5d97f 5989484 debug optional ros-kilted-off-highway-premium-radar-sample-dbgsym_0.8.0-2025.11.25.07.27_amd64.ddeb
+ e9e10405bf3d2fe5552404413a7ceff2 45118 misc optional ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.25.07.27_amd64.buildinfo
+ 1bf541f295f3844fe60c2599a8c4f576 291816 misc optional ros-kilted-off-highway-premium-radar-sample_0.8.0-2025.11.25.07.27_amd64.deb
