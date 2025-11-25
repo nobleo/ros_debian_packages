@@ -1,4 +1,6 @@
-uri: https://www.framos.com/framos3d/D400e/Software/Latest/FRAMOS_D400e_Software_Package_Linux64_x64_latest.tar.gz
+# No bot access to framos download server, using a mirror instead
+# uri: https://www.framos.com/framos3d/D400e/Software/Latest/FRAMOS_D400e_Software_Package_Linux64_x64_latest.tar.gz
+uri: https://github.com/nobleo/ros_debian_packages/raw/binary/framos/FRAMOS_D400e_Software_Package_Linux64_x64_latest.tar.gz
 
 install-script: |
   #!/bin/bash
